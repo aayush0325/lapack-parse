@@ -1,0 +1,18 @@
+digraph "ztrtrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ztrtrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZTRTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgels",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgels_8f.html#a1d8089ba1e1538eb3d1ab0ebe97596c7",tooltip="ZGELS solves overdetermined or underdetermined systems for GE matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgelst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgelst_8f.html#ab42bed5c7a5bdc64b3c3947f0e876938",tooltip="ZGELST solves overdetermined or underdetermined systems for GE matrices using QR or LQ factorization ..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgetsls_8f.html#a3fdbfbbdf63edec20151f08aa68985e4",tooltip="ZGETSLS"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zggglm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggglm_8f.html#a7e9ce5ea3c8adfc5d28e92904c34984f",tooltip="ZGGGLM"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zgglse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgglse_8f.html#a68024ddaa87dd52db7298afb9ba39492",tooltip="ZGGLSE solves overdetermined or underdetermined systems for OTHER matrices"];
+}

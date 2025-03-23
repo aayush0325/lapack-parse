@@ -1,0 +1,14 @@
+digraph "zlatsqr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zlatsqr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLATSQR"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgeqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgeqr_8f.html#a8ae88d8fdedeebfac10501b91406241b",tooltip="ZGEQR"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgetsls_8f.html#a3fdbfbbdf63edec20151f08aa68985e4",tooltip="ZGETSLS"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgetsqrhrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgetsqrhrt_8f.html#ad44a9fa236f6fc81346cc229b0f6b621",tooltip="ZGETSQRHRT"];
+}

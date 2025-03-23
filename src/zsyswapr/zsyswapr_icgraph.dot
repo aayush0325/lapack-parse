@@ -1,0 +1,16 @@
+digraph "zsyswapr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zsyswapr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZSYSWAPR"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zsytri2x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytri2x_8f.html#a837c4d6af7bad75b55b2b6ab56d78eb2",tooltip="ZSYTRI2X"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zsytri2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytri2_8f.html#a35cbd9921246e2c78c809f96690debeb",tooltip="ZSYTRI2"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zsytri_3x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytri__3x_8f.html#a71b6927c1aa80a28f531aacf6fa6226b",tooltip="ZSYTRI_3X"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zsytri_3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytri__3_8f.html#a76ede2c1e3867b35958eb5b7d0c2db48",tooltip="ZSYTRI_3"];
+}

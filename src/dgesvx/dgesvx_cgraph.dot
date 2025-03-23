@@ -1,0 +1,45 @@
+digraph "dgesvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dgesvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGESVX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgecon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgecon_8f.html#a188b8d30443d14b1a3f7f8331d87ae60",tooltip="DGECON"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacn2_8f.html#a9b62da514b4a671acd3e3f63d018f01e",tooltip="DLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlatrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlatrs_8f.html#aa495c9c519906a3053f0ec56d702ef5f",tooltip="DLATRS solves a triangular system of equations with the scale factor set to prevent overflow."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="drscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$drscl_8f.html#a662e4c4f54a2670dd8408f6b6b306dec",tooltip="DRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dgeequ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgeequ_8f.html#a56565ae06016954202aee24cdfc38257",tooltip="DGEEQU"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dgerfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgerfs_8f.html#ac47363c60e542f007e7b6e1d48f0273b",tooltip="DGERFS"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dgetrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgetrs_8f.html#a58e332cb1b8ab770270843221a48296d",tooltip="DGETRS"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dlaswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaswp_8f.html#a3ccc0cf84b0493bd9adcdc02fcff449f",tooltip="DLASWP performs a series of row interchanges on a general rectangular matrix."];
+  Node9 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dgetrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgetrf_8f.html#a0019443faea08275ca60a734d0593e60",tooltip="DGETRF"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dgetrf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgetrf2_8f.html#abdd3af29e9f6bbaf4b352341a1e8b464",tooltip="DGETRF2"];
+  Node12 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacpy_8f.html#a7eb8731ffab2734378157c40964bf788",tooltip="DLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="dlaqge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqge_8f.html#aac3990ea4aa237d06ad9563df69abac3",tooltip="DLAQGE scales a general rectangular matrix, using row and column scaling factors computed by sgeequ."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

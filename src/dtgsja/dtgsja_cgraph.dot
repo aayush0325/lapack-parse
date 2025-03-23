@@ -1,0 +1,25 @@
+digraph "dtgsja"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dtgsja",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DTGSJA"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlags2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlags2_8f.html#a81f2fe4ff54dc550df187655d17e61c4",tooltip="DLAGS2 computes 2-by-2 orthogonal matrices U, V, and Q, and applies them to matrices A and B such tha..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlartg_8f90.html#a86f8f877eaea0386cdc2c3c175d9ea88",tooltip="DLARTG generates a plane rotation with real cosine and real sine."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlasv2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasv2_8f.html#aee8e05a707783a9fba5d213093453543",tooltip="DLASV2 computes the singular value decomposition of a 2-by-2 triangular matrix."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlapll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlapll_8f.html#a29ca36fd484bb98a9badd427d337ed59",tooltip="DLAPLL measures the linear dependence of two vectors."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dlarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarfg_8f.html#aabb59655e820b3551af27781bd716143",tooltip="DLARFG generates an elementary reflector (Householder matrix)."];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dlas2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlas2_8f.html#a307400bc17cbe31b5b8827a2802efae4",tooltip="DLAS2 computes singular values of a 2-by-2 triangular matrix."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaset_8f.html#a89e332374c7cd87e5db54bfe21550bc3",tooltip="DLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+}

@@ -1,0 +1,14 @@
+digraph "dlauu2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlauu2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLAUU2 computes the product UUH or LHL, where U and L are upper or lower triangular matrices (unblock..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlauum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlauum_8f.html#a1f392426727c4fc1c10c80b6d356a801",tooltip="DLAUUM computes the product UUH or LHL, where U and L are upper or lower triangular matrices (blocked..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dpftri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpftri_8f.html#a8efed1fd6d617d97726376cff99fe77d",tooltip="DPFTRI"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dpotri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpotri_8f.html#a9dfc04beae56a3b1c1f75eebc838c14c",tooltip="DPOTRI"];
+}

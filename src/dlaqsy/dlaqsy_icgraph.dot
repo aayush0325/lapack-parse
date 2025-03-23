@@ -1,0 +1,14 @@
+digraph "dlaqsy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlaqsy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLAQSY scales a symmetric/Hermitian matrix, using scaling factors computed by spoequ."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dposvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dposvx_8f.html#ac9c72f254642bcc4d512c24c00e47d33",tooltip="DPOSVX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dposvxx_8f.html#a423141487077727ec3bc52edd1fccd44",tooltip="DPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dsysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsysvxx_8f.html#a1891fac0c928034e0c0396aa3d30f8f3",tooltip="DSYSVXX"];
+}

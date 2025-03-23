@@ -1,0 +1,25 @@
+digraph "spftri"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="spftri",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SPFTRI"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slauum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slauum_8f.html#aceb0f315c5980f55be51e76ba24c74c7",tooltip="SLAUUM computes the product UUH or LHL, where U and L are upper or lower triangular matrices (blocked..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slauu2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slauu2_8f.html#a23fe5e8d01560c3ef284b95629761c3f",tooltip="SLAUU2 computes the product UUH or LHL, where U and L are upper or lower triangular matrices (unblock..."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="stftri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stftri_8f.html#afd13b5d9daf9c811fd8891691de7118c",tooltip="STFTRI"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="strtri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strtri_8f.html#a0e63d634f0c29d919e96a78c58a38bd7",tooltip="STRTRI"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="strti2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strti2_8f.html#a5f27efb9c13f0e39b81f208903039554",tooltip="STRTI2 computes the inverse of a triangular matrix (unblocked algorithm)."];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

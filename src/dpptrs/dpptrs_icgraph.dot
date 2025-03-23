@@ -1,0 +1,15 @@
+digraph "dpptrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dpptrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DPPTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dpprfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpprfs_8f.html#a5f2214019cae6aa0c1bf9ddddbaf2a27",tooltip="DPPRFS"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dppsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dppsvx_8f.html#af53874c0cb1724d22aa2e3ede6b64ac1",tooltip="DPPSVX computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dppsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dppsv_8f.html#a59a299a18cb0af017ee2c972ae7defb5",tooltip="DPPSV computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

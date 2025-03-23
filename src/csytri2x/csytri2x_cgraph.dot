@@ -1,0 +1,21 @@
+digraph "csytri2x"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="csytri2x",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CSYTRI2X"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="csyconv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csyconv_8f.html#a525e6b7b04c6e3d0a86fd22f463f8a61",tooltip="CSYCONV"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="csyswapr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csyswapr_8f.html#a9f9a3d10086d7de0fcb0a4732c2e9b21",tooltip="CSYSWAPR"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ctrtri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ctrtri_8f.html#ad08962e5806175e6e372db349a963ecc",tooltip="CTRTRI"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ctrti2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ctrti2_8f.html#ae7ae073f804087edaf233005a6553d94",tooltip="CTRTI2 computes the inverse of a triangular matrix (unblocked algorithm)."];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

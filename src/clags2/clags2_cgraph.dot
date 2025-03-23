@@ -1,0 +1,12 @@
+digraph "clags2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="clags2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLAGS2"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="clartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clartg_8f90.html#a45afd4405cf6da478ce4de9576303369",tooltip="CLARTG generates a plane rotation with real cosine and complex sine."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slasv2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasv2_8f.html#a8783434fbc24d465134e5604c5737565",tooltip="SLASV2 computes the singular value decomposition of a 2-by-2 triangular matrix."];
+}

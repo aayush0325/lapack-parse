@@ -1,0 +1,17 @@
+digraph "zptts2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zptts2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZPTTS2 solves a tridiagonal system of the form AX=B using the L D LH factorization computed by spttrf..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zpttrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zpttrs_8f.html#a7a91b8a69883b74c20c26aee3c537c55",tooltip="ZPTTRS"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zptrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zptrfs_8f.html#a93372dc1bb896550f56db40a44b3f202",tooltip="ZPTRFS"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zptsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zptsvx_8f.html#afa2092d5080ff55f1dccd0eff869d286",tooltip="ZPTSVX computes the solution to system of linear equations A * X = B for PT matrices"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zptsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zptsv_8f.html#a032a35206cb94896480a1fbfdba46809",tooltip="ZPTSV computes the solution to system of linear equations A * X = B for PT matrices"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

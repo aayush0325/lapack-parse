@@ -1,0 +1,21 @@
+digraph "sgeqrt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgeqrt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGEQRT"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgeqrt2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeqrt2_8f.html#a418228a8d0645cee0ff6a89a3b9a8e19",tooltip="SGEQRT2 computes a QR factorization of a general real or complex matrix using the compact WY represen..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfg_8f.html#a1c10a1adfa35b2d5ea15e801287a6a38",tooltip="SLARFG generates an elementary reflector (Householder matrix)."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sgeqrt3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeqrt3_8f.html#a0ac033e696d80b5aa9e5289e47e3e7f9",tooltip="SGEQRT3 recursively computes a QR factorization of a general real or complex matrix using the compact..."];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slarfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfb_8f.html#abd00c98d81aee1efa14e838bafa8078a",tooltip="SLARFB applies a block reflector or its transpose to a general rectangular matrix."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,21 @@
+digraph "dlasq2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dlasq2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLASQ2 computes all the eigenvalues of the symmetric positive definite tridiagonal matrix associated ..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlasq3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq3_8f.html#a38579c1852f8094a33d0afeed15b2b65",tooltip="DLASQ3 checks for deflation, computes a shift and calls dqds. Used by sbdsqr."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlasq4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq4_8f.html#a1c9c24724eb452f615cd1695e6b9ee3b",tooltip="DLASQ4 computes an approximation to the smallest eigenvalue using values of d from the previous trans..."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlasq5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq5_8f.html#a77ac31104dbfb9331604678f3ba05156",tooltip="DLASQ5 computes one dqds transform in ping-pong form. Used by sbdsqr and sstegr."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlasq6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq6_8f.html#a5b8d724babb26c081b057fa28f05b16e",tooltip="DLASQ6 computes one dqd transform in ping-pong form. Used by sbdsqr and sstegr."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dlasrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasrt_8f.html#a88a9fb57b6459176b68f21720d3d2ad2",tooltip="DLASRT sorts numbers in increasing or decreasing order."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

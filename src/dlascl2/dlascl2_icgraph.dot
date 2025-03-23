@@ -1,0 +1,16 @@
+digraph "dlascl2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlascl2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLASCL2 performs diagonal scaling on a matrix."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgbsvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbsvxx_8f.html#a75860f1c9556e1b735418bb8f9329317",tooltip="DGBSVXX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvxx_8f.html#a3fed1dc691d07f1e81a049016fe0b67b",tooltip="DGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dposvxx_8f.html#a423141487077727ec3bc52edd1fccd44",tooltip="DPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dsysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsysvxx_8f.html#a1891fac0c928034e0c0396aa3d30f8f3",tooltip="DSYSVXX"];
+}

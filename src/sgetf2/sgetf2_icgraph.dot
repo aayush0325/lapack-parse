@@ -1,0 +1,10 @@
+digraph "sgetf2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sgetf2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGETF2 computes the LU factorization of a general m-by-n matrix using partial pivoting with row inter..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgetrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$VARIANTS_2lu_2CR_2sgetrf_8f.html#a8d99c11b94db3d5eac75cac46a0f2e17",tooltip="SGETRF VARIANT: Crout Level 3 BLAS version of the algorithm."];
+}

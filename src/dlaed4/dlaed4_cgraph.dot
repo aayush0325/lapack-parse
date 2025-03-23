@@ -1,0 +1,12 @@
+digraph "dlaed4"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dlaed4",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLAED4 used by DSTEDC. Finds a single root of the secular equation."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlaed5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed5_8f.html#ae5927d0d0d438b3bc90a0679eaafe747",tooltip="DLAED5 used by DSTEDC. Solves the 2-by-2 secular equation."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlaed6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed6_8f.html#a8016fde4c8a60d5e95e6e6c636ec4dc9",tooltip="DLAED6 used by DSTEDC. Computes one Newton step in solution of the secular equation."];
+}

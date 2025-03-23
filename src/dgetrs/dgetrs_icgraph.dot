@@ -1,0 +1,27 @@
+digraph "dgetrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dgetrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGETRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgerfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgerfs_8f.html#ac47363c60e542f007e7b6e1d48f0273b",tooltip="DGERFS"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgesvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvx_8f.html#a9d90ccf6e340cacd08b7bbbb502ceb21",tooltip="DGESVX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gesv.html#ga5ee879032a8365897c3ba91e3dc8d512",tooltip="Download DGESV + dependencies  <a href=\"http://www.netlib.org/cgi-bin/netlibfiles...."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvxx_8f.html#a3fed1dc691d07f1e81a049016fe0b67b",tooltip="DGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dla_gercond",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__gercond_8f.html#a5539077fbd3a92c4d92b75bf58da5db3",tooltip="DLA_GERCOND estimates the Skeel condition number for a general matrix."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dgerfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgerfsx_8f.html#ae60113eba7a360d9c92cc2b627e0c5d2",tooltip="DGERFSX"];
+  Node7 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dla_gerfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__gerfsx__extended_8f.html#a19c6e9e133a5ea3f59a24959889429f2",tooltip="DLA_GERFSX_EXTENDED improves the computed solution to a system of linear equations for general matric..."];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dsgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsgesv_8f.html#a05bea3dc0386868e4720f22c969cb9f5",tooltip="DSGESV computes the solution to system of linear equations A * X = B for GE matrices (mixed precision..."];
+}

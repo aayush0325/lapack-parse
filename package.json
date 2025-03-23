@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@stdlib/utils-compact-adjacency-matrix": "^0.2.1"
+  }
+}

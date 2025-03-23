@@ -1,0 +1,24 @@
+digraph "zsysv_rk"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zsysv_rk",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZSYSV_RK computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zsytrf_rk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrf__rk_8f.html#ab5fee540bf0e0b045f709fe293fe9cf5",tooltip="ZSYTRF_RK computes the factorization of a complex symmetric indefinite matrix using the bounded Bunch..."];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zlasyf_rk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlasyf__rk_8f.html#a68def2212da9ced4e1d14eab2ad887f0",tooltip="ZLASYF_RK computes a partial factorization of a complex symmetric indefinite matrix using bounded Bun..."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zsytf2_rk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytf2__rk_8f.html#a6de77ea59b0190c3725c370525649873",tooltip="ZSYTF2_RK computes the factorization of a complex symmetric indefinite matrix using the bounded Bunch..."];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zsyr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsyr_8f.html#a08a5c1ca17a783b2f7e7f3bc80b422dd",tooltip="ZSYR performs the symmetric rank-1 update of a complex symmetric matrix."];
+  Node6 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zsytrs_3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrs__3_8f.html#a4bdfa654080b21cd48aa2b4b7bae5202",tooltip="ZSYTRS_3"];
+  Node7 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

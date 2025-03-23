@@ -1,0 +1,10 @@
+digraph "zungr2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zungr2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZUNGR2 generates all or part of the unitary matrix Q from an RQ factorization determined by cgerqf (u..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zungrq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zungrq_8f.html#a6f2743c682137feb8bc78e4a5c1e244d",tooltip="ZUNGRQ"];
+}

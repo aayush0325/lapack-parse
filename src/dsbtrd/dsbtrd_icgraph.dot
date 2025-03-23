@@ -1,0 +1,20 @@
+digraph "dsbtrd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dsbtrd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DSBTRD"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dsbev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsbev_8f.html#ad6db4d2faf998bf423820341e477e98f",tooltip="DSBEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dsbevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsbevd_8f.html#af8e2a8f5ea7f515fa0b5bd5ae8427322",tooltip="DSBEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dsbevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsbevx_8f.html#a4b0b81bd79a12be53d13a172c8950995",tooltip="DSBEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dsbgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsbgv_8f.html#a33924228a8f3dbde0a4f7e4e58e45267",tooltip="DSBGV"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dsbgvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsbgvd_8f.html#a5399550432eeee3ce0e4429f53bf4286",tooltip="DSBGVD"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dsbgvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsbgvx_8f.html#ac1ea24e07f3e2522ef6e8e9768eea5c5",tooltip="DSBGVX"];
+}

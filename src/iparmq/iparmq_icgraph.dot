@@ -1,0 +1,46 @@
+digraph "iparmq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="iparmq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="IPARMQ"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ilaenv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ilaenv_8f.html#ab1f37bde76d31aee91a09bb2f8e87ce6",tooltip="ILAENV"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="claqz0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$claqz0_8f.html#aed62e805f0ae98da9dea643f1018f81c",tooltip="CLAQZ0"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgges3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgges3_8f.html#a3dc709a1dd02201ad3cf186a12f518b7",tooltip="CGGES3 computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cggev3_8f.html#a2ed47545cc304bb0d7d5d50db826442a",tooltip="CGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="claqz2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$claqz2_8f.html#a7694233b6b4b9cad62a541d1ee08f1e0",tooltip="CLAQZ2"];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dlaqz0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqz0_8f.html#a64ae394c770b6fbb30c1d6d6727d003c",tooltip="DLAQZ0"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dgges3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgges3_8f.html#a3903b5dcbc186bcc5b2db0604331dbb6",tooltip="DGGES3 computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dggev3_8f.html#a28d81b96083b18aa21c47e2e6ff59e5a",tooltip="DGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dlaqz3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqz3_8f.html#a9214b3b765a89d0b3fd6a08b6ec56d0f",tooltip="DLAQZ3"];
+  Node10 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="slaqz0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqz0_8f.html#ad7e1d2d77ede5cb50a673445ea956f49",tooltip="SLAQZ0"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="sgges3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgges3_8f.html#aa38a73620b45cbe5a9b1803351a28dbb",tooltip="SGGES3 computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="sggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggev3_8f.html#a7c33384acda01bd5c62e87213eb2f2f9",tooltip="SGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+  Node11 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="slaqz3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqz3_8f.html#a8dad4aabc60c0b1cdc76901db8f195e2",tooltip="SLAQZ3"];
+  Node14 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="zlaqz0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaqz0_8f.html#a257f33b42af3b07d005c89f2eca9706b",tooltip="ZLAQZ0"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="zgges3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgges3_8f.html#a20c384504d174350a16063cbc115281e",tooltip="ZGGES3 computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="zggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggev3_8f.html#a5c144215dc103ce90a76e324d36e0ec4",tooltip="ZGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+  Node15 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="zlaqz2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaqz2_8f.html#ae32bbca995fb81fbdbe75468d1be55d0",tooltip="ZLAQZ2"];
+  Node18 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

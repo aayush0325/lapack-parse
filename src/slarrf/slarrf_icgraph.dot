@@ -1,0 +1,30 @@
+digraph "slarrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="slarrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLARRF finds a new relatively robust representation such that at least one of the eigenvalues is rela..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="clarrv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clarrv_8f.html#afca688d32e9f8491d559ee79e871b01b",tooltip="CLARRV computes the eigenvectors of the tridiagonal matrix T = L D LT given L, D and the eigenvalues ..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cstemr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cstemr_8f.html#acd1092f50642c9ee6305e7c2a6492e9c",tooltip="CSTEMR"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cheevr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cheevr_8f.html#ac02f8a55f35ec7767a36b5a9f3ebb0d8",tooltip="CHEEVR computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE matrices"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cheevr_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cheevr__2stage_8f.html#a378c442e3a5e9ef21a80e3c26c5b4050",tooltip="CHEEVR_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE mat..."];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cstegr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cstegr_8f.html#ae6f269ca9edc82f6b7e6d96ac65f9758",tooltip="CSTEGR"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="slarrv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarrv_8f.html#af914549478e70da2caeb2612a265650f",tooltip="SLARRV computes the eigenvectors of the tridiagonal matrix T = L D LT given L, D and the eigenvalues ..."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="sstemr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sstemr_8f.html#a6f79c320fcafc13559dd954f648858e7",tooltip="SSTEMR"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="sstegr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sstegr_8f.html#a0ac5ed62b2453c707560d76f3a0c3d1b",tooltip="SSTEGR"];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="sstevr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sstevr_8f.html#aee807b6868003c11b1b1741576c0f06b",tooltip="SSTEVR computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ssyevr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyevr_8f.html#a24155d2da67fb4a896c5f8257589b19f",tooltip="SSYEVR computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node8 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ssyevr_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyevr__2stage_8f.html#acdcfccbd51404d755a5b08c188d74a6f",tooltip="SSYEVR_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY mat..."];
+}

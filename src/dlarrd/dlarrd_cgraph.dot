@@ -1,0 +1,10 @@
+digraph "dlarrd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dlarrd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLARRD computes the eigenvalues of a symmetric tridiagonal matrix to suitable accuracy."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlaebz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaebz_8f.html#a79da86f5a84d0038788717338eef245d",tooltip="DLAEBZ computes the number of eigenvalues of a real symmetric tridiagonal matrix which are less than ..."];
+}

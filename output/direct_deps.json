@@ -1,0 +1,10582 @@
+{
+  "cheevd_2stage": [
+    "chetrd_2stage",
+    "clacpy",
+    "clascl",
+    "cstedc",
+    "cunmtr",
+    "ssterf",
+    "xerbla"
+  ],
+  "sorgtsqr": [
+    "slamtsqr",
+    "slaset",
+    "xerbla"
+  ],
+  "sgetri": [
+    "strtri",
+    "xerbla"
+  ],
+  "cungbr": [
+    "cunglq",
+    "cungqr",
+    "xerbla"
+  ],
+  "zlaqz3": [
+    "xerbla",
+    "zlacpy",
+    "zlaqz1",
+    "zlartg",
+    "zlaset",
+    "zrot"
+  ],
+  "ssbgv": [
+    "spbstf",
+    "ssbgst",
+    "ssbtrd",
+    "ssteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "zgtts2": [],
+  "slaln2": [
+    "sladiv"
+  ],
+  "zladiv": [
+    "dladiv"
+  ],
+  "cposvxx": [
+    "cla_porpvgrw",
+    "clacpy",
+    "claqhe",
+    "clascl2",
+    "cpoequb",
+    "cporfsx",
+    "cpotrf",
+    "cpotrs",
+    "xerbla"
+  ],
+  "zla_gbrfsx_extended": [
+    "chla_transtype",
+    "zgbtrs",
+    "zla_gbamv",
+    "zla_lin_berr",
+    "zla_wwaddw"
+  ],
+  "dlarz": [],
+  "dsyevx_2stage": [
+    "dlacpy",
+    "dorgtr",
+    "dormtr",
+    "dstebz",
+    "dstein",
+    "dsteqr",
+    "dsterf",
+    "dsytrd_2stage",
+    "xerbla"
+  ],
+  "claqp2rk": [
+    "clarf1f",
+    "clarfg"
+  ],
+  "chesv_rook": [
+    "chetrf_rook",
+    "chetrs_rook",
+    "xerbla"
+  ],
+  "zhpev": [
+    "dsterf",
+    "xerbla",
+    "zhptrd",
+    "zsteqr",
+    "zupgtr"
+  ],
+  "cla_heamv": [
+    "ilauplo",
+    "xerbla"
+  ],
+  "sgtsv": [
+    "xerbla"
+  ],
+  "ztgsna": [
+    "xerbla",
+    "zlacpy",
+    "ztgexc",
+    "ztgsyl"
+  ],
+  "dlahr2": [
+    "dlacpy",
+    "dlarfg"
+  ],
+  "slasd4": [
+    "slaed6",
+    "slasd5"
+  ],
+  "zhetrs_aa": [
+    "xerbla",
+    "zgtsv",
+    "zlacgv",
+    "zlacpy"
+  ],
+  "zlaqz1": [
+    "zlartg",
+    "zrot"
+  ],
+  "slatps": [
+    "xerbla"
+  ],
+  "cgelqf": [
+    "cgelq2",
+    "clarfb",
+    "clarft",
+    "xerbla"
+  ],
+  "clantp": [
+    "classq",
+    "sisnan"
+  ],
+  "zlartg": [],
+  "zunmrq": [
+    "xerbla",
+    "zlarfb",
+    "zlarft",
+    "zunmr2"
+  ],
+  "dla_syrpvgrw": [],
+  "dlaisnan": [],
+  "dlaqge": [],
+  "dlae2": [],
+  "csytrf": [
+    "clasyf",
+    "csytf2",
+    "xerbla"
+  ],
+  "slanv2": [],
+  "cptrfs": [
+    "cpttrs",
+    "xerbla"
+  ],
+  "dlat2s": [],
+  "zlaqr3": [
+    "zgehrd",
+    "zlacpy",
+    "zlahqr",
+    "zlaqr4",
+    "zlarf1f",
+    "zlarfg",
+    "zlaset",
+    "ztrexc",
+    "zunmhr"
+  ],
+  "sgebak": [
+    "xerbla"
+  ],
+  "ilauplo": [],
+  "dlags2": [
+    "dlartg",
+    "dlasv2"
+  ],
+  "dormr2": [
+    "dlarf",
+    "xerbla"
+  ],
+  "zheevr": [
+    "dstebz",
+    "dsterf",
+    "xerbla",
+    "zhetrd",
+    "zstein",
+    "zstemr",
+    "zunmtr"
+  ],
+  "sgbrfsx": [
+    "ilaprec",
+    "ilatrans",
+    "sgbcon",
+    "sla_gbrcond",
+    "sla_gbrfsx_extended",
+    "slangb",
+    "xerbla"
+  ],
+  "dgeqrfp": [
+    "dgeqr2p",
+    "dlarfb",
+    "dlarft",
+    "xerbla"
+  ],
+  "zptsv": [
+    "xerbla",
+    "zpttrf",
+    "zpttrs"
+  ],
+  "zlatbs": [
+    "xerbla"
+  ],
+  "sla_gercond": [
+    "sgetrs",
+    "slacn2",
+    "xerbla"
+  ],
+  "chetrf_rk": [
+    "chetf2_rk",
+    "clahef_rk",
+    "xerbla"
+  ],
+  "dlabrd": [
+    "dlarfg"
+  ],
+  "slaed4": [
+    "slaed5",
+    "slaed6"
+  ],
+  "cunm2r": [
+    "clarf1f",
+    "xerbla"
+  ],
+  "zhetd2": [
+    "xerbla",
+    "zlarfg"
+  ],
+  "dgebak": [
+    "xerbla"
+  ],
+  "sptrfs": [
+    "spttrs",
+    "xerbla"
+  ],
+  "clatps": [
+    "xerbla"
+  ],
+  "dorbdb4": [
+    "dlarf",
+    "dlarf1f",
+    "dlarfgp",
+    "dorbdb5",
+    "xerbla"
+  ],
+  "dgeqr2": [
+    "dlarf1f",
+    "dlarfg",
+    "xerbla"
+  ],
+  "dorgqr": [
+    "dlarfb",
+    "dlarft",
+    "dorg2r",
+    "xerbla"
+  ],
+  "zheevd_2stage": [
+    "dsterf",
+    "xerbla",
+    "zhetrd_2stage",
+    "zlacpy",
+    "zlascl",
+    "zstedc",
+    "zunmtr"
+  ],
+  "sla_gbrfsx_extended": [
+    "chla_transtype",
+    "sgbtrs",
+    "sla_gbamv",
+    "sla_lin_berr",
+    "sla_wwaddw"
+  ],
+  "zhegst": [
+    "xerbla",
+    "zhegs2"
+  ],
+  "zlarnv": [
+    "dlaruv"
+  ],
+  "classq": [],
+  "ztrttf": [
+    "xerbla"
+  ],
+  "ztplqt": [
+    "xerbla",
+    "ztplqt2",
+    "ztprfb"
+  ],
+  "sorgrq": [
+    "slarfb",
+    "slarft",
+    "sorgr2",
+    "xerbla"
+  ],
+  "ssytrf_rook": [
+    "slasyf_rook",
+    "ssytf2_rook",
+    "xerbla"
+  ],
+  "zhpgvx": [
+    "xerbla",
+    "zhpevx",
+    "zhpgst",
+    "zpptrf"
+  ],
+  "csytri": [
+    "csymv",
+    "xerbla"
+  ],
+  "cunbdb6": [
+    "classq",
+    "xerbla"
+  ],
+  "dsytf2_rk": [
+    "xerbla"
+  ],
+  "zsytrs_rook": [
+    "xerbla"
+  ],
+  "ssbevx_2stage": [
+    "slacpy",
+    "slascl",
+    "sstebz",
+    "sstein",
+    "ssteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "zgesvdq": [
+    "dlascl",
+    "dlaset",
+    "xerbla",
+    "zgelqf",
+    "zgeqp3",
+    "zgeqrf",
+    "zgesvd",
+    "zlacpy",
+    "zlapmt",
+    "zlascl",
+    "zlaset",
+    "zlaswp",
+    "zpocon",
+    "zunmlq",
+    "zunmqr"
+  ],
+  "ctgexc": [
+    "ctgex2",
+    "xerbla"
+  ],
+  "slagv2": [
+    "slag2",
+    "slartg",
+    "slasv2"
+  ],
+  "dtgex2": [
+    "dgeqr2",
+    "dgerq2",
+    "dlacpy",
+    "dlagv2",
+    "dlartg",
+    "dlaset",
+    "dlassq",
+    "dorg2r",
+    "dorgr2",
+    "dorm2r",
+    "dormr2",
+    "dtgsy2"
+  ],
+  "dlarra": [],
+  "clansy": [
+    "classq",
+    "sisnan"
+  ],
+  "cla_gerfsx_extended": [
+    "cgetrs",
+    "chla_transtype",
+    "cla_geamv",
+    "cla_lin_berr",
+    "cla_wwaddw"
+  ],
+  "dpotf2": [
+    "xerbla"
+  ],
+  "zsymv": [
+    "xerbla"
+  ],
+  "claed0": [
+    "clacrm",
+    "claed7",
+    "ssteqr",
+    "xerbla"
+  ],
+  "zggrqf": [
+    "xerbla",
+    "zgeqrf",
+    "zgerqf",
+    "zunmrq"
+  ],
+  "cgsvj0": [
+    "clascl",
+    "classq",
+    "crot",
+    "xerbla"
+  ],
+  "dorbdb5": [
+    "dlassq",
+    "dorbdb6",
+    "xerbla"
+  ],
+  "slarfg": [],
+  "zhecon_3": [
+    "xerbla",
+    "zhetrs_3",
+    "zlacn2"
+  ],
+  "dggevx": [
+    "dlacpy",
+    "dlascl",
+    "dlaset",
+    "dorgqr",
+    "dormqr",
+    "dtgevc",
+    "dtgsna",
+    "xerbla"
+  ],
+  "zlaed0": [
+    "dsteqr",
+    "xerbla",
+    "zlacrm",
+    "zlaed7"
+  ],
+  "slaswlq": [
+    "sgelqt",
+    "sgeqrt",
+    "stplqt",
+    "stpqrt",
+    "xerbla"
+  ],
+  "cunmbr": [
+    "cunmlq",
+    "cunmqr",
+    "xerbla"
+  ],
+  "slaqz0": [
+    "ilaenv",
+    "shgeqz",
+    "slanhs",
+    "slaqz3",
+    "slaqz4",
+    "slartg",
+    "slaset",
+    "xerbla"
+  ],
+  "claswlq": [
+    "cgelqt",
+    "ctplqt",
+    "xerbla"
+  ],
+  "sporfsx": [
+    "ilaprec",
+    "sla_porcond",
+    "sla_porfsx_extended",
+    "slansy",
+    "spocon",
+    "xerbla"
+  ],
+  "ctrcon": [
+    "clacn2",
+    "clatrs",
+    "csrscl",
+    "xerbla"
+  ],
+  "zunmql": [
+    "xerbla",
+    "zlarfb",
+    "zlarft",
+    "zunm2l"
+  ],
+  "dppsv": [
+    "dpptrf",
+    "dpptrs",
+    "xerbla"
+  ],
+  "sposvx": [
+    "slacpy",
+    "slaqsy",
+    "spocon",
+    "spoequ",
+    "sporfs",
+    "spotrf",
+    "spotrs",
+    "xerbla"
+  ],
+  "slaqr1": [],
+  "ztprfb": [],
+  "claqr3": [
+    "cgehrd",
+    "clacpy",
+    "clahqr",
+    "claqr4",
+    "clarf1f",
+    "clarfg",
+    "claset",
+    "ctrexc",
+    "cunmhr"
+  ],
+  "sgeqp3": [
+    "sgeqrf",
+    "slaqp2",
+    "slaqps",
+    "sormqr",
+    "xerbla"
+  ],
+  "slauum": [
+    "slauu2",
+    "xerbla"
+  ],
+  "zlauu2": [
+    "xerbla",
+    "zlacgv"
+  ],
+  "dlasyf": [],
+  "dgesc2": [
+    "dlaswp"
+  ],
+  "cggsvp3": [
+    "cgeqp3",
+    "cgeqr2",
+    "cgerq2",
+    "clacpy",
+    "clapmt",
+    "claset",
+    "cung2r",
+    "cunm2r",
+    "cunmr2",
+    "xerbla"
+  ],
+  "sgeev": [
+    "sgebak",
+    "sgebal",
+    "sgehrd",
+    "shseqr",
+    "slacpy",
+    "slartg",
+    "slascl",
+    "sorghr",
+    "strevc3",
+    "xerbla"
+  ],
+  "strsna": [
+    "slacn2",
+    "slacpy",
+    "slaqtr",
+    "strexc",
+    "xerbla"
+  ],
+  "cpptri": [
+    "ctptri",
+    "xerbla"
+  ],
+  "strexc": [
+    "slaexc",
+    "xerbla"
+  ],
+  "slaexc": [
+    "slacpy",
+    "slanv2",
+    "slarfg",
+    "slarfx",
+    "slartg",
+    "slasy2"
+  ],
+  "cgetsqrhrt": [
+    "clatsqr",
+    "cungtsqr_row",
+    "cunhr_col",
+    "xerbla"
+  ],
+  "dlacn2": [],
+  "dlahqr": [
+    "dlanv2",
+    "dlarfg"
+  ],
+  "cuncsd2by1": [
+    "cbbcsd",
+    "clacpy",
+    "clapmr",
+    "clapmt",
+    "cunbdb1",
+    "cunbdb2",
+    "cunbdb3",
+    "cunbdb4",
+    "cunglq",
+    "cungqr",
+    "xerbla"
+  ],
+  "zsytrf": [
+    "xerbla",
+    "zlasyf",
+    "zsytf2"
+  ],
+  "ztpcon": [
+    "xerbla",
+    "zdrscl",
+    "zlacn2",
+    "zlatps"
+  ],
+  "ssyevd": [
+    "slacpy",
+    "slascl",
+    "sormtr",
+    "sstedc",
+    "ssterf",
+    "ssytrd",
+    "xerbla"
+  ],
+  "zgeqrt": [
+    "xerbla",
+    "zgeqrt2",
+    "zgeqrt3",
+    "zlarfb"
+  ],
+  "slartgs": [
+    "slartgp"
+  ],
+  "zlaqp3rk": [
+    "zlarfg"
+  ],
+  "chpgv": [
+    "chpev",
+    "chpgst",
+    "cpptrf",
+    "xerbla"
+  ],
+  "cgesvj": [
+    "cgsvj0",
+    "cgsvj1",
+    "clascl",
+    "claset",
+    "classq",
+    "crot",
+    "slascl",
+    "xerbla"
+  ],
+  "dlatbs": [
+    "xerbla"
+  ],
+  "zunghr": [
+    "xerbla",
+    "zungqr"
+  ],
+  "cla_gercond_x": [
+    "cgetrs",
+    "clacn2",
+    "xerbla"
+  ],
+  "zhpevd": [
+    "dsterf",
+    "xerbla",
+    "zhptrd",
+    "zstedc",
+    "zupmtr"
+  ],
+  "clar2v": [],
+  "cgemlq": [
+    "cgemlqt",
+    "clamswlq",
+    "xerbla"
+  ],
+  "sgbcon": [
+    "slacn2",
+    "slatbs",
+    "srscl",
+    "xerbla"
+  ],
+  "sla_lin_berr": [],
+  "zstedc": [
+    "dlascl",
+    "dlaset",
+    "dstedc",
+    "dsteqr",
+    "dsterf",
+    "xerbla",
+    "zlacpy",
+    "zlacrm",
+    "zlaed0",
+    "zsteqr"
+  ],
+  "ctzrqf": [
+    "clacgv",
+    "clarfg",
+    "xerbla"
+  ],
+  "cgerqf": [
+    "cgerq2",
+    "clarfb",
+    "clarft",
+    "xerbla"
+  ],
+  "dsbgv": [
+    "dpbstf",
+    "dsbgst",
+    "dsbtrd",
+    "dsteqr",
+    "dsterf",
+    "xerbla"
+  ],
+  "dlalsa": [
+    "dlals0",
+    "dlasdt",
+    "xerbla"
+  ],
+  "dlaebz": [],
+  "ctrttp": [
+    "xerbla"
+  ],
+  "ssbev_2stage": [
+    "slascl",
+    "ssteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "dormrq": [
+    "dlarfb",
+    "dlarft",
+    "dormr2",
+    "xerbla"
+  ],
+  "cgglse": [
+    "cggrqf",
+    "ctrtrs",
+    "cunmqr",
+    "cunmrq",
+    "xerbla"
+  ],
+  "dppequ": [
+    "xerbla"
+  ],
+  "zspsvx": [
+    "xerbla",
+    "zlacpy",
+    "zspcon",
+    "zsprfs",
+    "zsptrf",
+    "zsptrs"
+  ],
+  "cpftrs": [
+    "ctfsm",
+    "xerbla"
+  ],
+  "slahqr": [
+    "slanv2",
+    "slarfg"
+  ],
+  "cgelsx": [
+    "cgeqpf",
+    "claic1",
+    "clascl",
+    "claset",
+    "clatzm",
+    "ctzrqf",
+    "cunm2r",
+    "xerbla"
+  ],
+  "ssptrf": [
+    "xerbla"
+  ],
+  "slasyf": [],
+  "zpstrf": [
+    "xerbla",
+    "zlacgv",
+    "zpstf2"
+  ],
+  "zlarcm": [],
+  "shseqr": [
+    "slacpy",
+    "slahqr",
+    "slaqr0",
+    "slaset",
+    "xerbla"
+  ],
+  "zgemqrt": [
+    "xerbla",
+    "zlarfb"
+  ],
+  "zla_hercond_x": [
+    "xerbla",
+    "zhetrs",
+    "zlacn2"
+  ],
+  "sgemqr": [
+    "sgemqrt",
+    "slamtsqr",
+    "xerbla"
+  ],
+  "ztpttf": [
+    "xerbla"
+  ],
+  "zsycon_rook": [
+    "xerbla",
+    "zlacn2",
+    "zsytrs_rook"
+  ],
+  "zlaqhb": [],
+  "chbev_2stage": [
+    "chetrd_2stage",
+    "clascl",
+    "csteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "dgesvdx": [
+    "dbdsvdx",
+    "dgebrd",
+    "dgelqf",
+    "dgeqrf",
+    "dlacpy",
+    "dlascl",
+    "dlaset",
+    "dormbr",
+    "dormlq",
+    "dormqr",
+    "xerbla"
+  ],
+  "slagtf": [
+    "xerbla"
+  ],
+  "cunbdb3": [
+    "clacgv",
+    "clarf1f",
+    "clarfgp",
+    "cunbdb5",
+    "xerbla"
+  ],
+  "dgttrf": [
+    "xerbla"
+  ],
+  "ztbcon": [
+    "xerbla",
+    "zdrscl",
+    "zlacn2",
+    "zlatbs"
+  ],
+  "sgelqs": [
+    "slaset",
+    "sormlq",
+    "xerbla"
+  ],
+  "zhpcon": [
+    "xerbla",
+    "zhptrs",
+    "zlacn2"
+  ],
+  "sgbequb": [
+    "xerbla"
+  ],
+  "ztpttr": [
+    "xerbla"
+  ],
+  "sorg2l": [
+    "slarf1l",
+    "xerbla"
+  ],
+  "stbcon": [
+    "slacn2",
+    "slatbs",
+    "srscl",
+    "xerbla"
+  ],
+  "zlacgv": [],
+  "zgbrfs": [
+    "xerbla",
+    "zgbtrs",
+    "zlacn2"
+  ],
+  "strtrs": [
+    "xerbla"
+  ],
+  "dlasq1": [
+    "dlas2",
+    "dlascl",
+    "dlasq2",
+    "dlasrt",
+    "xerbla"
+  ],
+  "dgbequb": [
+    "xerbla"
+  ],
+  "clargv": [],
+  "zgeqp3": [
+    "xerbla",
+    "zgeqrf",
+    "zlaqp2",
+    "zlaqps",
+    "zunmqr"
+  ],
+  "ssytrf_aa": [
+    "slasyf_aa",
+    "xerbla"
+  ],
+  "chetf2_rk": [
+    "xerbla"
+  ],
+  "zhetrf_rk": [
+    "xerbla",
+    "zhetf2_rk",
+    "zlahef_rk"
+  ],
+  "chpev": [
+    "chptrd",
+    "csteqr",
+    "cupgtr",
+    "ssterf",
+    "xerbla"
+  ],
+  "chetrs_3": [
+    "xerbla"
+  ],
+  "clanhp": [
+    "classq",
+    "sisnan"
+  ],
+  "cpoequb": [
+    "xerbla"
+  ],
+  "dgeqr": [
+    "dgeqrt",
+    "dlatsqr",
+    "xerbla"
+  ],
+  "slange": [
+    "sisnan",
+    "slassq"
+  ],
+  "slasyf_rook": [],
+  "dspcon": [
+    "dlacn2",
+    "dsptrs",
+    "xerbla"
+  ],
+  "cheev_2stage": [
+    "chetrd_2stage",
+    "clascl",
+    "csteqr",
+    "cungtr",
+    "ssterf",
+    "xerbla"
+  ],
+  "dbdsqr": [
+    "dlartg",
+    "dlas2",
+    "dlasq1",
+    "dlasr",
+    "dlasv2",
+    "xerbla"
+  ],
+  "cgetri": [
+    "ctrtri",
+    "xerbla"
+  ],
+  "zgelst": [
+    "xerbla",
+    "zgelqt",
+    "zgemlqt",
+    "zgemqrt",
+    "zgeqrt",
+    "zlascl",
+    "zlaset",
+    "ztrtrs"
+  ],
+  "ilaenv": [
+    "ieeeck",
+    "iparmq"
+  ],
+  "ssygv_2stage": [
+    "spotrf",
+    "ssyev_2stage",
+    "ssygst",
+    "xerbla"
+  ],
+  "zlagtm": [],
+  "zgehrd": [
+    "xerbla",
+    "zgehd2",
+    "zlahr2",
+    "zlarfb"
+  ],
+  "zung2r": [
+    "xerbla",
+    "zlarf1f"
+  ],
+  "dpbtrs": [
+    "xerbla"
+  ],
+  "zla_porpvgrw": [],
+  "zggesx": [
+    "zhgeqz",
+    "zlacpy",
+    "zlascl",
+    "zlaset",
+    "ztgsen",
+    "zungqr",
+    "zunmqr"
+  ],
+  "dgemqr": [
+    "dgemqrt",
+    "dlamtsqr",
+    "xerbla"
+  ],
+  "sspgvd": [
+    "spptrf",
+    "sspevd",
+    "sspgst",
+    "xerbla"
+  ],
+  "dorcsd": [
+    "dbbcsd",
+    "dlacpy",
+    "dlapmr",
+    "dlapmt",
+    "dorbdb",
+    "dorglq",
+    "dorgqr",
+    "xerbla"
+  ],
+  "csytrs_rook": [
+    "xerbla"
+  ],
+  "zgghrd": [
+    "xerbla",
+    "zlartg",
+    "zlaset",
+    "zrot"
+  ],
+  "dlasd3": [
+    "dlacpy",
+    "dlascl",
+    "dlasd4",
+    "xerbla"
+  ],
+  "sbdsdc": [
+    "slartg",
+    "slascl",
+    "slasd0",
+    "slasda",
+    "slasdq",
+    "slaset",
+    "slasr",
+    "xerbla"
+  ],
+  "slasq4": [],
+  "zhbgv": [
+    "dsterf",
+    "xerbla",
+    "zhbgst",
+    "zhbtrd",
+    "zpbstf",
+    "zsteqr"
+  ],
+  "dgeqrt3": [
+    "dlarfg",
+    "xerbla"
+  ],
+  "sgelqt": [
+    "sgelqt3",
+    "sgeqrt2",
+    "sgeqrt3",
+    "slarfb",
+    "xerbla"
+  ],
+  "clarfb": [
+    "clacgv"
+  ],
+  "cgetc2": [],
+  "dtgevc": [
+    "dlacpy",
+    "dlag2",
+    "dlaln2",
+    "xerbla"
+  ],
+  "zhesv_rook": [
+    "xerbla",
+    "zhetrf_rook",
+    "zhetrs_rook"
+  ],
+  "sgeqr": [
+    "sgeqrt",
+    "slatsqr",
+    "xerbla"
+  ],
+  "dla_syrfsx_extended": [
+    "dla_lin_berr",
+    "dla_syamv",
+    "dla_wwaddw",
+    "dsytrs",
+    "ilauplo",
+    "xerbla"
+  ],
+  "slansf": [
+    "sisnan",
+    "slassq"
+  ],
+  "csytrs_aa_2stage": [
+    "cgbtrs",
+    "claswp",
+    "xerbla"
+  ],
+  "cunmr3": [
+    "clarz",
+    "xerbla"
+  ],
+  "zlaev2": [
+    "dlaev2"
+  ],
+  "zla_gbrcond_c": [
+    "xerbla",
+    "zgbtrs",
+    "zlacn2"
+  ],
+  "slasq5": [],
+  "dtrsna": [
+    "dlacn2",
+    "dlacpy",
+    "dlaqtr",
+    "dtrexc",
+    "xerbla"
+  ],
+  "ctrexc": [
+    "clartg",
+    "crot",
+    "xerbla"
+  ],
+  "spbsvx": [
+    "slacpy",
+    "slaqsb",
+    "spbcon",
+    "spbequ",
+    "spbrfs",
+    "spbtrf",
+    "spbtrs",
+    "xerbla"
+  ],
+  "cgerfs": [
+    "cgetrs",
+    "clacn2",
+    "xerbla"
+  ],
+  "slatrd": [
+    "slarfg"
+  ],
+  "dgesvd": [
+    "dbdsqr",
+    "dgebrd",
+    "dgelqf",
+    "dgeqrf",
+    "dlacpy",
+    "dlascl",
+    "dlaset",
+    "dorgbr",
+    "dorglq",
+    "dorgqr",
+    "dormbr",
+    "xerbla"
+  ],
+  "sppequ": [
+    "xerbla"
+  ],
+  "spotrs": [
+    "xerbla"
+  ],
+  "dgetrs": [
+    "dlaswp",
+    "xerbla"
+  ],
+  "sgegs": [
+    "sgeqrf",
+    "sggbak",
+    "sggbal",
+    "sgghrd",
+    "shgeqz",
+    "slacpy",
+    "slascl",
+    "slaset",
+    "sorgqr",
+    "sormqr",
+    "xerbla"
+  ],
+  "zhptrf": [
+    "xerbla"
+  ],
+  "sgbsv": [
+    "sgbtrf",
+    "sgbtrs",
+    "xerbla"
+  ],
+  "dtgsen": [
+    "dlacn2",
+    "dlacpy",
+    "dlag2",
+    "dlassq",
+    "dtgexc",
+    "dtgsyl",
+    "xerbla"
+  ],
+  "sorbdb2": [
+    "slarf1f",
+    "slarfgp",
+    "sorbdb5",
+    "xerbla"
+  ],
+  "sspsv": [
+    "ssptrf",
+    "ssptrs",
+    "xerbla"
+  ],
+  "zhpsvx": [
+    "xerbla",
+    "zhpcon",
+    "zhprfs",
+    "zhptrf",
+    "zhptrs",
+    "zlacpy"
+  ],
+  "cggglm": [
+    "cggqrf",
+    "ctrtrs",
+    "cunmqr",
+    "cunmrq",
+    "xerbla"
+  ],
+  "sgetrf2": [
+    "slaswp",
+    "xerbla"
+  ],
+  "dstevx": [
+    "dstebz",
+    "dstein",
+    "dsteqr",
+    "dsterf",
+    "xerbla"
+  ],
+  "sgtcon": [
+    "sgttrs",
+    "slacn2",
+    "xerbla"
+  ],
+  "zlanhe": [
+    "disnan",
+    "zlassq"
+  ],
+  "dlarfb_gett": [],
+  "slarrv": [
+    "slar1v",
+    "slarrb",
+    "slarrf",
+    "slaset"
+  ],
+  "cgttrf": [
+    "xerbla"
+  ],
+  "ssysv_aa_2stage": [
+    "ssytrf_aa_2stage",
+    "ssytrs_aa_2stage",
+    "xerbla"
+  ],
+  "zgehd2": [
+    "xerbla",
+    "zlarf1f",
+    "zlarfg"
+  ],
+  "ctrttf": [
+    "xerbla"
+  ],
+  "zung2l": [
+    "xerbla",
+    "zlarf1l"
+  ],
+  "dgelq": [
+    "dgelqt",
+    "dlaswlq",
+    "xerbla"
+  ],
+  "dlarf1l": [],
+  "zgetrs": [
+    "xerbla",
+    "zlaswp"
+  ],
+  "zgtcon": [
+    "xerbla",
+    "zgttrs",
+    "zlacn2"
+  ],
+  "cggevx": [
+    "cgeqrf",
+    "cggbak",
+    "cggbal",
+    "cgghrd",
+    "chgeqz",
+    "clacpy",
+    "clascl",
+    "claset",
+    "ctgevc",
+    "ctgsna",
+    "cungqr",
+    "cunmqr",
+    "slascl",
+    "xerbla"
+  ],
+  "cgegv": [
+    "cgeqrf",
+    "cggbak",
+    "cggbal",
+    "cgghrd",
+    "chgeqz",
+    "clacpy",
+    "clascl",
+    "claset",
+    "ctgevc",
+    "cungqr",
+    "cunmqr",
+    "xerbla"
+  ],
+  "csycon_rook": [
+    "clacn2",
+    "csytrs_rook",
+    "xerbla"
+  ],
+  "sormbr": [
+    "sormlq",
+    "sormqr",
+    "xerbla"
+  ],
+  "dsbev_2stage": [
+    "dlascl",
+    "dsteqr",
+    "dsterf",
+    "xerbla"
+  ],
+  "zhprfs": [
+    "xerbla",
+    "zhptrs",
+    "zlacn2"
+  ],
+  "zsysvx": [
+    "xerbla",
+    "zlacpy",
+    "zsycon",
+    "zsyrfs",
+    "zsytrf",
+    "zsytrs"
+  ],
+  "slasd5": [],
+  "zla_syrcond_x": [
+    "xerbla",
+    "zlacn2",
+    "zsytrs"
+  ],
+  "slangb": [
+    "sisnan",
+    "slassq"
+  ],
+  "dlaqp2": [
+    "dlarf",
+    "dlarf1f",
+    "dlarfg"
+  ],
+  "zla_syrfsx_extended": [
+    "ilauplo",
+    "xerbla",
+    "zla_lin_berr",
+    "zla_syamv",
+    "zla_wwaddw",
+    "zsymv",
+    "zsytrs"
+  ],
+  "zpoequ": [
+    "xerbla"
+  ],
+  "csptrs": [
+    "xerbla"
+  ],
+  "zhetf2_rk": [
+    "xerbla"
+  ],
+  "spotf2": [
+    "xerbla"
+  ],
+  "slassq": [],
+  "dgerqf": [
+    "dgerq2",
+    "dlarfb",
+    "dlarft",
+    "xerbla"
+  ],
+  "zlalsd": [
+    "dlartg",
+    "dlascl",
+    "dlasda",
+    "dlasdq",
+    "dlaset",
+    "dlasrt",
+    "xerbla",
+    "zlacpy",
+    "zlalsa",
+    "zlascl",
+    "zlaset"
+  ],
+  "cheevx": [
+    "chetrd",
+    "clacpy",
+    "cstein",
+    "csteqr",
+    "cungtr",
+    "cunmtr",
+    "sstebz",
+    "ssterf",
+    "xerbla"
+  ],
+  "cungrq": [
+    "clarfb",
+    "clarft",
+    "cungr2",
+    "xerbla"
+  ],
+  "cungtsqr": [
+    "clamtsqr",
+    "claset",
+    "xerbla"
+  ],
+  "dorg2r": [
+    "dlarf1f",
+    "xerbla"
+  ],
+  "dgbtf2": [
+    "xerbla"
+  ],
+  "dggrqf": [
+    "dgeqrf",
+    "dgerqf",
+    "dormrq",
+    "xerbla"
+  ],
+  "ssygvd": [
+    "spotrf",
+    "ssyevd",
+    "ssygst",
+    "xerbla"
+  ],
+  "sgesc2": [
+    "slaswp"
+  ],
+  "zsytri2": [
+    "xerbla",
+    "zsytri",
+    "zsytri2x"
+  ],
+  "dpptrf": [
+    "xerbla"
+  ],
+  "slasyf_aa": [
+    "slaset",
+    "xerbla"
+  ],
+  "cgtcon": [
+    "cgttrs",
+    "clacn2",
+    "xerbla"
+  ],
+  "clarf1l": [],
+  "dpbsvx": [
+    "dlacpy",
+    "dlaqsb",
+    "dpbcon",
+    "dpbequ",
+    "dpbrfs",
+    "dpbtrf",
+    "dpbtrs",
+    "xerbla"
+  ],
+  "dsposv": [
+    "dlacpy",
+    "dlag2s",
+    "dlat2s",
+    "dpotrf",
+    "dpotrs",
+    "slag2d",
+    "spotrf",
+    "spotrs",
+    "xerbla"
+  ],
+  "dgelqf": [
+    "dgelq2",
+    "dlarfb",
+    "dlarft",
+    "xerbla"
+  ],
+  "dpoequb": [
+    "xerbla"
+  ],
+  "claunhr_col_getrfnp2": [
+    "xerbla"
+  ],
+  "dpotrf": [
+    "dpotrf2",
+    "xerbla"
+  ],
+  "chetrd": [
+    "chetd2",
+    "clatrd",
+    "xerbla"
+  ],
+  "dsysv_aa": [
+    "dsytrf_aa",
+    "dsytrs_aa",
+    "xerbla"
+  ],
+  "zla_porcond_c": [
+    "xerbla",
+    "zlacn2",
+    "zpotrs"
+  ],
+  "slartg": [],
+  "chesv": [
+    "chetrf",
+    "chetrs",
+    "chetrs2",
+    "xerbla"
+  ],
+  "zla_gerpvgrw": [],
+  "zungrq": [
+    "xerbla",
+    "zlarfb",
+    "zlarft",
+    "zungr2"
+  ],
+  "zlapmr": [],
+  "chetrf_rook": [
+    "chetf2_rook",
+    "clahef_rook",
+    "xerbla"
+  ],
+  "cstegr": [
+    "cstemr"
+  ],
+  "dgghrd": [
+    "dlartg",
+    "dlaset",
+    "xerbla"
+  ],
+  "dsytrs_aa_2stage": [
+    "dgbtrs",
+    "dlaswp",
+    "xerbla"
+  ],
+  "dstemr": [
+    "dlae2",
+    "dlaev2",
+    "dlarrc",
+    "dlarre",
+    "dlarrj",
+    "dlarrr",
+    "dlarrv",
+    "dlasrt",
+    "xerbla"
+  ],
+  "clahef_rk": [
+    "clacgv"
+  ],
+  "cladiv": [
+    "sladiv"
+  ],
+  "dlaexc": [
+    "dlacpy",
+    "dlanv2",
+    "dlarfg",
+    "dlarfx",
+    "dlartg",
+    "dlasy2"
+  ],
+  "chegvx": [
+    "cheevx",
+    "chegst",
+    "cpotrf",
+    "xerbla"
+  ],
+  "zlat2c": [],
+  "csymv": [
+    "xerbla"
+  ],
+  "zhetf2_rook": [
+    "xerbla"
+  ],
+  "ztrtrs": [
+    "xerbla"
+  ],
+  "chpgvx": [
+    "chpevx",
+    "chpgst",
+    "cpptrf",
+    "xerbla"
+  ],
+  "spttrs": [
+    "sptts2",
+    "xerbla"
+  ],
+  "cpbsvx": [
+    "clacpy",
+    "claqhb",
+    "cpbcon",
+    "cpbequ",
+    "cpbrfs",
+    "cpbtrf",
+    "cpbtrs",
+    "xerbla"
+  ],
+  "sgesvdx": [
+    "sbdsvdx",
+    "sgebrd",
+    "sgelqf",
+    "sgeqrf",
+    "slacpy",
+    "slascl",
+    "slaset",
+    "sormbr",
+    "sormlq",
+    "sormqr",
+    "xerbla"
+  ],
+  "zlassq": [],
+  "zgegs": [
+    "xerbla",
+    "zgeqrf",
+    "zggbak",
+    "zggbal",
+    "zgghrd",
+    "zhgeqz",
+    "zlacpy",
+    "zlascl",
+    "zlaset",
+    "zungqr",
+    "zunmqr"
+  ],
+  "csysv_aa": [
+    "csytrf_aa",
+    "csytrs_aa",
+    "xerbla"
+  ],
+  "clar1v": [],
+  "dtgsyl": [
+    "dlacpy",
+    "dlaset",
+    "dtgsy2",
+    "xerbla"
+  ],
+  "dsygst": [
+    "dsygs2",
+    "xerbla"
+  ],
+  "dgeqrf": [
+    "dgeqr2",
+    "dlarfb",
+    "dlarft",
+    "xerbla"
+  ],
+  "strevc": [
+    "slaln2",
+    "xerbla"
+  ],
+  "zsytf2_rook": [
+    "xerbla",
+    "zsyr"
+  ],
+  "dgeequb": [
+    "xerbla"
+  ],
+  "zgemqr": [
+    "xerbla",
+    "zgemqrt",
+    "zlamtsqr"
+  ],
+  "spstf2": [
+    "xerbla"
+  ],
+  "dgelsx": [
+    "dgeqpf",
+    "dlaic1",
+    "dlascl",
+    "dlaset",
+    "dlatzm",
+    "dorm2r",
+    "dtzrqf",
+    "xerbla"
+  ],
+  "dlaqz2": [
+    "dlartg"
+  ],
+  "cgehrd": [
+    "cgehd2",
+    "clahr2",
+    "clarfb",
+    "xerbla"
+  ],
+  "ssptri": [
+    "xerbla"
+  ],
+  "dptcon": [
+    "xerbla"
+  ],
+  "dpptrs": [
+    "xerbla"
+  ],
+  "cgetrf2": [
+    "claswp",
+    "xerbla"
+  ],
+  "dggsvp3": [
+    "dgeqp3",
+    "dgeqr2",
+    "dgerq2",
+    "dlacpy",
+    "dlapmt",
+    "dlaset",
+    "dorg2r",
+    "dorm2r",
+    "dormr2",
+    "xerbla"
+  ],
+  "claqhb": [],
+  "clamtsqr": [
+    "cgemqrt",
+    "ctpmqrt",
+    "xerbla"
+  ],
+  "dsytri": [
+    "xerbla"
+  ],
+  "sgelsx": [
+    "sgeqpf",
+    "slaic1",
+    "slascl",
+    "slaset",
+    "slatzm",
+    "sorm2r",
+    "stzrqf",
+    "xerbla"
+  ],
+  "cpbtrs": [
+    "xerbla"
+  ],
+  "cstein": [
+    "slagtf",
+    "slagts",
+    "slarnv",
+    "xerbla"
+  ],
+  "cgeqp3": [
+    "cgeqrf",
+    "claqp2",
+    "claqps",
+    "cunmqr",
+    "xerbla"
+  ],
+  "dtrsyl": [
+    "dlaln2",
+    "dlasy2",
+    "xerbla"
+  ],
+  "ssytrs": [
+    "xerbla"
+  ],
+  "dorbdb1": [
+    "dlarf1f",
+    "dlarfgp",
+    "dorbdb5",
+    "xerbla"
+  ],
+  "zlansp": [
+    "disnan",
+    "zlassq"
+  ],
+  "ssbev": [
+    "slascl",
+    "ssbtrd",
+    "ssteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "cspsvx": [
+    "clacpy",
+    "cspcon",
+    "csprfs",
+    "csptrf",
+    "csptrs",
+    "xerbla"
+  ],
+  "cggrqf": [
+    "cgeqrf",
+    "cgerqf",
+    "cunmrq",
+    "xerbla"
+  ],
+  "zpotrs": [
+    "xerbla"
+  ],
+  "sstebz": [
+    "slaebz",
+    "xerbla"
+  ],
+  "dlatzm": [],
+  "sorgtsqr_row": [
+    "slarfb_gett",
+    "slaset",
+    "xerbla"
+  ],
+  "claqr0": [
+    "clacpy",
+    "clahqr",
+    "claqr3",
+    "claqr4",
+    "claqr5"
+  ],
+  "zsysv_rook": [
+    "xerbla",
+    "zsytrf_rook",
+    "zsytrs_rook"
+  ],
+  "sgbsvx": [
+    "sgbcon",
+    "sgbequ",
+    "sgbrfs",
+    "sgbtrf",
+    "sgbtrs",
+    "slacpy",
+    "slaqgb",
+    "xerbla"
+  ],
+  "claqr4": [
+    "clacpy",
+    "clahqr",
+    "claqr2",
+    "claqr5"
+  ],
+  "strttp": [
+    "xerbla"
+  ],
+  "slaqgb": [],
+  "chbevd_2stage": [
+    "clacpy",
+    "clascl",
+    "cstedc",
+    "ssterf",
+    "xerbla"
+  ],
+  "cpptrs": [
+    "xerbla"
+  ],
+  "sspev": [
+    "sopgtr",
+    "ssptrd",
+    "ssteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "dlarf": [],
+  "dlag2": [],
+  "ctrsyl3": [
+    "clascl",
+    "ctrsyl",
+    "xerbla"
+  ],
+  "cgelqt3": [
+    "clarfg",
+    "xerbla"
+  ],
+  "claqp2": [
+    "clarf1f",
+    "clarfg"
+  ],
+  "dlaed8": [
+    "dlacpy",
+    "dlamrg",
+    "xerbla"
+  ],
+  "cgeqp3rk": [
+    "claqp2rk",
+    "claqp3rk",
+    "xerbla"
+  ],
+  "strrfs": [
+    "slacn2",
+    "xerbla"
+  ],
+  "clangt": [
+    "classq",
+    "sisnan"
+  ],
+  "ctpmlqt": [
+    "ctprfb",
+    "xerbla"
+  ],
+  "csytrf_aa": [
+    "clasyf_aa",
+    "xerbla"
+  ],
+  "dtrsyl3": [
+    "dlascl",
+    "dtrsyl",
+    "xerbla"
+  ],
+  "zrot": [],
+  "cpotrf2": [
+    "sisnan",
+    "xerbla"
+  ],
+  "cgeev": [
+    "cgebak",
+    "cgebal",
+    "cgehrd",
+    "chseqr",
+    "clacpy",
+    "clascl",
+    "ctrevc3",
+    "cunghr",
+    "xerbla"
+  ],
+  "dlamtsqr": [
+    "dgemqrt",
+    "dtpmqrt",
+    "xerbla"
+  ],
+  "zporfsx": [
+    "ilaprec",
+    "xerbla",
+    "zla_porcond_c",
+    "zla_porcond_x",
+    "zla_porfsx_extended",
+    "zlanhe",
+    "zpocon"
+  ],
+  "ztrrfs": [
+    "xerbla",
+    "zlacn2"
+  ],
+  "chbgv": [
+    "chbgst",
+    "chbtrd",
+    "cpbstf",
+    "csteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "sgeqr2": [
+    "slarf1f",
+    "slarfg",
+    "xerbla"
+  ],
+  "claev2": [
+    "slaev2"
+  ],
+  "ssytrs_3": [
+    "xerbla"
+  ],
+  "zgeev": [
+    "xerbla",
+    "zgebak",
+    "zgebal",
+    "zgehrd",
+    "zhseqr",
+    "zlacpy",
+    "zlascl",
+    "ztrevc3",
+    "zunghr"
+  ],
+  "dgelqt": [
+    "dgelqt3",
+    "dlarfb",
+    "xerbla"
+  ],
+  "dlaein": [
+    "dladiv",
+    "dlatrs"
+  ],
+  "sla_porfsx_extended": [
+    "ilauplo",
+    "sla_lin_berr",
+    "sla_syamv",
+    "sla_wwaddw",
+    "spotrs"
+  ],
+  "cpbequ": [
+    "xerbla"
+  ],
+  "dlauu2": [
+    "xerbla"
+  ],
+  "zlantb": [
+    "disnan",
+    "zlassq"
+  ],
+  "sladiv": [
+    "sladiv1"
+  ],
+  "zptsvx": [
+    "xerbla",
+    "zlacpy",
+    "zptcon",
+    "zptrfs",
+    "zpttrf",
+    "zpttrs"
+  ],
+  "zlaqgb": [],
+  "zlahef_aa": [
+    "xerbla",
+    "zlacgv",
+    "zlaset"
+  ],
+  "dgesvdq": [
+    "dgelqf",
+    "dgeqp3",
+    "dgeqrf",
+    "dgesvd",
+    "dlacpy",
+    "dlapmt",
+    "dlascl",
+    "dlaset",
+    "dlaswp",
+    "dormlq",
+    "dormqr",
+    "dpocon",
+    "xerbla"
+  ],
+  "dsysv_aa_2stage": [
+    "dsytrf_aa_2stage",
+    "dsytrs_aa_2stage",
+    "xerbla"
+  ],
+  "dpbsv": [
+    "dpbtrf",
+    "dpbtrs",
+    "xerbla"
+  ],
+  "xerbla_array": [
+    "xerbla"
+  ],
+  "dbdsvdx": [
+    "dlaset",
+    "dstevx",
+    "xerbla"
+  ],
+  "spttrf": [
+    "xerbla"
+  ],
+  "slauu2": [
+    "xerbla"
+  ],
+  "zsprfs": [
+    "xerbla",
+    "zlacn2",
+    "zspmv",
+    "zsptrs"
+  ],
+  "sgesvx": [
+    "sgecon",
+    "sgeequ",
+    "sgerfs",
+    "sgetrf",
+    "sgetrs",
+    "slacpy",
+    "slaqge",
+    "xerbla"
+  ],
+  "claqp3rk": [
+    "clarfg"
+  ],
+  "ssterf": [
+    "slae2",
+    "slascl",
+    "slasrt",
+    "xerbla"
+  ],
+  "chetrf": [
+    "chetf2",
+    "clahef",
+    "xerbla"
+  ],
+  "dggev3": [
+    "dgeqrf",
+    "dggbak",
+    "dggbal",
+    "dgghd3",
+    "dlacpy",
+    "dlaqz0",
+    "dlascl",
+    "dlaset",
+    "dorgqr",
+    "dormqr",
+    "dtgevc",
+    "xerbla"
+  ],
+  "sgsvj1": [
+    "slascl",
+    "slassq",
+    "xerbla"
+  ],
+  "zungtsqr_row": [
+    "xerbla",
+    "zlarfb_gett",
+    "zlaset"
+  ],
+  "chpgst": [
+    "xerbla"
+  ],
+  "zpotrf": [
+    "xerbla",
+    "zpotrf2"
+  ],
+  "slasd8": [
+    "slascl",
+    "slasd4",
+    "slaset",
+    "xerbla"
+  ],
+  "zgeql2": [
+    "xerbla",
+    "zlarf1l",
+    "zlarfg"
+  ],
+  "dpftrf": [
+    "dpotrf",
+    "xerbla"
+  ],
+  "cla_herpvgrw": [],
+  "chgeqz": [
+    "clartg",
+    "claset",
+    "crot",
+    "xerbla"
+  ],
+  "zhesv_aa": [
+    "xerbla",
+    "zhetrf_aa",
+    "zhetrs_aa"
+  ],
+  "dgedmdq": [
+    "dgedmd",
+    "dgeqrf",
+    "dlacpy",
+    "dlaset",
+    "dorgqr",
+    "dormqr",
+    "xerbla"
+  ],
+  "zgebrd": [
+    "xerbla",
+    "zgebd2",
+    "zlabrd"
+  ],
+  "zgebal": [
+    "xerbla"
+  ],
+  "csyconvf": [
+    "xerbla"
+  ],
+  "sorm2r": [
+    "slarf1f",
+    "xerbla"
+  ],
+  "zstemr": [
+    "dlae2",
+    "dlaev2",
+    "dlarrc",
+    "dlarre",
+    "dlarrj",
+    "dlarrr",
+    "dlasrt",
+    "xerbla",
+    "zlarrv"
+  ],
+  "dposv": [
+    "dpotrf",
+    "dpotrs",
+    "xerbla"
+  ],
+  "zlaqsy": [],
+  "zlatsqr": [
+    "xerbla",
+    "zgeqrt",
+    "ztpqrt"
+  ],
+  "sgebal": [
+    "xerbla"
+  ],
+  "ctrsna": [
+    "clacn2",
+    "clacpy",
+    "clatrs",
+    "csrscl",
+    "ctrexc",
+    "xerbla"
+  ],
+  "cgelqt": [
+    "cgelqt3",
+    "clarfb",
+    "xerbla"
+  ],
+  "zlarzt": [
+    "xerbla",
+    "zlacgv"
+  ],
+  "zlals0": [
+    "xerbla",
+    "zlacpy",
+    "zlascl"
+  ],
+  "zgedmdq": [
+    "xerbla",
+    "zgedmd",
+    "zgeqrf",
+    "zlacpy",
+    "zlaset",
+    "zungqr",
+    "zunmqr"
+  ],
+  "dlagv2": [
+    "dlag2",
+    "dlartg",
+    "dlasv2"
+  ],
+  "cgehd2": [
+    "clarf1f",
+    "clarfg",
+    "xerbla"
+  ],
+  "ssb2st_kernels": [
+    "slarfg",
+    "slarfx",
+    "slarfy"
+  ],
+  "clangb": [
+    "classq",
+    "sisnan"
+  ],
+  "zhetrs_aa_2stage": [
+    "xerbla",
+    "zgbtrs",
+    "zlaswp"
+  ],
+  "zgeqrfp": [
+    "xerbla",
+    "zgeqr2p",
+    "zlarfb",
+    "zlarft"
+  ],
+  "cpotrs": [
+    "xerbla"
+  ],
+  "dlaed1": [
+    "dlaed2",
+    "dlaed3",
+    "dlamrg",
+    "xerbla"
+  ],
+  "dlarrv": [
+    "dlar1v",
+    "dlarrb",
+    "dlarrf",
+    "dlaset"
+  ],
+  "sggsvd3": [
+    "sggsvp3",
+    "stgsja",
+    "xerbla"
+  ],
+  "zsteqr": [
+    "dlae2",
+    "dlaev2",
+    "dlartg",
+    "dlascl",
+    "dlasrt",
+    "xerbla",
+    "zlaset",
+    "zlasr"
+  ],
+  "sgelq": [
+    "sgelqt",
+    "slaswlq",
+    "xerbla"
+  ],
+  "dlansy": [
+    "disnan",
+    "dlassq"
+  ],
+  "ssyevr": [
+    "sormtr",
+    "sstebz",
+    "sstein",
+    "sstemr",
+    "ssterf",
+    "ssytrd",
+    "xerbla"
+  ],
+  "cpprfs": [
+    "clacn2",
+    "cpptrs",
+    "xerbla"
+  ],
+  "sorgbr": [
+    "sorglq",
+    "sorgqr",
+    "xerbla"
+  ],
+  "ztrsyl3": [
+    "xerbla",
+    "zlascl",
+    "ztrsyl"
+  ],
+  "dsptrf": [
+    "xerbla"
+  ],
+  "cungtr": [
+    "cungql",
+    "cungqr",
+    "xerbla"
+  ],
+  "slatzm": [],
+  "zgetf2": [
+    "xerbla",
+    "zrscl"
+  ],
+  "zunbdb": [
+    "xerbla",
+    "zlacgv",
+    "zlarf1f",
+    "zlarfgp"
+  ],
+  "sgeqpf": [
+    "sgeqr2",
+    "slarf",
+    "slarfg",
+    "sorm2r",
+    "xerbla"
+  ],
+  "ssbgst": [
+    "slar2v",
+    "slargv",
+    "slartg",
+    "slartv",
+    "slaset",
+    "xerbla"
+  ],
+  "dspgst": [
+    "xerbla"
+  ],
+  "clatrd": [
+    "clacgv",
+    "clarfg"
+  ],
+  "zlarft": [
+    "zlacpy",
+    "zlarft"
+  ],
+  "zlarf": [],
+  "zhetrs_3": [
+    "xerbla"
+  ],
+  "sstein": [
+    "slagtf",
+    "slagts",
+    "slarnv",
+    "xerbla"
+  ],
+  "dsygv": [
+    "dpotrf",
+    "dsyev",
+    "dsygst",
+    "xerbla"
+  ],
+  "cgelq2": [
+    "clacgv",
+    "clarf1f",
+    "clarfg",
+    "xerbla"
+  ],
+  "dlauum": [
+    "dlauu2",
+    "xerbla"
+  ],
+  "dopgtr": [
+    "dorg2l",
+    "dorg2r",
+    "xerbla"
+  ],
+  "slarra": [],
+  "zlaqps": [
+    "zlarfg"
+  ],
+  "ssytri2": [
+    "ssytri",
+    "ssytri2x",
+    "xerbla"
+  ],
+  "zlapll": [
+    "dlas2",
+    "zlarfg"
+  ],
+  "sggrqf": [
+    "sgeqrf",
+    "sgerqf",
+    "sormrq",
+    "xerbla"
+  ],
+  "dlar2v": [],
+  "checon_3": [
+    "chetrs_3",
+    "clacn2",
+    "xerbla"
+  ],
+  "dtgexc": [
+    "dtgex2",
+    "xerbla"
+  ],
+  "cheequb": [
+    "classq",
+    "xerbla"
+  ],
+  "sorm22": [
+    "slacpy",
+    "xerbla"
+  ],
+  "cppcon": [
+    "clacn2",
+    "clatps",
+    "csrscl",
+    "xerbla"
+  ],
+  "zunm2r": [
+    "xerbla",
+    "zlarf1f"
+  ],
+  "csysv_rook": [
+    "csytrf_rook",
+    "csytrs_rook",
+    "xerbla"
+  ],
+  "zhptrs": [
+    "xerbla",
+    "zlacgv"
+  ],
+  "zlar1v": [],
+  "zheevr_2stage": [
+    "dstebz",
+    "dsterf",
+    "xerbla",
+    "zhetrd_2stage",
+    "zstein",
+    "zstemr",
+    "zunmtr"
+  ],
+  "zsytrs": [
+    "xerbla"
+  ],
+  "dlagts": [
+    "xerbla"
+  ],
+  "zgbtrs": [
+    "xerbla",
+    "zlacgv"
+  ],
+  "zhbgst": [
+    "xerbla",
+    "zlacgv",
+    "zlar2v",
+    "zlargv",
+    "zlartg",
+    "zlartv",
+    "zlaset",
+    "zrot"
+  ],
+  "clarf": [],
+  "dpoequ": [
+    "xerbla"
+  ],
+  "sgbequ": [
+    "xerbla"
+  ],
+  "dormlq": [
+    "dlarfb",
+    "dlarft",
+    "dorml2",
+    "xerbla"
+  ],
+  "dgtrfs": [
+    "dgttrs",
+    "dlacn2",
+    "dlagtm",
+    "xerbla"
+  ],
+  "slabrd": [
+    "slarfg"
+  ],
+  "stgsja": [
+    "slags2",
+    "slapll",
+    "slartg",
+    "slaset",
+    "xerbla"
+  ],
+  "ctgsna": [
+    "clacpy",
+    "ctgexc",
+    "ctgsyl",
+    "xerbla"
+  ],
+  "zsptri": [
+    "xerbla",
+    "zspmv"
+  ],
+  "slaswp": [],
+  "csytrs2": [
+    "csyconv",
+    "xerbla"
+  ],
+  "spftrf": [
+    "spotrf",
+    "xerbla"
+  ],
+  "sgbtf2": [
+    "xerbla"
+  ],
+  "dpotrf2": [
+    "disnan",
+    "xerbla"
+  ],
+  "spbtrs": [
+    "xerbla"
+  ],
+  "dgelq2": [
+    "dlarf1f",
+    "dlarfg",
+    "xerbla"
+  ],
+  "cgees": [
+    "cgebak",
+    "cgebal",
+    "cgehrd",
+    "chseqr",
+    "clacpy",
+    "clascl",
+    "ctrsen",
+    "cunghr",
+    "xerbla"
+  ],
+  "spbstf": [
+    "xerbla"
+  ],
+  "strcon": [
+    "slacn2",
+    "slatrs",
+    "srscl",
+    "xerbla"
+  ],
+  "dormhr": [
+    "dormqr",
+    "xerbla"
+  ],
+  "sla_gbrcond": [
+    "sgbtrs",
+    "slacn2",
+    "xerbla"
+  ],
+  "dsytrf_rk": [
+    "dlasyf_rk",
+    "dsytf2_rk",
+    "xerbla"
+  ],
+  "cla_herfsx_extended": [
+    "chetrs",
+    "cla_heamv",
+    "cla_lin_berr",
+    "cla_wwaddw",
+    "ilauplo",
+    "xerbla"
+  ],
+  "slaqp3rk": [
+    "slarfg"
+  ],
+  "clansp": [
+    "classq",
+    "sisnan"
+  ],
+  "chbevd": [
+    "chbtrd",
+    "clacpy",
+    "clascl",
+    "cstedc",
+    "ssterf",
+    "xerbla"
+  ],
+  "cgbtrf": [
+    "cgbtf2",
+    "claswp",
+    "xerbla"
+  ],
+  "slaed9": [
+    "slaed4",
+    "xerbla"
+  ],
+  "zgemlq": [
+    "xerbla",
+    "zgemlqt",
+    "zlamswlq"
+  ],
+  "slaqsy": [],
+  "zpoequb": [
+    "xerbla"
+  ],
+  "spprfs": [
+    "slacn2",
+    "spptrs",
+    "xerbla"
+  ],
+  "dlatrd": [
+    "dlarfg"
+  ],
+  "cla_syrcond_c": [
+    "clacn2",
+    "csytrs",
+    "xerbla"
+  ],
+  "zsytrs_3": [
+    "xerbla"
+  ],
+  "dsbgst": [
+    "dlar2v",
+    "dlargv",
+    "dlartg",
+    "dlartv",
+    "dlaset",
+    "xerbla"
+  ],
+  "ctbcon": [
+    "clacn2",
+    "clatbs",
+    "csrscl",
+    "xerbla"
+  ],
+  "cgghd3": [
+    "cgghrd",
+    "clacpy",
+    "clartg",
+    "claset",
+    "crot",
+    "cunm22",
+    "xerbla"
+  ],
+  "slaisnan": [],
+  "dtplqt2": [
+    "dlarfg",
+    "xerbla"
+  ],
+  "ssytrf_aa_2stage": [
+    "sgbtrf",
+    "sgetrf",
+    "slacpy",
+    "slaset",
+    "ssygst",
+    "xerbla"
+  ],
+  "zgeqpf": [
+    "xerbla",
+    "zgeqr2",
+    "zlarf",
+    "zlarfg",
+    "zunm2r"
+  ],
+  "sgbtrf": [
+    "sgbtf2",
+    "slaswp",
+    "xerbla"
+  ],
+  "dlaqz4": [
+    "dlacpy",
+    "dlaqz1",
+    "dlaqz2",
+    "dlartg",
+    "dlaset",
+    "xerbla"
+  ],
+  "clarf1f": [],
+  "sgeqrf": [
+    "sgeqr2",
+    "slarfb",
+    "slarft",
+    "xerbla"
+  ],
+  "dorhr_col": [
+    "dlaorhr_col_getrfnp",
+    "xerbla"
+  ],
+  "slagtm": [],
+  "zheev": [
+    "dsterf",
+    "xerbla",
+    "zhetrd",
+    "zlascl",
+    "zsteqr",
+    "zungtr"
+  ],
+  "clarrv": [
+    "clar1v",
+    "claset",
+    "slarrb",
+    "slarrf"
+  ],
+  "clatdf": [
+    "cgecon",
+    "cgesc2",
+    "classq",
+    "claswp"
+  ],
+  "zsyr": [
+    "xerbla"
+  ],
+  "zggevx": [
+    "dlascl",
+    "xerbla",
+    "zgeqrf",
+    "zggbak",
+    "zggbal",
+    "zgghrd",
+    "zhgeqz",
+    "zlacpy",
+    "zlascl",
+    "zlaset",
+    "ztgevc",
+    "ztgsna",
+    "zungqr",
+    "zunmqr"
+  ],
+  "dlaqtr": [
+    "dladiv",
+    "dlaln2"
+  ],
+  "spftri": [
+    "slauum",
+    "stftri",
+    "xerbla"
+  ],
+  "dlartgs": [
+    "dlartgp"
+  ],
+  "dgeqp3": [
+    "dgeqrf",
+    "dlaqp2",
+    "dlaqps",
+    "dormqr",
+    "xerbla"
+  ],
+  "clalsd": [
+    "clacpy",
+    "clalsa",
+    "clascl",
+    "claset",
+    "slartg",
+    "slascl",
+    "slasda",
+    "slasdq",
+    "slaset",
+    "slasrt",
+    "xerbla"
+  ],
+  "zupmtr": [
+    "xerbla",
+    "zlarf1f",
+    "zlarf1l"
+  ],
+  "zgeequ": [
+    "xerbla"
+  ],
+  "dgetri": [
+    "dtrtri",
+    "xerbla"
+  ],
+  "dlatrs": [
+    "xerbla"
+  ],
+  "srscl": [],
+  "dsygvx": [
+    "dpotrf",
+    "dsyevx",
+    "dsygst",
+    "xerbla"
+  ],
+  "clatzm": [
+    "clacgv"
+  ],
+  "dla_gbrpvgrw": [],
+  "dpotri": [
+    "dlauum",
+    "dtrtri",
+    "xerbla"
+  ],
+  "dla_porpvgrw": [],
+  "zgesv": [
+    "xerbla",
+    "zgetrf",
+    "zgetrs"
+  ],
+  "chesv_rk": [
+    "chetrf_rk",
+    "chetrs_3",
+    "xerbla"
+  ],
+  "checon_rook": [
+    "chetrs_rook",
+    "clacn2",
+    "xerbla"
+  ],
+  "chetrf_aa_2stage": [
+    "cgbtrf",
+    "cgetrf",
+    "chegst",
+    "clacgv",
+    "clacpy",
+    "claset",
+    "xerbla"
+  ],
+  "zhesvxx": [
+    "xerbla",
+    "zheequb",
+    "zherfsx",
+    "zhetrf",
+    "zhetrs",
+    "zla_herpvgrw",
+    "zlacpy",
+    "zlaqhe",
+    "zlascl2"
+  ],
+  "cgbsvx": [
+    "cgbcon",
+    "cgbequ",
+    "cgbrfs",
+    "cgbtrf",
+    "cgbtrs",
+    "clacpy",
+    "claqgb",
+    "xerbla"
+  ],
+  "cpbstf": [
+    "clacgv",
+    "xerbla"
+  ],
+  "chetrs2": [
+    "csyconv",
+    "xerbla"
+  ],
+  "chpsv": [
+    "chptrf",
+    "chptrs",
+    "xerbla"
+  ],
+  "zptts2": [],
+  "spptrf": [
+    "xerbla"
+  ],
+  "dpstf2": [
+    "xerbla"
+  ],
+  "ztpmqrt": [
+    "xerbla",
+    "ztprfb"
+  ],
+  "dlasd4": [
+    "dlaed6",
+    "dlasd5"
+  ],
+  "dgehd2": [
+    "dlarf1f",
+    "dlarfg",
+    "xerbla"
+  ],
+  "dsptrs": [
+    "xerbla"
+  ],
+  "zlahr2": [
+    "zlacgv",
+    "zlacpy",
+    "zlarfg"
+  ],
+  "zsytrf_rook": [
+    "xerbla",
+    "zlasyf_rook",
+    "zsytf2_rook"
+  ],
+  "cpttrs": [
+    "cptts2",
+    "xerbla"
+  ],
+  "strttf": [
+    "xerbla"
+  ],
+  "sggev": [
+    "sgeqrf",
+    "sggbak",
+    "sggbal",
+    "sgghrd",
+    "shgeqz",
+    "slacpy",
+    "slascl",
+    "slaset",
+    "sorgqr",
+    "sormqr",
+    "stgevc",
+    "xerbla"
+  ],
+  "slahrd": [
+    "slarfg"
+  ],
+  "slalsd": [
+    "slacpy",
+    "slalsa",
+    "slartg",
+    "slascl",
+    "slasda",
+    "slasdq",
+    "slaset",
+    "slasrt",
+    "xerbla"
+  ],
+  "zggqrf": [
+    "xerbla",
+    "zgeqrf",
+    "zgerqf",
+    "zunmqr"
+  ],
+  "chbev": [
+    "chbtrd",
+    "clascl",
+    "csteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "ztrtri": [
+    "xerbla",
+    "ztrti2"
+  ],
+  "cgtrfs": [
+    "cgttrs",
+    "clacn2",
+    "clagtm",
+    "xerbla"
+  ],
+  "clapmt": [],
+  "dlapll": [
+    "dlarfg",
+    "dlas2"
+  ],
+  "dgeev": [
+    "dgebak",
+    "dgebal",
+    "dgehrd",
+    "dhseqr",
+    "dlacpy",
+    "dlartg",
+    "dlascl",
+    "dorghr",
+    "dtrevc3",
+    "xerbla"
+  ],
+  "slaqp2": [
+    "slarf1f",
+    "slarfg"
+  ],
+  "dgehrd": [
+    "dgehd2",
+    "dlahr2",
+    "dlarfb",
+    "xerbla"
+  ],
+  "dspsv": [
+    "dsptrf",
+    "dsptrs",
+    "xerbla"
+  ],
+  "zgelsy": [
+    "xerbla",
+    "zgeqp3",
+    "zlaic1",
+    "zlascl",
+    "zlaset",
+    "ztzrzf",
+    "zunmqr",
+    "zunmrz"
+  ],
+  "ctprfb": [],
+  "sgemqrt": [
+    "slarfb",
+    "xerbla"
+  ],
+  "zgebd2": [
+    "xerbla",
+    "zlacgv",
+    "zlarf1f",
+    "zlarfg"
+  ],
+  "dsycon_3": [
+    "dlacn2",
+    "dsytrs_3",
+    "xerbla"
+  ],
+  "zgtsvx": [
+    "xerbla",
+    "zgtcon",
+    "zgtrfs",
+    "zgttrf",
+    "zgttrs",
+    "zlacpy"
+  ],
+  "ssteqr": [
+    "slae2",
+    "slaev2",
+    "slartg",
+    "slascl",
+    "slaset",
+    "slasr",
+    "slasrt",
+    "xerbla"
+  ],
+  "cheev": [
+    "chetrd",
+    "clascl",
+    "csteqr",
+    "cungtr",
+    "ssterf",
+    "xerbla"
+  ],
+  "slaqsp": [],
+  "cppsvx": [
+    "clacpy",
+    "claqhp",
+    "cppcon",
+    "cppequ",
+    "cpprfs",
+    "cpptrf",
+    "cpptrs",
+    "xerbla"
+  ],
+  "dlaorhr_col_getrfnp2": [
+    "xerbla"
+  ],
+  "stpmqrt": [
+    "stprfb",
+    "xerbla"
+  ],
+  "sgbsvxx": [
+    "sgbequb",
+    "sgbrfsx",
+    "sgbtrf",
+    "sgbtrs",
+    "sla_gbrpvgrw",
+    "slacpy",
+    "slaqgb",
+    "slascl2",
+    "xerbla"
+  ],
+  "sgedmdq": [
+    "sgedmd",
+    "sgeqrf",
+    "slacpy",
+    "slaset",
+    "sorgqr",
+    "sormqr",
+    "xerbla"
+  ],
+  "dsb2st_kernels": [
+    "dlarfg",
+    "dlarfx",
+    "dlarfy"
+  ],
+  "dggev": [
+    "dgeqrf",
+    "dggbak",
+    "dggbal",
+    "dgghrd",
+    "dhgeqz",
+    "dlacpy",
+    "dlascl",
+    "dlaset",
+    "dorgqr",
+    "dormqr",
+    "dtgevc",
+    "xerbla"
+  ],
+  "clarcm": [],
+  "zgedmd": [
+    "xerbla",
+    "zgeev",
+    "zgejsv",
+    "zgesdd",
+    "zgesvd",
+    "zgesvdq",
+    "zlacpy",
+    "zlange",
+    "zlascl",
+    "zlassq"
+  ],
+  "cbbcsd": [
+    "clasr",
+    "slartgp",
+    "slartgs",
+    "slas2",
+    "xerbla"
+  ],
+  "zppsv": [
+    "xerbla",
+    "zpptrf",
+    "zpptrs"
+  ],
+  "zhetri_3x": [
+    "xerbla",
+    "zheswapr",
+    "ztrtri"
+  ],
+  "sopgtr": [
+    "sorg2l",
+    "sorg2r",
+    "xerbla"
+  ],
+  "sspsvx": [
+    "slacpy",
+    "sspcon",
+    "ssprfs",
+    "ssptrf",
+    "ssptrs",
+    "xerbla"
+  ],
+  "chprfs": [
+    "chptrs",
+    "clacn2",
+    "xerbla"
+  ],
+  "dla_porcond": [
+    "dlacn2",
+    "dpotrs",
+    "xerbla"
+  ],
+  "zlaqge": [],
+  "zggsvp": [
+    "xerbla",
+    "zgeqpf",
+    "zgeqr2",
+    "zgerq2",
+    "zlacpy",
+    "zlapmt",
+    "zlaset",
+    "zung2r",
+    "zunm2r",
+    "zunmr2"
+  ],
+  "zlamswlq": [
+    "xerbla",
+    "zgemlqt",
+    "ztpmlqt"
+  ],
+  "clamswlq": [
+    "cgemlqt",
+    "ctpmlqt",
+    "xerbla"
+  ],
+  "dsytrd_sy2sb": [
+    "dgelqf",
+    "dgeqrf",
+    "dlarft",
+    "dlaset",
+    "xerbla"
+  ],
+  "sgtsvx": [
+    "sgtcon",
+    "sgtrfs",
+    "sgttrf",
+    "sgttrs",
+    "slacpy",
+    "xerbla"
+  ],
+  "zsyrfs": [
+    "xerbla",
+    "zlacn2",
+    "zsymv",
+    "zsytrs"
+  ],
+  "zlarfy": [],
+  "chpevx": [
+    "chptrd",
+    "cstein",
+    "csteqr",
+    "cupgtr",
+    "cupmtr",
+    "sstebz",
+    "ssterf",
+    "xerbla"
+  ],
+  "dlasd0": [
+    "dlasd1",
+    "dlasdq",
+    "dlasdt",
+    "xerbla"
+  ],
+  "dlaqsp": [],
+  "zherfsx": [
+    "ilaprec",
+    "xerbla",
+    "zhecon",
+    "zla_hercond_c",
+    "zla_hercond_x",
+    "zla_herfsx_extended",
+    "zlanhe"
+  ],
+  "zlalsa": [
+    "dlasdt",
+    "xerbla",
+    "zlals0"
+  ],
+  "zgges3": [
+    "xerbla",
+    "zgeqrf",
+    "zggbak",
+    "zggbal",
+    "zgghd3",
+    "zlacpy",
+    "zlaqz0",
+    "zlascl",
+    "zlaset",
+    "ztgsen",
+    "zungqr",
+    "zunmqr"
+  ],
+  "zpbcon": [
+    "xerbla",
+    "zdrscl",
+    "zlacn2",
+    "zlatbs"
+  ],
+  "zunmr2": [
+    "xerbla",
+    "zlacgv",
+    "zlarf1l"
+  ],
+  "ssygs2": [
+    "xerbla"
+  ],
+  "zungql": [
+    "xerbla",
+    "zlarfb",
+    "zlarft",
+    "zung2l"
+  ],
+  "ctgex2": [
+    "clacpy",
+    "clartg",
+    "classq",
+    "crot"
+  ],
+  "zsysv_aa": [
+    "xerbla",
+    "zsytrf_aa",
+    "zsytrs_aa"
+  ],
+  "zggbak": [
+    "xerbla"
+  ],
+  "dsytrf_aa": [
+    "dlasyf_aa",
+    "xerbla"
+  ],
+  "clasyf_rk": [],
+  "sggsvd": [
+    "sggsvp",
+    "stgsja",
+    "xerbla"
+  ],
+  "zlacrm": [],
+  "stgevc": [
+    "slacpy",
+    "slag2",
+    "slaln2",
+    "xerbla"
+  ],
+  "slartv": [],
+  "zgeqrt2": [
+    "xerbla",
+    "zlarfg"
+  ],
+  "zhetri_3": [
+    "xerbla",
+    "zhetri_3x"
+  ],
+  "sormhr": [
+    "sormqr",
+    "xerbla"
+  ],
+  "ztrttp": [
+    "xerbla"
+  ],
+  "sormrz": [
+    "slarzb",
+    "slarzt",
+    "sormr3",
+    "xerbla"
+  ],
+  "clarfb_gett": [],
+  "ztplqt2": [
+    "xerbla",
+    "zlarfg"
+  ],
+  "zlatrd": [
+    "zlacgv",
+    "zlarfg"
+  ],
+  "zhetri2": [
+    "xerbla",
+    "zhetri",
+    "zhetri2x"
+  ],
+  "dorg2l": [
+    "dlarf1l",
+    "xerbla"
+  ],
+  "zlahrd": [
+    "zlacgv",
+    "zlarfg"
+  ],
+  "zunmhr": [
+    "xerbla",
+    "zunmqr"
+  ],
+  "ztzrqf": [
+    "xerbla",
+    "zlacgv",
+    "zlarfg"
+  ],
+  "dla_gercond": [
+    "dgetrs",
+    "dlacn2",
+    "xerbla"
+  ],
+  "dspev": [
+    "dopgtr",
+    "dsptrd",
+    "dsteqr",
+    "dsterf",
+    "xerbla"
+  ],
+  "slaed2": [
+    "slacpy",
+    "slamrg",
+    "xerbla"
+  ],
+  "ctrtri": [
+    "ctrti2",
+    "xerbla"
+  ],
+  "zlanhf": [
+    "disnan",
+    "zlassq"
+  ],
+  "zheevx_2stage": [
+    "dstebz",
+    "dsterf",
+    "xerbla",
+    "zhetrd_2stage",
+    "zlacpy",
+    "zstein",
+    "zsteqr",
+    "zungtr",
+    "zunmtr"
+  ],
+  "sgeqrt": [
+    "sgeqrt2",
+    "sgeqrt3",
+    "slarfb",
+    "xerbla"
+  ],
+  "sorgl2": [
+    "slarf1f",
+    "xerbla"
+  ],
+  "zungtr": [
+    "xerbla",
+    "zungql",
+    "zungqr"
+  ],
+  "cgebak": [
+    "xerbla"
+  ],
+  "slamtsqr": [
+    "sgemqrt",
+    "stpmqrt",
+    "xerbla"
+  ],
+  "chseqr": [
+    "clacpy",
+    "clahqr",
+    "claqr0",
+    "claset",
+    "xerbla"
+  ],
+  "dposvx": [
+    "dlacpy",
+    "dlaqsy",
+    "dpocon",
+    "dpoequ",
+    "dporfs",
+    "dpotrf",
+    "dpotrs",
+    "xerbla"
+  ],
+  "dlanhs": [
+    "disnan",
+    "dlassq"
+  ],
+  "cggsvp": [
+    "cgeqpf",
+    "cgeqr2",
+    "cgerq2",
+    "clacpy",
+    "clapmt",
+    "claset",
+    "cung2r",
+    "cunm2r",
+    "cunmr2",
+    "xerbla"
+  ],
+  "zgetsqrhrt": [
+    "xerbla",
+    "zlatsqr",
+    "zungtsqr_row",
+    "zunhr_col"
+  ],
+  "dsygv_2stage": [
+    "dpotrf",
+    "dsyev_2stage",
+    "dsygst",
+    "xerbla"
+  ],
+  "chbevx": [
+    "chbtrd",
+    "clacpy",
+    "clascl",
+    "cstein",
+    "csteqr",
+    "sstebz",
+    "ssterf",
+    "xerbla"
+  ],
+  "cgetrs": [
+    "claswp",
+    "xerbla"
+  ],
+  "zggbal": [
+    "xerbla"
+  ],
+  "zla_porfsx_extended": [
+    "ilauplo",
+    "zla_heamv",
+    "zla_lin_berr",
+    "zla_wwaddw",
+    "zpotrs"
+  ],
+  "dlarf1f": [],
+  "cggbak": [
+    "xerbla"
+  ],
+  "slasq2": [
+    "slasq3",
+    "slasrt",
+    "xerbla"
+  ],
+  "cgesv": [
+    "cgetrf",
+    "cgetrs",
+    "xerbla"
+  ],
+  "sorbdb4": [
+    "slarf1f",
+    "slarfgp",
+    "sorbdb5",
+    "xerbla"
+  ],
+  "zla_lin_berr": [],
+  "zlag2c": [],
+  "dsptri": [
+    "xerbla"
+  ],
+  "sgesvxx": [
+    "sgeequb",
+    "sgerfsx",
+    "sgetrf",
+    "sgetrs",
+    "sla_gerpvgrw",
+    "slacpy",
+    "slaqge",
+    "slascl2",
+    "xerbla"
+  ],
+  "slatbs": [
+    "xerbla"
+  ],
+  "sptcon": [
+    "xerbla"
+  ],
+  "dsyev_2stage": [
+    "dlascl",
+    "dorgtr",
+    "dsteqr",
+    "dsterf",
+    "dsytrd_2stage",
+    "xerbla"
+  ],
+  "claed8": [
+    "clacpy",
+    "slamrg",
+    "xerbla"
+  ],
+  "sgges3": [
+    "sgeqrf",
+    "sggbak",
+    "sggbal",
+    "sgghd3",
+    "slacpy",
+    "slaqz0",
+    "slascl",
+    "slaset",
+    "sorgqr",
+    "sormqr",
+    "stgsen",
+    "xerbla"
+  ],
+  "ztftri": [
+    "xerbla",
+    "ztrtri"
+  ],
+  "claic1": [],
+  "sgetrs": [
+    "slaswp",
+    "xerbla"
+  ],
+  "zuncsd": [
+    "xerbla",
+    "zbbcsd",
+    "zlacpy",
+    "zlapmr",
+    "zlapmt",
+    "zunbdb",
+    "zunglq",
+    "zungqr"
+  ],
+  "ssptrs": [
+    "xerbla"
+  ],
+  "cungl2": [
+    "clacgv",
+    "clarf1f",
+    "xerbla"
+  ],
+  "zspr": [
+    "xerbla"
+  ],
+  "chetrf_aa": [
+    "clahef_aa",
+    "xerbla"
+  ],
+  "ssyswapr": [],
+  "zhetrf": [
+    "xerbla",
+    "zhetf2",
+    "zlahef"
+  ],
+  "claswp": [],
+  "dorgbr": [
+    "dorglq",
+    "dorgqr",
+    "xerbla"
+  ],
+  "zungl2": [
+    "xerbla",
+    "zlacgv",
+    "zlarf1f"
+  ],
+  "zlaein": [
+    "zlatrs"
+  ],
+  "clauum": [
+    "clauu2",
+    "xerbla"
+  ],
+  "spbrfs": [
+    "slacn2",
+    "spbtrs",
+    "xerbla"
+  ],
+  "csyequb": [
+    "classq",
+    "xerbla"
+  ],
+  "sgghrd": [
+    "slartg",
+    "slaset",
+    "xerbla"
+  ],
+  "clanhs": [
+    "classq",
+    "sisnan"
+  ],
+  "dla_gbrcond": [
+    "dgbtrs",
+    "dlacn2",
+    "xerbla"
+  ],
+  "slangt": [
+    "sisnan",
+    "slassq"
+  ],
+  "dlargv": [],
+  "zhetrf_aa": [
+    "xerbla",
+    "zlahef_aa"
+  ],
+  "ztfttr": [
+    "xerbla"
+  ],
+  "ssytf2": [
+    "xerbla"
+  ],
+  "dtpttr": [
+    "xerbla"
+  ],
+  "dlaic1": [],
+  "stfsm": [
+    "xerbla"
+  ],
+  "clarfx": [
+    "clarf"
+  ],
+  "sorcsd2by1": [
+    "sbbcsd",
+    "slacpy",
+    "slapmr",
+    "slapmt",
+    "sorbdb1",
+    "sorbdb2",
+    "sorbdb3",
+    "sorbdb4",
+    "sorglq",
+    "sorgqr",
+    "xerbla"
+  ],
+  "clahef_rook": [
+    "clacgv"
+  ],
+  "dspgvx": [
+    "dpptrf",
+    "dspevx",
+    "dspgst",
+    "xerbla"
+  ],
+  "sorhr_col": [
+    "slaorhr_col_getrfnp",
+    "xerbla"
+  ],
+  "cla_gercond_c": [
+    "cgetrs",
+    "clacn2",
+    "xerbla"
+  ],
+  "dtrtrs": [
+    "xerbla"
+  ],
+  "slaruv": [],
+  "dlaqgb": [],
+  "chla_transtype": [],
+  "dormtr": [
+    "dormql",
+    "dormqr",
+    "xerbla"
+  ],
+  "sposvxx": [
+    "sla_porpvgrw",
+    "slacpy",
+    "slaqsy",
+    "slascl2",
+    "spoequb",
+    "sporfsx",
+    "spotrf",
+    "spotrs",
+    "xerbla"
+  ],
+  "sorml2": [
+    "slarf1f",
+    "xerbla"
+  ],
+  "stftri": [
+    "strtri",
+    "xerbla"
+  ],
+  "dspgvd": [
+    "dpptrf",
+    "dspevd",
+    "dspgst",
+    "xerbla"
+  ],
+  "ssyconvf_rook": [
+    "xerbla"
+  ],
+  "zungbr": [
+    "xerbla",
+    "zunglq",
+    "zungqr"
+  ],
+  "clags2": [
+    "clartg",
+    "slasv2"
+  ],
+  "cgeql2": [
+    "clarf1l",
+    "clarfg",
+    "xerbla"
+  ],
+  "drscl": [],
+  "slarnv": [
+    "slaruv"
+  ],
+  "dlasq6": [],
+  "zla_gercond_c": [
+    "xerbla",
+    "zgetrs",
+    "zlacn2"
+  ],
+  "stptrs": [
+    "xerbla"
+  ],
+  "stgsyl": [
+    "slacpy",
+    "slaset",
+    "stgsy2",
+    "xerbla"
+  ],
+  "sggbak": [
+    "xerbla"
+  ],
+  "spocon": [
+    "slacn2",
+    "slatrs",
+    "srscl",
+    "xerbla"
+  ],
+  "ssycon_3": [
+    "slacn2",
+    "ssytrs_3",
+    "xerbla"
+  ],
+  "sppsvx": [
+    "slacpy",
+    "slaqsp",
+    "sppcon",
+    "sppequ",
+    "spprfs",
+    "spptrf",
+    "spptrs",
+    "xerbla"
+  ],
+  "sgesvdq": [
+    "sgelqf",
+    "sgeqp3",
+    "sgeqrf",
+    "sgesvd",
+    "slacpy",
+    "slapmt",
+    "slascl",
+    "slaset",
+    "slaswp",
+    "sormlq",
+    "sormqr",
+    "spocon",
+    "xerbla"
+  ],
+  "zhbgvx": [
+    "dstebz",
+    "dsterf",
+    "xerbla",
+    "zhbgst",
+    "zhbtrd",
+    "zlacpy",
+    "zpbstf",
+    "zstein",
+    "zsteqr"
+  ],
+  "zsytrf_aa": [
+    "xerbla",
+    "zlasyf_aa"
+  ],
+  "sstevr": [
+    "sstebz",
+    "sstein",
+    "sstemr",
+    "ssterf",
+    "xerbla"
+  ],
+  "zlahef_rook": [
+    "zlacgv"
+  ],
+  "zhetri": [
+    "xerbla"
+  ],
+  "sorgqr": [
+    "slarfb",
+    "slarft",
+    "sorg2r",
+    "xerbla"
+  ],
+  "clarz": [
+    "clacgv"
+  ],
+  "dgeevx": [
+    "dgebak",
+    "dgebal",
+    "dgehrd",
+    "dhseqr",
+    "dlacpy",
+    "dlartg",
+    "dlascl",
+    "dorghr",
+    "dtrevc3",
+    "dtrsna",
+    "xerbla"
+  ],
+  "slaed5": [],
+  "zgbtrf": [
+    "xerbla",
+    "zgbtf2",
+    "zlaswp"
+  ],
+  "zlaqp2rk": [
+    "zlarf1f",
+    "zlarfg"
+  ],
+  "cunmlq": [
+    "clarfb",
+    "clarft",
+    "cunml2",
+    "xerbla"
+  ],
+  "dlaruv": [],
+  "ieeeck": [],
+  "zlapmt": [],
+  "dtrevc3": [
+    "dlacpy",
+    "dlaln2",
+    "dlaset",
+    "xerbla"
+  ],
+  "slaed1": [
+    "slaed2",
+    "slaed3",
+    "slamrg",
+    "xerbla"
+  ],
+  "zhfrk": [
+    "xerbla"
+  ],
+  "cla_hercond_x": [
+    "chetrs",
+    "clacn2",
+    "xerbla"
+  ],
+  "spotrf": [
+    "spotrf2",
+    "xerbla"
+  ],
+  "slaeda": [
+    "xerbla"
+  ],
+  "zhegvx": [
+    "xerbla",
+    "zheevx",
+    "zhegst",
+    "zpotrf"
+  ],
+  "zgelsd": [
+    "dlascl",
+    "dlaset",
+    "xerbla",
+    "zgebrd",
+    "zgelqf",
+    "zgeqrf",
+    "zlacpy",
+    "zlalsd",
+    "zlascl",
+    "zlaset",
+    "zunmbr",
+    "zunmlq",
+    "zunmqr"
+  ],
+  "dlaev2": [],
+  "ssyev": [
+    "slascl",
+    "sorgtr",
+    "ssteqr",
+    "ssterf",
+    "ssytrd",
+    "xerbla"
+  ],
+  "dlasy2": [],
+  "clantr": [
+    "classq",
+    "sisnan"
+  ],
+  "dsygvd": [
+    "dpotrf",
+    "dsyevd",
+    "dsygst",
+    "xerbla"
+  ],
+  "zlasyf_aa": [
+    "xerbla",
+    "zlaset"
+  ],
+  "dlapy2": [
+    "disnan"
+  ],
+  "ctgsyl": [
+    "clacpy",
+    "claset",
+    "ctgsy2",
+    "xerbla"
+  ],
+  "dsyrfs": [
+    "dlacn2",
+    "dsytrs",
+    "xerbla"
+  ],
+  "cgeesx": [
+    "cgebak",
+    "cgebal",
+    "cgehrd",
+    "chseqr",
+    "clacpy",
+    "clascl",
+    "ctrsen",
+    "cunghr",
+    "slascl",
+    "xerbla"
+  ],
+  "slarfy": [],
+  "dgtsv": [
+    "xerbla"
+  ],
+  "ctpmqrt": [
+    "ctprfb",
+    "xerbla"
+  ],
+  "dorcsd2by1": [
+    "dbbcsd",
+    "dlacpy",
+    "dlapmr",
+    "dlapmt",
+    "dorbdb1",
+    "dorbdb2",
+    "dorbdb3",
+    "dorbdb4",
+    "dorglq",
+    "dorgqr",
+    "xerbla"
+  ],
+  "cgbequ": [
+    "xerbla"
+  ],
+  "ztfttp": [
+    "xerbla"
+  ],
+  "ztzrzf": [
+    "xerbla",
+    "zlarzb",
+    "zlarzt",
+    "zlatrz"
+  ],
+  "zgges": [
+    "xerbla",
+    "zgeqrf",
+    "zggbak",
+    "zggbal",
+    "zgghrd",
+    "zhgeqz",
+    "zlacpy",
+    "zlascl",
+    "zlaset",
+    "ztgsen",
+    "zungqr",
+    "zunmqr"
+  ],
+  "clacgv": [],
+  "zhesvx": [
+    "xerbla",
+    "zhecon",
+    "zherfs",
+    "zhetrf",
+    "zhetrs",
+    "zlacpy"
+  ],
+  "clasr": [
+    "xerbla"
+  ],
+  "zunglq": [
+    "xerbla",
+    "zlarfb",
+    "zlarft",
+    "zungl2"
+  ],
+  "dtzrzf": [
+    "dlarzb",
+    "dlarzt",
+    "dlatrz",
+    "xerbla"
+  ],
+  "spbcon": [
+    "slacn2",
+    "slatbs",
+    "srscl",
+    "xerbla"
+  ],
+  "zla_geamv": [
+    "ilatrans",
+    "xerbla"
+  ],
+  "ssytrs2": [
+    "ssyconv",
+    "xerbla"
+  ],
+  "clansb": [
+    "classq",
+    "sisnan"
+  ],
+  "dtrttp": [
+    "xerbla"
+  ],
+  "dsyrfsx": [
+    "dla_syrcond",
+    "dla_syrfsx_extended",
+    "dlansy",
+    "dsycon",
+    "ilaprec",
+    "xerbla"
+  ],
+  "sspcon": [
+    "slacn2",
+    "ssptrs",
+    "xerbla"
+  ],
+  "stgex2": [
+    "sgeqr2",
+    "sgerq2",
+    "slacpy",
+    "slagv2",
+    "slartg",
+    "slaset",
+    "slassq",
+    "sorg2r",
+    "sorgr2",
+    "sorm2r",
+    "sormr2",
+    "stgsy2"
+  ],
+  "dsterf": [
+    "dlae2",
+    "dlascl",
+    "dlasrt",
+    "xerbla"
+  ],
+  "zppequ": [
+    "xerbla"
+  ],
+  "zlahef_rk": [
+    "zlacgv"
+  ],
+  "cpbrfs": [
+    "clacn2",
+    "cpbtrs",
+    "xerbla"
+  ],
+  "dsytri2": [
+    "dsytri",
+    "dsytri2x",
+    "xerbla"
+  ],
+  "ssytrd": [
+    "slatrd",
+    "ssytd2",
+    "xerbla"
+  ],
+  "dtfsm": [
+    "xerbla"
+  ],
+  "dlasq3": [
+    "dlasq4",
+    "dlasq5",
+    "dlasq6"
+  ],
+  "dlarzt": [
+    "xerbla"
+  ],
+  "dtptri": [
+    "xerbla"
+  ],
+  "zcposv": [
+    "clag2z",
+    "cpotrf",
+    "cpotrs",
+    "xerbla",
+    "zlacpy",
+    "zlag2c",
+    "zlat2c",
+    "zpotrf",
+    "zpotrs"
+  ],
+  "zggev3": [
+    "xerbla",
+    "zgeqrf",
+    "zggbak",
+    "zggbal",
+    "zgghd3",
+    "zlacpy",
+    "zlaqz0",
+    "zlascl",
+    "zlaset",
+    "ztgevc",
+    "zungqr",
+    "zunmqr"
+  ],
+  "cgelq": [
+    "cgelqt",
+    "claswlq",
+    "xerbla"
+  ],
+  "dlaqsy": [],
+  "sptts2": [],
+  "ssbtrd": [
+    "slar2v",
+    "slargv",
+    "slartg",
+    "slartv",
+    "slaset",
+    "xerbla"
+  ],
+  "dlatdf": [
+    "dgecon",
+    "dgesc2",
+    "dlassq",
+    "dlaswp"
+  ],
+  "dlarrr": [],
+  "cupgtr": [
+    "cung2l",
+    "cung2r",
+    "xerbla"
+  ],
+  "cgbsv": [
+    "cgbtrf",
+    "cgbtrs",
+    "xerbla"
+  ],
+  "zunmrz": [
+    "xerbla",
+    "zlarzb",
+    "zlarzt",
+    "zunmr3"
+  ],
+  "zlatrs3": [
+    "xerbla",
+    "zlatrs"
+  ],
+  "zhsein": [
+    "xerbla",
+    "zlaein"
+  ],
+  "ctgsja": [
+    "clags2",
+    "clapll",
+    "claset",
+    "crot",
+    "slartg",
+    "xerbla"
+  ],
+  "ssyrfs": [
+    "slacn2",
+    "ssytrs",
+    "xerbla"
+  ],
+  "cgesdd": [
+    "cgebrd",
+    "cgelqf",
+    "cgeqrf",
+    "clacp2",
+    "clacpy",
+    "clacrm",
+    "clarcm",
+    "clascl",
+    "claset",
+    "cungbr",
+    "cunglq",
+    "cungqr",
+    "cunmbr",
+    "sbdsdc",
+    "slascl",
+    "xerbla"
+  ],
+  "ilaprec": [],
+  "csysvxx": [
+    "cla_syrpvgrw",
+    "clacpy",
+    "claqsy",
+    "clascl2",
+    "csyequb",
+    "csyrfsx",
+    "csytrf",
+    "csytrs",
+    "xerbla"
+  ],
+  "dtfttp": [
+    "xerbla"
+  ],
+  "ssygvx": [
+    "spotrf",
+    "ssyevx",
+    "ssygst",
+    "xerbla"
+  ],
+  "sorbdb5": [
+    "slassq",
+    "sorbdb6",
+    "xerbla"
+  ],
+  "dtgsja": [
+    "dlags2",
+    "dlapll",
+    "dlartg",
+    "dlaset",
+    "xerbla"
+  ],
+  "zpbtrf": [
+    "xerbla",
+    "zpbtf2",
+    "zpotf2"
+  ],
+  "sorgtr": [
+    "sorgql",
+    "sorgqr",
+    "xerbla"
+  ],
+  "cheevd": [
+    "chetrd",
+    "clacpy",
+    "clascl",
+    "cstedc",
+    "cunmtr",
+    "ssterf",
+    "xerbla"
+  ],
+  "cla_syrcond_x": [
+    "clacn2",
+    "csytrs",
+    "xerbla"
+  ],
+  "sgehd2": [
+    "slarf1f",
+    "slarfg",
+    "xerbla"
+  ],
+  "sstevd": [
+    "sstedc",
+    "ssterf",
+    "xerbla"
+  ],
+  "zgeqrt3": [
+    "xerbla",
+    "zlarfg"
+  ],
+  "dsytrs": [
+    "xerbla"
+  ],
+  "ztptrs": [
+    "xerbla"
+  ],
+  "dtftri": [
+    "dtrtri",
+    "xerbla"
+  ],
+  "slaqps": [
+    "slarfg"
+  ],
+  "slaorhr_col_getrfnp2": [
+    "xerbla"
+  ],
+  "strtri": [
+    "strti2",
+    "xerbla"
+  ],
+  "cgebrd": [
+    "cgebd2",
+    "clabrd",
+    "xerbla"
+  ],
+  "sgeevx": [
+    "sgebak",
+    "sgebal",
+    "sgehrd",
+    "shseqr",
+    "slacpy",
+    "slartg",
+    "slascl",
+    "sorghr",
+    "strevc3",
+    "strsna",
+    "xerbla"
+  ],
+  "cla_syrfsx_extended": [
+    "cla_lin_berr",
+    "cla_syamv",
+    "cla_wwaddw",
+    "csymv",
+    "csytrs",
+    "ilauplo",
+    "xerbla"
+  ],
+  "stptri": [
+    "xerbla"
+  ],
+  "dptts2": [],
+  "cgelsy": [
+    "cgeqp3",
+    "claic1",
+    "clascl",
+    "claset",
+    "ctzrzf",
+    "cunmqr",
+    "cunmrz",
+    "xerbla"
+  ],
+  "zgbrfsx": [
+    "ilaprec",
+    "xerbla",
+    "zgbcon",
+    "zla_gbrcond_c",
+    "zla_gbrcond_x",
+    "zla_gbrfsx_extended",
+    "zlangb"
+  ],
+  "claqge": [],
+  "zhbev_2stage": [
+    "dsterf",
+    "xerbla",
+    "zhetrd_2stage",
+    "zlascl",
+    "zsteqr"
+  ],
+  "dla_wwaddw": [],
+  "chetf2": [
+    "xerbla"
+  ],
+  "ssbevd_2stage": [
+    "slacpy",
+    "slascl",
+    "sstedc",
+    "ssterf",
+    "xerbla"
+  ],
+  "slarrb": [],
+  "ctfttr": [
+    "xerbla"
+  ],
+  "dla_gerfsx_extended": [
+    "chla_transtype",
+    "dgetrs",
+    "dla_geamv",
+    "dla_lin_berr",
+    "dla_wwaddw"
+  ],
+  "clatrz": [
+    "clacgv",
+    "clarfg",
+    "clarz"
+  ],
+  "dlas2": [],
+  "dgerfsx": [
+    "dgecon",
+    "dla_gercond",
+    "dla_gerfsx_extended",
+    "dlange",
+    "ilaprec",
+    "ilatrans",
+    "xerbla"
+  ],
+  "sgelqf": [
+    "sgelq2",
+    "slarfb",
+    "slarft",
+    "xerbla"
+  ],
+  "cptts2": [],
+  "csyr": [
+    "xerbla"
+  ],
+  "dpbstf": [
+    "xerbla"
+  ],
+  "dgetrf2": [
+    "dlaswp",
+    "xerbla"
+  ],
+  "cgbbrd": [
+    "clargv",
+    "clartg",
+    "clartv",
+    "claset",
+    "crot",
+    "xerbla"
+  ],
+  "clanhf": [
+    "classq",
+    "sisnan"
+  ],
+  "sgelsd": [
+    "sgebrd",
+    "sgelqf",
+    "sgeqrf",
+    "slacpy",
+    "slalsd",
+    "slascl",
+    "slaset",
+    "sormbr",
+    "sormlq",
+    "sormqr",
+    "xerbla"
+  ],
+  "zla_gbrcond_x": [
+    "xerbla",
+    "zgbtrs",
+    "zlacn2"
+  ],
+  "zlarzb": [
+    "xerbla",
+    "zlacgv"
+  ],
+  "dlantb": [
+    "disnan",
+    "dlassq"
+  ],
+  "clarfgp": [],
+  "ztgexc": [
+    "xerbla",
+    "ztgex2"
+  ],
+  "sggbal": [
+    "xerbla"
+  ],
+  "sla_wwaddw": [],
+  "dorgrq": [
+    "dlarfb",
+    "dlarft",
+    "dorgr2",
+    "xerbla"
+  ],
+  "dlaed2": [
+    "dlacpy",
+    "dlamrg",
+    "xerbla"
+  ],
+  "csytrf_aa_2stage": [
+    "cgbtrf",
+    "cgetrf",
+    "clacpy",
+    "claset",
+    "xerbla"
+  ],
+  "ddisna": [
+    "xerbla"
+  ],
+  "zlanhp": [
+    "disnan",
+    "zlassq"
+  ],
+  "zposvx": [
+    "xerbla",
+    "zlacpy",
+    "zlaqhe",
+    "zpocon",
+    "zpoequ",
+    "zporfs",
+    "zpotrf",
+    "zpotrs"
+  ],
+  "zuncsd2by1": [
+    "xerbla",
+    "zbbcsd",
+    "zlacpy",
+    "zlapmr",
+    "zlapmt",
+    "zunbdb1",
+    "zunbdb2",
+    "zunbdb3",
+    "zunbdb4",
+    "zunglq",
+    "zungqr"
+  ],
+  "dorgtsqr": [
+    "dlamtsqr",
+    "dlaset",
+    "xerbla"
+  ],
+  "ssytrd_2stage": [
+    "ssytrd_sy2sb",
+    "xerbla"
+  ],
+  "sstevx": [
+    "sstebz",
+    "sstein",
+    "ssteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "ssprfs": [
+    "slacn2",
+    "ssptrs",
+    "xerbla"
+  ],
+  "dtrttf": [
+    "xerbla"
+  ],
+  "sgemlqt": [
+    "slarfb",
+    "xerbla"
+  ],
+  "dlarnv": [
+    "dlaruv"
+  ],
+  "zpbsvx": [
+    "xerbla",
+    "zlacpy",
+    "zlaqhb",
+    "zpbcon",
+    "zpbequ",
+    "zpbrfs",
+    "zpbtrf",
+    "zpbtrs"
+  ],
+  "dtrexc": [
+    "dlaexc",
+    "xerbla"
+  ],
+  "slapmt": [],
+  "dsyevd": [
+    "dlacpy",
+    "dlascl",
+    "dormtr",
+    "dstedc",
+    "dsterf",
+    "dsytrd",
+    "xerbla"
+  ],
+  "cgesvdq": [
+    "cgelqf",
+    "cgeqp3",
+    "cgeqrf",
+    "cgesvd",
+    "clacpy",
+    "clapmt",
+    "clascl",
+    "claset",
+    "claswp",
+    "cpocon",
+    "cunmlq",
+    "cunmqr",
+    "slascl",
+    "slaset",
+    "xerbla"
+  ],
+  "dlasyf_rk": [],
+  "cpteqr": [
+    "cbdsqr",
+    "claset",
+    "spttrf",
+    "xerbla"
+  ],
+  "ctbrfs": [
+    "clacn2",
+    "xerbla"
+  ],
+  "zporfs": [
+    "xerbla",
+    "zlacn2",
+    "zpotrs"
+  ],
+  "ssytri_rook": [
+    "xerbla"
+  ],
+  "zgbsv": [
+    "xerbla",
+    "zgbtrf",
+    "zgbtrs"
+  ],
+  "zpstf2": [
+    "xerbla",
+    "zlacgv"
+  ],
+  "clagtm": [],
+  "sggsvp": [
+    "sgeqpf",
+    "sgeqr2",
+    "sgerq2",
+    "slacpy",
+    "slapmt",
+    "slaset",
+    "sorg2r",
+    "sorm2r",
+    "sormr2",
+    "xerbla"
+  ],
+  "dgbbrd": [
+    "dlargv",
+    "dlartg",
+    "dlartv",
+    "dlaset",
+    "xerbla"
+  ],
+  "sspgvx": [
+    "spptrf",
+    "sspevx",
+    "sspgst",
+    "xerbla"
+  ],
+  "clag2z": [],
+  "sstedc": [
+    "slacpy",
+    "slaed0",
+    "slascl",
+    "slaset",
+    "slasrt",
+    "ssteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "dstevd": [
+    "dstedc",
+    "dsterf",
+    "xerbla"
+  ],
+  "sppcon": [
+    "slacn2",
+    "slatps",
+    "srscl",
+    "xerbla"
+  ],
+  "slaebz": [],
+  "dorm22": [
+    "dlacpy",
+    "xerbla"
+  ],
+  "ztrsna": [
+    "xerbla",
+    "zdrscl",
+    "zlacn2",
+    "zlacpy",
+    "zlatrs",
+    "ztrexc"
+  ],
+  "ssyevx": [
+    "slacpy",
+    "sorgtr",
+    "sormtr",
+    "sstebz",
+    "sstein",
+    "ssteqr",
+    "ssterf",
+    "ssytrd",
+    "xerbla"
+  ],
+  "clatrs3": [
+    "clatrs",
+    "xerbla"
+  ],
+  "dorghr": [
+    "dorgqr",
+    "xerbla"
+  ],
+  "cgemqrt": [
+    "clarfb",
+    "xerbla"
+  ],
+  "dggglm": [
+    "dggqrf",
+    "dormqr",
+    "dormrq",
+    "dtrtrs",
+    "xerbla"
+  ],
+  "zhbevd_2stage": [
+    "dsterf",
+    "xerbla",
+    "zlacpy",
+    "zlascl",
+    "zstedc"
+  ],
+  "sormr3": [
+    "slarz",
+    "xerbla"
+  ],
+  "chbgvd": [
+    "chbgst",
+    "chbtrd",
+    "clacpy",
+    "cpbstf",
+    "cstedc",
+    "ssterf",
+    "xerbla"
+  ],
+  "sgbrfs": [
+    "sgbtrs",
+    "slacn2",
+    "xerbla"
+  ],
+  "dstevr": [
+    "dstebz",
+    "dstein",
+    "dstemr",
+    "dsterf",
+    "xerbla"
+  ],
+  "dsbevx_2stage": [
+    "dlacpy",
+    "dlascl",
+    "dstebz",
+    "dstein",
+    "dsteqr",
+    "dsterf",
+    "xerbla"
+  ],
+  "slaed7": [
+    "slaed8",
+    "slaed9",
+    "slaeda",
+    "slamrg",
+    "xerbla"
+  ],
+  "zla_syrcond_c": [
+    "xerbla",
+    "zlacn2",
+    "zsytrs"
+  ],
+  "dgbequ": [
+    "xerbla"
+  ],
+  "clanht": [
+    "classq",
+    "sisnan",
+    "slassq"
+  ],
+  "zpftri": [
+    "xerbla",
+    "zlauum",
+    "ztftri"
+  ],
+  "clantb": [
+    "classq",
+    "sisnan"
+  ],
+  "ztgex2": [
+    "zlacpy",
+    "zlartg",
+    "zlassq",
+    "zrot"
+  ],
+  "ctfsm": [
+    "xerbla"
+  ],
+  "chetri2": [
+    "chetri",
+    "chetri2x",
+    "xerbla"
+  ],
+  "cgbcon": [
+    "clacn2",
+    "clatbs",
+    "csrscl",
+    "xerbla"
+  ],
+  "zpbequ": [
+    "xerbla"
+  ],
+  "dgeesx": [
+    "dgebak",
+    "dgebal",
+    "dgehrd",
+    "dhseqr",
+    "dlacpy",
+    "dlascl",
+    "dorghr",
+    "dtrsen",
+    "xerbla"
+  ],
+  "cgesvx": [
+    "cgecon",
+    "cgeequ",
+    "cgerfs",
+    "cgetrf",
+    "cgetrs",
+    "clacpy",
+    "claqge",
+    "xerbla"
+  ],
+  "ctrti2": [
+    "xerbla"
+  ],
+  "ssyevd_2stage": [
+    "slacpy",
+    "slascl",
+    "sormtr",
+    "sstedc",
+    "ssterf",
+    "ssytrd_2stage",
+    "xerbla"
+  ],
+  "zgemlqt": [
+    "xerbla",
+    "zlarfb"
+  ],
+  "dlansb": [
+    "disnan",
+    "dlassq"
+  ],
+  "zlaqp2": [
+    "zlarf1f",
+    "zlarfg"
+  ],
+  "sgbbrd": [
+    "slargv",
+    "slartg",
+    "slartv",
+    "slaset",
+    "xerbla"
+  ],
+  "csytf2_rk": [
+    "csyr",
+    "xerbla"
+  ],
+  "dorgl2": [
+    "dlarf1f",
+    "xerbla"
+  ],
+  "ztrsyl": [
+    "xerbla"
+  ],
+  "dlaqr4": [
+    "dlacpy",
+    "dlahqr",
+    "dlanv2",
+    "dlaqr2",
+    "dlaqr5"
+  ],
+  "sopmtr": [
+    "slarf1f",
+    "slarf1l",
+    "xerbla"
+  ],
+  "dorbdb3": [
+    "dlarf1f",
+    "dlarfgp",
+    "dorbdb5",
+    "xerbla"
+  ],
+  "sgtrfs": [
+    "sgttrs",
+    "slacn2",
+    "slagtm",
+    "xerbla"
+  ],
+  "sgelqt3": [
+    "slarfg",
+    "xerbla"
+  ],
+  "ssbevx": [
+    "slacpy",
+    "slascl",
+    "ssbtrd",
+    "sstebz",
+    "sstein",
+    "ssteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "zlaic1": [],
+  "slantr": [
+    "sisnan",
+    "slassq"
+  ],
+  "crscl": [
+    "csrscl"
+  ],
+  "csprfs": [
+    "clacn2",
+    "cspmv",
+    "csptrs",
+    "xerbla"
+  ],
+  "slaqz2": [
+    "slartg"
+  ],
+  "sorgr2": [
+    "slarf1l",
+    "xerbla"
+  ],
+  "ztfsm": [
+    "xerbla"
+  ],
+  "dormql": [
+    "dlarfb",
+    "dlarft",
+    "dorm2l",
+    "xerbla"
+  ],
+  "zhesv": [
+    "xerbla",
+    "zhetrf",
+    "zhetrs",
+    "zhetrs2"
+  ],
+  "slascl": [
+    "xerbla"
+  ],
+  "cstemr": [
+    "clarrv",
+    "slae2",
+    "slaev2",
+    "slarrc",
+    "slarre",
+    "slarrj",
+    "slarrr",
+    "slasrt",
+    "xerbla"
+  ],
+  "dsyconvf": [
+    "xerbla"
+  ],
+  "slapmr": [],
+  "zgesvxx": [
+    "xerbla",
+    "zgeequb",
+    "zgerfsx",
+    "zgetrf",
+    "zgetrs",
+    "zla_gerpvgrw",
+    "zlacpy",
+    "zlaqge",
+    "zlascl2"
+  ],
+  "zlaqr0": [
+    "zlacpy",
+    "zlahqr",
+    "zlaqr3",
+    "zlaqr4",
+    "zlaqr5"
+  ],
+  "zspsv": [
+    "xerbla",
+    "zsptrf",
+    "zsptrs"
+  ],
+  "csyswapr": [],
+  "ctptrs": [
+    "xerbla"
+  ],
+  "dstedc": [
+    "dlacpy",
+    "dlaed0",
+    "dlascl",
+    "dlaset",
+    "dlasrt",
+    "dsteqr",
+    "dsterf",
+    "xerbla"
+  ],
+  "sgedmd": [
+    "sgeev",
+    "sgejsv",
+    "sgesdd",
+    "sgesvd",
+    "sgesvdq",
+    "slacpy",
+    "slange",
+    "slascl",
+    "slassq",
+    "xerbla"
+  ],
+  "zlaqz0": [
+    "ilaenv",
+    "xerbla",
+    "zhgeqz",
+    "zlanhs",
+    "zlaqz2",
+    "zlaqz3",
+    "zlartg",
+    "zlaset",
+    "zrot"
+  ],
+  "cungtsqr_row": [
+    "clarfb_gett",
+    "claset",
+    "xerbla"
+  ],
+  "zhetrf_rook": [
+    "xerbla",
+    "zhetf2_rook",
+    "zlahef_rook"
+  ],
+  "dlasd8": [
+    "dlascl",
+    "dlasd4",
+    "dlaset",
+    "xerbla"
+  ],
+  "claqz2": [
+    "clacpy",
+    "claqz0",
+    "claqz1",
+    "clartg",
+    "claset",
+    "crot",
+    "ctgexc",
+    "xerbla"
+  ],
+  "dgeqpf": [
+    "dgeqr2",
+    "dlarf",
+    "dlarfg",
+    "dorm2r",
+    "xerbla"
+  ],
+  "dgesdd": [
+    "dbdsdc",
+    "dgebrd",
+    "dgelqf",
+    "dgeqrf",
+    "dlacpy",
+    "dlascl",
+    "dlaset",
+    "dorgbr",
+    "dorglq",
+    "dorgqr",
+    "dormbr",
+    "xerbla"
+  ],
+  "cgesvxx": [
+    "cgeequb",
+    "cgerfsx",
+    "cgetrf",
+    "cgetrs",
+    "cla_gerpvgrw",
+    "clacpy",
+    "claqge",
+    "clascl2",
+    "xerbla"
+  ],
+  "dgbrfs": [
+    "dgbtrs",
+    "dlacn2",
+    "xerbla"
+  ],
+  "claqz0": [
+    "chgeqz",
+    "clanhs",
+    "claqz2",
+    "claqz3",
+    "clartg",
+    "claset",
+    "crot",
+    "ilaenv",
+    "xerbla"
+  ],
+  "ctrtrs": [
+    "xerbla"
+  ],
+  "slatrs3": [
+    "slatrs",
+    "xerbla"
+  ],
+  "dlamswlq": [
+    "dgemlqt",
+    "dtpmlqt",
+    "xerbla"
+  ],
+  "zgegv": [
+    "xerbla",
+    "zgeqrf",
+    "zggbak",
+    "zggbal",
+    "zgghrd",
+    "zhgeqz",
+    "zlacpy",
+    "zlascl",
+    "zlaset",
+    "ztgevc",
+    "zungqr",
+    "zunmqr"
+  ],
+  "dlarrk": [],
+  "ssbevd": [
+    "slacpy",
+    "slascl",
+    "ssbtrd",
+    "sstedc",
+    "ssterf",
+    "xerbla"
+  ],
+  "spoequb": [
+    "xerbla"
+  ],
+  "spstrf": [
+    "spstf2",
+    "xerbla"
+  ],
+  "dsytf2_rook": [
+    "xerbla"
+  ],
+  "slartgp": [],
+  "zlascl2": [],
+  "dlaqr5": [
+    "dlacpy",
+    "dlaqr1",
+    "dlarfg",
+    "dlaset"
+  ],
+  "csyconv": [
+    "xerbla"
+  ],
+  "dggsvd": [
+    "dggsvp",
+    "dtgsja",
+    "xerbla"
+  ],
+  "cspmv": [
+    "xerbla"
+  ],
+  "zgbcon": [
+    "xerbla",
+    "zdrscl",
+    "zlacn2",
+    "zlatbs"
+  ],
+  "zlauum": [
+    "xerbla",
+    "zlauu2"
+  ],
+  "zgeqp3rk": [
+    "xerbla",
+    "zlaqp2rk",
+    "zlaqp3rk"
+  ],
+  "zla_gbrpvgrw": [],
+  "shsein": [
+    "slaein",
+    "xerbla"
+  ],
+  "dgetrf": [
+    "dlaswp",
+    "xerbla"
+  ],
+  "zlar2v": [],
+  "dlarrc": [],
+  "chegs2": [
+    "clacgv",
+    "xerbla"
+  ],
+  "sgeqp3rk": [
+    "slaqp2rk",
+    "slaqp3rk",
+    "xerbla"
+  ],
+  "spteqr": [
+    "sbdsqr",
+    "slaset",
+    "spttrf",
+    "xerbla"
+  ],
+  "stpttr": [
+    "xerbla"
+  ],
+  "dgeequ": [
+    "xerbla"
+  ],
+  "zhegv_2stage": [
+    "xerbla",
+    "zheev_2stage",
+    "zhegst",
+    "zpotrf"
+  ],
+  "strsyl3": [
+    "slascl",
+    "strsyl",
+    "xerbla"
+  ],
+  "dlassq": [],
+  "dsytrd_2stage": [
+    "dsytrd_sy2sb",
+    "xerbla"
+  ],
+  "dsyequb": [
+    "dlassq",
+    "xerbla"
+  ],
+  "zhbtrd": [
+    "xerbla",
+    "zlacgv",
+    "zlar2v",
+    "zlargv",
+    "zlartg",
+    "zlartv",
+    "zlaset",
+    "zrot"
+  ],
+  "ctpttf": [
+    "xerbla"
+  ],
+  "sgglse": [
+    "sggrqf",
+    "sormqr",
+    "sormrq",
+    "strtrs",
+    "xerbla"
+  ],
+  "slarre": [
+    "slarnv",
+    "slarra",
+    "slarrb",
+    "slarrc",
+    "slarrd",
+    "slarrk",
+    "slasq2"
+  ],
+  "cungql": [
+    "clarfb",
+    "clarft",
+    "cung2l",
+    "xerbla"
+  ],
+  "csytrs_3": [
+    "xerbla"
+  ],
+  "dlasq2": [
+    "dlasq3",
+    "dlasrt",
+    "xerbla"
+  ],
+  "chesvxx": [
+    "cheequb",
+    "cherfsx",
+    "chetrf",
+    "chetrs",
+    "cla_herpvgrw",
+    "clacpy",
+    "claqhe",
+    "clascl2",
+    "xerbla"
+  ],
+  "chpsvx": [
+    "chpcon",
+    "chprfs",
+    "chptrf",
+    "chptrs",
+    "clacpy",
+    "xerbla"
+  ],
+  "dlaorhr_col_getrfnp": [
+    "dlaorhr_col_getrfnp2",
+    "xerbla"
+  ],
+  "cggbal": [
+    "xerbla"
+  ],
+  "spotrf2": [
+    "sisnan",
+    "xerbla"
+  ],
+  "chesvx": [
+    "checon",
+    "cherfs",
+    "chetrf",
+    "chetrs",
+    "clacpy",
+    "xerbla"
+  ],
+  "sgeqr2p": [
+    "slarf1f",
+    "slarfgp",
+    "xerbla"
+  ],
+  "dla_gbamv": [
+    "ilatrans",
+    "xerbla"
+  ],
+  "cla_geamv": [
+    "ilatrans",
+    "xerbla"
+  ],
+  "dorgtr": [
+    "dorgql",
+    "dorgqr",
+    "xerbla"
+  ],
+  "dormrz": [
+    "dlarzb",
+    "dlarzt",
+    "dormr3",
+    "xerbla"
+  ],
+  "cgeqrf": [
+    "cgeqr2",
+    "clarfb",
+    "clarft",
+    "xerbla"
+  ],
+  "dtfttr": [
+    "xerbla"
+  ],
+  "chegv_2stage": [
+    "cheev_2stage",
+    "chegst",
+    "cpotrf",
+    "xerbla"
+  ],
+  "csytrf_rk": [
+    "clasyf_rk",
+    "csytf2_rk",
+    "xerbla"
+  ],
+  "zlaqhp": [],
+  "zunmbr": [
+    "xerbla",
+    "zunmlq",
+    "zunmqr"
+  ],
+  "chbgvx": [
+    "chbgst",
+    "chbtrd",
+    "clacpy",
+    "cpbstf",
+    "cstein",
+    "csteqr",
+    "sstebz",
+    "ssterf",
+    "xerbla"
+  ],
+  "dsbevd": [
+    "dlacpy",
+    "dlascl",
+    "dsbtrd",
+    "dstedc",
+    "dsterf",
+    "xerbla"
+  ],
+  "zhegs2": [
+    "xerbla",
+    "zlacgv"
+  ],
+  "strevc3": [
+    "slacpy",
+    "slaln2",
+    "slaset",
+    "xerbla"
+  ],
+  "cspcon": [
+    "clacn2",
+    "csptrs",
+    "xerbla"
+  ],
+  "cgeqr": [
+    "cgeqrt",
+    "clatsqr",
+    "xerbla"
+  ],
+  "slanhs": [
+    "sisnan",
+    "slassq"
+  ],
+  "ssytd2": [
+    "slarfg",
+    "xerbla"
+  ],
+  "ztgsy2": [
+    "xerbla",
+    "zgesc2",
+    "zgetc2",
+    "zlatdf"
+  ],
+  "dsbev": [
+    "dlascl",
+    "dsbtrd",
+    "dsteqr",
+    "dsterf",
+    "xerbla"
+  ],
+  "sorm2l": [
+    "slarf1l",
+    "xerbla"
+  ],
+  "slaed6": [],
+  "dposvxx": [
+    "dla_porpvgrw",
+    "dlacpy",
+    "dlaqsy",
+    "dlascl2",
+    "dpoequb",
+    "dporfsx",
+    "dpotrf",
+    "dpotrs",
+    "xerbla"
+  ],
+  "dsyevr_2stage": [
+    "dormtr",
+    "dstebz",
+    "dstein",
+    "dstemr",
+    "dsterf",
+    "dsytrd_2stage",
+    "xerbla"
+  ],
+  "slasd7": [
+    "slamrg",
+    "xerbla"
+  ],
+  "cgges3": [
+    "cgeqrf",
+    "cggbak",
+    "cggbal",
+    "cgghd3",
+    "clacpy",
+    "claqz0",
+    "clascl",
+    "claset",
+    "ctgsen",
+    "cungqr",
+    "cunmqr",
+    "xerbla"
+  ],
+  "sla_syrpvgrw": [],
+  "slasr": [
+    "xerbla"
+  ],
+  "dsgesv": [
+    "dgetrf",
+    "dgetrs",
+    "dlacpy",
+    "dlag2s",
+    "sgetrf",
+    "sgetrs",
+    "slag2d",
+    "xerbla"
+  ],
+  "chpcon": [
+    "chptrs",
+    "clacn2",
+    "xerbla"
+  ],
+  "sgels": [
+    "sgelqf",
+    "sgeqrf",
+    "slascl",
+    "slaset",
+    "sormlq",
+    "sormqr",
+    "strtrs",
+    "xerbla"
+  ],
+  "chetrs_rook": [
+    "clacgv",
+    "xerbla"
+  ],
+  "zggev": [
+    "xerbla",
+    "zgeqrf",
+    "zggbak",
+    "zggbal",
+    "zgghrd",
+    "zhgeqz",
+    "zlacpy",
+    "zlascl",
+    "zlaset",
+    "ztgevc",
+    "zungqr",
+    "zunmqr"
+  ],
+  "slasq6": [],
+  "zlartv": [],
+  "dlaed0": [
+    "dlacpy",
+    "dlaed1",
+    "dlaed7",
+    "dsteqr",
+    "xerbla"
+  ],
+  "zgerfs": [
+    "xerbla",
+    "zgetrs",
+    "zlacn2"
+  ],
+  "dsysv": [
+    "dsytrf",
+    "dsytrs",
+    "dsytrs2",
+    "xerbla"
+  ],
+  "sla_syrcond": [
+    "slacn2",
+    "ssytrs",
+    "xerbla"
+  ],
+  "dspsvx": [
+    "dlacpy",
+    "dspcon",
+    "dsprfs",
+    "dsptrf",
+    "dsptrs",
+    "xerbla"
+  ],
+  "zgsvj1": [
+    "xerbla",
+    "zlascl",
+    "zlassq",
+    "zrot"
+  ],
+  "zlansb": [
+    "disnan",
+    "zlassq"
+  ],
+  "dsytrs2": [
+    "dsyconv",
+    "xerbla"
+  ],
+  "dsytrs_aa": [
+    "dgtsv",
+    "dlacpy",
+    "xerbla"
+  ],
+  "sgerq2": [
+    "slarf1l",
+    "slarfg",
+    "xerbla"
+  ],
+  "zupgtr": [
+    "xerbla",
+    "zung2l",
+    "zung2r"
+  ],
+  "zungtsqr": [
+    "xerbla",
+    "zlamtsqr",
+    "zlaset"
+  ],
+  "spotri": [
+    "slauum",
+    "strtri",
+    "xerbla"
+  ],
+  "zsytri": [
+    "xerbla",
+    "zsymv"
+  ],
+  "stzrzf": [
+    "slarzb",
+    "slarzt",
+    "slatrz",
+    "xerbla"
+  ],
+  "dpbtrf": [
+    "dpbtf2",
+    "dpotf2",
+    "xerbla"
+  ],
+  "zgejsv": [
+    "dlascl",
+    "dlassq",
+    "xerbla",
+    "zgelqf",
+    "zgeqp3",
+    "zgeqrf",
+    "zgesvj",
+    "zlacgv",
+    "zlacpy",
+    "zlapmr",
+    "zlascl",
+    "zlaset",
+    "zlassq",
+    "zlaswp",
+    "zpocon",
+    "zungqr",
+    "zunmlq",
+    "zunmqr"
+  ],
+  "dsyconv": [
+    "xerbla"
+  ],
+  "zposv": [
+    "xerbla",
+    "zpotrf",
+    "zpotrs"
+  ],
+  "zunbdb5": [
+    "xerbla",
+    "zlassq",
+    "zunbdb6"
+  ],
+  "cla_porpvgrw": [],
+  "zhpgv": [
+    "xerbla",
+    "zhpev",
+    "zhpgst",
+    "zpptrf"
+  ],
+  "ssycon": [
+    "slacn2",
+    "ssytrs",
+    "xerbla"
+  ],
+  "slags2": [
+    "slartg",
+    "slasv2"
+  ],
+  "cgbequb": [
+    "xerbla"
+  ],
+  "dptrfs": [
+    "dpttrs",
+    "xerbla"
+  ],
+  "stzrqf": [
+    "slarfg",
+    "xerbla"
+  ],
+  "stgsy2": [
+    "sgesc2",
+    "sgetc2",
+    "slaset",
+    "slatdf",
+    "xerbla"
+  ],
+  "csysv_rk": [
+    "csytrf_rk",
+    "csytrs_3",
+    "xerbla"
+  ],
+  "cla_gbamv": [
+    "ilatrans",
+    "xerbla"
+  ],
+  "dlarrj": [],
+  "dspevx": [
+    "dopgtr",
+    "dopmtr",
+    "dsptrd",
+    "dstebz",
+    "dstein",
+    "dsteqr",
+    "dsterf",
+    "xerbla"
+  ],
+  "sgesv": [
+    "sgetrf",
+    "sgetrs",
+    "xerbla"
+  ],
+  "cunbdb1": [
+    "clacgv",
+    "clarf1f",
+    "clarfgp",
+    "cunbdb5",
+    "xerbla"
+  ],
+  "sgeql2": [
+    "slarf1l",
+    "slarfg",
+    "xerbla"
+  ],
+  "cbdsqr": [
+    "clasr",
+    "slartg",
+    "slas2",
+    "slasq1",
+    "slasv2",
+    "xerbla"
+  ],
+  "slaqr2": [
+    "sgehrd",
+    "slacpy",
+    "slahqr",
+    "slanv2",
+    "slarf1f",
+    "slarf1l",
+    "slarfg",
+    "slaset",
+    "sormhr",
+    "strexc"
+  ],
+  "dlasd6": [
+    "dlamrg",
+    "dlascl",
+    "dlasd7",
+    "dlasd8",
+    "xerbla"
+  ],
+  "csytf2_rook": [
+    "csyr",
+    "xerbla"
+  ],
+  "dgsvj1": [
+    "dlascl",
+    "dlassq",
+    "xerbla"
+  ],
+  "zgeqr2": [
+    "xerbla",
+    "zlarf1f",
+    "zlarfg"
+  ],
+  "zlaunhr_col_getrfnp2": [
+    "xerbla"
+  ],
+  "dggqrf": [
+    "dgeqrf",
+    "dgerqf",
+    "dormqr",
+    "xerbla"
+  ],
+  "zhetrd": [
+    "xerbla",
+    "zhetd2",
+    "zlatrd"
+  ],
+  "zla_gbamv": [
+    "ilatrans",
+    "xerbla"
+  ],
+  "dla_syrcond": [
+    "dlacn2",
+    "dsytrs",
+    "xerbla"
+  ],
+  "cppequ": [
+    "xerbla"
+  ],
+  "cgetsls": [
+    "cgelq",
+    "cgemlq",
+    "cgemqr",
+    "cgeqr",
+    "clascl",
+    "claset",
+    "ctrtrs",
+    "xerbla"
+  ],
+  "zgesvdx": [
+    "dbdsvdx",
+    "dlascl",
+    "xerbla",
+    "zgebrd",
+    "zgelqf",
+    "zgeqrf",
+    "zlacpy",
+    "zlascl",
+    "zlaset",
+    "zunmbr",
+    "zunmlq",
+    "zunmqr"
+  ],
+  "sorbdb3": [
+    "slarf1f",
+    "slarfgp",
+    "sorbdb5",
+    "xerbla"
+  ],
+  "clacn2": [],
+  "zgeqrf": [
+    "xerbla",
+    "zgeqr2",
+    "zlarfb",
+    "zlarft"
+  ],
+  "zgetrf": [
+    "xerbla",
+    "zlaswp"
+  ],
+  "sggev3": [
+    "sgeqrf",
+    "sggbak",
+    "sggbal",
+    "sgghd3",
+    "slacpy",
+    "slaqz0",
+    "slascl",
+    "slaset",
+    "sorgqr",
+    "sormqr",
+    "stgevc",
+    "xerbla"
+  ],
+  "stfttr": [
+    "xerbla"
+  ],
+  "chesv_aa_2stage": [
+    "chetrf_aa_2stage",
+    "chetrs_aa_2stage",
+    "xerbla"
+  ],
+  "dlaed9": [
+    "dlaed4",
+    "xerbla"
+  ],
+  "dlasd2": [
+    "dlacpy",
+    "dlamrg",
+    "dlaset",
+    "xerbla"
+  ],
+  "dstein": [
+    "dlagtf",
+    "dlagts",
+    "dlarnv",
+    "xerbla"
+  ],
+  "zpptri": [
+    "xerbla",
+    "ztptri"
+  ],
+  "dppsvx": [
+    "dlacpy",
+    "dlaqsp",
+    "dppcon",
+    "dppequ",
+    "dpprfs",
+    "dpptrf",
+    "dpptrs",
+    "xerbla"
+  ],
+  "zggsvd3": [
+    "xerbla",
+    "zggsvp3",
+    "ztgsja"
+  ],
+  "cla_gbrcond_c": [
+    "cgbtrs",
+    "clacn2",
+    "xerbla"
+  ],
+  "sposv": [
+    "spotrf",
+    "spotrs",
+    "xerbla"
+  ],
+  "zgecon": [
+    "xerbla",
+    "zdrscl",
+    "zlacn2",
+    "zlatrs"
+  ],
+  "cgeequb": [
+    "xerbla"
+  ],
+  "zsytrs_aa": [
+    "xerbla",
+    "zgtsv",
+    "zlacpy"
+  ],
+  "slaqr5": [
+    "slacpy",
+    "slaqr1",
+    "slarfg",
+    "slaset"
+  ],
+  "cgedmdq": [
+    "cgedmd",
+    "cgeqrf",
+    "clacpy",
+    "claset",
+    "cungqr",
+    "cunmqr",
+    "xerbla"
+  ],
+  "cungqr": [
+    "clarfb",
+    "clarft",
+    "cung2r",
+    "xerbla"
+  ],
+  "sgelsy": [
+    "sgeqp3",
+    "slaic1",
+    "slascl",
+    "slaset",
+    "sormqr",
+    "sormrz",
+    "stzrzf",
+    "xerbla"
+  ],
+  "cla_gbrfsx_extended": [
+    "cgbtrs",
+    "chla_transtype",
+    "cla_gbamv",
+    "cla_lin_berr",
+    "cla_wwaddw"
+  ],
+  "slansy": [
+    "sisnan",
+    "slassq"
+  ],
+  "zgees": [
+    "xerbla",
+    "zgebak",
+    "zgebal",
+    "zgehrd",
+    "zhseqr",
+    "zlacpy",
+    "zlascl",
+    "ztrsen",
+    "zunghr"
+  ],
+  "dlarfy": [],
+  "clarft": [
+    "clacpy"
+  ],
+  "slarzb": [
+    "xerbla"
+  ],
+  "dgetf2": [
+    "xerbla"
+  ],
+  "dgetsls": [
+    "dgelq",
+    "dgemlq",
+    "dgemqr",
+    "dgeqr",
+    "dlascl",
+    "dlaset",
+    "dtrtrs",
+    "xerbla"
+  ],
+  "ssytf2_rk": [
+    "xerbla"
+  ],
+  "dlaqr2": [
+    "dgehrd",
+    "dlacpy",
+    "dlahqr",
+    "dlanv2",
+    "dlarf1f",
+    "dlarfg",
+    "dlaset",
+    "dormhr",
+    "dtrexc"
+  ],
+  "zlarfx": [
+    "zlarf"
+  ],
+  "dlatsqr": [
+    "dgeqrt",
+    "dtpqrt",
+    "xerbla"
+  ],
+  "zhseqr": [
+    "xerbla",
+    "zlacpy",
+    "zlahqr",
+    "zlaqr0",
+    "zlaset"
+  ],
+  "cunmhr": [
+    "cunmqr",
+    "xerbla"
+  ],
+  "sla_gerfsx_extended": [
+    "chla_transtype",
+    "sgetrs",
+    "sla_geamv",
+    "sla_lin_berr",
+    "sla_wwaddw"
+  ],
+  "slatrs": [
+    "xerbla"
+  ],
+  "dormqr": [
+    "dlarfb",
+    "dlarft",
+    "dorm2r",
+    "xerbla"
+  ],
+  "dsbgvd": [
+    "dlacpy",
+    "dpbstf",
+    "dsbgst",
+    "dsbtrd",
+    "dstedc",
+    "dsterf",
+    "xerbla"
+  ],
+  "dorm2r": [
+    "dlarf1f",
+    "xerbla"
+  ],
+  "dsyconvf_rook": [
+    "xerbla"
+  ],
+  "cherfs": [
+    "chetrs",
+    "clacn2",
+    "xerbla"
+  ],
+  "ztptri": [
+    "xerbla"
+  ],
+  "dlarfg": [],
+  "clahrd": [
+    "clacgv",
+    "clarfg"
+  ],
+  "dsycon": [
+    "dlacn2",
+    "dsytrs",
+    "xerbla"
+  ],
+  "slarft": [
+    "slacpy"
+  ],
+  "sgegv": [
+    "sgeqrf",
+    "sggbak",
+    "sggbal",
+    "sgghrd",
+    "shgeqz",
+    "slacpy",
+    "slascl",
+    "slaset",
+    "sorgqr",
+    "sormqr",
+    "stgevc",
+    "xerbla"
+  ],
+  "dsytf2": [
+    "xerbla"
+  ],
+  "ctgsen": [
+    "xerbla"
+  ],
+  "zggglm": [
+    "xerbla",
+    "zggqrf",
+    "ztrtrs",
+    "zunmqr",
+    "zunmrq"
+  ],
+  "ztpqrt": [
+    "xerbla",
+    "ztpqrt2",
+    "ztprfb"
+  ],
+  "chbtrd": [
+    "clacgv",
+    "clar2v",
+    "clargv",
+    "clartg",
+    "clartv",
+    "claset",
+    "crot",
+    "xerbla"
+  ],
+  "slaorhr_col_getrfnp": [
+    "slaorhr_col_getrfnp2",
+    "xerbla"
+  ],
+  "ctgevc": [
+    "xerbla"
+  ],
+  "slarfgp": [],
+  "cgesc2": [
+    "claswp"
+  ],
+  "slantb": [
+    "sisnan",
+    "slassq"
+  ],
+  "claunhr_col_getrfnp": [
+    "claunhr_col_getrfnp2",
+    "xerbla"
+  ],
+  "cunbdb2": [
+    "clacgv",
+    "clarf1f",
+    "clarfgp",
+    "cunbdb5",
+    "xerbla"
+  ],
+  "cposvx": [
+    "clacpy",
+    "claqhe",
+    "cpocon",
+    "cpoequ",
+    "cporfs",
+    "cpotrf",
+    "cpotrs",
+    "xerbla"
+  ],
+  "zsyconvf_rook": [
+    "xerbla"
+  ],
+  "zgerfsx": [
+    "ilaprec",
+    "ilatrans",
+    "xerbla",
+    "zgecon",
+    "zla_gercond_c",
+    "zla_gercond_x",
+    "zla_gerfsx_extended",
+    "zlange"
+  ],
+  "slasd0": [
+    "slasd1",
+    "slasdq",
+    "slasdt",
+    "xerbla"
+  ],
+  "ctrrfs": [
+    "clacn2",
+    "xerbla"
+  ],
+  "csytrs_aa": [
+    "cgtsv",
+    "clacpy",
+    "xerbla"
+  ],
+  "cla_gbrcond_x": [
+    "cgbtrs",
+    "clacn2",
+    "xerbla"
+  ],
+  "sgsvj0": [
+    "slascl",
+    "slassq",
+    "xerbla"
+  ],
+  "ctptri": [
+    "xerbla"
+  ],
+  "sgerfs": [
+    "sgetrs",
+    "slacn2",
+    "xerbla"
+  ],
+  "zherfs": [
+    "xerbla",
+    "zhetrs",
+    "zlacn2"
+  ],
+  "cla_hercond_c": [
+    "chetrs",
+    "clacn2",
+    "xerbla"
+  ],
+  "dlar1v": [],
+  "dtpcon": [
+    "dlacn2",
+    "dlatps",
+    "drscl",
+    "xerbla"
+  ],
+  "dlasrt": [
+    "xerbla"
+  ],
+  "cunmrz": [
+    "clarzb",
+    "clarzt",
+    "cunmr3",
+    "xerbla"
+  ],
+  "dgecon": [
+    "dlacn2",
+    "dlatrs",
+    "drscl",
+    "xerbla"
+  ],
+  "zla_syrpvgrw": [],
+  "slatsqr": [
+    "sgeqrt",
+    "stpqrt",
+    "xerbla"
+  ],
+  "dporfsx": [
+    "dla_porcond",
+    "dla_porfsx_extended",
+    "dlansy",
+    "dpocon",
+    "ilaprec",
+    "xerbla"
+  ],
+  "dtpttf": [
+    "xerbla"
+  ],
+  "zgelq2": [
+    "xerbla",
+    "zlacgv",
+    "zlarf1f",
+    "zlarfg"
+  ],
+  "zlaswp": [],
+  "slasd2": [
+    "slacpy",
+    "slamrg",
+    "slaset",
+    "xerbla"
+  ],
+  "cgeqrfp": [
+    "cgeqr2p",
+    "clarfb",
+    "clarft",
+    "xerbla"
+  ],
+  "zgbtf2": [
+    "xerbla"
+  ],
+  "dgesvj": [
+    "dgsvj0",
+    "dgsvj1",
+    "dlascl",
+    "dlaset",
+    "dlassq",
+    "xerbla"
+  ],
+  "dgesvx": [
+    "dgecon",
+    "dgeequ",
+    "dgerfs",
+    "dgetrf",
+    "dgetrs",
+    "dlacpy",
+    "dlaqge",
+    "xerbla"
+  ],
+  "claqr1": [],
+  "dsytri_3": [
+    "dsytri_3x",
+    "xerbla"
+  ],
+  "zunm22": [
+    "xerbla",
+    "zlacpy"
+  ],
+  "zgelqt": [
+    "xerbla",
+    "zgelqt3",
+    "zlarfb"
+  ],
+  "slaev2": [],
+  "zlarfgp": [],
+  "dorgtsqr_row": [
+    "dlarfb_gett",
+    "dlaset",
+    "xerbla"
+  ],
+  "cla_porfsx_extended": [
+    "cla_heamv",
+    "cla_lin_berr",
+    "cla_wwaddw",
+    "cpotrs",
+    "ilauplo"
+  ],
+  "cggev3": [
+    "cgeqrf",
+    "cggbak",
+    "cggbal",
+    "cgghd3",
+    "clacpy",
+    "claqz0",
+    "clascl",
+    "claset",
+    "ctgevc",
+    "cungqr",
+    "cunmqr",
+    "xerbla"
+  ],
+  "chetrd_2stage": [
+    "chetrd_he2hb",
+    "xerbla"
+  ],
+  "claqhp": [],
+  "ssfrk": [
+    "xerbla"
+  ],
+  "chetri_rook": [
+    "xerbla"
+  ],
+  "dsytrf_rook": [
+    "dlasyf_rook",
+    "dsytf2_rook",
+    "xerbla"
+  ],
+  "dtprfb": [],
+  "sorcsd": [
+    "sbbcsd",
+    "slacpy",
+    "slapmr",
+    "slapmt",
+    "sorbdb",
+    "sorglq",
+    "sorgqr",
+    "xerbla"
+  ],
+  "sgges": [
+    "sgeqrf",
+    "sggbak",
+    "sggbal",
+    "sgghrd",
+    "shgeqz",
+    "slacpy",
+    "slascl",
+    "slaset",
+    "sorgqr",
+    "sormqr",
+    "stgsen",
+    "xerbla"
+  ],
+  "zsyequb": [
+    "xerbla",
+    "zlassq"
+  ],
+  "sspgst": [
+    "xerbla"
+  ],
+  "cpstf2": [
+    "clacgv",
+    "xerbla"
+  ],
+  "dtprfs": [
+    "dlacn2",
+    "xerbla"
+  ],
+  "sla_gerpvgrw": [],
+  "chptri": [
+    "xerbla"
+  ],
+  "zpttrs": [
+    "xerbla",
+    "zptts2"
+  ],
+  "zhb2st_kernels": [
+    "zlarfg",
+    "zlarfx",
+    "zlarfy"
+  ],
+  "dlaneg": [
+    "disnan"
+  ],
+  "ssyequb": [
+    "slassq",
+    "xerbla"
+  ],
+  "dorbdb2": [
+    "dlarf1f",
+    "dlarfgp",
+    "dorbdb5",
+    "xerbla"
+  ],
+  "slascl2": [],
+  "dgeql2": [
+    "dlarf1l",
+    "dlarfg",
+    "xerbla"
+  ],
+  "cla_gerpvgrw": [],
+  "slar2v": [],
+  "zgeequb": [
+    "xerbla"
+  ],
+  "zlaunhr_col_getrfnp": [
+    "xerbla",
+    "zlaunhr_col_getrfnp2"
+  ],
+  "sgetrf": [
+    "sgetrf2",
+    "slaswp",
+    "xerbla"
+  ],
+  "cgetrf": [
+    "cgetrf2",
+    "claswp",
+    "xerbla"
+  ],
+  "cpotrf": [
+    "cpotrf2",
+    "xerbla"
+  ],
+  "VARIANTS_2larft_2LL-LVL2_2zlarft": [],
+  "dlagtf": [
+    "xerbla"
+  ],
+  "dpftrs": [
+    "dtfsm",
+    "xerbla"
+  ],
+  "cptsv": [
+    "cpttrf",
+    "cpttrs",
+    "xerbla"
+  ],
+  "cpocon": [
+    "clacn2",
+    "clatrs",
+    "csrscl",
+    "xerbla"
+  ],
+  "dgerq2": [
+    "dlarf1l",
+    "dlarfg",
+    "xerbla"
+  ],
+  "ssbgvd": [
+    "slacpy",
+    "spbstf",
+    "ssbgst",
+    "ssbtrd",
+    "sstedc",
+    "ssterf",
+    "xerbla"
+  ],
+  "cgeqrt3": [
+    "clarfg",
+    "xerbla"
+  ],
+  "cgtts2": [],
+  "dtrrfs": [
+    "dlacn2",
+    "xerbla"
+  ],
+  "slag2d": [],
+  "cspr": [
+    "xerbla"
+  ],
+  "spbsv": [
+    "spbtrf",
+    "spbtrs",
+    "xerbla"
+  ],
+  "zbbcsd": [
+    "dlartgp",
+    "dlartgs",
+    "dlas2",
+    "xerbla",
+    "zlasr"
+  ],
+  "dlasd5": [],
+  "zhetrd_he2hb": [
+    "xerbla",
+    "zgelqf",
+    "zgeqrf",
+    "zlarft",
+    "zlaset"
+  ],
+  "zla_herpvgrw": [],
+  "dgerfs": [
+    "dgetrs",
+    "dlacn2",
+    "xerbla"
+  ],
+  "dgeqrs": [
+    "dormqr",
+    "xerbla"
+  ],
+  "claqz3": [
+    "clacpy",
+    "claqz1",
+    "clartg",
+    "claset",
+    "crot",
+    "xerbla"
+  ],
+  "chetrd_he2hb": [
+    "cgelqf",
+    "cgeqrf",
+    "clarft",
+    "claset",
+    "xerbla"
+  ],
+  "sorghr": [
+    "sorgqr",
+    "xerbla"
+  ],
+  "ctfttp": [
+    "xerbla"
+  ],
+  "dlals0": [
+    "dlacpy",
+    "dlascl",
+    "xerbla"
+  ],
+  "zheev_2stage": [
+    "dsterf",
+    "xerbla",
+    "zhetrd_2stage",
+    "zlascl",
+    "zsteqr",
+    "zungtr"
+  ],
+  "csytri2x": [
+    "csyconv",
+    "csyswapr",
+    "ctrtri",
+    "xerbla"
+  ],
+  "cgesvdx": [
+    "cgebrd",
+    "cgelqf",
+    "cgeqrf",
+    "clacpy",
+    "clascl",
+    "claset",
+    "cunmbr",
+    "cunmlq",
+    "cunmqr",
+    "sbdsvdx",
+    "slascl",
+    "xerbla"
+  ],
+  "dlatps": [
+    "xerbla"
+  ],
+  "cunghr": [
+    "cungqr",
+    "xerbla"
+  ],
+  "dsysv_rk": [
+    "dsytrf_rk",
+    "dsytrs_3",
+    "xerbla"
+  ],
+  "zgeqlf": [
+    "xerbla",
+    "zgeql2",
+    "zlarfb",
+    "zlarft"
+  ],
+  "dlascl2": [],
+  "zlantr": [
+    "disnan",
+    "zlassq"
+  ],
+  "zsysvxx": [
+    "xerbla",
+    "zla_syrpvgrw",
+    "zlacpy",
+    "zlaqsy",
+    "zlascl2",
+    "zsyequb",
+    "zsyrfsx",
+    "zsytrf",
+    "zsytrs"
+  ],
+  "dtrti2": [
+    "xerbla"
+  ],
+  "slasy2": [],
+  "zbdsqr": [
+    "dlartg",
+    "dlas2",
+    "dlasq1",
+    "dlasv2",
+    "xerbla",
+    "zlasr"
+  ],
+  "zsytri_3": [
+    "xerbla",
+    "zsytri_3x"
+  ],
+  "zgelqs": [
+    "xerbla",
+    "zlaset",
+    "zunmlq"
+  ],
+  "stpttf": [
+    "xerbla"
+  ],
+  "clahr2": [
+    "clacgv",
+    "clacpy",
+    "clarfg"
+  ],
+  "dtplqt": [
+    "dtplqt2",
+    "dtprfb",
+    "xerbla"
+  ],
+  "cgemqr": [
+    "cgemqrt",
+    "clamtsqr",
+    "xerbla"
+  ],
+  "slarzt": [
+    "xerbla"
+  ],
+  "stbrfs": [
+    "slacn2",
+    "xerbla"
+  ],
+  "dlaqz1": [],
+  "dsygs2": [
+    "xerbla"
+  ],
+  "zsyswapr": [],
+  "cunm22": [
+    "clacpy",
+    "xerbla"
+  ],
+  "sppsv": [
+    "spptrf",
+    "spptrs",
+    "xerbla"
+  ],
+  "ztrevc": [
+    "xerbla",
+    "zlatrs"
+  ],
+  "zstein": [
+    "dlagtf",
+    "dlagts",
+    "dlarnv",
+    "xerbla"
+  ],
+  "ctftri": [
+    "ctrtri",
+    "xerbla"
+  ],
+  "zgtrfs": [
+    "xerbla",
+    "zgttrs",
+    "zlacn2",
+    "zlagtm"
+  ],
+  "strsyl": [
+    "slaln2",
+    "slasy2",
+    "xerbla"
+  ],
+  "zlatrz": [
+    "zlacgv",
+    "zlarfg",
+    "zlarz"
+  ],
+  "slansp": [
+    "sisnan",
+    "slassq"
+  ],
+  "zgeqr2p": [
+    "xerbla",
+    "zlarf1f",
+    "zlarfgp"
+  ],
+  "zhetrs2": [
+    "xerbla",
+    "zsyconv"
+  ],
+  "sorbdb6": [
+    "slassq",
+    "xerbla"
+  ],
+  "slahr2": [
+    "slacpy",
+    "slarfg"
+  ],
+  "dlasq4": [],
+  "cunbdb5": [
+    "classq",
+    "cunbdb6",
+    "xerbla"
+  ],
+  "dlansf": [
+    "disnan",
+    "dlassq"
+  ],
+  "csysv": [
+    "csytrf",
+    "csytrs",
+    "csytrs2",
+    "xerbla"
+  ],
+  "slaqz1": [],
+  "slaein": [
+    "sladiv",
+    "slatrs"
+  ],
+  "dsyevx": [
+    "dlacpy",
+    "dorgtr",
+    "dormtr",
+    "dstebz",
+    "dstein",
+    "dsteqr",
+    "dsterf",
+    "dsytrd",
+    "xerbla"
+  ],
+  "zcgesv": [
+    "cgetrf",
+    "cgetrs",
+    "clag2z",
+    "xerbla",
+    "zgetrf",
+    "zgetrs",
+    "zlacpy",
+    "zlag2c"
+  ],
+  "zpttrf": [
+    "xerbla"
+  ],
+  "dlapmt": [],
+  "clatbs": [
+    "xerbla"
+  ],
+  "sormtr": [
+    "sormql",
+    "sormqr",
+    "xerbla"
+  ],
+  "sggglm": [
+    "sggqrf",
+    "sormqr",
+    "sormrq",
+    "strtrs",
+    "xerbla"
+  ],
+  "zpotf2": [
+    "xerbla",
+    "zlacgv"
+  ],
+  "zlangb": [
+    "disnan",
+    "zlassq"
+  ],
+  "zgesc2": [
+    "zlaswp"
+  ],
+  "zlange": [
+    "disnan",
+    "zlassq"
+  ],
+  "clacp2": [],
+  "cgebd2": [
+    "clacgv",
+    "clarf1f",
+    "clarfg",
+    "xerbla"
+  ],
+  "ctbtrs": [
+    "xerbla"
+  ],
+  "sgebrd": [
+    "sgebd2",
+    "slabrd",
+    "xerbla"
+  ],
+  "zlacn2": [],
+  "cupmtr": [
+    "clarf1f",
+    "clarf1l",
+    "xerbla"
+  ],
+  "cpotf2": [
+    "clacgv",
+    "xerbla"
+  ],
+  "dorm2l": [
+    "dlarf1l",
+    "xerbla"
+  ],
+  "dhseqr": [
+    "dlacpy",
+    "dlahqr",
+    "dlaqr0",
+    "dlaset",
+    "xerbla"
+  ],
+  "chbgst": [
+    "clacgv",
+    "clar2v",
+    "clargv",
+    "clartg",
+    "clartv",
+    "claset",
+    "crot",
+    "xerbla"
+  ],
+  "dla_porfsx_extended": [
+    "dla_lin_berr",
+    "dla_syamv",
+    "dla_wwaddw",
+    "dpotrs",
+    "ilauplo"
+  ],
+  "zpftrf": [
+    "xerbla",
+    "zpotrf"
+  ],
+  "sstev": [
+    "ssteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "slasq3": [
+    "slasq4",
+    "slasq5",
+    "slasq6"
+  ],
+  "dorglq": [
+    "dlarfb",
+    "dlarft",
+    "dorgl2",
+    "xerbla"
+  ],
+  "clalsa": [
+    "clals0",
+    "slasdt",
+    "xerbla"
+  ],
+  "sgeqrfp": [
+    "sgeqr2p",
+    "slarfb",
+    "slarft",
+    "xerbla"
+  ],
+  "dgees": [
+    "dgebak",
+    "dgebal",
+    "dgehrd",
+    "dhseqr",
+    "dlacpy",
+    "dlascl",
+    "dorghr",
+    "dtrsen",
+    "xerbla"
+  ],
+  "sorbdb1": [
+    "slarf1f",
+    "slarfgp",
+    "sorbdb5",
+    "xerbla"
+  ],
+  "slarrc": [],
+  "dgebd2": [
+    "dlarf1f",
+    "dlarfg",
+    "xerbla"
+  ],
+  "chetri2x": [
+    "cheswapr",
+    "csyconv",
+    "ctrtri",
+    "xerbla"
+  ],
+  "dlansp": [
+    "disnan",
+    "dlassq"
+  ],
+  "slarf1f": [],
+  "slag2": [],
+  "dladiv": [
+    "dladiv1"
+  ],
+  "dgelqt3": [
+    "dlarfg",
+    "xerbla"
+  ],
+  "ssytri": [
+    "xerbla"
+  ],
+  "zla_herfsx_extended": [
+    "ilauplo",
+    "xerbla",
+    "zhetrs",
+    "zla_heamv",
+    "zla_lin_berr",
+    "zla_wwaddw"
+  ],
+  "zhpgvd": [
+    "xerbla",
+    "zhpevd",
+    "zhpgst",
+    "zpptrf"
+  ],
+  "sstemr": [
+    "slae2",
+    "slaev2",
+    "slarrc",
+    "slarre",
+    "slarrj",
+    "slarrr",
+    "slarrv",
+    "slasrt",
+    "xerbla"
+  ],
+  "sorbdb": [
+    "slarf1f",
+    "slarfgp",
+    "xerbla"
+  ],
+  "dlarre": [
+    "dlarnv",
+    "dlarra",
+    "dlarrb",
+    "dlarrc",
+    "dlarrd",
+    "dlarrk",
+    "dlasq2"
+  ],
+  "dgglse": [
+    "dggrqf",
+    "dormqr",
+    "dormrq",
+    "dtrtrs",
+    "xerbla"
+  ],
+  "dgegv": [
+    "dgeqrf",
+    "dggbak",
+    "dggbal",
+    "dgghrd",
+    "dhgeqz",
+    "dlacpy",
+    "dlascl",
+    "dlaset",
+    "dorgqr",
+    "dormqr",
+    "dtgevc",
+    "xerbla"
+  ],
+  "sgttrs": [
+    "sgtts2",
+    "xerbla"
+  ],
+  "dlarft": [
+    "dlacpy"
+  ],
+  "zhpsv": [
+    "xerbla",
+    "zhptrf",
+    "zhptrs"
+  ],
+  "dsysv_rook": [
+    "dsytrf_rook",
+    "dsytrs_rook",
+    "xerbla"
+  ],
+  "slargv": [],
+  "cporfsx": [
+    "cla_porcond_c",
+    "cla_porcond_x",
+    "cla_porfsx_extended",
+    "clanhe",
+    "cpocon",
+    "ilaprec",
+    "xerbla"
+  ],
+  "zgetsls": [
+    "xerbla",
+    "zgelq",
+    "zgemlq",
+    "zgemqr",
+    "zgeqr",
+    "zlascl",
+    "zlaset",
+    "ztrtrs"
+  ],
+  "zheevx": [
+    "dstebz",
+    "dsterf",
+    "xerbla",
+    "zhetrd",
+    "zlacpy",
+    "zstein",
+    "zsteqr",
+    "zungtr",
+    "zunmtr"
+  ],
+  "dlaswlq": [
+    "dgelqt",
+    "dtplqt",
+    "xerbla"
+  ],
+  "clahef": [
+    "clacgv"
+  ],
+  "zhetri_rook": [
+    "xerbla"
+  ],
+  "dhsein": [
+    "dlaein",
+    "xerbla"
+  ],
+  "cgelqs": [
+    "claset",
+    "cunmlq",
+    "xerbla"
+  ],
+  "sorgql": [
+    "slarfb",
+    "slarft",
+    "sorg2l",
+    "xerbla"
+  ],
+  "zgesvd": [
+    "dlascl",
+    "xerbla",
+    "zbdsqr",
+    "zgebrd",
+    "zgelqf",
+    "zgeqrf",
+    "zlacpy",
+    "zlascl",
+    "zlaset",
+    "zungbr",
+    "zunglq",
+    "zungqr",
+    "zunmbr"
+  ],
+  "sgeqrt2": [
+    "slarfg",
+    "xerbla"
+  ],
+  "clapmr": [],
+  "dgtsvx": [
+    "dgtcon",
+    "dgtrfs",
+    "dgttrf",
+    "dgttrs",
+    "dlacpy",
+    "xerbla"
+  ],
+  "zlahef": [
+    "zlacgv"
+  ],
+  "zdrscl": [],
+  "dsteqr": [
+    "dlae2",
+    "dlaev2",
+    "dlartg",
+    "dlascl",
+    "dlaset",
+    "dlasr",
+    "dlasrt",
+    "xerbla"
+  ],
+  "dtzrqf": [
+    "dlarfg",
+    "xerbla"
+  ],
+  "claqps": [
+    "clarfg"
+  ],
+  "dpotrs": [
+    "xerbla"
+  ],
+  "dggsvd3": [
+    "dggsvp3",
+    "dtgsja",
+    "xerbla"
+  ],
+  "ctrevc3": [
+    "clacpy",
+    "claset",
+    "clatrs",
+    "xerbla"
+  ],
+  "zgesvj": [
+    "dlascl",
+    "xerbla",
+    "zgsvj0",
+    "zgsvj1",
+    "zlascl",
+    "zlaset",
+    "zlassq",
+    "zrot"
+  ],
+  "cgsvj1": [
+    "clascl",
+    "classq",
+    "crot",
+    "xerbla"
+  ],
+  "zungqr": [
+    "xerbla",
+    "zlarfb",
+    "zlarft",
+    "zung2r"
+  ],
+  "stbtrs": [
+    "xerbla"
+  ],
+  "slatrz": [
+    "slarfg",
+    "slarz"
+  ],
+  "zhbevx_2stage": [
+    "dstebz",
+    "dsterf",
+    "xerbla",
+    "zlacpy",
+    "zlascl",
+    "zstein",
+    "zsteqr"
+  ],
+  "zgels": [
+    "xerbla",
+    "zgelqf",
+    "zgeqrf",
+    "zlascl",
+    "zlaset",
+    "ztrtrs",
+    "zunmlq",
+    "zunmqr"
+  ],
+  "ssyconvf": [
+    "xerbla"
+  ],
+  "cstedc": [
+    "clacpy",
+    "clacrm",
+    "claed0",
+    "csteqr",
+    "slascl",
+    "slaset",
+    "sstedc",
+    "ssteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "zgbequ": [
+    "xerbla"
+  ],
+  "ctpqrt2": [
+    "clarfg",
+    "xerbla"
+  ],
+  "slaqsb": [],
+  "clarzb": [
+    "clacgv",
+    "xerbla"
+  ],
+  "dgeqlf": [
+    "dgeql2",
+    "dlarfb",
+    "dlarft",
+    "xerbla"
+  ],
+  "zgbsvxx": [
+    "xerbla",
+    "zgbequb",
+    "zgbrfsx",
+    "zgbtrf",
+    "zgbtrs",
+    "zla_gbrpvgrw",
+    "zlacpy",
+    "zlaqgb",
+    "zlascl2"
+  ],
+  "zlantp": [
+    "disnan",
+    "zlassq"
+  ],
+  "dgbtrf": [
+    "dgbtf2",
+    "dlaswp",
+    "xerbla"
+  ],
+  "sgehrd": [
+    "sgehd2",
+    "slahr2",
+    "slarfb",
+    "xerbla"
+  ],
+  "ztbrfs": [
+    "xerbla",
+    "zlacn2"
+  ],
+  "dlange": [
+    "disnan",
+    "dlassq"
+  ],
+  "sptsvx": [
+    "slacpy",
+    "sptcon",
+    "sptrfs",
+    "spttrf",
+    "spttrs",
+    "xerbla"
+  ],
+  "zhetf2": [
+    "xerbla"
+  ],
+  "dsbevd_2stage": [
+    "dlacpy",
+    "dlascl",
+    "dstedc",
+    "dsterf",
+    "xerbla"
+  ],
+  "clauu2": [
+    "clacgv",
+    "xerbla"
+  ],
+  "zgesvx": [
+    "xerbla",
+    "zgecon",
+    "zgeequ",
+    "zgerfs",
+    "zgetrf",
+    "zgetrs",
+    "zlacpy",
+    "zlaqge"
+  ],
+  "cgelss": [
+    "cbdsqr",
+    "cgebrd",
+    "cgelqf",
+    "cgeqrf",
+    "clacpy",
+    "clascl",
+    "claset",
+    "csrscl",
+    "cungbr",
+    "cunmbr",
+    "cunmlq",
+    "cunmqr",
+    "slascl",
+    "slaset",
+    "xerbla"
+  ],
+  "zsytrs2": [
+    "xerbla",
+    "zsyconv"
+  ],
+  "cgeqpf": [
+    "cgeqr2",
+    "clarf",
+    "clarfg",
+    "cunm2r",
+    "xerbla"
+  ],
+  "ctrevc": [
+    "clatrs",
+    "xerbla"
+  ],
+  "clange": [
+    "classq",
+    "sisnan"
+  ],
+  "sla_gbrpvgrw": [],
+  "dppcon": [
+    "dlacn2",
+    "dlatps",
+    "drscl",
+    "xerbla"
+  ],
+  "slatdf": [
+    "sgecon",
+    "sgesc2",
+    "slassq",
+    "slaswp"
+  ],
+  "dtbcon": [
+    "dlacn2",
+    "dlatbs",
+    "drscl",
+    "xerbla"
+  ],
+  "sgeqrs": [
+    "sormqr",
+    "xerbla"
+  ],
+  "zlaswlq": [
+    "xerbla",
+    "zgelqt",
+    "ztplqt"
+  ],
+  "cptsvx": [
+    "clacpy",
+    "cptcon",
+    "cptrfs",
+    "cpttrf",
+    "cpttrs",
+    "xerbla"
+  ],
+  "zgelqt3": [
+    "xerbla",
+    "zlarfg"
+  ],
+  "iparmq": [],
+  "zungr2": [
+    "xerbla",
+    "zlacgv",
+    "zlarf1l"
+  ],
+  "zsptrf": [
+    "xerbla",
+    "zspr"
+  ],
+  "chfrk": [
+    "xerbla"
+  ],
+  "cporfs": [
+    "clacn2",
+    "cpotrs",
+    "xerbla"
+  ],
+  "chetri_3": [
+    "chetri_3x",
+    "xerbla"
+  ],
+  "dgtcon": [
+    "dgttrs",
+    "dlacn2",
+    "xerbla"
+  ],
+  "ztrcon": [
+    "xerbla",
+    "zdrscl",
+    "zlacn2",
+    "zlatrs"
+  ],
+  "chbevx_2stage": [
+    "clacpy",
+    "clascl",
+    "cstein",
+    "csteqr",
+    "sstebz",
+    "ssterf",
+    "xerbla"
+  ],
+  "dlaqr1": [],
+  "dgesvxx": [
+    "dgeequb",
+    "dgerfsx",
+    "dgetrf",
+    "dgetrs",
+    "dla_gerpvgrw",
+    "dlacpy",
+    "dlaqge",
+    "dlascl2",
+    "xerbla"
+  ],
+  "chetri_3x": [
+    "cheswapr",
+    "ctrtri",
+    "xerbla"
+  ],
+  "cheswapr": [],
+  "dpprfs": [
+    "dlacn2",
+    "dpptrs",
+    "xerbla"
+  ],
+  "chetrs": [
+    "clacgv",
+    "xerbla"
+  ],
+  "slals0": [
+    "slacpy",
+    "slascl",
+    "xerbla"
+  ],
+  "dtbrfs": [
+    "dlacn2",
+    "xerbla"
+  ],
+  "dlartv": [],
+  "sgtts2": [],
+  "cgels": [
+    "cgelqf",
+    "cgeqrf",
+    "clascl",
+    "claset",
+    "ctrtrs",
+    "cunmlq",
+    "cunmqr",
+    "xerbla"
+  ],
+  "dlasq5": [],
+  "dtgsy2": [
+    "dgesc2",
+    "dgetc2",
+    "dlaset",
+    "dlatdf",
+    "xerbla"
+  ],
+  "cgemlqt": [
+    "clarfb",
+    "xerbla"
+  ],
+  "zlarfg": [],
+  "cgetf2": [
+    "crscl",
+    "xerbla"
+  ],
+  "ztpmlqt": [
+    "xerbla",
+    "ztprfb"
+  ],
+  "ztgevc": [
+    "xerbla"
+  ],
+  "ssysv_aa": [
+    "ssytrf_aa",
+    "ssytrs_aa",
+    "xerbla"
+  ],
+  "clarfg": [],
+  "cposv": [
+    "cpotrf",
+    "cpotrs",
+    "xerbla"
+  ],
+  "csytri_3x": [
+    "csyswapr",
+    "ctrtri",
+    "xerbla"
+  ],
+  "stpcon": [
+    "slacn2",
+    "slatps",
+    "srscl",
+    "xerbla"
+  ],
+  "zsyconvf": [
+    "xerbla"
+  ],
+  "sla_porcond": [
+    "slacn2",
+    "spotrs",
+    "xerbla"
+  ],
+  "zppsvx": [
+    "xerbla",
+    "zlacpy",
+    "zlaqhp",
+    "zppcon",
+    "zppequ",
+    "zpprfs",
+    "zpptrf",
+    "zpptrs"
+  ],
+  "clarzt": [
+    "clacgv",
+    "xerbla"
+  ],
+  "zlarfb_gett": [],
+  "dstev": [
+    "dsteqr",
+    "dsterf",
+    "xerbla"
+  ],
+  "dlasdt": [],
+  "claqgb": [],
+  "zhetrf_aa_2stage": [
+    "xerbla",
+    "zgbtrf",
+    "zgetrf",
+    "zhegst",
+    "zlacgv",
+    "zlacpy",
+    "zlaset"
+  ],
+  "dlarzb": [
+    "xerbla"
+  ],
+  "sbdsqr": [
+    "slartg",
+    "slas2",
+    "slasq1",
+    "slasr",
+    "slasv2",
+    "xerbla"
+  ],
+  "zgtsv": [
+    "xerbla"
+  ],
+  "dopmtr": [
+    "dlarf",
+    "dlarf1l",
+    "xerbla"
+  ],
+  "dtgsna": [
+    "dlacpy",
+    "dlag2",
+    "dtgexc",
+    "dtgsyl",
+    "xerbla"
+  ],
+  "zlatdf": [
+    "zgecon",
+    "zgesc2",
+    "zlassq",
+    "zlaswp"
+  ],
+  "clarnv": [
+    "slaruv"
+  ],
+  "zhegv": [
+    "xerbla",
+    "zheev",
+    "zhegst",
+    "zpotrf"
+  ],
+  "zhetrs": [
+    "xerbla",
+    "zlacgv"
+  ],
+  "cpbtf2": [
+    "clacgv",
+    "xerbla"
+  ],
+  "zsycon": [
+    "xerbla",
+    "zlacn2",
+    "zsytrs"
+  ],
+  "zlaed8": [
+    "dlamrg",
+    "xerbla",
+    "zlacpy"
+  ],
+  "slarfb": [],
+  "chetrs_aa": [
+    "cgtsv",
+    "clacgv",
+    "clacpy",
+    "xerbla"
+  ],
+  "zlatrs": [
+    "xerbla"
+  ],
+  "dlasd1": [
+    "dlamrg",
+    "dlascl",
+    "dlasd2",
+    "dlasd3",
+    "xerbla"
+  ],
+  "dsbtrd": [
+    "dlar2v",
+    "dlargv",
+    "dlartg",
+    "dlartv",
+    "dlaset",
+    "xerbla"
+  ],
+  "zptcon": [
+    "xerbla"
+  ],
+  "dgelqs": [
+    "dlaset",
+    "dormlq",
+    "xerbla"
+  ],
+  "sgetsqrhrt": [
+    "slatsqr",
+    "sorgtsqr_row",
+    "sorhr_col",
+    "xerbla"
+  ],
+  "zgelqf": [
+    "xerbla",
+    "zgelq2",
+    "zlarfb",
+    "zlarft"
+  ],
+  "cgelst": [
+    "cgelqt",
+    "cgemlqt",
+    "cgemqrt",
+    "cgeqrt",
+    "clascl",
+    "claset",
+    "ctrtrs",
+    "xerbla"
+  ],
+  "zlarz": [
+    "zlacgv"
+  ],
+  "dlasr": [
+    "xerbla"
+  ],
+  "cla_wwaddw": [],
+  "zsysv_aa_2stage": [
+    "xerbla",
+    "zsytrf_aa_2stage",
+    "zsytrs_aa_2stage"
+  ],
+  "ctplqt2": [
+    "clarfg",
+    "xerbla"
+  ],
+  "zhgeqz": [
+    "xerbla",
+    "zlartg",
+    "zlaset",
+    "zrot"
+  ],
+  "csysvx": [
+    "clacpy",
+    "csycon",
+    "csyrfs",
+    "csytrf",
+    "csytrs",
+    "xerbla"
+  ],
+  "cgeqrs": [
+    "cunmqr",
+    "xerbla"
+  ],
+  "dlaswp": [],
+  "dtptrs": [
+    "xerbla"
+  ],
+  "zsysv": [
+    "xerbla",
+    "zsytrf",
+    "zsytrs",
+    "zsytrs2"
+  ],
+  "zlasr": [
+    "xerbla"
+  ],
+  "zsytri_rook": [
+    "xerbla",
+    "zsymv"
+  ],
+  "dgemqrt": [
+    "dlarfb",
+    "xerbla"
+  ],
+  "dtbtrs": [
+    "xerbla"
+  ],
+  "dorml2": [
+    "dlarf1f",
+    "xerbla"
+  ],
+  "dpttrf": [
+    "xerbla"
+  ],
+  "dpteqr": [
+    "dbdsqr",
+    "dlaset",
+    "dpttrf",
+    "xerbla"
+  ],
+  "dlapmr": [],
+  "dtrcon": [
+    "dlacn2",
+    "dlatrs",
+    "drscl",
+    "xerbla"
+  ],
+  "slarf": [],
+  "zggsvd": [
+    "xerbla",
+    "zggsvp",
+    "ztgsja"
+  ],
+  "cggqrf": [
+    "cgeqrf",
+    "cgerqf",
+    "cunmqr",
+    "xerbla"
+  ],
+  "zheevd": [
+    "dsterf",
+    "xerbla",
+    "zhetrd",
+    "zlacpy",
+    "zlascl",
+    "zstedc",
+    "zunmtr"
+  ],
+  "zpbrfs": [
+    "xerbla",
+    "zlacn2",
+    "zpbtrs"
+  ],
+  "dlarfgp": [],
+  "zunbdb2": [
+    "xerbla",
+    "zlacgv",
+    "zlarf1f",
+    "zlarfgp",
+    "zunbdb5"
+  ],
+  "slaed0": [
+    "slacpy",
+    "slaed1",
+    "slaed7",
+    "ssteqr",
+    "xerbla"
+  ],
+  "ssbgvx": [
+    "slacpy",
+    "spbstf",
+    "ssbgst",
+    "ssbtrd",
+    "sstebz",
+    "sstein",
+    "ssteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "dgetsqrhrt": [
+    "dlatsqr",
+    "dorgtsqr_row",
+    "dorhr_col",
+    "xerbla"
+  ],
+  "zhpgst": [
+    "xerbla"
+  ],
+  "sgesvd": [
+    "sbdsqr",
+    "sgebrd",
+    "sgelqf",
+    "sgeqrf",
+    "slacpy",
+    "slascl",
+    "slaset",
+    "sorgbr",
+    "sorglq",
+    "sorgqr",
+    "sormbr",
+    "xerbla"
+  ],
+  "zgttrs": [
+    "xerbla",
+    "zgtts2"
+  ],
+  "stgexc": [
+    "stgex2",
+    "xerbla"
+  ],
+  "cunm2l": [
+    "clarf1l",
+    "xerbla"
+  ],
+  "sgghd3": [
+    "sgghrd",
+    "slacpy",
+    "slartg",
+    "slaset",
+    "sorm22",
+    "xerbla"
+  ],
+  "cgejsv": [
+    "cgelqf",
+    "cgeqp3",
+    "cgeqrf",
+    "cgesvj",
+    "clacgv",
+    "clacpy",
+    "clapmr",
+    "clascl",
+    "claset",
+    "classq",
+    "claswp",
+    "cpocon",
+    "cungqr",
+    "cunmlq",
+    "cunmqr",
+    "slascl",
+    "slassq",
+    "xerbla"
+  ],
+  "slarrk": [],
+  "dlangb": [
+    "disnan",
+    "dlassq"
+  ],
+  "zlanht": [
+    "disnan",
+    "dlassq",
+    "zlassq"
+  ],
+  "dbbcsd": [
+    "dlartgp",
+    "dlartgs",
+    "dlas2",
+    "dlasr",
+    "xerbla"
+  ],
+  "dlascl": [
+    "xerbla"
+  ],
+  "ssptrd": [
+    "slarfg",
+    "xerbla"
+  ],
+  "ssytri_3": [
+    "ssytri_3x",
+    "xerbla"
+  ],
+  "zlacp2": [],
+  "slaic1": [],
+  "dlagtm": [],
+  "csytri_rook": [
+    "csymv",
+    "xerbla"
+  ],
+  "sormql": [
+    "slarfb",
+    "slarft",
+    "sorm2l",
+    "xerbla"
+  ],
+  "dsfrk": [
+    "xerbla"
+  ],
+  "clatrs": [
+    "xerbla"
+  ],
+  "zhetri2x": [
+    "xerbla",
+    "zheswapr",
+    "zsyconv",
+    "ztrtri"
+  ],
+  "dlaqr3": [
+    "dgehrd",
+    "dlacpy",
+    "dlahqr",
+    "dlanv2",
+    "dlaqr4",
+    "dlarf1f",
+    "dlarfg",
+    "dlaset",
+    "dormhr",
+    "dtrexc"
+  ],
+  "clatsqr": [
+    "cgeqrt",
+    "ctpqrt",
+    "xerbla"
+  ],
+  "cgeequ": [
+    "xerbla"
+  ],
+  "chegst": [
+    "chegs2",
+    "xerbla"
+  ],
+  "sspgv": [
+    "spptrf",
+    "sspev",
+    "sspgst",
+    "xerbla"
+  ],
+  "strti2": [
+    "xerbla"
+  ],
+  "zheequb": [
+    "xerbla",
+    "zlassq"
+  ],
+  "dstegr": [
+    "dstemr"
+  ],
+  "sla_syrfsx_extended": [
+    "ilauplo",
+    "sla_lin_berr",
+    "sla_syamv",
+    "sla_wwaddw",
+    "ssytrs",
+    "xerbla"
+  ],
+  "cgttrs": [
+    "cgtts2",
+    "xerbla"
+  ],
+  "ssyevx_2stage": [
+    "slacpy",
+    "sorgtr",
+    "sormtr",
+    "sstebz",
+    "sstein",
+    "ssteqr",
+    "ssterf",
+    "ssytrd_2stage",
+    "xerbla"
+  ],
+  "ssygv": [
+    "spotrf",
+    "ssyev",
+    "ssygst",
+    "xerbla"
+  ],
+  "chptrf": [
+    "xerbla"
+  ],
+  "csytrf_rook": [
+    "clasyf_rook",
+    "csytf2_rook",
+    "xerbla"
+  ],
+  "zpptrf": [
+    "xerbla"
+  ],
+  "dlaqp3rk": [
+    "dlarfg"
+  ],
+  "zgsvj0": [
+    "xerbla",
+    "zlascl",
+    "zlassq",
+    "zrot"
+  ],
+  "cgegs": [
+    "cgeqrf",
+    "cggbak",
+    "cggbal",
+    "cgghrd",
+    "chgeqz",
+    "clacpy",
+    "clascl",
+    "claset",
+    "cungqr",
+    "cunmqr",
+    "xerbla"
+  ],
+  "dgsvj0": [
+    "dlascl",
+    "dlassq",
+    "xerbla"
+  ],
+  "dlasyf_rook": [],
+  "zpprfs": [
+    "xerbla",
+    "zlacn2",
+    "zpptrs"
+  ],
+  "sgesvj": [
+    "sgsvj0",
+    "sgsvj1",
+    "slascl",
+    "slaset",
+    "slassq",
+    "xerbla"
+  ],
+  "zgeevx": [
+    "dlascl",
+    "xerbla",
+    "zgebak",
+    "zgebal",
+    "zgehrd",
+    "zhseqr",
+    "zlacpy",
+    "zlascl",
+    "ztrevc3",
+    "ztrsna",
+    "zunghr"
+  ],
+  "cla_gbrpvgrw": [],
+  "slae2": [],
+  "zpptrs": [
+    "xerbla"
+  ],
+  "cgeevx": [
+    "cgebak",
+    "cgebal",
+    "cgehrd",
+    "chseqr",
+    "clacpy",
+    "clascl",
+    "ctrevc3",
+    "ctrsna",
+    "cunghr",
+    "slascl",
+    "xerbla"
+  ],
+  "zlaqr4": [
+    "zlacpy",
+    "zlahqr",
+    "zlaqr2",
+    "zlaqr5"
+  ],
+  "dlarfx": [
+    "dlarf"
+  ],
+  "dgeqp3rk": [
+    "dlaqp2rk",
+    "dlaqp3rk",
+    "xerbla"
+  ],
+  "dgemlq": [
+    "dgemlqt",
+    "dlamswlq",
+    "xerbla"
+  ],
+  "dgebrd": [
+    "dgebd2",
+    "dlabrd",
+    "xerbla"
+  ],
+  "dlaqps": [
+    "dlarfg"
+  ],
+  "dla_gbrfsx_extended": [
+    "chla_transtype",
+    "dgbtrs",
+    "dla_gbamv",
+    "dla_lin_berr",
+    "dla_wwaddw"
+  ],
+  "zsytrf_aa_2stage": [
+    "xerbla",
+    "zgbtrf",
+    "zgetrf",
+    "zlacpy",
+    "zlaset",
+    "zlaswp"
+  ],
+  "dpptri": [
+    "dtptri",
+    "xerbla"
+  ],
+  "sspevx": [
+    "sopgtr",
+    "sopmtr",
+    "ssptrd",
+    "sstebz",
+    "sstein",
+    "ssteqr",
+    "ssterf",
+    "xerbla"
+  ],
+  "clasyf": [],
+  "zsycon_3": [
+    "xerbla",
+    "zlacn2",
+    "zsytrs_3"
+  ],
+  "dlasd7": [
+    "dlamrg",
+    "xerbla"
+  ],
+  "dgemlqt": [
+    "dlarfb",
+    "xerbla"
+  ],
+  "cpftri": [
+    "clauum",
+    "ctftri",
+    "xerbla"
+  ],
+  "slar1v": [],
+  "sorg2r": [
+    "slarf1f",
+    "xerbla"
+  ],
+  "zhesv_aa_2stage": [
+    "xerbla",
+    "zhetrf_aa_2stage",
+    "zhetrs_aa_2stage"
+  ],
+  "dlasda": [
+    "dlasd6",
+    "dlasdq",
+    "dlasdt",
+    "dlaset",
+    "xerbla"
+  ],
+  "clabrd": [
+    "clacgv",
+    "clarfg"
+  ],
+  "cgeqrt2": [
+    "clarfg",
+    "xerbla"
+  ],
+  "chesv_aa": [
+    "chetrf_aa",
+    "chetrs_aa",
+    "xerbla"
+  ],
+  "slarfb_gett": [],
+  "ztpqrt2": [
+    "xerbla",
+    "zlarfg"
+  ],
+  "dgejsv": [
+    "dgelqf",
+    "dgeqp3",
+    "dgeqrf",
+    "dgesvj",
+    "dlacpy",
+    "dlascl",
+    "dlaset",
+    "dlassq",
+    "dlaswp",
+    "dorgqr",
+    "dormlq",
+    "dormqr",
+    "dpocon",
+    "xerbla"
+  ],
+  "sorglq": [
+    "slarfb",
+    "slarft",
+    "sorgl2",
+    "xerbla"
+  ],
+  "cla_porcond_x": [
+    "clacn2",
+    "cpotrs",
+    "xerbla"
+  ],
+  "slasdq": [
+    "sbdsqr",
+    "slartg",
+    "slasr",
+    "xerbla"
+  ],
+  "stplqt": [
+    "stplqt2",
+    "stprfb",
+    "xerbla"
+  ],
+  "zsytri_3x": [
+    "xerbla",
+    "zsyswapr",
+    "ztrtri"
+  ],
+  "ssytri2x": [
+    "ssyconv",
+    "ssyswapr",
+    "strtri",
+    "xerbla"
+  ],
+  "stplqt2": [
+    "slarfg",
+    "xerbla"
+  ],
+  "csptrf": [
+    "cspr",
+    "xerbla"
+  ],
+  "zheswapr": [],
+  "zunmtr": [
+    "xerbla",
+    "zunmql",
+    "zunmqr"
+  ],
+  "slasv2": [],
+  "dlaqsb": [],
+  "zstegr": [
+    "zstemr"
+  ],
+  "cunhr_col": [
+    "claunhr_col_getrfnp",
+    "xerbla"
+  ],
+  "dspevd": [
+    "dopmtr",
+    "dsptrd",
+    "dstedc",
+    "dsterf",
+    "xerbla"
+  ],
+  "sggesx": [
+    "slacpy",
+    "slascl",
+    "slaset",
+    "sorgqr",
+    "sormqr",
+    "stgsen",
+    "xerbla"
+  ],
+  "dgedmd": [
+    "dgeev",
+    "dgejsv",
+    "dgesdd",
+    "dgesvd",
+    "dgesvdq",
+    "dlacpy",
+    "dlange",
+    "dlascl",
+    "dlassq",
+    "xerbla"
+  ],
+  "stpmlqt": [
+    "stprfb",
+    "xerbla"
+  ],
+  "cggsvd": [
+    "cggsvp",
+    "ctgsja",
+    "xerbla"
+  ],
+  "dsptrd": [
+    "dlarfg",
+    "xerbla"
+  ],
+  "dlaed7": [
+    "dlaed8",
+    "dlaed9",
+    "dlaeda",
+    "dlamrg",
+    "xerbla"
+  ],
+  "chptrd": [
+    "clarfg",
+    "xerbla"
+  ],
+  "dggsvp": [
+    "dgeqpf",
+    "dgeqr2",
+    "dgerq2",
+    "dlacpy",
+    "dlapmt",
+    "dlaset",
+    "dorg2r",
+    "dorm2r",
+    "dormr2",
+    "xerbla"
+  ],
+  "dlaed5": [],
+  "zunmlq": [
+    "xerbla",
+    "zlarfb",
+    "zlarft",
+    "zunml2"
+  ],
+  "cpftrf": [
+    "cpotrf",
+    "xerbla"
+  ],
+  "csteqr": [
+    "claset",
+    "clasr",
+    "slae2",
+    "slaev2",
+    "slartg",
+    "slascl",
+    "slasrt",
+    "xerbla"
+  ],
+  "dlatrz": [
+    "dlarfg",
+    "dlarz"
+  ],
+  "zla_porcond_x": [
+    "xerbla",
+    "zlacn2",
+    "zpotrs"
+  ],
+  "cgbtf2": [
+    "xerbla"
+  ],
+  "dgelst": [
+    "dgelqt",
+    "dgemlqt",
+    "dgemqrt",
+    "dgeqrt",
+    "dlascl",
+    "dlaset",
+    "dtrtrs",
+    "xerbla"
+  ],
+  "dlantr": [
+    "disnan",
+    "dlassq"
+  ],
+  "zsysv_rk": [
+    "xerbla",
+    "zsytrf_rk",
+    "zsytrs_3"
+  ],
+  "dlasv2": [],
+  "slasrt": [
+    "xerbla"
+  ],
+  "sgetf2": [
+    "xerbla"
+  ],
+  "dsbgvx": [
+    "dlacpy",
+    "dpbstf",
+    "dsbgst",
+    "dsbtrd",
+    "dstebz",
+    "dstein",
+    "dsteqr",
+    "dsterf",
+    "xerbla"
+  ],
+  "clals0": [
+    "clacpy",
+    "clascl",
+    "xerbla"
+  ],
+  "sgebd2": [
+    "slarf1f",
+    "slarfg",
+    "xerbla"
+  ],
+  "dsytrd": [
+    "dlatrd",
+    "dsytd2",
+    "xerbla"
+  ],
+  "dsysvxx": [
+    "dla_syrpvgrw",
+    "dlacpy",
+    "dlaqsy",
+    "dlascl2",
+    "dsyequb",
+    "dsyrfsx",
+    "dsytrf",
+    "dsytrs",
+    "xerbla"
+  ],
+  "zlaqr2": [
+    "zgehrd",
+    "zlacpy",
+    "zlahqr",
+    "zlarf1f",
+    "zlarfg",
+    "zlaset",
+    "ztrexc",
+    "zunmhr"
+  ],
+  "cunmtr": [
+    "cunmql",
+    "cunmqr",
+    "xerbla"
+  ],
+  "dlaed6": [],
+  "cherfsx": [
+    "checon",
+    "cla_hercond_c",
+    "cla_hercond_x",
+    "cla_herfsx_extended",
+    "clanhe",
+    "ilaprec",
+    "xerbla"
+  ],
+  "ztgsyl": [
+    "xerbla",
+    "zlacpy",
+    "zlaset",
+    "ztgsy2"
+  ],
+  "cung2l": [
+    "clarf1l",
+    "xerbla"
+  ],
+  "csycon": [
+    "clacn2",
+    "csytrs",
+    "xerbla"
+  ],
+  "dlaed3": [
+    "dlacpy",
+    "dlaed4",
+    "dlaset",
+    "xerbla"
+  ],
+  "zlangt": [
+    "disnan",
+    "zlassq"
+  ],
+  "dlaqz0": [
+    "dhgeqz",
+    "dlanhs",
+    "dlaqz3",
+    "dlaqz4",
+    "dlartg",
+    "dlaset",
+    "ilaenv",
+    "xerbla"
+  ],
+  "ssysvxx": [
+    "sla_syrpvgrw",
+    "slacpy",
+    "slaqsy",
+    "slascl2",
+    "ssyequb",
+    "ssyrfsx",
+    "ssytrf",
+    "ssytrs",
+    "xerbla"
+  ],
+  "zsyconv": [
+    "xerbla"
+  ],
+  "csyrfs": [
+    "clacn2",
+    "csymv",
+    "csytrs",
+    "xerbla"
+  ],
+  "slacn2": [],
+  "disnan": [
+    "dlaisnan"
+  ],
+  "chetf2_rook": [
+    "xerbla"
+  ],
+  "cppsv": [
+    "cpptrf",
+    "cpptrs",
+    "xerbla"
+  ],
+  "sggsvp3": [
+    "sgeqp3",
+    "sgeqr2",
+    "sgerq2",
+    "slacpy",
+    "slapmt",
+    "slaset",
+    "sorg2r",
+    "sorm2r",
+    "sormr2",
+    "xerbla"
+  ],
+  "sla_porpvgrw": [],
+  "dgges": [
+    "dgeqrf",
+    "dggbak",
+    "dggbal",
+    "dgghrd",
+    "dhgeqz",
+    "dlacpy",
+    "dlascl",
+    "dlaset",
+    "dorgqr",
+    "dormqr",
+    "dtgsen",
+    "xerbla"
+  ],
+  "cgeqrt": [
+    "cgeqrt2",
+    "cgeqrt3",
+    "clarfb",
+    "xerbla"
+  ],
+  "dbdsdc": [
+    "dlartg",
+    "dlascl",
+    "dlasd0",
+    "dlasda",
+    "dlasdq",
+    "dlaset",
+    "dlasr",
+    "xerbla"
+  ],
+  "zla_hercond_c": [
+    "xerbla",
+    "zhetrs",
+    "zlacn2"
+  ],
+  "strsen": [
+    "slacn2",
+    "slacpy",
+    "strexc",
+    "strsyl",
+    "xerbla"
+  ],
+  "zlascl": [
+    "xerbla"
+  ],
+  "slarz": [],
+  "ztbtrs": [
+    "xerbla"
+  ],
+  "chegvd": [
+    "cheevd",
+    "chegst",
+    "cpotrf",
+    "xerbla"
+  ],
+  "cgghrd": [
+    "clartg",
+    "claset",
+    "crot",
+    "xerbla"
+  ],
+  "cheevr_2stage": [
+    "chetrd_2stage",
+    "cstein",
+    "cstemr",
+    "cunmtr",
+    "sstebz",
+    "ssterf",
+    "xerbla"
+  ],
+  "zsptrs": [
+    "xerbla"
+  ],
+  "dgges3": [
+    "dgeqrf",
+    "dggbak",
+    "dggbal",
+    "dgghd3",
+    "dlacpy",
+    "dlaqz0",
+    "dlascl",
+    "dlaset",
+    "dorgqr",
+    "dormqr",
+    "dtgsen",
+    "xerbla"
+  ],
+  "dggesx": [
+    "dlacpy",
+    "dlascl",
+    "dlaset",
+    "dorgqr",
+    "dormqr",
+    "dtgsen",
+    "xerbla"
+  ],
+  "cgedmd": [
+    "cgeev",
+    "cgejsv",
+    "cgesdd",
+    "cgesvd",
+    "cgesvdq",
+    "clacpy",
+    "clange",
+    "clascl",
+    "classq",
+    "xerbla"
+  ],
+  "slarrj": [],
+  "ssyev_2stage": [
+    "slascl",
+    "sorgtr",
+    "ssteqr",
+    "ssterf",
+    "ssytrd_2stage",
+    "xerbla"
+  ],
+  "csytf2": [
+    "csyr",
+    "xerbla"
+  ],
+  "ctpqrt": [
+    "ctpqrt2",
+    "ctprfb",
+    "xerbla"
+  ],
+  "dgeqrt": [
+    "dgeqrt2",
+    "dgeqrt3",
+    "dlarfb",
+    "xerbla"
+  ],
+  "cgeqr2p": [
+    "clarf1f",
+    "clarfgp",
+    "xerbla"
+  ],
+  "csyconvf_rook": [
+    "xerbla"
+  ],
+  "dsytri2x": [
+    "dsyconv",
+    "dsyswapr",
+    "dtrtri",
+    "xerbla"
+  ],
+  "dptsvx": [
+    "dlacpy",
+    "dptcon",
+    "dptrfs",
+    "dpttrf",
+    "dpttrs",
+    "xerbla"
+  ],
+  "ctprfs": [
+    "clacn2",
+    "xerbla"
+  ],
+  "zgelss": [
+    "dlascl",
+    "dlaset",
+    "xerbla",
+    "zbdsqr",
+    "zdrscl",
+    "zgebrd",
+    "zgelqf",
+    "zgeqrf",
+    "zlacpy",
+    "zlascl",
+    "zlaset",
+    "zungbr",
+    "zunmbr",
+    "zunmlq",
+    "zunmqr"
+  ],
+  "cpbcon": [
+    "clacn2",
+    "clatbs",
+    "csrscl",
+    "xerbla"
+  ],
+  "dlaqp2rk": [
+    "dlarf1f",
+    "dlarfg"
+  ],
+  "cspsv": [
+    "csptrf",
+    "csptrs",
+    "xerbla"
+  ],
+  "sgees": [
+    "sgebak",
+    "sgebal",
+    "sgehrd",
+    "shseqr",
+    "slacpy",
+    "slascl",
+    "sorghr",
+    "strsen",
+    "xerbla"
+  ],
+  "sgttrf": [
+    "xerbla"
+  ],
+  "zhpevx": [
+    "dstebz",
+    "dsterf",
+    "xerbla",
+    "zhptrd",
+    "zstein",
+    "zsteqr",
+    "zupgtr",
+    "zupmtr"
+  ],
+  "dgels": [
+    "dgelqf",
+    "dgeqrf",
+    "dlascl",
+    "dlaset",
+    "dormlq",
+    "dormqr",
+    "dtrtrs",
+    "xerbla"
+  ],
+  "zposvxx": [
+    "xerbla",
+    "zla_porpvgrw",
+    "zlacpy",
+    "zlaqhe",
+    "zlascl2",
+    "zpoequb",
+    "zporfsx",
+    "zpotrf",
+    "zpotrs"
+  ],
+  "dptsv": [
+    "dpttrf",
+    "dpttrs",
+    "xerbla"
+  ],
+  "cla_syrpvgrw": [],
+  "cgbsvxx": [
+    "cgbequb",
+    "cgbrfsx",
+    "cgbtrf",
+    "cgbtrs",
+    "cla_gbrpvgrw",
+    "clacpy",
+    "claqgb",
+    "clascl2",
+    "xerbla"
+  ],
+  "zlansy": [
+    "disnan",
+    "zlassq"
+  ],
+  "clasyf_aa": [
+    "claset",
+    "xerbla"
+  ],
+  "dgesv": [
+    "dgetrf",
+    "dgetrs",
+    "xerbla"
+  ],
+  "dggbak": [
+    "xerbla"
+  ],
+  "dpbtf2": [
+    "xerbla"
+  ],
+  "dlag2s": [],
+  "sgesdd": [
+    "sbdsdc",
+    "sgebrd",
+    "sgelqf",
+    "sgeqrf",
+    "slacpy",
+    "slascl",
+    "slaset",
+    "sorgbr",
+    "sorglq",
+    "sorgqr",
+    "sormbr",
+    "xerbla"
+  ],
+  "sgerqf": [
+    "sgerq2",
+    "slarfb",
+    "slarft",
+    "xerbla"
+  ],
+  "dlartg": [],
+  "slantp": [
+    "sisnan",
+    "slassq"
+  ],
+  "dstebz": [
+    "dlaebz",
+    "xerbla"
+  ],
+  "zunml2": [
+    "xerbla",
+    "zlacgv",
+    "zlarf1f"
+  ],
+  "cgelsd": [
+    "cgebrd",
+    "cgelqf",
+    "cgeqrf",
+    "clacpy",
+    "clalsd",
+    "clascl",
+    "claset",
+    "cunmbr",
+    "cunmlq",
+    "cunmqr",
+    "slascl",
+    "slaset",
+    "xerbla"
+  ],
+  "cungr2": [
+    "clacgv",
+    "clarf1l",
+    "xerbla"
+  ],
+  "zlargv": [],
+  "slarf1l": [],
+  "zgelsx": [
+    "xerbla",
+    "zgeqpf",
+    "zlaic1",
+    "zlascl",
+    "zlaset",
+    "zlatzm",
+    "ztzrqf",
+    "zunm2r"
+  ],
+  "zla_wwaddw": [],
+  "zgttrf": [
+    "xerbla"
+  ],
+  "dggbal": [
+    "xerbla"
+  ],
+  "dlatrs3": [
+    "dlatrs",
+    "xerbla"
+  ],
+  "zsytrs_aa_2stage": [
+    "xerbla",
+    "zgbtrs",
+    "zlaswp"
+  ],
+  "slarfx": [
+    "slarf"
+  ],
+  "ssyconv": [
+    "xerbla"
+  ],
+  "dsyswapr": [],
+  "clanhe": [
+    "classq",
+    "sisnan"
+  ],
+  "cggesx": [
+    "clacpy",
+    "clascl",
+    "claset",
+    "ctgsen",
+    "cungqr",
+    "cunmqr",
+    "xerbla"
+  ],
+  "zlatzm": [
+    "zlacgv"
+  ],
+  "sporfs": [
+    "slacn2",
+    "spotrs",
+    "xerbla"
+  ],
+  "dlaed4": [
+    "dlaed5",
+    "dlaed6"
+  ],
+  "zsytri2x": [
+    "xerbla",
+    "zsyconv",
+    "zsyswapr",
+    "ztrtri"
+  ],
+  "stprfs": [
+    "slacn2",
+    "xerbla"
+  ],
+  "cunbdb": [
+    "clacgv",
+    "clarf1f",
+    "clarfgp",
+    "xerbla"
+  ],
+  "dgbsvxx": [
+    "dgbequb",
+    "dgbrfsx",
+    "dgbtrf",
+    "dgbtrs",
+    "dla_gbrpvgrw",
+    "dlacpy",
+    "dlaqgb",
+    "dlascl2",
+    "xerbla"
+  ],
+  "ssygst": [
+    "ssygs2",
+    "xerbla"
+  ],
+  "claqz1": [
+    "clartg",
+    "crot"
+  ],
+  "stprfb": [],
+  "dlaqr0": [
+    "dlacpy",
+    "dlahqr",
+    "dlanv2",
+    "dlaqr3",
+    "dlaqr4",
+    "dlaqr5"
+  ],
+  "zunhr_col": [
+    "xerbla",
+    "zlaunhr_col_getrfnp"
+  ],
+  "zunmqr": [
+    "xerbla",
+    "zlarfb",
+    "zlarft",
+    "zunm2r"
+  ],
+  "zhesv_rk": [
+    "xerbla",
+    "zhetrf_rk",
+    "zhetrs_3"
+  ],
+  "zhptrd": [
+    "xerbla",
+    "zlarfg"
+  ],
+  "dgeqrt2": [
+    "dlarfg",
+    "xerbla"
+  ],
+  "slaqp2rk": [
+    "slarf1f",
+    "slarfg"
+  ],
+  "cpttrf": [
+    "xerbla"
+  ],
+  "slasdt": [],
+  "dpstrf": [
+    "dpstf2",
+    "xerbla"
+  ],
+  "dsycon_rook": [
+    "dlacn2",
+    "dsytrs_rook",
+    "xerbla"
+  ],
+  "cgtsvx": [
+    "cgtcon",
+    "cgtrfs",
+    "cgttrf",
+    "cgttrs",
+    "clacpy",
+    "xerbla"
+  ],
+  "zgerq2": [
+    "xerbla",
+    "zlacgv",
+    "zlarf1l",
+    "zlarfg"
+  ],
+  "ztgsen": [
+    "xerbla",
+    "zlacn2",
+    "zlacpy",
+    "zlassq",
+    "ztgexc",
+    "ztgsyl"
+  ],
+  "sstegr": [
+    "sstemr"
+  ],
+  "zgbbrd": [
+    "xerbla",
+    "zlargv",
+    "zlartg",
+    "zlartv",
+    "zlaset",
+    "zrot"
+  ],
+  "clarfy": [],
+  "csyrfsx": [
+    "cla_syrcond_c",
+    "cla_syrcond_x",
+    "cla_syrfsx_extended",
+    "clansy",
+    "csycon",
+    "ilaprec",
+    "xerbla"
+  ],
+  "zla_gercond_x": [
+    "xerbla",
+    "zgetrs",
+    "zlacn2"
+  ],
+  "sgeesx": [
+    "sgebak",
+    "sgebal",
+    "sgehrd",
+    "shseqr",
+    "slacpy",
+    "slascl",
+    "sorghr",
+    "strsen",
+    "xerbla"
+  ],
+  "slagts": [
+    "xerbla"
+  ],
+  "zlaqhe": [],
+  "zunm2l": [
+    "xerbla",
+    "zlarf1l"
+  ],
+  "zlarrv": [
+    "dlarrb",
+    "dlarrf",
+    "zlar1v",
+    "zlaset"
+  ],
+  "claqhe": [],
+  "cunmrq": [
+    "clarfb",
+    "clarft",
+    "cunmr2",
+    "xerbla"
+  ],
+  "dtrtri": [
+    "dtrti2",
+    "xerbla"
+  ],
+  "zgerqf": [
+    "xerbla",
+    "zgerq2",
+    "zlarfb",
+    "zlarft"
+  ],
+  "dsytrf_aa_2stage": [
+    "dgbtrf",
+    "dgetrf",
+    "dlacpy",
+    "dlaset",
+    "dsygst",
+    "xerbla"
+  ],
+  "zsytf2_rk": [
+    "xerbla",
+    "zsyr"
+  ],
+  "dla_syamv": [
+    "ilauplo",
+    "xerbla"
+  ],
+  "slaqr3": [
+    "sgehrd",
+    "slacpy",
+    "slahqr",
+    "slanv2",
+    "slaqr4",
+    "slarf1f",
+    "slarfg",
+    "slaset",
+    "sormhr",
+    "strexc"
+  ],
+  "dorbdb6": [
+    "dlassq",
+    "xerbla"
+  ],
+  "cheevx_2stage": [
+    "chetrd_2stage",
+    "clacpy",
+    "cstein",
+    "csteqr",
+    "cungtr",
+    "cunmtr",
+    "sstebz",
+    "ssterf",
+    "xerbla"
+  ],
+  "dgelsd": [
+    "dgebrd",
+    "dgelqf",
+    "dgeqrf",
+    "dlacpy",
+    "dlalsd",
+    "dlascl",
+    "dlaset",
+    "dormbr",
+    "dormlq",
+    "dormqr",
+    "xerbla"
+  ],
+  "dsyev": [
+    "dlascl",
+    "dorgtr",
+    "dsteqr",
+    "dsterf",
+    "dsytrd",
+    "xerbla"
+  ],
+  "slaed8": [
+    "slacpy",
+    "slamrg",
+    "xerbla"
+  ],
+  "sgetsls": [
+    "sgelq",
+    "sgemlq",
+    "sgemqr",
+    "sgeqr",
+    "slascl",
+    "slaset",
+    "strtrs",
+    "xerbla"
+  ],
+  "stpqrt": [
+    "stpqrt2",
+    "stprfb",
+    "xerbla"
+  ],
+  "zgetri": [
+    "xerbla",
+    "ztrtri"
+  ],
+  "dlantp": [
+    "disnan",
+    "dlassq"
+  ],
+  "slaqtr": [
+    "sladiv",
+    "slaln2"
+  ],
+  "dpbequ": [
+    "xerbla"
+  ],
+  "dtpmlqt": [
+    "dtprfb",
+    "xerbla"
+  ],
+  "zgetrf2": [
+    "xerbla",
+    "zlaswp"
+  ],
+  "zlanhs": [
+    "disnan",
+    "zlassq"
+  ],
+  "zggsvp3": [
+    "xerbla",
+    "zgeqp3",
+    "zgeqr2",
+    "zgerq2",
+    "zlacpy",
+    "zlapmt",
+    "zlaset",
+    "zung2r",
+    "zunm2r",
+    "zunmr2"
+  ],
+  "cunmql": [
+    "clarfb",
+    "clarft",
+    "cunm2l",
+    "xerbla"
+  ],
+  "zunbdb1": [
+    "xerbla",
+    "zlacgv",
+    "zlarf1f",
+    "zlarfgp",
+    "zunbdb5"
+  ],
+  "sptsv": [
+    "spttrf",
+    "spttrs",
+    "xerbla"
+  ],
+  "cgbrfs": [
+    "cgbtrs",
+    "clacn2",
+    "xerbla"
+  ],
+  "zlasyf_rk": [],
+  "zlaqr5": [
+    "zlacpy",
+    "zlaqr1",
+    "zlarfg",
+    "zlaset"
+  ],
+  "clanhb": [
+    "classq",
+    "sisnan"
+  ],
+  "cla_porcond_c": [
+    "clacn2",
+    "cpotrs",
+    "xerbla"
+  ],
+  "slasd1": [
+    "slamrg",
+    "slascl",
+    "slasd2",
+    "slasd3",
+    "xerbla"
+  ],
+  "sgecon": [
+    "slacn2",
+    "slatrs",
+    "srscl",
+    "xerbla"
+  ],
+  "stgsen": [
+    "slacn2",
+    "slacpy",
+    "slag2",
+    "slassq",
+    "stgexc",
+    "stgsyl",
+    "xerbla"
+  ],
+  "dgegs": [
+    "dgeqrf",
+    "dggbak",
+    "dggbal",
+    "dgghrd",
+    "dhgeqz",
+    "dlacpy",
+    "dlascl",
+    "dlaset",
+    "dorgqr",
+    "dormqr",
+    "xerbla"
+  ],
+  "dgbsvx": [
+    "dgbcon",
+    "dgbequ",
+    "dgbrfs",
+    "dgbtrf",
+    "dgbtrs",
+    "dlacpy",
+    "dlaqgb",
+    "xerbla"
+  ],
+  "csrscl": [],
+  "slasda": [
+    "slasd6",
+    "slasdq",
+    "slasdt",
+    "slaset",
+    "xerbla"
+  ],
+  "chegv": [
+    "cheev",
+    "chegst",
+    "cpotrf",
+    "xerbla"
+  ],
+  "slaqr0": [
+    "slacpy",
+    "slahqr",
+    "slanv2",
+    "slaqr3",
+    "slaqr4",
+    "slaqr5"
+  ],
+  "zpotri": [
+    "xerbla",
+    "zlauum",
+    "ztrtri"
+  ],
+  "dgghd3": [
+    "dgghrd",
+    "dlacpy",
+    "dlartg",
+    "dlaset",
+    "dorm22",
+    "xerbla"
+  ],
+  "cpbsv": [
+    "cpbtrf",
+    "cpbtrs",
+    "xerbla"
+  ],
+  "slarrr": [],
+  "stfttp": [
+    "xerbla"
+  ],
+  "zhbev": [
+    "dsterf",
+    "xerbla",
+    "zhbtrd",
+    "zlascl",
+    "zsteqr"
+  ],
+  "cunmr2": [
+    "clacgv",
+    "clarf1l",
+    "xerbla"
+  ],
+  "dtrsen": [
+    "dlacn2",
+    "dlacpy",
+    "dtrexc",
+    "dtrsyl",
+    "xerbla"
+  ],
+  "dsytri_rook": [
+    "xerbla"
+  ],
+  "zhetrd_2stage": [
+    "xerbla",
+    "zhetrd_he2hb"
+  ],
+  "sla_geamv": [
+    "ilatrans",
+    "xerbla"
+  ],
+  "dhgeqz": [
+    "dlag2",
+    "dlarfg",
+    "dlartg",
+    "dlaset",
+    "dlasv2",
+    "xerbla"
+  ],
+  "ztrevc3": [
+    "xerbla",
+    "zlacpy",
+    "zlaset",
+    "zlatrs"
+  ],
+  "zgebak": [
+    "xerbla"
+  ],
+  "zpbstf": [
+    "xerbla",
+    "zlacgv"
+  ],
+  "zunmr3": [
+    "xerbla",
+    "zlarz"
+  ],
+  "cgecon": [
+    "clacn2",
+    "clatrs",
+    "csrscl",
+    "xerbla"
+  ],
+  "slanst": [
+    "sisnan",
+    "slassq"
+  ],
+  "ctrsen": [
+    "clacn2",
+    "clacpy",
+    "ctrexc",
+    "ctrsyl",
+    "xerbla"
+  ],
+  "zspcon": [
+    "xerbla",
+    "zlacn2",
+    "zsptrs"
+  ],
+  "ssytrs_aa_2stage": [
+    "sgbtrs",
+    "slaswp",
+    "xerbla"
+  ],
+  "slarrd": [
+    "slaebz"
+  ],
+  "zlatps": [
+    "xerbla"
+  ],
+  "cheevr": [
+    "chetrd",
+    "cstein",
+    "cstemr",
+    "cunmtr",
+    "sstebz",
+    "ssterf",
+    "xerbla"
+  ],
+  "dsytrs_rook": [
+    "xerbla"
+  ],
+  "zlarf1l": [],
+  "dsprfs": [
+    "dlacn2",
+    "dsptrs",
+    "xerbla"
+  ],
+  "ssyevr_2stage": [
+    "sormtr",
+    "sstebz",
+    "sstein",
+    "sstemr",
+    "ssterf",
+    "ssytrd_2stage",
+    "xerbla"
+  ],
+  "sggevx": [
+    "slacpy",
+    "slascl",
+    "slaset",
+    "sorgqr",
+    "sormqr",
+    "stgevc",
+    "stgsna",
+    "xerbla"
+  ],
+  "zlahqr": [
+    "zlarfg"
+  ],
+  "sormqr": [
+    "slarfb",
+    "slarft",
+    "sorm2r",
+    "xerbla"
+  ],
+  "chb2st_kernels": [
+    "clarfg",
+    "clarfx",
+    "clarfy"
+  ],
+  "zhptri": [
+    "xerbla"
+  ],
+  "zlaqr1": [],
+  "sormlq": [
+    "slarfb",
+    "slarft",
+    "sorml2",
+    "xerbla"
+  ],
+  "zgeqrs": [
+    "xerbla",
+    "zunmqr"
+  ],
+  "checon": [
+    "chetrs",
+    "clacn2",
+    "xerbla"
+  ],
+  "chetri": [
+    "xerbla"
+  ],
+  "dpttrs": [
+    "dptts2",
+    "xerbla"
+  ],
+  "slaed3": [
+    "slacpy",
+    "slaed4",
+    "slaset",
+    "xerbla"
+  ],
+  "cgebal": [
+    "xerbla"
+  ],
+  "zunbdb6": [
+    "xerbla",
+    "zlassq"
+  ],
+  "ctgsy2": [
+    "cgesc2",
+    "cgetc2",
+    "clatdf",
+    "xerbla"
+  ],
+  "zlanhb": [
+    "disnan",
+    "zlassq"
+  ],
+  "dpftri": [
+    "dlauum",
+    "dtftri",
+    "xerbla"
+  ],
+  "ctpcon": [
+    "clacn2",
+    "clatps",
+    "csrscl",
+    "xerbla"
+  ],
+  "slasyf_rk": [],
+  "dlaqz3": [
+    "dlacpy",
+    "dlag2",
+    "dlaqz0",
+    "dlaqz2",
+    "dlartg",
+    "dlaset",
+    "dtgexc",
+    "xerbla"
+  ],
+  "dgbsv": [
+    "dgbtrf",
+    "dgbtrs",
+    "xerbla"
+  ],
+  "sgelss": [
+    "sbdsqr",
+    "sgebrd",
+    "sgelqf",
+    "sgeqrf",
+    "slacpy",
+    "slascl",
+    "slaset",
+    "sorgbr",
+    "sormbr",
+    "sormlq",
+    "sormqr",
+    "srscl",
+    "xerbla"
+  ],
+  "zpotrf2": [
+    "disnan",
+    "xerbla"
+  ],
+  "zsytf2": [
+    "xerbla",
+    "zsyr"
+  ],
+  "dorgr2": [
+    "dlarf",
+    "dlarf1l",
+    "xerbla"
+  ],
+  "zpocon": [
+    "xerbla",
+    "zdrscl",
+    "zlacn2",
+    "zlatrs"
+  ],
+  "zhbevd": [
+    "dsterf",
+    "xerbla",
+    "zhbtrd",
+    "zlacpy",
+    "zlascl",
+    "zstedc"
+  ],
+  "sgeequb": [
+    "xerbla"
+  ],
+  "csycon_3": [
+    "clacn2",
+    "csytrs_3",
+    "xerbla"
+  ],
+  "dla_gerpvgrw": [],
+  "csytri_3": [
+    "csytri_3x",
+    "xerbla"
+  ],
+  "dsytrs_3": [
+    "xerbla"
+  ],
+  "ssysv": [
+    "ssytrf",
+    "ssytrs",
+    "ssytrs2",
+    "xerbla"
+  ],
+  "dorbdb": [
+    "dlarf1f",
+    "dlarfgp",
+    "xerbla"
+  ],
+  "dtpqrt2": [
+    "dlarfg",
+    "xerbla"
+  ],
+  "zgbequb": [
+    "xerbla"
+  ],
+  "slamswlq": [
+    "sgemlqt",
+    "stpmlqt",
+    "xerbla"
+  ],
+  "dsbevx": [
+    "dlacpy",
+    "dlascl",
+    "dsbtrd",
+    "dstebz",
+    "dstein",
+    "dsteqr",
+    "dsterf",
+    "xerbla"
+  ],
+  "dlasyf_aa": [
+    "dlaset",
+    "xerbla"
+  ],
+  "dlamrg": [],
+  "zgeesx": [
+    "dlascl",
+    "xerbla",
+    "zgebak",
+    "zgebal",
+    "zgehrd",
+    "zhseqr",
+    "zlacpy",
+    "zlascl",
+    "ztrsen",
+    "zunghr"
+  ],
+  "dgetc2": [],
+  "ssysv_rk": [
+    "ssytrf_rk",
+    "ssytrs_3",
+    "xerbla"
+  ],
+  "sgejsv": [
+    "sgelqf",
+    "sgeqp3",
+    "sgeqrf",
+    "sgesvj",
+    "slacpy",
+    "slascl",
+    "slaset",
+    "slassq",
+    "slaswp",
+    "sorgqr",
+    "sormlq",
+    "sormqr",
+    "spocon",
+    "xerbla"
+  ],
+  "zpteqr": [
+    "dpttrf",
+    "xerbla",
+    "zbdsqr",
+    "zlaset"
+  ],
+  "sdisna": [
+    "xerbla"
+  ],
+  "slasd6": [
+    "slamrg",
+    "slascl",
+    "slasd7",
+    "slasd8",
+    "xerbla"
+  ],
+  "dlangt": [
+    "disnan",
+    "dlassq"
+  ],
+  "ssytf2_rook": [
+    "xerbla"
+  ],
+  "cunmqr": [
+    "clarfb",
+    "clarft",
+    "cunm2r",
+    "xerbla"
+  ],
+  "ilatrans": [],
+  "dlarrb": [],
+  "cuncsd": [
+    "cbbcsd",
+    "clacpy",
+    "clapmr",
+    "clapmt",
+    "cunbdb",
+    "cunglq",
+    "cungqr",
+    "xerbla"
+  ],
+  "zsytrf_rk": [
+    "xerbla",
+    "zlasyf_rk",
+    "zsytf2_rk"
+  ],
+  "zla_heamv": [
+    "ilauplo",
+    "xerbla"
+  ],
+  "chpgvd": [
+    "chpevd",
+    "chpgst",
+    "cpptrf",
+    "xerbla"
+  ],
+  "slaqr4": [
+    "slacpy",
+    "slahqr",
+    "slanv2",
+    "slaqr2",
+    "slaqr5"
+  ],
+  "ctplqt": [
+    "ctplqt2",
+    "ctprfb",
+    "xerbla"
+  ],
+  "dlasdq": [
+    "dbdsqr",
+    "dlartg",
+    "dlasr",
+    "xerbla"
+  ],
+  "zsyrfsx": [
+    "ilaprec",
+    "xerbla",
+    "zla_syrcond_c",
+    "zla_syrcond_x",
+    "zla_syrfsx_extended",
+    "zlansy",
+    "zsycon"
+  ],
+  "dgttrs": [
+    "dgtts2",
+    "xerbla"
+  ],
+  "spbtf2": [
+    "xerbla"
+  ],
+  "slaneg": [
+    "sisnan"
+  ],
+  "sisnan": [
+    "slaisnan"
+  ],
+  "zgetc2": [],
+  "zgelq": [
+    "xerbla",
+    "zgelqt",
+    "zlaswlq"
+  ],
+  "sgelst": [
+    "sgelqt",
+    "sgemlqt",
+    "sgemqrt",
+    "sgeqrt",
+    "slascl",
+    "slaset",
+    "strtrs",
+    "xerbla"
+  ],
+  "dlarfb": [],
+  "zpftrs": [
+    "xerbla",
+    "ztfsm"
+  ],
+  "dlahrd": [
+    "dlarfg"
+  ],
+  "ztgsja": [
+    "dlartg",
+    "xerbla",
+    "zlags2",
+    "zlapll",
+    "zlaset",
+    "zrot"
+  ],
+  "dlalsd": [
+    "dlacpy",
+    "dlalsa",
+    "dlartg",
+    "dlascl",
+    "dlasda",
+    "dlasdq",
+    "dlaset",
+    "dlasrt",
+    "xerbla"
+  ],
+  "clacrm": [],
+  "zgbsvx": [
+    "xerbla",
+    "zgbcon",
+    "zgbequ",
+    "zgbrfs",
+    "zgbtrf",
+    "zgbtrs",
+    "zlacpy",
+    "zlaqgb"
+  ],
+  "spftrs": [
+    "stfsm",
+    "xerbla"
+  ],
+  "ztrsen": [
+    "xerbla",
+    "zlacn2",
+    "zlacpy",
+    "ztrexc",
+    "ztrsyl"
+  ],
+  "sbdsvdx": [
+    "slaset",
+    "sstevx",
+    "xerbla"
+  ],
+  "spoequ": [
+    "xerbla"
+  ],
+  "dlaeda": [
+    "xerbla"
+  ],
+  "claqr5": [
+    "clacpy",
+    "claqr1",
+    "clarfg",
+    "claset"
+  ],
+  "ssytrf": [
+    "slasyf",
+    "ssytf2",
+    "xerbla"
+  ],
+  "slaqge": [],
+  "zhecon": [
+    "xerbla",
+    "zhetrs",
+    "zlacn2"
+  ],
+  "dgbtrs": [
+    "xerbla"
+  ],
+  "zhbgvd": [
+    "dsterf",
+    "xerbla",
+    "zhbgst",
+    "zhbtrd",
+    "zlacpy",
+    "zpbstf",
+    "zstedc"
+  ],
+  "dgtts2": [],
+  "dgelsy": [
+    "dgeqp3",
+    "dlaic1",
+    "dlascl",
+    "dlaset",
+    "dormqr",
+    "dormrz",
+    "dtzrzf",
+    "xerbla"
+  ],
+  "cgges": [
+    "cgeqrf",
+    "cggbak",
+    "cggbal",
+    "cgghrd",
+    "chgeqz",
+    "clacpy",
+    "clascl",
+    "claset",
+    "ctgsen",
+    "cungqr",
+    "cunmqr",
+    "xerbla"
+  ],
+  "spbtrf": [
+    "spbtf2",
+    "spotf2",
+    "xerbla"
+  ],
+  "zunbdb3": [
+    "xerbla",
+    "zlacgv",
+    "zlarf1f",
+    "zlarfgp",
+    "zunbdb5"
+  ],
+  "sla_syamv": [
+    "ilauplo",
+    "xerbla"
+  ],
+  "sgerfsx": [
+    "ilaprec",
+    "ilatrans",
+    "sgecon",
+    "sla_gercond",
+    "sla_gerfsx_extended",
+    "slange",
+    "xerbla"
+  ],
+  "zla_gerfsx_extended": [
+    "chla_transtype",
+    "zgetrs",
+    "zla_geamv",
+    "zla_lin_berr",
+    "zla_wwaddw"
+  ],
+  "zhegvd": [
+    "xerbla",
+    "zheevd",
+    "zhegst",
+    "zpotrf"
+  ],
+  "zlabrd": [
+    "zlacgv",
+    "zlarfg"
+  ],
+  "dtpmqrt": [
+    "dtprfb",
+    "xerbla"
+  ],
+  "clascl": [
+    "xerbla"
+  ],
+  "dspgv": [
+    "dpptrf",
+    "dspev",
+    "dspgst",
+    "xerbla"
+  ],
+  "clartg": [],
+  "ssycon_rook": [
+    "slacn2",
+    "ssytrs_rook",
+    "xerbla"
+  ],
+  "cgeqr2": [
+    "clarf1f",
+    "clarfg",
+    "xerbla"
+  ],
+  "ctrsyl": [
+    "xerbla"
+  ],
+  "zhetrs_rook": [
+    "xerbla",
+    "zlacgv"
+  ],
+  "cgerfsx": [
+    "cgecon",
+    "cla_gercond_c",
+    "cla_gercond_x",
+    "cla_gerfsx_extended",
+    "clange",
+    "ilaprec",
+    "ilatrans",
+    "xerbla"
+  ],
+  "zhbevx": [
+    "dstebz",
+    "dsterf",
+    "xerbla",
+    "zhbtrd",
+    "zlacpy",
+    "zlascl",
+    "zstein",
+    "zsteqr"
+  ],
+  "slapy2": [
+    "sisnan"
+  ],
+  "sgelq2": [
+    "slarf1f",
+    "slarfg",
+    "xerbla"
+  ],
+  "dla_geamv": [
+    "ilatrans",
+    "xerbla"
+  ],
+  "zptrfs": [
+    "xerbla",
+    "zpttrs"
+  ],
+  "ztrexc": [
+    "xerbla",
+    "zlartg",
+    "zrot"
+  ],
+  "dormr3": [
+    "dlarz",
+    "xerbla"
+  ],
+  "ssysv_rook": [
+    "ssytrf_rook",
+    "ssytrs_rook",
+    "xerbla"
+  ],
+  "dpbrfs": [
+    "dlacn2",
+    "dpbtrs",
+    "xerbla"
+  ],
+  "chpevd": [
+    "chptrd",
+    "cstedc",
+    "cupmtr",
+    "ssterf",
+    "xerbla"
+  ],
+  "zgghd3": [
+    "xerbla",
+    "zgghrd",
+    "zlacpy",
+    "zlartg",
+    "zlaset",
+    "zrot",
+    "zunm22"
+  ],
+  "dgbrfsx": [
+    "dgbcon",
+    "dla_gbrcond",
+    "dla_gbrfsx_extended",
+    "dlangb",
+    "ilaprec",
+    "ilatrans",
+    "xerbla"
+  ],
+  "slansb": [
+    "sisnan",
+    "slassq"
+  ],
+  "cla_lin_berr": [],
+  "zpbsv": [
+    "xerbla",
+    "zpbtrf",
+    "zpbtrs"
+  ],
+  "shgeqz": [
+    "slag2",
+    "slarfg",
+    "slartg",
+    "slaset",
+    "slasv2",
+    "xerbla"
+  ],
+  "claein": [
+    "clatrs"
+  ],
+  "sormr2": [
+    "slarf1l",
+    "xerbla"
+  ],
+  "zlaqz2": [
+    "xerbla",
+    "zlacpy",
+    "zlaqz0",
+    "zlaqz1",
+    "zlartg",
+    "zlaset",
+    "zrot",
+    "ztgexc"
+  ],
+  "cgeqlf": [
+    "cgeql2",
+    "clarfb",
+    "clarft",
+    "xerbla"
+  ],
+  "dsyevr": [
+    "dormtr",
+    "dstebz",
+    "dstein",
+    "dstemr",
+    "dsterf",
+    "dsytrd",
+    "xerbla"
+  ],
+  "sla_gbamv": [
+    "ilatrans",
+    "xerbla"
+  ],
+  "dtrevc": [
+    "dlaln2",
+    "xerbla"
+  ],
+  "cla_syamv": [
+    "ilauplo",
+    "xerbla"
+  ],
+  "sgeqrt3": [
+    "slarfg",
+    "xerbla"
+  ],
+  "zunbdb4": [
+    "xerbla",
+    "zlacgv",
+    "zlarf1f",
+    "zlarfgp",
+    "zunbdb5"
+  ],
+  "dlanst": [
+    "disnan",
+    "dlassq"
+  ],
+  "crot": [],
+  "claqr2": [
+    "cgehrd",
+    "clacpy",
+    "clahqr",
+    "clarf1f",
+    "clarfg",
+    "claset",
+    "ctrexc",
+    "cunmhr"
+  ],
+  "cunml2": [
+    "clacgv",
+    "clarf1f",
+    "xerbla"
+  ],
+  "csytrs": [
+    "xerbla"
+  ],
+  "cung2r": [
+    "clarf1f",
+    "xerbla"
+  ],
+  "dporfs": [
+    "dlacn2",
+    "dpotrs",
+    "xerbla"
+  ],
+  "dlarrd": [
+    "dlaebz"
+  ],
+  "dgelss": [
+    "dbdsqr",
+    "dgebrd",
+    "dgelqf",
+    "dgeqrf",
+    "dlacpy",
+    "dlascl",
+    "dlaset",
+    "dorgbr",
+    "dormbr",
+    "dormlq",
+    "dormqr",
+    "drscl",
+    "xerbla"
+  ],
+  "spptri": [
+    "stptri",
+    "xerbla"
+  ],
+  "zpbtrs": [
+    "xerbla"
+  ],
+  "zlasyf_rook": [],
+  "cgesvd": [
+    "cbdsqr",
+    "cgebrd",
+    "cgelqf",
+    "cgeqrf",
+    "clacpy",
+    "clascl",
+    "claset",
+    "cungbr",
+    "cunglq",
+    "cungqr",
+    "cunmbr",
+    "slascl",
+    "xerbla"
+  ],
+  "zlasyf": [],
+  "clahqr": [
+    "clarfg"
+  ],
+  "claed7": [
+    "clacrm",
+    "claed8",
+    "slaed9",
+    "slaeda",
+    "slamrg",
+    "xerbla"
+  ],
+  "chsein": [
+    "claein",
+    "xerbla"
+  ],
+  "zgesdd": [
+    "dbdsdc",
+    "dlascl",
+    "xerbla",
+    "zgebrd",
+    "zgelqf",
+    "zgeqrf",
+    "zlacp2",
+    "zlacpy",
+    "zlacrm",
+    "zlarcm",
+    "zlascl",
+    "zlaset",
+    "zungbr",
+    "zunglq",
+    "zungqr",
+    "zunmbr"
+  ],
+  "csptri": [
+    "cspmv",
+    "xerbla"
+  ],
+  "slas2": [],
+  "slamrg": [],
+  "dsysvx": [
+    "dlacpy",
+    "dsycon",
+    "dsyrfs",
+    "dsytrf",
+    "dsytrs",
+    "xerbla"
+  ],
+  "zlamtsqr": [
+    "xerbla",
+    "zgemqrt",
+    "ztpmqrt"
+  ],
+  "ctzrzf": [
+    "clarzb",
+    "clarzt",
+    "clatrz",
+    "xerbla"
+  ],
+  "ssytrf_rk": [
+    "slasyf_rk",
+    "ssytf2_rk",
+    "xerbla"
+  ],
+  "spptrs": [
+    "xerbla"
+  ],
+  "cunglq": [
+    "clarfb",
+    "clarft",
+    "cungl2",
+    "xerbla"
+  ],
+  "dlarrf": [],
+  "dsytrf": [
+    "dlasyf",
+    "dsytf2",
+    "xerbla"
+  ],
+  "cpbtrf": [
+    "cpbtf2",
+    "cpotf2",
+    "xerbla"
+  ],
+  "slarrf": [],
+  "clartv": [],
+  "sggqrf": [
+    "sgeqrf",
+    "sgerqf",
+    "sormqr",
+    "xerbla"
+  ],
+  "sgeqlf": [
+    "sgeql2",
+    "slarfb",
+    "slarft",
+    "xerbla"
+  ],
+  "cpstrf": [
+    "clacgv",
+    "cpstf2",
+    "xerbla"
+  ],
+  "cptcon": [
+    "xerbla"
+  ],
+  "cgtsv": [
+    "xerbla"
+  ],
+  "dpbcon": [
+    "dlacn2",
+    "dlatbs",
+    "drscl",
+    "xerbla"
+  ],
+  "dlanv2": [],
+  "cgerq2": [
+    "clacgv",
+    "clarf1l",
+    "clarfg",
+    "xerbla"
+  ],
+  "slapll": [
+    "slarfg",
+    "slas2"
+  ],
+  "stgsna": [
+    "slacpy",
+    "slag2",
+    "stgexc",
+    "stgsyl",
+    "xerbla"
+  ],
+  "dsytri_3x": [
+    "dsyswapr",
+    "dtrtri",
+    "xerbla"
+  ],
+  "cunbdb4": [
+    "clacgv",
+    "clarf1f",
+    "clarfgp",
+    "cunbdb5",
+    "xerbla"
+  ],
+  "zlags2": [
+    "dlasv2",
+    "zlartg"
+  ],
+  "dgeqr2p": [
+    "dlarf1f",
+    "dlarfgp",
+    "xerbla"
+  ],
+  "sgbtrs": [
+    "xerbla"
+  ],
+  "slalsa": [
+    "slals0",
+    "slasdt",
+    "xerbla"
+  ],
+  "cggsvd3": [
+    "cggsvp3",
+    "ctgsja",
+    "xerbla"
+  ],
+  "dgbcon": [
+    "dlacn2",
+    "dlatbs",
+    "drscl",
+    "xerbla"
+  ],
+  "zlarf1f": [],
+  "cpotri": [
+    "clauum",
+    "ctrtri",
+    "xerbla"
+  ],
+  "sormrq": [
+    "slarfb",
+    "slarft",
+    "sormr2",
+    "xerbla"
+  ],
+  "dsyevd_2stage": [
+    "dlacpy",
+    "dlascl",
+    "dormtr",
+    "dstedc",
+    "dsterf",
+    "dsytrd_2stage",
+    "xerbla"
+  ],
+  "cpptrf": [
+    "xerbla"
+  ],
+  "dtpqrt": [
+    "dtpqrt2",
+    "dtprfb",
+    "xerbla"
+  ],
+  "zrscl": [
+    "zdrscl"
+  ],
+  "sgeequ": [
+    "xerbla"
+  ],
+  "slasd3": [
+    "slacpy",
+    "slascl",
+    "slasd4",
+    "xerbla"
+  ],
+  "zlarfb": [
+    "zlacgv"
+  ],
+  "cggev": [
+    "cgeqrf",
+    "cggbak",
+    "cggbal",
+    "cgghrd",
+    "chgeqz",
+    "clacpy",
+    "clascl",
+    "claset",
+    "ctgevc",
+    "cungqr",
+    "cunmqr",
+    "xerbla"
+  ],
+  "zgeqr": [
+    "xerbla",
+    "zgeqrt",
+    "zlatsqr"
+  ],
+  "stpqrt2": [
+    "slarfg",
+    "xerbla"
+  ],
+  "ssysvx": [
+    "slacpy",
+    "ssycon",
+    "ssyrfs",
+    "ssytrf",
+    "ssytrs",
+    "xerbla"
+  ],
+  "clapll": [
+    "clarfg",
+    "slas2"
+  ],
+  "csysv_aa_2stage": [
+    "csytrf_aa_2stage",
+    "csytrs_aa_2stage",
+    "xerbla"
+  ],
+  "zppcon": [
+    "xerbla",
+    "zdrscl",
+    "zlacn2",
+    "zlatps"
+  ],
+  "chptrs": [
+    "clacgv",
+    "xerbla"
+  ],
+  "clahef_aa": [
+    "clacgv",
+    "claset",
+    "xerbla"
+  ],
+  "chetd2": [
+    "clarfg",
+    "xerbla"
+  ],
+  "zhecon_rook": [
+    "xerbla",
+    "zhetrs_rook",
+    "zlacn2"
+  ],
+  "clasyf_rook": [],
+  "sbbcsd": [
+    "slartgp",
+    "slartgs",
+    "slas2",
+    "slasr",
+    "xerbla"
+  ],
+  "ssytri_3x": [
+    "ssyswapr",
+    "strtri",
+    "xerbla"
+  ],
+  "dgebal": [
+    "xerbla"
+  ],
+  "ztprfs": [
+    "xerbla",
+    "zlacn2"
+  ],
+  "ztrti2": [
+    "xerbla"
+  ],
+  "zgglse": [
+    "xerbla",
+    "zggrqf",
+    "ztrtrs",
+    "zunmqr",
+    "zunmrq"
+  ],
+  "cgbrfsx": [
+    "cgbcon",
+    "cla_gbrcond_c",
+    "cla_gbrcond_x",
+    "cla_gbrfsx_extended",
+    "clangb",
+    "ilaprec",
+    "ilatrans",
+    "xerbla"
+  ],
+  "dormbr": [
+    "dormlq",
+    "dormqr",
+    "xerbla"
+  ],
+  "chetrs_aa_2stage": [
+    "cgbtrs",
+    "claswp",
+    "xerbla"
+  ],
+  "slaqz3": [
+    "slacpy",
+    "slag2",
+    "slaqz0",
+    "slaqz2",
+    "slartg",
+    "slaset",
+    "stgexc",
+    "xerbla"
+  ],
+  "slasq1": [
+    "slas2",
+    "slascl",
+    "slasq2",
+    "slasrt",
+    "xerbla"
+  ],
+  "dlaln2": [
+    "dladiv"
+  ],
+  "ctpttr": [
+    "xerbla"
+  ],
+  "claqsy": [],
+  "cpoequ": [
+    "xerbla"
+  ],
+  "csytri2": [
+    "csytri",
+    "csytri2x",
+    "xerbla"
+  ],
+  "dlartgp": [],
+  "clascl2": [],
+  "spbequ": [
+    "xerbla"
+  ],
+  "zlaed7": [
+    "dlaed9",
+    "dlaeda",
+    "dlamrg",
+    "xerbla",
+    "zlacrm",
+    "zlaed8"
+  ],
+  "cgbtrs": [
+    "clacgv",
+    "xerbla"
+  ],
+  "sgemlq": [
+    "sgemlqt",
+    "slamswlq",
+    "xerbla"
+  ],
+  "sgetc2": [],
+  "ssyrfsx": [
+    "ilaprec",
+    "sla_syrcond",
+    "sla_syrfsx_extended",
+    "slansy",
+    "ssycon",
+    "xerbla"
+  ],
+  "dsytd2": [
+    "dlarfg",
+    "xerbla"
+  ],
+  "ssytrs_aa": [
+    "sgtsv",
+    "slacpy",
+    "xerbla"
+  ],
+  "zla_syamv": [
+    "ilauplo",
+    "xerbla"
+  ],
+  "ssytrd_sy2sb": [
+    "sgelqf",
+    "sgeqrf",
+    "slarft",
+    "slaset",
+    "xerbla"
+  ],
+  "zspmv": [
+    "xerbla"
+  ],
+  "ssytrs_rook": [
+    "xerbla"
+  ],
+  "dla_lin_berr": [],
+  "dorgql": [
+    "dlarfb",
+    "dlarft",
+    "dorg2l",
+    "xerbla"
+  ],
+  "zpbtf2": [
+    "xerbla",
+    "zlacgv"
+  ],
+  "sspevd": [
+    "sopmtr",
+    "ssptrd",
+    "sstedc",
+    "ssterf",
+    "xerbla"
+  ],
+  "slaqz4": [
+    "slacpy",
+    "slaqz1",
+    "slaqz2",
+    "slartg",
+    "slaset",
+    "xerbla"
+  ],
+  "dpocon": [
+    "dlacn2",
+    "dlatrs",
+    "drscl",
+    "xerbla"
+  ]
+}

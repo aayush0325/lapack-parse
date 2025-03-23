@@ -1,0 +1,36 @@
+digraph "zgbtrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zgbtrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGBTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgbrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgbrfs_8f.html#a5451de5ad5b709619fd4f45f3d7c425b",tooltip="ZGBRFS"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgbsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgbsvx_8f.html#a64dec51ad6dacf882bf2d335ca583aa0",tooltip="ZGBSVX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgbsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgbsv_8f.html#a908abc0aad64131b9a32edb08510eb00",tooltip="ZGBSV computes the solution to system of linear equations A * X = B for GB matrices (simple driver)"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zgbsvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgbsvxx_8f.html#ad0be5b79eba27d25c57e5a605bf4d730",tooltip="ZGBSVXX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zhetrs_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetrs__aa__2stage_8f.html#a1b734dc9ef63aa6805fa4d51ede7917d",tooltip="ZHETRS_AA_2STAGE"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zhesv_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhesv__aa__2stage_8f.html#ada4828eb3ecee73a77548a48357e0879",tooltip="ZHESV_AA_2STAGE computes the solution to system of linear equations A * X = B for HE matrices"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zla_gbrcond_c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__gbrcond__c_8f.html#a70ef3ec53bb3d6704ccf2f9d0add0eda",tooltip="ZLA_GBRCOND_C computes the infinity norm condition number of op(A)*inv(diag(c)) for general banded ma..."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zgbrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgbrfsx_8f.html#aec856046d887af43e47d8468805b1c19",tooltip="ZGBRFSX"];
+  Node9 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zla_gbrcond_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__gbrcond__x_8f.html#a8c57793eab444ac626d6bf86a8d0a5d6",tooltip="ZLA_GBRCOND_X computes the infinity norm condition number of op(A)*diag(x) for general banded matrice..."];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zla_gbrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__gbrfsx__extended_8f.html#a943a0999e5e3fa707305ece7505e1757",tooltip="ZLA_GBRFSX_EXTENDED improves the computed solution to a system of linear equations for general banded..."];
+  Node11 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zsytrs_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrs__aa__2stage_8f.html#ac3d5bd5cb351aace882e160acca7e37e",tooltip="ZSYTRS_AA_2STAGE"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zsysv_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysv__aa__2stage_8f.html#a9b4f5e106b1ce85c8bb7bd35080b0dd0",tooltip="ZSYSV_AA_2STAGE computes the solution to system of linear equations A * X = B for SY matrices"];
+}

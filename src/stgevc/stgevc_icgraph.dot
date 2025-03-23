@@ -1,0 +1,16 @@
+digraph "stgevc"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="stgevc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="STGEVC"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgegv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgegv_8f.html#a80fd7fa3159b96cf467a9584f6464310",tooltip="SGEGV computes the eigenvalues and, optionally, the left and/or right eigenvectors of a real matrix p..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sggev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggev_8f.html#a6176eadcb5a027beb0b000fbf74f9e35",tooltip="SGGEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggev3_8f.html#a7c33384acda01bd5c62e87213eb2f2f9",tooltip="SGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sggevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggevx_8f.html#a47ddf03d427ec3f9346253132c26cf96",tooltip="SGGEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+}

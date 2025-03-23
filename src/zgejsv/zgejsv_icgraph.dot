@@ -1,0 +1,12 @@
+digraph "zgejsv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zgejsv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGEJSV"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmd_8f90.html#a09cef60be58f076072bb592bd1223dec",tooltip="ZGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmdq_8f90.html#a2ed954e87a52cfdd0bf0d61a1ff43e16",tooltip="ZGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+}

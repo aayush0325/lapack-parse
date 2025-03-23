@@ -1,0 +1,18 @@
+digraph "sgbtrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sgbtrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGBTRF"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgbsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbsv_8f.html#a3656935309a19ed624052103572a4a47",tooltip="SGBSV computes the solution to system of linear equations A * X = B for GB matrices (simple driver)"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgbsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbsvx_8f.html#ae509be897c5d8dc6885d2b5f13ec2e4a",tooltip="SGBSVX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgbsvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbsvxx_8f.html#ab7b2d018021516f6f0b0f4f6199f32ae",tooltip="SGBSVXX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ssytrf_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytrf__aa__2stage_8f.html#ad1b49392866a54aaaf3fb905a28f2cdc",tooltip="SSYTRF_AA_2STAGE"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ssysv_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssysv__aa__2stage_8f.html#a40ea39ef8e6de4553ff0a099910ede7f",tooltip="SSYSV_AA_2STAGE computes the solution to system of linear equations A * X = B for SY matrices"];
+}

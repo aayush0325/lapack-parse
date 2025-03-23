@@ -1,0 +1,12 @@
+digraph "dorm2r"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dorm2r",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DORM2R multiplies a general matrix by the orthogonal matrix from a QR factorization determined by sge..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlarf1f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarf1f_8f.html#a553446f22ec537c5ff7f1335b90c4470",tooltip="DLARF1F applies an elementary reflector to a general rectangular"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+}

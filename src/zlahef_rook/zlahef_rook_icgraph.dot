@@ -1,0 +1,12 @@
+digraph "zlahef_rook"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zlahef_rook",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Download ZLAHEF_ROOK + dependencies  <a href=\"http://www.netlib.org/cgi-bin/netlibfiles...."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zhetrf_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetrf__rook_8f.html#abed09259f39f71258cbd67c020c08870",tooltip="ZHETRF_ROOK computes the factorization of a complex Hermitian indefinite matrix using the bounded Bun..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zhesv_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhesv__rook_8f.html#a566409efe6c6b00a221afd360c73c5ba",tooltip="ZHESV_ROOK computes the solution to a system of linear equations A * X = B for HE matrices using the ..."];
+}

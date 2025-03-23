@@ -1,0 +1,14 @@
+digraph "dorm22"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dorm22",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DORM22 multiplies a general matrix by a banded orthogonal matrix."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgghd3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgghd3_8f.html#aad6cd9bac74db5dfc22a5048d2c468d2",tooltip="DGGHD3"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgges3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgges3_8f.html#a3903b5dcbc186bcc5b2db0604331dbb6",tooltip="DGGES3 computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dggev3_8f.html#a28d81b96083b18aa21c47e2e6ff59e5a",tooltip="DGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+}

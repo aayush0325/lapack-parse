@@ -1,0 +1,22 @@
+digraph "zlaqz3"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zlaqz3",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLAQZ3"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacpy_8f.html#a519ff79bf915433651747242f22078fb",tooltip="ZLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zlaqz1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaqz1_8f.html#a1553e50c713dd32c87e12b91417821a5",tooltip="ZLAQZ1"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zlartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlartg_8f90.html#a1e266e78a9a8585a1fc67f2d23badc64",tooltip="ZLARTG generates a plane rotation with real cosine and complex sine."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zrot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zrot_8f.html#a423fa89faf02ec43f5b664f91ce29729",tooltip="ZROT applies a plane rotation with real cosine and complex sine to a pair of complex vectors."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaset_8f.html#aa4389d0e0e031c70c351acf7dbad6a85",tooltip="ZLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

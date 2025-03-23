@@ -1,0 +1,32 @@
+digraph "zlaed7"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zlaed7",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLAED7 used by ZSTEDC. Computes the updated eigensystem of a diagonal matrix after modification by a ..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlaed9",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed9_8f.html#a30fd79c73c45b69cfb21b3cdb5312415",tooltip="DLAED9 used by DSTEDC. Finds the roots of the secular equation and updates the eigenvectors...."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlaed4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed4_8f.html#a3c4a943599132aea3ac964c08392853a",tooltip="DLAED4 used by DSTEDC. Finds a single root of the secular equation."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlaed5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed5_8f.html#ae5927d0d0d438b3bc90a0679eaafe747",tooltip="DLAED5 used by DSTEDC. Solves the 2-by-2 secular equation."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlaed6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed6_8f.html#a8016fde4c8a60d5e95e6e6c636ec4dc9",tooltip="DLAED6 used by DSTEDC. Computes one Newton step in solution of the secular equation."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dlaeda",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaeda_8f.html#a2e9c705677688bcd3e804db194dfcfd7",tooltip="DLAEDA used by DSTEDC. Computes the Z vector determining the rank-one modification of the diagonal ma..."];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dlamrg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlamrg_8f.html#a0344736c01a4b5e4c2e4d37f6729ce9e",tooltip="DLAMRG creates a permutation list to merge the entries of two independently sorted sets into a single..."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zlacrm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacrm_8f.html#abf586f4726a274b3a6dd19dc2c63e996",tooltip="ZLACRM multiplies a complex matrix by a square real matrix."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zlaed8",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaed8_8f.html#a971416d959570f281c8bf6e7d3c86b39",tooltip="ZLAED8 used by ZSTEDC. Merges eigenvalues and deflates secular equation. Used when the original matri..."];
+  Node10 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacpy_8f.html#a519ff79bf915433651747242f22078fb",tooltip="ZLACPY copies all or part of one two-dimensional array to another."];
+}

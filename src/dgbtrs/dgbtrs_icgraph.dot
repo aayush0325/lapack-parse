@@ -1,0 +1,29 @@
+digraph "dgbtrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dgbtrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGBTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgbrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbrfs_8f.html#aca8c0cab9523d894fb4cdbe4dffa26d8",tooltip="DGBRFS"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgbsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbsvx_8f.html#a5635d8f59dd5ccf4ff36868ecdc20a11",tooltip="DGBSVX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgbsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbsv_8f.html#afa35ce1d7865b80563bbed6317050ad7",tooltip="DGBSV computes the solution to system of linear equations A * X = B for GB matrices (simple driver)"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dgbsvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbsvxx_8f.html#a75860f1c9556e1b735418bb8f9329317",tooltip="DGBSVXX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dla_gbrcond",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__gbrcond_8f.html#aaba1ee21e8fd1cd00fb281569f2c2d0a",tooltip="DLA_GBRCOND estimates the Skeel condition number for a general banded matrix."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dgbrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbrfsx_8f.html#ab44677451338eb1a966f510ca0a38d1c",tooltip="DGBRFSX"];
+  Node7 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dla_gbrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__gbrfsx__extended_8f.html#a1520b1b9984236f0315d6fc077e4eb04",tooltip="DLA_GBRFSX_EXTENDED improves the computed solution to a system of linear equations for general banded..."];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dsytrs_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytrs__aa__2stage_8f.html#ab6137a0a64703ca3079addc6f36bb7a8",tooltip="DSYTRS_AA_2STAGE"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dsysv_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsysv__aa__2stage_8f.html#a9f78d49e5b2de9987bbc1b75f9564013",tooltip="DSYSV_AA_2STAGE computes the solution to system of linear equations A * X = B for SY matrices"];
+}

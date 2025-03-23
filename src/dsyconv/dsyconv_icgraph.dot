@@ -1,0 +1,16 @@
+digraph "dsyconv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dsyconv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DSYCONV"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dsytri2x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytri2x_8f.html#a07bd3f2e70c93074ff28bce809b047e5",tooltip="DSYTRI2X"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dsytri2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytri2_8f.html#a6a3be7737b1a49bb70bf6ac514b3ca34",tooltip="DSYTRI2"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dsytrs2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytrs2_8f.html#ab0c59205c9495599bec9eaa9df965655",tooltip="DSYTRS2"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dsysv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsysv_8f.html#a9995c47692c9885ed5d6a6b431686f41",tooltip="DSYSV computes the solution to system of linear equations A * X = B for SY matrices"];
+}

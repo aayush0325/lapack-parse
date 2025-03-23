@@ -1,0 +1,54 @@
+digraph "sspev"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sspev",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SSPEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sopgtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sopgtr_8f.html#a579c892c7b1d3ae35f9c0c6329349964",tooltip="SOPGTR"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sorg2l",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sorg2l_8f.html#a1f6051357199b9ffb822c81ae4325cb7",tooltip="SORG2L generates all or part of the orthogonal matrix Q from a QL factorization determined by sgeqlf ..."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slarf1l",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarf1l_8f.html#a2cd524707ffe6a2e5594c43517e1ba41",tooltip="SLARF1L applies an elementary reflector to a general rectangular"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sorg2r",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sorg2r_8f.html#a4968b973936e8a9f1ae4ab1f252cb230",tooltip="SORG2R generates all or part of the orthogonal matrix Q from a QR factorization determined by sgeqrf ..."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="slarf1f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarf1f_8f.html#aefd3efd961011e8288e1a09bb2e04b99",tooltip="SLARF1F applies an elementary reflector to a general rectangular"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ssptrd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssptrd_8f.html#a126e985065f97185042fd8945d773b8b",tooltip="SSPTRD"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="slarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfg_8f.html#a1c10a1adfa35b2d5ea15e801287a6a38",tooltip="SLARFG generates an elementary reflector (Householder matrix)."];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ssteqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssteqr_8f.html#a2463dc5fa5baab57763971a548aad789",tooltip="SSTEQR"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="slae2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slae2_8f.html#aec32dea47a14590934b8970b078b58fd",tooltip="SLAE2 computes the eigenvalues of a 2-by-2 symmetric matrix."];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="slaev2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaev2_8f.html#af79f0bb1a07a9d96b827eba946ec79fa",tooltip="SLAEV2 computes the eigenvalues and eigenvectors of a 2-by-2 symmetric/Hermitian matrix."];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="slartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slartg_8f90.html#a8836d25697ed4d8cc0b7d0f45b558c3b",tooltip="SLARTG generates a plane rotation with real cosine and real sine."];
+  Node10 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="slascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slascl_8f.html#a11e6ce67ce97ca5b0a3a7bc5645a09d9",tooltip="SLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node14 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="slaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaset_8f.html#a6174184453f17ad7cc3488044325d5ac",tooltip="SLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node10 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="slasr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasr_8f.html#a60f6d566e3a36c43835b0ff3055879dc",tooltip="SLASR applies a sequence of plane rotations to a general rectangular matrix."];
+  Node16 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="slasrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasrt_8f.html#a66e14f999e0c96b0d974849882160a07",tooltip="SLASRT sorts numbers in increasing or decreasing order."];
+  Node17 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ssterf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssterf_8f.html#a6f005e62dd179b39d847eadbb62dbead",tooltip="SSTERF"];
+  Node18 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

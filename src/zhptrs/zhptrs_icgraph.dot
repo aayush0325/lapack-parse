@@ -1,0 +1,18 @@
+digraph "zhptrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zhptrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZHPTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zhpcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhpcon_8f.html#a1034eb5788dd0f3c6b02a51e112ed54e",tooltip="ZHPCON"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zhpsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhpsvx_8f.html#a403939a806cab9a6abae753b53ced33a",tooltip="ZHPSVX computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zhprfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhprfs_8f.html#af7d4384a5109ee71b58fb4fa062dd7d5",tooltip="ZHPRFS"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zhpsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhpsv_8f.html#af72096024c278ba5b4e5d7f20841f0c5",tooltip="ZHPSV computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,27 @@
+digraph "dgesvj"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dgesvj",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGESVJ"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgsvj0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgsvj0_8f.html#a8f7c26f84438f90cd00775033ebec3a8",tooltip="DGSVJ0 pre-processor for the routine dgesvj."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlascl_8f.html#a7bce4c35ec5a86ee0bfdd15c476d99c8",tooltip="DLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlassq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlassq_8f90.html#ae8f40b0a34771b4f2d9c863de3af7be5",tooltip="DLASSQ updates a sum of squares represented in scaled form."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dgsvj1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgsvj1_8f.html#ab4abc17f4e1a5322998b6f9e84dd6d6f",tooltip="DGSVJ1 pre-processor for the routine dgesvj, applies Jacobi rotations targeting only particular pivot..."];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaset_8f.html#a89e332374c7cd87e5db54bfe21550bc3",tooltip="DLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

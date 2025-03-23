@@ -1,0 +1,28 @@
+digraph "zrscl"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zrscl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZDRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgetf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgetf2_8f.html#af3c2645d2b9b3d3bc26fcd9ad463cd5e",tooltip="ZGETF2 computes the LU factorization of a general m-by-n matrix using partial pivoting with row inter..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgetrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$VARIANTS_2lu_2CR_2zgetrf_8f.html#a5b625680e6251feb29e386193914981c",tooltip="ZGETRF VARIANT: Crout Level 3 BLAS version of the algorithm."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zcgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zcgesv_8f.html#a892cb7992dc737797a8b8043dfc81a48",tooltip="ZCGESV computes the solution to system of linear equations A * X = B for GE matrices (mixed precision..."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gesv.html#ga531713dfc62bc5df387b7bb486a9deeb",tooltip="Download ZGESV + dependencies  <a href=\"http://www.netlib.org/cgi-bin/netlibfiles...."];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zgesvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvx_8f.html#abe3ae17895d46aeb7c9e5a076eaeeb69",tooltip="ZGESVX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvxx_8f.html#aff43ace945f982f6612eeace3c1b4f3b",tooltip="ZGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zhetrf_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetrf__aa__2stage_8f.html#ab944ec2289b9bf1bc48145f4d74d400b",tooltip="ZHETRF_AA_2STAGE"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zhesv_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhesv__aa__2stage_8f.html#ada4828eb3ecee73a77548a48357e0879",tooltip="ZHESV_AA_2STAGE computes the solution to system of linear equations A * X = B for HE matrices"];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zsytrf_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrf__aa__2stage_8f.html#a62e74ed951e483ae971b180ce21aefe9",tooltip="ZSYTRF_AA_2STAGE"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zsysv_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysv__aa__2stage_8f.html#a9b4f5e106b1ce85c8bb7bd35080b0dd0",tooltip="ZSYSV_AA_2STAGE computes the solution to system of linear equations A * X = B for SY matrices"];
+}

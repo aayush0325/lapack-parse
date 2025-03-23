@@ -1,0 +1,14 @@
+digraph "zlansb"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zlansb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLANSB returns the value of the 1-norm, or the Frobenius norm, or the infinity norm,..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="disnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$disnan_8f.html#a230d4e1886896853b11e44e541b2c6a3",tooltip="DISNAN tests input for NaN."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlaisnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaisnan_8f.html#a341ec834c6fc14a17fead550ff486022",tooltip="DLAISNAN tests input for NaN by comparing two arguments for inequality."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zlassq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlassq_8f90.html#a254e1782d1c2f96e9e3164578481f9ce",tooltip="ZLASSQ updates a sum of squares represented in scaled form."];
+}

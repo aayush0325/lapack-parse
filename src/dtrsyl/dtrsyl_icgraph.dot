@@ -1,0 +1,16 @@
+digraph "dtrsyl"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dtrsyl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DTRSYL"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dtrsen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtrsen_8f.html#afe383d8eb4c3815d8946a5e24ba1899a",tooltip="DTRSEN"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgees",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgees_8f.html#a2233e8611b7b529422497036b284b438",tooltip="DGEES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgeesx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgeesx_8f.html#a745081b04dc6f1b5a93a5d8b31aec915",tooltip="DGEESX computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dtrsyl3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtrsyl3_8f.html#a3801a90e0372cd0208ce058486ff6bda",tooltip="DTRSYL3"];
+}

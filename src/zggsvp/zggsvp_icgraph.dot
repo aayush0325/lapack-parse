@@ -1,0 +1,10 @@
+digraph "zggsvp"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zggsvp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGGSVP"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zggsvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggsvd_8f.html#afa4ba38256f4d15e886bb4681fa6e688",tooltip="ZGGSVD computes the singular value decomposition (SVD) for OTHER matrices"];
+}

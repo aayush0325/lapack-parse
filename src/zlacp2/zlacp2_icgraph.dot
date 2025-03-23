@@ -1,0 +1,14 @@
+digraph "zlacp2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zlacp2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLACP2 copies all or part of a real two-dimensional array to a complex array."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgesdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesdd_8f.html#accb06ed106ce18814ad7069dcb43aa27",tooltip="ZGESDD"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmd_8f90.html#a09cef60be58f076072bb592bd1223dec",tooltip="ZGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmdq_8f90.html#a2ed954e87a52cfdd0bf0d61a1ff43e16",tooltip="ZGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+}

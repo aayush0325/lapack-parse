@@ -1,0 +1,10 @@
+digraph "cla_porpvgrw"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cla_porpvgrw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLA_PORPVGRW computes the reciprocal pivot growth factor norm(A)/norm(U) for a symmetric or Hermitian..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cposvxx_8f.html#a9d8d6eb1ee0b2e2769fa5995714f09b3",tooltip="CPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+}

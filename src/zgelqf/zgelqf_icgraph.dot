@@ -1,0 +1,48 @@
+digraph "zgelqf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zgelqf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGELQF"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgejsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgejsv_8f.html#a3f8a01747e82e013b3057d4c6c9bbbd4",tooltip="ZGEJSV"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmd_8f90.html#a09cef60be58f076072bb592bd1223dec",tooltip="ZGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmdq_8f90.html#a2ed954e87a52cfdd0bf0d61a1ff43e16",tooltip="ZGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zgels",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgels_8f.html#a1d8089ba1e1538eb3d1ab0ebe97596c7",tooltip="ZGELS solves overdetermined or underdetermined systems for GE matrices"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zgelsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgelsd_8f.html#ae06e94cada1d406119efa6251a4eb308",tooltip="ZGELSD computes the minimum-norm solution to a linear least squares problem for GE matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zgelss",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgelss_8f.html#a61e68db68886c3f80753fac87ca35a6e",tooltip="ZGELSS solves overdetermined or underdetermined systems for GE matrices"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zgesdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesdd_8f.html#accb06ed106ce18814ad7069dcb43aa27",tooltip="ZGESDD"];
+  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zgesvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvd_8f.html#ad6f0c85f3cca2968e1ef901d2b6014ee",tooltip="ZGESVD computes the singular value decomposition (SVD) for GE matrices"];
+  Node9 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zgesvdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvdq_8f.html#a964d223acba8bbc2118353c864fa2a39",tooltip="ZGESVDQ computes the singular value decomposition (SVD) with a QR-Preconditioned QR SVD Method for GE..."];
+  Node10 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zgesvdx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvdx_8f.html#a6a739f1460b776c50cf0b5f6ac45a518",tooltip="ZGESVDX computes the singular value decomposition (SVD) for GE matrices"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zhetrd_he2hb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetrd__he2hb_8f.html#a448013fd996470cb42753829b5f4562a",tooltip="ZHETRD_HE2HB"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zhetrd_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetrd__2stage_8f.html#a15264199d62f32abbd25a5b880b62209",tooltip="ZHETRD_2STAGE"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="zhbev_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbev__2stage_8f.html#af637994a7cb287906efc0254d7d58f69",tooltip="ZHBEV_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER m..."];
+  Node13 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="zheev_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheev__2stage_8f.html#acb5dc319f9656b8f390480115d83795c",tooltip="ZHEEV_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE matr..."];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="zhegv_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhegv__2stage_8f.html#a415db46f3fbb92fd4c7af056e6a040d2",tooltip="ZHEGV_2STAGE"];
+  Node13 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="zheevd_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheevd__2stage_8f.html#a59996f9a96d264d7eba3edef73e32c43",tooltip="ZHEEVD_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE mat..."];
+  Node13 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="zheevr_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheevr__2stage_8f.html#adc7c95ab10d3a0d34802aa94939d4ad1",tooltip="ZHEEVR_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE mat..."];
+  Node13 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="zheevx_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheevx__2stage_8f.html#ac77d6b27ad8afec6f975d71a329c6c98",tooltip="ZHEEVX_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE mat..."];
+}

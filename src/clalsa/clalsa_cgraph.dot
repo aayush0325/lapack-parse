@@ -1,0 +1,20 @@
+digraph "clalsa"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="clalsa",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLALSA computes the SVD of the coefficient matrix in compact form. Used by sgelsd."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="clals0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clals0_8f.html#a76abe8a6c3c978e6db2c8463df778d5c",tooltip="CLALS0 applies back multiplying factors in solving the least squares problem using divide and conquer..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="clacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacpy_8f.html#afcee53f42831342f7c863bfc55d2d159",tooltip="CLACPY copies all or part of one two-dimensional array to another."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="clascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clascl_8f.html#a873d465a5f824b01b7b8eb0156842c19",tooltip="CLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slasdt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasdt_8f.html#ae747f83ac11f2283d1d3f8b09d7a1138",tooltip="SLASDT creates a tree of subproblems for bidiagonal divide and conquer. Used by sbdsdc."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

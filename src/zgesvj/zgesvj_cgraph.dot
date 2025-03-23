@@ -1,0 +1,34 @@
+digraph "zgesvj"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zgesvj",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGESVJ"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlascl_8f.html#a7bce4c35ec5a86ee0bfdd15c476d99c8",tooltip="DLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgsvj0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgsvj0_8f.html#ab5d0c859d3daefe52d174c4e14022478",tooltip="ZGSVJ0 pre-processor for the routine zgesvj."];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zlascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlascl_8f.html#a3ac3de030a7537d12f56245d2049b895",tooltip="ZLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zlassq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlassq_8f90.html#a254e1782d1c2f96e9e3164578481f9ce",tooltip="ZLASSQ updates a sum of squares represented in scaled form."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zrot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zrot_8f.html#a423fa89faf02ec43f5b664f91ce29729",tooltip="ZROT applies a plane rotation with real cosine and complex sine to a pair of complex vectors."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zgsvj1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgsvj1_8f.html#ac4958823817b9fb7b01badd7f2c96afb",tooltip="ZGSVJ1 pre-processor for the routine zgesvj, applies Jacobi rotations targeting only particular pivot..."];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaset_8f.html#aa4389d0e0e031c70c351acf7dbad6a85",tooltip="ZLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,14 @@
+digraph "sgeqpf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sgeqpf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGEQPF"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgelsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgelsx_8f.html#afa85959c07f700d3f4240a2f4132e3b1",tooltip="SGELSX solves overdetermined or underdetermined systems for GE matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sggsvp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggsvp_8f.html#a0f766273df75b0fcbd25c694a5ae4d7a",tooltip="SGGSVP"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sggsvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggsvd_8f.html#a1f5fc3fcbce9d081fd9b409626b47db5",tooltip="SGGSVD computes the singular value decomposition (SVD) for OTHER matrices"];
+}

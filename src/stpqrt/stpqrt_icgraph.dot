@@ -1,0 +1,21 @@
+digraph "stpqrt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="stpqrt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="STPQRT"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slaswlq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaswlq_8f.html#a4bd97cd60dc6820636a2e775a0a7202e",tooltip="SLASWLQ"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgelq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgelq_8f.html#a6a3c52e71695b484914e7e2a9fc944cb",tooltip="SGELQ"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgetsls_8f.html#a6208039df0bf345b9befcf55a4ceaef3",tooltip="SGETSLS"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slatsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slatsqr_8f.html#a3ce58fd292be1e70670094359c612b9f",tooltip="SLATSQR"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sgeqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeqr_8f.html#aca46dded9a8ac2155d64d788f99277a3",tooltip="SGEQR"];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sgetsqrhrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgetsqrhrt_8f.html#aa9b1c34bb9a3e6ffb4de0b144539777b",tooltip="SGETSQRHRT"];
+}

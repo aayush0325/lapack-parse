@@ -1,0 +1,14 @@
+digraph "zlapll"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zlapll",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLAPLL measures the linear dependence of two vectors."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ztgsja",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ztgsja_8f.html#ade61d8e6d687e1c1f1e81aafd56e77f2",tooltip="ZTGSJA"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zggsvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggsvd_8f.html#afa4ba38256f4d15e886bb4681fa6e688",tooltip="ZGGSVD computes the singular value decomposition (SVD) for OTHER matrices"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zggsvd3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggsvd3_8f.html#a475afe0b3e08089cac32364ef01895da",tooltip="ZGGSVD3 computes the singular value decomposition (SVD) for OTHER matrices"];
+}

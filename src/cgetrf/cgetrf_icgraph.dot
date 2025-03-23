@@ -1,0 +1,24 @@
+digraph "cgetrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cgetrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CGETRF"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gesv.html#gaa9e9aeee4df582bfee679de7defb8e68",tooltip="Download CGESV + dependencies  <a href=\"http://www.netlib.org/cgi-bin/netlibfiles...."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgesvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesvx_8f.html#a7ee0854ace0491ca1278df6d7a0eb28d",tooltip="CGESVX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesvxx_8f.html#a54e141455b3d59923af0a5d79ffebcfb",tooltip="CGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="chetrf_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chetrf__aa__2stage_8f.html#ab8c36305b9b3b7622f6c51d782ac10dc",tooltip="CHETRF_AA_2STAGE"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="chesv_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chesv__aa__2stage_8f.html#abb66fb23be3a7311b71271a2717b35eb",tooltip="CHESV_AA_2STAGE computes the solution to system of linear equations A * X = B for HE matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="csytrf_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytrf__aa__2stage_8f.html#a480a32878b7395e53bd00b74458f425b",tooltip="CSYTRF_AA_2STAGE"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="csysv_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csysv__aa__2stage_8f.html#a30ffaa7302b864fdaeaf2fafe4f448b0",tooltip="CSYSV_AA_2STAGE computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zcgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zcgesv_8f.html#a892cb7992dc737797a8b8043dfc81a48",tooltip="ZCGESV computes the solution to system of linear equations A * X = B for GE matrices (mixed precision..."];
+}

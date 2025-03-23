@@ -1,0 +1,32 @@
+digraph "ctgsy2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ctgsy2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CTGSY2 solves the generalized Sylvester equation (unblocked algorithm)."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgesc2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesc2_8f.html#ae8e5c5211c3b35cb3ebb10160a141e2d",tooltip="CGESC2 solves a system of linear equations using the LU factorization with complete pivoting computed..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="claswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$claswp_8f.html#a27858a2e2b195ef0e7121f1edb8bb9a9",tooltip="CLASWP performs a series of row interchanges on a general rectangular matrix."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgetc2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgetc2_8f.html#abe14160a9bd237d70974c6ffda7baeba",tooltip="CGETC2 computes the LU factorization with complete pivoting of the general n-by-n matrix."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="clatdf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clatdf_8f.html#afbf66d52fc55dd022234b27ea0d3efff",tooltip="CLATDF uses the LU factorization of the n-by-n matrix computed by sgetc2 and computes a contribution ..."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cgecon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgecon_8f.html#aa2ad4e4b1c9cb56a23dd49a798aa9bc8",tooltip="CGECON"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="clacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacn2_8f.html#ab908babe3ec3648412de15e0f8ab4479",tooltip="CLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="clatrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clatrs_8f.html#a3317ab215eaa5ebce5652860a6f0683a",tooltip="CLATRS solves a triangular system of equations with the scale factor set to prevent overflow."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="csrscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csrscl_8f.html#a505a9b690770eee5797b3efdd8ce89a6",tooltip="CSRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="classq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classq_8f90.html#ab70baa330cb7a13111b72aef0734e26d",tooltip="CLASSQ updates a sum of squares represented in scaled form."];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

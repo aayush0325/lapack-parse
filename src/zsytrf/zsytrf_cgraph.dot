@@ -1,0 +1,18 @@
+digraph "zsytrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zsytrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZSYTRF"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zlasyf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlasyf_8f.html#a4bc883ee395efa527339d112e2df7ab6",tooltip="ZLASYF computes a partial factorization of a complex symmetric matrix using the Bunch-Kaufman diagona..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zsytf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytf2_8f.html#a08a69231abc76ecca401fad02c8e0821",tooltip="ZSYTF2 computes the factorization of a real symmetric indefinite matrix, using the diagonal pivoting ..."];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zsyr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsyr_8f.html#a08a5c1ca17a783b2f7e7f3bc80b422dd",tooltip="ZSYR performs the symmetric rank-1 update of a complex symmetric matrix."];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,20 @@
+digraph "dsygst"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dsygst",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DSYGST"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dsygv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsygv_8f.html#a007d33bcdcc697e17c6d15432f159b73",tooltip="DSYGV"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dsygv_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsygv__2stage_8f.html#a3306414cf787c52109d20e2f5ca7581d",tooltip="DSYGV_2STAGE"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dsygvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsygvd_8f.html#a912ae48bb1650b2c7174807ffa5456ca",tooltip="DSYGVD"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dsygvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsygvx_8f.html#a51bef2d9d58cfff3f1bac9143ccc85b8",tooltip="DSYGVX"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dsytrf_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytrf__aa__2stage_8f.html#a4397a3e6f6f2c9d1bd4ae7fd734b4f4e",tooltip="DSYTRF_AA_2STAGE"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dsysv_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsysv__aa__2stage_8f.html#a9f78d49e5b2de9987bbc1b75f9564013",tooltip="DSYSV_AA_2STAGE computes the solution to system of linear equations A * X = B for SY matrices"];
+}

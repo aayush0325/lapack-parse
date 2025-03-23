@@ -1,0 +1,26 @@
+digraph "dtrti2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dtrti2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DTRTI2 computes the inverse of a triangular matrix (unblocked algorithm)."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dtrtri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtrtri_8f.html#a97c5ddb103f5f6bc2dc060886aaf2ffc",tooltip="DTRTRI"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgetri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgetri_8f.html#a56d9c860ce4ce42ded7f914fdb0683ff",tooltip="DGETRI"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dpotri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpotri_8f.html#a9dfc04beae56a3b1c1f75eebc838c14c",tooltip="DPOTRI"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dsytri2x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytri2x_8f.html#a07bd3f2e70c93074ff28bce809b047e5",tooltip="DSYTRI2X"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dsytri2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytri2_8f.html#a6a3be7737b1a49bb70bf6ac514b3ca34",tooltip="DSYTRI2"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dsytri_3x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytri__3x_8f.html#a30662c24077d8587b2673bdee19c1669",tooltip="DSYTRI_3X"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dsytri_3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytri__3_8f.html#a890066e27268f95fcce4b90fc68ffe14",tooltip="DSYTRI_3"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dtftri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtftri_8f.html#a5b922e698e6f3abee1e5d8719e1fede1",tooltip="DTFTRI"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dpftri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpftri_8f.html#a8efed1fd6d617d97726376cff99fe77d",tooltip="DPFTRI"];
+}

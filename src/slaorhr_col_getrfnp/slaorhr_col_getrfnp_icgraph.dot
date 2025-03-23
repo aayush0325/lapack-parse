@@ -1,0 +1,12 @@
+digraph "slaorhr_col_getrfnp"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="slaorhr_col_getrfnp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLAORHR_COL_GETRFNP"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sorhr_col",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sorhr__col_8f.html#a8774bc42e6eadee032262ed8b648180a",tooltip="SORHR_COL"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgetsqrhrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgetsqrhrt_8f.html#aa9b1c34bb9a3e6ffb4de0b144539777b",tooltip="SGETSQRHRT"];
+}

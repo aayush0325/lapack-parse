@@ -1,0 +1,12 @@
+digraph "zhptrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zhptrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZHPTRF"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zhpsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhpsv_8f.html#af72096024c278ba5b4e5d7f20841f0c5",tooltip="ZHPSV computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zhpsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhpsvx_8f.html#a403939a806cab9a6abae753b53ced33a",tooltip="ZHPSVX computes the solution to system of linear equations A * X = B for OTHER matrices"];
+}

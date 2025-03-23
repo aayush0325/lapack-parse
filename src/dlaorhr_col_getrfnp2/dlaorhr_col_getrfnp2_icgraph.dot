@@ -1,0 +1,14 @@
+digraph "dlaorhr_col_getrfnp2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlaorhr_col_getrfnp2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLAORHR_COL_GETRFNP2"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlaorhr_col_getrfnp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaorhr__col__getrfnp_8f.html#a6102636cbcb42cf52f5057a3e3f9f383",tooltip="DLAORHR_COL_GETRFNP"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dorhr_col",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dorhr__col_8f.html#a5654fa9c7c32ba989e0b7691a9888aae",tooltip="DORHR_COL"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgetsqrhrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgetsqrhrt_8f.html#a3017a4201f64adf2ddd2dd44396f776a",tooltip="DGETSQRHRT"];
+}

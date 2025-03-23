@@ -1,0 +1,21 @@
+digraph "dsysv_rook"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dsysv_rook",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DSYSV_ROOK computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dsytrf_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytrf__rook_8f.html#a346980cb5db946c84f7cd7288d181b89",tooltip="DSYTRF_ROOK"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlasyf_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasyf__rook_8f.html#a5c894526bb8bb1133706d7697c7a6c81",tooltip="DLASYF_ROOK *> DLASYF_ROOK computes a partial factorization of a real symmetric matrix using the boun..."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dsytf2_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytf2__rook_8f.html#aeb74d011f4a363f05af734377de1c214",tooltip="DSYTF2_ROOK computes the factorization of a real symmetric indefinite matrix using the bounded Bunch-..."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dsytrs_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytrs__rook_8f.html#a6d55e54d7ae1c8d61d1fce586fac675f",tooltip="DSYTRS_ROOK"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

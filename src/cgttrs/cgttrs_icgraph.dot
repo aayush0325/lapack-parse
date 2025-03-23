@@ -1,0 +1,16 @@
+digraph "cgttrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cgttrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CGTTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgtcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgtcon_8f.html#a8f80227b32b600dc75a5e982005ec1c2",tooltip="CGTCON"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgtsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgtsvx_8f.html#a52aedc3d07eae490ca91df3dec897e8c",tooltip="CGTSVX computes the solution to system of linear equations A * X = B for GT matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgtrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgtrfs_8f.html#a92eec53c6ac6c6285a10e7d05d9c00d5",tooltip="CGTRFS"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

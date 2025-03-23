@@ -1,0 +1,18 @@
+digraph "spptrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="spptrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SPPTRF"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sppsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sppsv_8f.html#ae935af0f1c150cc089b328caf651fee7",tooltip="SPPSV computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sppsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sppsvx_8f.html#a5fedaae909ff6e16c917dcc5f19cb002",tooltip="SPPSVX computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sspgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sspgv_8f.html#af356f346cac338069786ba63042527a6",tooltip="SSPGV"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sspgvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sspgvd_8f.html#abe4f11f3ba16bc8f1bf087ef0f6897f1",tooltip="SSPGVD"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sspgvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sspgvx_8f.html#a6d78c13e0472349e920ec49cc79337fb",tooltip="SSPGVX"];
+}

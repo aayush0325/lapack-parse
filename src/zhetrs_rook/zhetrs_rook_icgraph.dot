@@ -1,0 +1,12 @@
+digraph "zhetrs_rook"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zhetrs_rook",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZHETRS_ROOK computes the solution to a system of linear equations A * X = B for HE matrices using fac..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zhecon_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhecon__rook_8f.html#a9619174545a84dde14babb1b195e6a4c",tooltip="ZHECON_ROOK estimates the reciprocal of the condition number fort HE matrices using factorization obt..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zhesv_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhesv__rook_8f.html#a566409efe6c6b00a221afd360c73c5ba",tooltip="ZHESV_ROOK computes the solution to a system of linear equations A * X = B for HE matrices using the ..."];
+}

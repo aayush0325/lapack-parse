@@ -1,0 +1,44 @@
+digraph "dpbsvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dpbsvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DPBSVX computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacpy_8f.html#a7eb8731ffab2734378157c40964bf788",tooltip="DLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlaqsb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqsb_8f.html#afb54dec29809e79d1ed0f1ef7b6c452b",tooltip="DLAQSB scales a symmetric/Hermitian band matrix, using scaling factors computed by spbequ."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dpbcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpbcon_8f.html#a0990b256946941b804ddbac8b8d71f72",tooltip="DPBCON"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacn2_8f.html#a9b62da514b4a671acd3e3f63d018f01e",tooltip="DLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dlatbs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlatbs_8f.html#a2294dd0eea75a474e13df58a1effe7af",tooltip="DLATBS solves a triangular banded system of equations."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="drscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$drscl_8f.html#a662e4c4f54a2670dd8408f6b6b306dec",tooltip="DRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dpbequ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpbequ_8f.html#ac330b254890c0accf08b87be8afebcfc",tooltip="DPBEQU"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dpbrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpbrfs_8f.html#a4a050a20892fcd78791dd035a9f57bcf",tooltip="DPBRFS"];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dpbtrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpbtrs_8f.html#ac220550e8b746c1fa59b87b0b8305f43",tooltip="DPBTRS"];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dpbtrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpbtrf_8f.html#ad8b0e25cecc84ea3c5aa894ca1f1b5ca",tooltip="DPBTRF"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dpbtf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpbtf2_8f.html#ab4f5d214e22aea403fb0d70172673e9e",tooltip="DPBTF2 computes the Cholesky factorization of a symmetric/Hermitian positive definite band matrix (un..."];
+  Node13 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="dpotf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpotf2_8f.html#a7a5f5e88ba6f8d8d0382cac5c2c18019",tooltip="DPOTF2 computes the Cholesky factorization of a symmetric/Hermitian positive definite matrix (unblock..."];
+  Node14 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

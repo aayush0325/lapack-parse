@@ -1,0 +1,31 @@
+digraph "slasd6"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="slasd6",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLASD6 computes the SVD of an updated upper bidiagonal matrix obtained by merging two smaller ones by..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slamrg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slamrg_8f.html#a08dba55e84b9c57fb48b15b92d2b9049",tooltip="SLAMRG creates a permutation list to merge the entries of two independently sorted sets into a single..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slascl_8f.html#a11e6ce67ce97ca5b0a3a7bc5645a09d9",tooltip="SLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slasd7",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasd7_8f.html#a506889eb5029bb8325b9b2ac02a62bce",tooltip="SLASD7 merges the two sets of singular values together into a single sorted set. Then it tries to def..."];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slasd8",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasd8_8f.html#ac4e0b8da65a5d9493e17f46cd010e6cc",tooltip="SLASD8 finds the square roots of the roots of the secular equation, and stores, for each element in D..."];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="slasd4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasd4_8f.html#a6680aa4ad62702cd9a00d7530c8ab53a",tooltip="SLASD4 computes the square root of the i-th updated eigenvalue of a positive symmetric rank-one modif..."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="slaed6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaed6_8f.html#af5919aeb57bc9c8153d7ae9f0ecc3276",tooltip="SLAED6 used by SSTEDC. Computes one Newton step in solution of the secular equation."];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="slasd5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasd5_8f.html#a19de62ad22e8492c93ac450198557d05",tooltip="SLASD5 computes the square root of the i-th eigenvalue of a positive symmetric rank-one modification ..."];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="slaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaset_8f.html#a6174184453f17ad7cc3488044325d5ac",tooltip="SLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

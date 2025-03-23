@@ -1,0 +1,50 @@
+digraph "dlaed8"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlaed8",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLAED8 used by DSTEDC. Merges eigenvalues and deflates secular equation. Used when the original matri..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlaed7",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed7_8f.html#aedf7938fc27fcf7276594eaa168b9dcd",tooltip="DLAED7 used by DSTEDC. Computes the updated eigensystem of a diagonal matrix after modification by a ..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlaed0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed0_8f.html#aaf02cbdb9b6c3828bc027948666dfe95",tooltip="DLAED0 used by DSTEDC. Computes all eigenvalues and corresponding eigenvectors of an unreduced symmet..."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dstedc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dstedc_8f.html#a998a22b03751a7e784b45a405251443c",tooltip="DSTEDC"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dsbevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsbevd_8f.html#af8e2a8f5ea7f515fa0b5bd5ae8427322",tooltip="DSBEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dsbevd_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsbevd__2stage_8f.html#a972f824f8b9216991726b9d992db7cf5",tooltip="DSBEVD_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER ..."];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dsbgvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsbgvd_8f.html#a5399550432eeee3ce0e4429f53bf4286",tooltip="DSBGVD"];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dspevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dspevd_8f.html#a7dd8a9cc7cc531b8665db125165d5e8c",tooltip="DSPEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dspgvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dspgvd_8f.html#aef7c2ecb94476cef947dcc461450012f",tooltip="DSPGVD"];
+  Node4 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dstevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dstevd_8f.html#a162dd4b59d335a08a8c9dfb8d984f0cc",tooltip="DSTEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node4 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dsyevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyevd_8f.html#a77dfa610458b6c9bd7db52533bfd53a1",tooltip="DSYEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dsygvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsygvd_8f.html#a912ae48bb1650b2c7174807ffa5456ca",tooltip="DSYGVD"];
+  Node4 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dsyevd_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyevd__2stage_8f.html#afe1f86b382ce3aa1917ec20365bbd707",tooltip="DSYEVD_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY mat..."];
+  Node4 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="zstedc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zstedc_8f.html#ad2afe42caaae114c617858e87082caf8",tooltip="ZSTEDC"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="zhbevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbevd_8f.html#a3854721b34946230321131ed9e3c08e3",tooltip="ZHBEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="zhbevd_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbevd__2stage_8f.html#a253ab29dd3917b1cbc9e35c022d14383",tooltip="ZHBEVD_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER ..."];
+  Node14 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="zhbgvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbgvd_8f.html#a597ea234c22684386ad82c7515285514",tooltip="ZHBGVD"];
+  Node14 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="zheevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheevd_8f.html#a9b3e110476166e66f2f62fa1fba6344a",tooltip="ZHEEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE matrices"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="zhegvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhegvd_8f.html#a74fdf9b5a16c90d8b7a589dec5ca058a",tooltip="ZHEGVD"];
+  Node14 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="zheevd_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheevd__2stage_8f.html#a59996f9a96d264d7eba3edef73e32c43",tooltip="ZHEEVD_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE mat..."];
+  Node14 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="zhpevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhpevd_8f.html#a2e244a94bea7118e2aedcd3342276a80",tooltip="ZHPEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="zhpgvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhpgvd_8f.html#af6720700dfc0d1692416a4e9bab0e6a7",tooltip="ZHPGVD"];
+}

@@ -1,0 +1,27 @@
+digraph "ctzrzf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ctzrzf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CTZRZF"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="clarzb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clarzb_8f.html#a7756312083d8f0376e30456c3da6e61f",tooltip="CLARZB applies a block reflector or its conjugate-transpose to a general matrix."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="clacgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacgv_8f.html#a0ff51770edb0cdc7328fdae7ace7954e",tooltip="CLACGV conjugates a complex vector."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="clarzt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clarzt_8f.html#a7f887d872c63a4035769d7c16f050a14",tooltip="CLARZT forms the triangular factor T of a block reflector H = I - vtvH."];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="clatrz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clatrz_8f.html#a943526ad3c46d744601c6838dec3a20d",tooltip="CLATRZ factors an upper trapezoidal matrix by means of unitary transformations."];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="clarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clarfg_8f.html#ab546cf8718b98ecdc6aae99a34ffb1bf",tooltip="CLARFG generates an elementary reflector (Householder matrix)."];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="clarz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clarz_8f.html#a0218f0e37bf3454f3921ee491258ec4d",tooltip="CLARZ applies an elementary reflector (as returned by stzrzf) to a general matrix."];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

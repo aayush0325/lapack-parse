@@ -1,0 +1,24 @@
+digraph "slatrd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="slatrd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLATRD reduces the first nb rows and columns of a symmetric/Hermitian matrix A to real tridiagonal fo..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ssytrd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytrd_8f.html#a6f435f24bbc42c21a66bc5774509ec86",tooltip="SSYTRD"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ssyev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyev_8f.html#a63d8d12aef8f2711d711d9e6bd833e46",tooltip="SSYEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ssygv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssygv_8f.html#a0523956327948aae43173b964188e5a2",tooltip="SSYGV"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ssyevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyevd_8f.html#a6b4d01c8952350ea557b90302ef9de4d",tooltip="SSYEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ssygvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssygvd_8f.html#a728a73f9991d8490e62135c31c2017b8",tooltip="SSYGVD"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ssyevr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyevr_8f.html#a24155d2da67fb4a896c5f8257589b19f",tooltip="SSYEVR computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ssyevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyevx_8f.html#a7f8f413f03a84dbe4ac7a973024d0a48",tooltip="SSYEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ssygvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssygvx_8f.html#a29a3927f20cd9692c94ff14babe54ffa",tooltip="SSYGVX"];
+}

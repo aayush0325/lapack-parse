@@ -1,0 +1,18 @@
+digraph "strtrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="strtrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="STRTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgels",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgels_8f.html#a166c189c7bcd808a9468c05e53da816f",tooltip="SGELS solves overdetermined or underdetermined systems for GE matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgelst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgelst_8f.html#ac636617800cd2364aa30952dcd6b8c3e",tooltip="SGELST solves overdetermined or underdetermined systems for GE matrices using QR or LQ factorization ..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgetsls_8f.html#a6208039df0bf345b9befcf55a4ceaef3",tooltip="SGETSLS"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sggglm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggglm_8f.html#a3396020c326155bf403103d9eef2552d",tooltip="SGGGLM"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sgglse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgglse_8f.html#a63a2105abbfdbf4038e716059086d738",tooltip="SGGLSE solves overdetermined or underdetermined systems for OTHER matrices"];
+}

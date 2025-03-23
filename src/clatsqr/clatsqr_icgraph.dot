@@ -1,0 +1,14 @@
+digraph "clatsqr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="clatsqr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLATSQR"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgeqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgeqr_8f.html#a67fc4b5034f55173b2460a10436d591a",tooltip="CGEQR"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgetsls_8f.html#ac9e56f857b4f3dbd7ab4216472fc114c",tooltip="CGETSLS"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgetsqrhrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgetsqrhrt_8f.html#ae9e538f804d681afb4bff77087a234d9",tooltip="CGETSQRHRT"];
+}

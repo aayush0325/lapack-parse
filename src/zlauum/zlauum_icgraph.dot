@@ -1,0 +1,12 @@
+digraph "zlauum"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zlauum",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLAUUM computes the product UUH or LHL, where U and L are upper or lower triangular matrices (blocked..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zpftri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zpftri_8f.html#aaaf8c5cafae7ea33b9524bd4b79e61bf",tooltip="ZPFTRI"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zpotri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zpotri_8f.html#af37e3b8bbacd3332e83ffb3f1018bcf1",tooltip="ZPOTRI"];
+}

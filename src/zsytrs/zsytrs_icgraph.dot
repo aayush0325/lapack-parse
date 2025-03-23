@@ -1,0 +1,32 @@
+digraph "zsytrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zsytrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZSYTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zla_syrcond_c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__syrcond__c_8f.html#a87c9fb2e8d08c82bb038a9cb067a907e",tooltip="ZLA_SYRCOND_C computes the infinity norm condition number of op(A)*inv(diag(c)) for symmetric indefin..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zsyrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsyrfsx_8f.html#a2ade587faeea8fb65809e3326e6e598d",tooltip="ZSYRFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zsysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysvxx_8f.html#a1b7d9097a3e5d0b85c257f2f84c12f0e",tooltip="ZSYSVXX computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zla_syrcond_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__syrcond__x_8f.html#a8f1255b5910222ae69288e5e7ae9455d",tooltip="ZLA_SYRCOND_X computes the infinity norm condition number of op(A)*diag(x) for symmetric indefinite m..."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zla_syrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__syrfsx__extended_8f.html#a39609e2bee43baf388a2e40e8dd99a58",tooltip="ZLA_SYRFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric inde..."];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zsycon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsycon_8f.html#a3f603755cb45f43f6e494266149e8adc",tooltip="ZSYCON"];
+  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zsysvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysvx_8f.html#af30daece155f45c0e3cc89338a23dfb2",tooltip="ZSYSVX computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zsyrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsyrfs_8f.html#a31e86521c090f1f20502fc91d82ad80e",tooltip="ZSYRFS"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zsysv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysv_8f.html#a6109aefb1ad317ed676178c4154f3fdd",tooltip="ZSYSV computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

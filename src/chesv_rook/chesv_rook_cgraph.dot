@@ -1,0 +1,24 @@
+digraph "chesv_rook"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="chesv_rook",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CHESV_ROOK computes the solution to a system of linear equations A * X = B for HE matrices using the ..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="chetrf_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chetrf__rook_8f.html#a40c8774d6f84ea78d990dcd087b02933",tooltip="CHETRF_ROOK computes the factorization of a complex Hermitian indefinite matrix using the bounded Bun..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="chetf2_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chetf2__rook_8f.html#a068309e57c51f1fa0171ca3d93b5848f",tooltip="CHETF2_ROOK computes the factorization of a complex Hermitian indefinite matrix using the bounded Bun..."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="clahef_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clahef__rook_8f.html#addbd1ab07c99b3e419aa833c69a008ec",tooltip="Download CLAHEF_ROOK + dependencies  <a href=\"http://www.netlib.org/cgi-bin/netlibfiles...."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="clacgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacgv_8f.html#a0ff51770edb0cdc7328fdae7ace7954e",tooltip="CLACGV conjugates a complex vector."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="chetrs_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chetrs__rook_8f.html#a22d0f5610c016836e1830ed2b8c41034",tooltip="CHETRS_ROOK computes the solution to a system of linear equations A * X = B for HE matrices using fac..."];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,10 @@
+digraph "dptcon"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dptcon",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DPTCON"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dptsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dptsvx_8f.html#a9584fd037291be2dff42741bb3215772",tooltip="DPTSVX computes the solution to system of linear equations A * X = B for PT matrices"];
+}

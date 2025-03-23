@@ -1,0 +1,10 @@
+digraph "dlaqz2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dlaqz2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLAQZ2"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlartg_8f90.html#a86f8f877eaea0386cdc2c3c175d9ea88",tooltip="DLARTG generates a plane rotation with real cosine and real sine."];
+}

@@ -1,0 +1,12 @@
+digraph "strsen"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="strsen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="STRSEN"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgees",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgees_8f.html#a0cd2fba843c9d04967c79a58f8d6e321",tooltip="SGEES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgeesx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeesx_8f.html#ac8e46bbcd7e259cdacfccbcfb575a392",tooltip="SGEESX computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+}

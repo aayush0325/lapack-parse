@@ -1,0 +1,12 @@
+digraph "clasyf_aa"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="clasyf_aa",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLASYF_AA"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="csytrf_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytrf__aa_8f.html#a652dad3ec5efe416466f2b634a0b7398",tooltip="CSYTRF_AA"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="csysv_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csysv__aa_8f.html#ad09270e6c43ce760dfa906de7063a2ac",tooltip="CSYSV_AA computes the solution to system of linear equations A * X = B for SY matrices"];
+}

@@ -1,0 +1,10 @@
+digraph "zpstf2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zpstf2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZPSTF2 computes the Cholesky factorization with complete pivoting of a complex Hermitian positive sem..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zpstrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zpstrf_8f.html#a47fcb0ee419d0cbb19c9d7a7fd331262",tooltip="ZPSTRF computes the Cholesky factorization with complete pivoting of a complex Hermitian positive sem..."];
+}

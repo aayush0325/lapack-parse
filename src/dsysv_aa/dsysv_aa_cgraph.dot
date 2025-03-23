@@ -1,0 +1,26 @@
+digraph "dsysv_aa"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dsysv_aa",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DSYSV_AA computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dsytrf_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytrf__aa_8f.html#a9e2066378f3bd192dcdb77ac42f5e1fe",tooltip="DSYTRF_AA"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlasyf_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasyf__aa_8f.html#a14864099f44b95172edc0e3adfbc41ff",tooltip="DLASYF_AA"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaset_8f.html#a89e332374c7cd87e5db54bfe21550bc3",tooltip="DLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dsytrs_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytrs__aa_8f.html#a6df01224b4ac4c5884c582bea4cf2aac",tooltip="DSYTRS_AA"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dgtsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgtsv_8f.html#a2bf93f2ddefa5e671866eb2191dc19d4",tooltip="DGTSV computes the solution to system of linear equations A * X = B for GT matrices"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacpy_8f.html#a7eb8731ffab2734378157c40964bf788",tooltip="DLACPY copies all or part of one two-dimensional array to another."];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

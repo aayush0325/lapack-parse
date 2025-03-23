@@ -1,0 +1,15 @@
+digraph "spttrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="spttrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SPTTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sptrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sptrfs_8f.html#abac73ddf5a5f2328168722803d277dd0",tooltip="SPTRFS"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sptsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sptsvx_8f.html#ab3fbf901ac3c3e7b56d7fd79b6c5b54d",tooltip="SPTSVX computes the solution to system of linear equations A * X = B for PT matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sptsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sptsv_8f.html#a4b54ec5cf63547490c2a0258036b7f72",tooltip="SPTSV computes the solution to system of linear equations A * X = B for PT matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

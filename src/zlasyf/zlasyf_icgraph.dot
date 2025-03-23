@@ -1,0 +1,16 @@
+digraph "zlasyf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zlasyf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLASYF computes a partial factorization of a complex symmetric matrix using the Bunch-Kaufman diagona..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zsytrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrf_8f.html#abb59c91a81aaf15dc63594bbc96c0ed7",tooltip="ZSYTRF"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zsysv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysv_8f.html#a6109aefb1ad317ed676178c4154f3fdd",tooltip="ZSYSV computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zsysvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysvx_8f.html#af30daece155f45c0e3cc89338a23dfb2",tooltip="ZSYSVX computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zsysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysvxx_8f.html#a1b7d9097a3e5d0b85c257f2f84c12f0e",tooltip="ZSYSVXX computes the solution to system of linear equations A * X = B for SY matrices"];
+}

@@ -1,0 +1,56 @@
+digraph "zlaed0"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zlaed0",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLAED0 used by ZSTEDC. Computes all eigenvalues and corresponding eigenvectors of an unreduced symmet..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dsteqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsteqr_8f.html#a47fe470e7a882c58d4cc49e2c6cb7c70",tooltip="DSTEQR"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlae2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlae2_8f.html#a8a36d905c1c66d345f791b91254da0ae",tooltip="DLAE2 computes the eigenvalues of a 2-by-2 symmetric matrix."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlaev2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaev2_8f.html#a404759a75990a78660c741b3448b27e8",tooltip="DLAEV2 computes the eigenvalues and eigenvectors of a 2-by-2 symmetric/Hermitian matrix."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlartg_8f90.html#a86f8f877eaea0386cdc2c3c175d9ea88",tooltip="DLARTG generates a plane rotation with real cosine and real sine."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dlascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlascl_8f.html#a7bce4c35ec5a86ee0bfdd15c476d99c8",tooltip="DLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaset_8f.html#a89e332374c7cd87e5db54bfe21550bc3",tooltip="DLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dlasr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasr_8f.html#aa0a984d2062d62286a7a78ed3ba06fda",tooltip="DLASR applies a sequence of plane rotations to a general rectangular matrix."];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dlasrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasrt_8f.html#a88a9fb57b6459176b68f21720d3d2ad2",tooltip="DLASRT sorts numbers in increasing or decreasing order."];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zlacrm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacrm_8f.html#abf586f4726a274b3a6dd19dc2c63e996",tooltip="ZLACRM multiplies a complex matrix by a square real matrix."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zlaed7",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaed7_8f.html#af2b7638f38390f8b86593a166593fc9d",tooltip="ZLAED7 used by ZSTEDC. Computes the updated eigensystem of a diagonal matrix after modification by a ..."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dlaed9",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed9_8f.html#a30fd79c73c45b69cfb21b3cdb5312415",tooltip="DLAED9 used by DSTEDC. Finds the roots of the secular equation and updates the eigenvectors...."];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="dlaed4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed4_8f.html#a3c4a943599132aea3ac964c08392853a",tooltip="DLAED4 used by DSTEDC. Finds a single root of the secular equation."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="dlaed5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed5_8f.html#ae5927d0d0d438b3bc90a0679eaafe747",tooltip="DLAED5 used by DSTEDC. Solves the 2-by-2 secular equation."];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="dlaed6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed6_8f.html#a8016fde4c8a60d5e95e6e6c636ec4dc9",tooltip="DLAED6 used by DSTEDC. Computes one Newton step in solution of the secular equation."];
+  Node13 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="dlaeda",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaeda_8f.html#a2e9c705677688bcd3e804db194dfcfd7",tooltip="DLAEDA used by DSTEDC. Computes the Z vector determining the rank-one modification of the diagonal ma..."];
+  Node17 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="dlamrg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlamrg_8f.html#a0344736c01a4b5e4c2e4d37f6729ce9e",tooltip="DLAMRG creates a permutation list to merge the entries of two independently sorted sets into a single..."];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="zlaed8",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaed8_8f.html#a971416d959570f281c8bf6e7d3c86b39",tooltip="ZLAED8 used by ZSTEDC. Merges eigenvalues and deflates secular equation. Used when the original matri..."];
+  Node19 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="zlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacpy_8f.html#a519ff79bf915433651747242f22078fb",tooltip="ZLACPY copies all or part of one two-dimensional array to another."];
+}

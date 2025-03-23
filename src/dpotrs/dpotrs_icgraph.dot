@@ -1,0 +1,27 @@
+digraph "dpotrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dpotrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DPOTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dla_porcond",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__porcond_8f.html#aea66202c968583fe8b93e6259b86f7ac",tooltip="DLA_PORCOND estimates the Skeel condition number for a symmetric positive-definite matrix."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dporfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dporfsx_8f.html#a4285835f23c2c12a427d63d29251251d",tooltip="DPORFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dposvxx_8f.html#a423141487077727ec3bc52edd1fccd44",tooltip="DPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dla_porfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__porfsx__extended_8f.html#a1f04f8900d0a841afb32c0b60535ff7b",tooltip="DLA_PORFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric or H..."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dporfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dporfs_8f.html#a12e83769d4dadac84d9c1509f802efa4",tooltip="DPORFS"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dposvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dposvx_8f.html#ac9c72f254642bcc4d512c24c00e47d33",tooltip="DPOSVX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dposv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dposv_8f.html#a9ce56acceb70eb6484a768eaa841f70d",tooltip="DPOSV computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dsposv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsposv_8f.html#a91ea95252aad898ccba02b2ebd7eab22",tooltip="DSPOSV computes the solution to system of linear equations A * X = B for PO matrices"];
+}

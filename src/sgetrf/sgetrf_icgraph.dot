@@ -1,0 +1,20 @@
+digraph "sgetrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sgetrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGETRF"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dsgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsgesv_8f.html#a05bea3dc0386868e4720f22c969cb9f5",tooltip="DSGESV computes the solution to system of linear equations A * X = B for GE matrices (mixed precision..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gesv.html#ga3b05fb3999b3d7351cb3101a1fd28e78",tooltip="Download SGESV + dependencies  <a href=\"http://www.netlib.org/cgi-bin/netlibfiles...."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgesvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgesvx_8f.html#a1f66bf6cce2f8038b120eb11bd30cdc9",tooltip="SGESVX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgesvxx_8f.html#ad499b2a1b47541ff7f97aaaca16025e9",tooltip="SGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ssytrf_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytrf__aa__2stage_8f.html#ad1b49392866a54aaaf3fb905a28f2cdc",tooltip="SSYTRF_AA_2STAGE"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ssysv_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssysv__aa__2stage_8f.html#a40ea39ef8e6de4553ff0a099910ede7f",tooltip="SSYSV_AA_2STAGE computes the solution to system of linear equations A * X = B for SY matrices"];
+}

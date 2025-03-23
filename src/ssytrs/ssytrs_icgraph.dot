@@ -1,0 +1,29 @@
+digraph "ssytrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ssytrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SSYTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sla_syrcond",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sla__syrcond_8f.html#a2d103aec11d1fe30e887c40f6173da32",tooltip="SLA_SYRCOND estimates the Skeel condition number for a symmetric indefinite matrix."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ssyrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyrfsx_8f.html#a40ae1ffd0fcd22c6a196c09fa660a5cd",tooltip="SSYRFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ssysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssysvxx_8f.html#a51a2949a0275d2b847fa087131989fcd",tooltip="SSYSVXX"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sla_syrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sla__syrfsx__extended_8f.html#a99d1d125b5f45e1007185a8addf408ab",tooltip="SLA_SYRFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric inde..."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ssycon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssycon_8f.html#ab3e2f689a6ee4b436702ace446df4781",tooltip="SSYCON"];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ssysvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssysvx_8f.html#ad1f335d4ff31c241b17dd714fac2ab60",tooltip="SSYSVX computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ssyrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyrfs_8f.html#a71a800843ac98f1a025a5ff437e6f9a3",tooltip="SSYRFS"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ssysv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssysv_8f.html#aebb5b9226b808303f3f80ca96cfe9388",tooltip="SSYSV computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

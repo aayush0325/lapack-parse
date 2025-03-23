@@ -1,0 +1,20 @@
+digraph "dlartgs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlartgs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLARTGS generates a plane rotation designed to introduce a bulge in implicit QR iteration for the bid..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dbbcsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dbbcsd_8f.html#a27a367582a76c7b48a8bf3eed068e216",tooltip="DBBCSD"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dorcsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dorcsd_8f.html#a36c8c415a8b62b6f501ce5a99b69bfb1",tooltip="DORCSD"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dorcsd2by1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dorcsd2by1_8f.html#ae1a7eecbb70baaeb096a481052750f63",tooltip="DORCSD2BY1"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zbbcsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zbbcsd_8f.html#ab100b320bf854584daf3579ff6d96485",tooltip="ZBBCSD"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zuncsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zuncsd_8f.html#a774109f03e11c18f564494b2fe96ac41",tooltip="ZUNCSD"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zuncsd2by1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zuncsd2by1_8f.html#aebeed5aaf3ff49eaf0a3d1fd76701632",tooltip="ZUNCSD2BY1"];
+}

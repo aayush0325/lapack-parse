@@ -1,0 +1,10 @@
+digraph "cgetf2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cgetf2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CGETF2 computes the LU factorization of a general m-by-n matrix using partial pivoting with row inter..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgetrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$VARIANTS_2lu_2CR_2cgetrf_8f.html#aed8e85049ecfb314d259bfdb3908a60d",tooltip="CGETRF VARIANT: Crout Level 3 BLAS version of the algorithm."];
+}

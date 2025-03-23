@@ -1,0 +1,23 @@
+digraph "sgeqrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgeqrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGEQRF"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgeqr2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeqr2_8f.html#acd1ae8241f3d12cfa0f1d5ecdbc32eca",tooltip="SGEQR2 computes the QR factorization of a general rectangular matrix using an unblocked algorithm."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slarf1f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarf1f_8f.html#aefd3efd961011e8288e1a09bb2e04b99",tooltip="SLARF1F applies an elementary reflector to a general rectangular"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfg_8f.html#a1c10a1adfa35b2d5ea15e801287a6a38",tooltip="SLARFG generates an elementary reflector (Householder matrix)."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slarfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfb_8f.html#abd00c98d81aee1efa14e838bafa8078a",tooltip="SLARFB applies a block reflector or its transpose to a general rectangular matrix."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="slarft",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarft_8f.html#a65328f5195290453fa03cb785888a95d",tooltip="SLARFT forms the triangular factor T of a block reflector H = I - vtvH"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="slacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slacpy_8f.html#a7780c991533ce8dd1f2c22ae2d563f08",tooltip="SLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

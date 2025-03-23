@@ -1,0 +1,30 @@
+digraph "zsyr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zsyr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZSYR performs the symmetric rank-1 update of a complex symmetric matrix."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zsytf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytf2_8f.html#a08a69231abc76ecca401fad02c8e0821",tooltip="ZSYTF2 computes the factorization of a real symmetric indefinite matrix, using the diagonal pivoting ..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zsytrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrf_8f.html#abb59c91a81aaf15dc63594bbc96c0ed7",tooltip="ZSYTRF"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zsysv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysv_8f.html#a6109aefb1ad317ed676178c4154f3fdd",tooltip="ZSYSV computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zsysvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysvx_8f.html#af30daece155f45c0e3cc89338a23dfb2",tooltip="ZSYSVX computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zsysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysvxx_8f.html#a1b7d9097a3e5d0b85c257f2f84c12f0e",tooltip="ZSYSVXX computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zsytf2_rk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytf2__rk_8f.html#a6de77ea59b0190c3725c370525649873",tooltip="ZSYTF2_RK computes the factorization of a complex symmetric indefinite matrix using the bounded Bunch..."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zsytrf_rk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrf__rk_8f.html#ab5fee540bf0e0b045f709fe293fe9cf5",tooltip="ZSYTRF_RK computes the factorization of a complex symmetric indefinite matrix using the bounded Bunch..."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zsysv_rk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysv__rk_8f.html#aa7f68ec02e1a2998e9d1904afbe51f37",tooltip="ZSYSV_RK computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zsytf2_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytf2__rook_8f.html#a72c010740cd6424c8e5518bd1ef0977c",tooltip="ZSYTF2_ROOK computes the factorization of a complex symmetric indefinite matrix using the bounded Bun..."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zsytrf_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrf__rook_8f.html#af4ad2d881bbc00fdd2b851e9085b51e6",tooltip="ZSYTRF_ROOK"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zsysv_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysv__rook_8f.html#a5519f6ffc88b185b0e8e7ffc3517e1d6",tooltip="ZSYSV_ROOK computes the solution to system of linear equations A * X = B for SY matrices"];
+}

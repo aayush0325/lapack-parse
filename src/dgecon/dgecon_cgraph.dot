@@ -1,0 +1,17 @@
+digraph "dgecon"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dgecon",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGECON"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacn2_8f.html#a9b62da514b4a671acd3e3f63d018f01e",tooltip="DLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlatrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlatrs_8f.html#aa495c9c519906a3053f0ec56d702ef5f",tooltip="DLATRS solves a triangular system of equations with the scale factor set to prevent overflow."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="drscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$drscl_8f.html#a662e4c4f54a2670dd8408f6b6b306dec",tooltip="DRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

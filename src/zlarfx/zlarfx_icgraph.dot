@@ -1,0 +1,10 @@
+digraph "zlarfx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zlarfx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLARFX applies an elementary reflector to a general rectangular matrix, with loop unrolling when the ..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zhb2st_kernels",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhb2st__kernels_8f.html#a2664ac40ccedb1189663453571344227",tooltip="ZHB2ST_KERNELS"];
+}

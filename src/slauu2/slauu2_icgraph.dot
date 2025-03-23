@@ -1,0 +1,14 @@
+digraph "slauu2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="slauu2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLAUU2 computes the product UUH or LHL, where U and L are upper or lower triangular matrices (unblock..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slauum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slauum_8f.html#aceb0f315c5980f55be51e76ba24c74c7",tooltip="SLAUUM computes the product UUH or LHL, where U and L are upper or lower triangular matrices (blocked..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="spftri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spftri_8f.html#a92e24af75cffad6eeac49636b124571f",tooltip="SPFTRI"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="spotri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spotri_8f.html#a4c381894bb34b1583fcc0dceafc5bea1",tooltip="SPOTRI"];
+}

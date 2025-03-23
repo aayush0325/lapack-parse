@@ -1,0 +1,19 @@
+digraph "dgeqp3rk"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dgeqp3rk",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGEQP3RK computes a truncated Householder QR factorization with column pivoting of a real m-by-n matr..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlaqp2rk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqp2rk_8f.html#a6a85d0a6cc5411647529465274b69e4a",tooltip="DLAQP2RK computes truncated QR factorization with column pivoting of a real matrix block using Level ..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlarf1f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarf1f_8f.html#a553446f22ec537c5ff7f1335b90c4470",tooltip="DLARF1F applies an elementary reflector to a general rectangular"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarfg_8f.html#aabb59655e820b3551af27781bd716143",tooltip="DLARFG generates an elementary reflector (Householder matrix)."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlaqp3rk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqp3rk_8f.html#afe9bc286b3db22c1a436d9c756225b97",tooltip="DLAQP3RK computes a step of truncated QR factorization with column pivoting of a real m-by-n matrix A..."];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+}

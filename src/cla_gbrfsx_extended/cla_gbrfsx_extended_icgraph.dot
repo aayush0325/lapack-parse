@@ -1,0 +1,12 @@
+digraph "cla_gbrfsx_extended"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cla_gbrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLA_GBRFSX_EXTENDED improves the computed solution to a system of linear equations for general banded..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgbrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgbrfsx_8f.html#af9b3139572990172c3ff37bd77d1486c",tooltip="CGBRFSX"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgbsvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgbsvxx_8f.html#a366c297439ac18cfefeb91629d44f2cb",tooltip="CGBSVXX computes the solution to system of linear equations A * X = B for GB matrices"];
+}

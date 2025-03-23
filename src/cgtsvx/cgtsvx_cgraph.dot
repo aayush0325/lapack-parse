@@ -1,0 +1,33 @@
+digraph "cgtsvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cgtsvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CGTSVX computes the solution to system of linear equations A * X = B for GT matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgtcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgtcon_8f.html#a8f80227b32b600dc75a5e982005ec1c2",tooltip="CGTCON"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgttrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgttrs_8f.html#afe8bdadc6f4da5aa5df3fe22dbe6b05b",tooltip="CGTTRS"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgtts2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgtts2_8f.html#ab3cb48a1dae8355cc937e9c97ac5ded0",tooltip="CGTTS2 solves a system of linear equations with a tridiagonal matrix using the LU factorization compu..."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="clacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacn2_8f.html#ab908babe3ec3648412de15e0f8ab4479",tooltip="CLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cgtrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgtrfs_8f.html#a92eec53c6ac6c6285a10e7d05d9c00d5",tooltip="CGTRFS"];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="clagtm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clagtm_8f.html#a3008440c0f918c3e32ccbcbd04ea5eb3",tooltip="CLAGTM performs a matrix-matrix product of the form C = αAB+βC, where A is a tridiagonal matrix,..."];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cgttrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgttrf_8f.html#a74d1d5397dae5f211149667ea29c36b9",tooltip="CGTTRF"];
+  Node9 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="clacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacpy_8f.html#afcee53f42831342f7c863bfc55d2d159",tooltip="CLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

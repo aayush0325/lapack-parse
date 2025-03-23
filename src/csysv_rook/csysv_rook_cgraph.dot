@@ -1,0 +1,24 @@
+digraph "csysv_rook"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="csysv_rook",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CSYSV_ROOK computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="csytrf_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytrf__rook_8f.html#aaa37e0850860440f4893fef9d5f815d5",tooltip="CSYTRF_ROOK"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="clasyf_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clasyf__rook_8f.html#a8ab617e2baa9fc9c4728d8cbd1bfde70",tooltip="CLASYF_ROOK computes a partial factorization of a complex symmetric matrix using the bounded Bunch-Ka..."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="csytf2_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytf2__rook_8f.html#a9baea00306a19fc23c46b5052f4168f7",tooltip="CSYTF2_ROOK computes the factorization of a complex symmetric indefinite matrix using the bounded Bun..."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="csyr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csyr_8f.html#ab7fbaf7c4477110907f682b250b24abe",tooltip="CSYR performs the symmetric rank-1 update of a complex symmetric matrix."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="csytrs_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytrs__rook_8f.html#a4ede0bcbc69ca218b7b286e767577220",tooltip="CSYTRS_ROOK"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

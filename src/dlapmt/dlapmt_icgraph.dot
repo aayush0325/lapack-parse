@@ -1,0 +1,26 @@
+digraph "dlapmt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlapmt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLAPMT performs a forward or backward permutation of the columns of a matrix."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgesvdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvdq_8f.html#a6e6e097bd6ae8191bddcb0bc4ad9b43d",tooltip="DGESVDQ computes the singular value decomposition (SVD) with a QR-Preconditioned QR SVD Method for GE..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgedmd_8f90.html#a873ebfba3e94c6200e9f6da79644abb1",tooltip="DGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgedmdq_8f90.html#a6c9d2f77b73a03970b6e05984167644f",tooltip="DGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dggsvp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dggsvp_8f.html#a82130cf3f0801366c02d2b46ea7bd908",tooltip="DGGSVP"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dggsvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dggsvd_8f.html#af81db37b433882a26f692aeff19f002e",tooltip="DGGSVD computes the singular value decomposition (SVD) for OTHER matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dggsvp3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dggsvp3_8f.html#a7c1f9e4b4c5da1b96001a9c9c63faf1c",tooltip="DGGSVP3"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dggsvd3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dggsvd3_8f.html#ab6c743f531c1b87922eb811cbc3ef645",tooltip="DGGSVD3 computes the singular value decomposition (SVD) for OTHER matrices"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dorcsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dorcsd_8f.html#a36c8c415a8b62b6f501ce5a99b69bfb1",tooltip="DORCSD"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dorcsd2by1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dorcsd2by1_8f.html#ae1a7eecbb70baaeb096a481052750f63",tooltip="DORCSD2BY1"];
+}

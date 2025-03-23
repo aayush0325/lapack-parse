@@ -1,0 +1,17 @@
+digraph "zgsvj1"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zgsvj1",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGSVJ1 pre-processor for the routine zgesvj, applies Jacobi rotations targeting only particular pivot..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zlascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlascl_8f.html#a3ac3de030a7537d12f56245d2049b895",tooltip="ZLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zlassq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlassq_8f90.html#a254e1782d1c2f96e9e3164578481f9ce",tooltip="ZLASSQ updates a sum of squares represented in scaled form."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zrot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zrot_8f.html#a423fa89faf02ec43f5b664f91ce29729",tooltip="ZROT applies a plane rotation with real cosine and complex sine to a pair of complex vectors."];
+}

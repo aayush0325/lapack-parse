@@ -1,0 +1,12 @@
+digraph "dlangb"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlangb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLANGB returns the value of the 1-norm, Frobenius norm, infinity-norm, or the largest absolute value ..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgbrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbrfsx_8f.html#ab44677451338eb1a966f510ca0a38d1c",tooltip="DGBRFSX"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgbsvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbsvxx_8f.html#a75860f1c9556e1b735418bb8f9329317",tooltip="DGBSVXX computes the solution to system of linear equations A * X = B for GB matrices"];
+}

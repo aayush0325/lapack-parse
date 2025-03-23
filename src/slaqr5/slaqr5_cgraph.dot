@@ -1,0 +1,16 @@
+digraph "slaqr5"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="slaqr5",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLAQR5 performs a single small-bulge multi-shift QR sweep."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slacpy_8f.html#a7780c991533ce8dd1f2c22ae2d563f08",tooltip="SLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slaqr1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqr1_8f.html#aa483df46a850d33be8ef2936e347f834",tooltip="SLAQR1 sets a scalar multiple of the first column of the product of 2-by-2 or 3-by-3 matrix H and spe..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfg_8f.html#a1c10a1adfa35b2d5ea15e801287a6a38",tooltip="SLARFG generates an elementary reflector (Householder matrix)."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaset_8f.html#a6174184453f17ad7cc3488044325d5ac",tooltip="SLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+}

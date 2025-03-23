@@ -1,0 +1,18 @@
+digraph "sgtts2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sgtts2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGTTS2 solves a system of linear equations with a tridiagonal matrix using the LU factorization compu..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgttrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgttrs_8f.html#a4c1f4f3382563a295c36917d658befb3",tooltip="SGTTRS"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgtcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgtcon_8f.html#a9474585c30f5420fc243d0bd0e0e9c12",tooltip="SGTCON"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgtsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgtsvx_8f.html#a84bd4bb6dda1f7d553d8bb78ce48cf7b",tooltip="SGTSVX computes the solution to system of linear equations A * X = B for GT matrices"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sgtrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgtrfs_8f.html#aa83bbd4b0fcb6e3dffaa4ea7c08b2f08",tooltip="SGTRFS"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

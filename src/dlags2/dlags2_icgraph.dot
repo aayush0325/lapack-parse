@@ -1,0 +1,14 @@
+digraph "dlags2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlags2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLAGS2 computes 2-by-2 orthogonal matrices U, V, and Q, and applies them to matrices A and B such tha..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dtgsja",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtgsja_8f.html#a735d79ef7de07a8458981915eaa0aae8",tooltip="DTGSJA"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dggsvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dggsvd_8f.html#af81db37b433882a26f692aeff19f002e",tooltip="DGGSVD computes the singular value decomposition (SVD) for OTHER matrices"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dggsvd3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dggsvd3_8f.html#ab6c743f531c1b87922eb811cbc3ef645",tooltip="DGGSVD3 computes the singular value decomposition (SVD) for OTHER matrices"];
+}

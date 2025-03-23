@@ -1,0 +1,21 @@
+digraph "ssytri_3"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ssytri_3",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SSYTRI_3"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ssytri_3x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytri__3x_8f.html#a1326995e3dce81242c18d944fe32e192",tooltip="SSYTRI_3X"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ssyswapr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyswapr_8f.html#ad09b2a02a370c25292456c37fb1b8245",tooltip="SSYSWAPR applies an elementary permutation on the rows and columns of a symmetric matrix."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="strtri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strtri_8f.html#a0e63d634f0c29d919e96a78c58a38bd7",tooltip="STRTRI"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="strti2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strti2_8f.html#a5f27efb9c13f0e39b81f208903039554",tooltip="STRTI2 computes the inverse of a triangular matrix (unblocked algorithm)."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

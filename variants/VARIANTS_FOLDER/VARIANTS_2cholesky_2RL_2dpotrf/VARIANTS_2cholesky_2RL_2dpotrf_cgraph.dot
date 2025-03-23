@@ -1,0 +1,17 @@
+digraph "dpotrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dpotrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DPOTRF VARIANT: right looking block version of the algorithm, calling Level 3 BLAS."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dpotrf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpotrf2_8f.html#ad0718d061dc53c8b0fec6dc3710fab33",tooltip="DPOTRF2"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="disnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$disnan_8f.html#a230d4e1886896853b11e44e541b2c6a3",tooltip="DISNAN tests input for NaN."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlaisnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaisnan_8f.html#a341ec834c6fc14a17fead550ff486022",tooltip="DLAISNAN tests input for NaN by comparing two arguments for inequality."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

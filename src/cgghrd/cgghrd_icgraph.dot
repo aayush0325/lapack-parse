@@ -1,0 +1,24 @@
+digraph "cgghrd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cgghrd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CGGHRD"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgegs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgegs_8f.html#a3b808d00232e0291ef72b774c371638b",tooltip="CGEGS computes the eigenvalues, Schur form, and, optionally, the left and or/right Schur vectors of a..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgegv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgegv_8f.html#a193cdd210dd5b0451503fddee82947e1",tooltip="CGEGV computes the eigenvalues and, optionally, the left and/or right eigenvectors of a complex matri..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgges_8f.html#aead5d7a4df1e51d7f25d9540acc596e8",tooltip="CGGES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cggev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cggev_8f.html#a791495feb4709cb91cf39a996a5e3f5a",tooltip="CGGEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cggevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cggevx_8f.html#ad681a6edd407ef1e9ac9b6ee92ddbee3",tooltip="CGGEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cgghd3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgghd3_8f.html#a682f3af5ff7b3bfd5a8674b9da7aed68",tooltip="CGGHD3"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cgges3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgges3_8f.html#a3dc709a1dd02201ad3cf186a12f518b7",tooltip="CGGES3 computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cggev3_8f.html#a2ed47545cc304bb0d7d5d50db826442a",tooltip="CGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+}

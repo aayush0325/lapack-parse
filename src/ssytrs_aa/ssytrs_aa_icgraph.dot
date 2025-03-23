@@ -1,0 +1,10 @@
+digraph "ssytrs_aa"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ssytrs_aa",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SSYTRS_AA"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ssysv_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssysv__aa_8f.html#afdad498433b1961e2eeb7bee9a58255f",tooltip="SSYSV_AA computes the solution to system of linear equations A * X = B for SY matrices"];
+}

@@ -1,0 +1,18 @@
+digraph "ztpqrt2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ztpqrt2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZTPQRT2 computes a QR factorization of a real or complex \"triangular-pentagonal\" matrix,..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ztpqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ztpqrt_8f.html#a95891205be2bc8b55d7d71f28b8c2b89",tooltip="ZTPQRT"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zlatsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlatsqr_8f.html#a64c1038c174ff7b5a46d72b4edf62a82",tooltip="ZLATSQR"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgeqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgeqr_8f.html#a8ae88d8fdedeebfac10501b91406241b",tooltip="ZGEQR"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgetsls_8f.html#a3fdbfbbdf63edec20151f08aa68985e4",tooltip="ZGETSLS"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zgetsqrhrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgetsqrhrt_8f.html#ad44a9fa236f6fc81346cc229b0f6b621",tooltip="ZGETSQRHRT"];
+}

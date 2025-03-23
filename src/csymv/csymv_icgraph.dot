@@ -1,0 +1,24 @@
+digraph "csymv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="csymv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CSYMV computes a matrix-vector product for a complex symmetric matrix."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cla_syrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__syrfsx__extended_8f.html#a113d1d314f674eb00b05547429716515",tooltip="CLA_SYRFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric inde..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="csyrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csyrfsx_8f.html#a0f93ca9ab2fc02b8de5f578316353b87",tooltip="CSYRFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="csysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csysvxx_8f.html#a48da16f71d9aa75098b8c6d3c4007979",tooltip="CSYSVXX computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="csyrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csyrfs_8f.html#a1d5b0252ad96edd8494a10d06eb97482",tooltip="CSYRFS"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="csysvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csysvx_8f.html#ab83ef6fbaf99306b967bf9053a3e6082",tooltip="CSYSVX computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="csytri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytri_8f.html#a7f05f7e397f26b4b909379193f3530ab",tooltip="CSYTRI"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="csytri2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytri2_8f.html#a2d7c0e6bd15ea0feb3e19156fd6222ef",tooltip="CSYTRI2"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="csytri_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytri__rook_8f.html#afb343bb24f1cd1459070aeff219956ad",tooltip="CSYTRI_ROOK"];
+}

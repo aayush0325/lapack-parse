@@ -1,0 +1,14 @@
+[
+  "dlacpy",
+  "dlaset",
+  "claset",
+  "sladiv1",
+  "dladiv1",
+  "slaset",
+  "VARIANTS_2larft_2LL-LVL2_2zlarft",
+  "xerbla",
+  "zlaset",
+  "slacpy",
+  "clacpy",
+  "zlacpy"
+]

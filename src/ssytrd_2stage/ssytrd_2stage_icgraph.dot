@@ -1,0 +1,18 @@
+digraph "ssytrd_2stage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ssytrd_2stage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SSYTRD_2STAGE"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ssyev_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyev__2stage_8f.html#a2d0b53eb79e43d7059fc80365ec517e9",tooltip="SSYEV_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matr..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ssygv_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssygv__2stage_8f.html#a6eaf17f1551477fc438915c8ada67abc",tooltip="SSYGV_2STAGE"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ssyevd_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyevd__2stage_8f.html#a183409fcfe0ad42c2a976c352e077850",tooltip="SSYEVD_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY mat..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ssyevr_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyevr__2stage_8f.html#acdcfccbd51404d755a5b08c188d74a6f",tooltip="SSYEVR_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY mat..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ssyevx_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyevx__2stage_8f.html#ade5afd3e65add6bc3ba047203a98602f",tooltip="SSYEVX_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY mat..."];
+}

@@ -1,0 +1,54 @@
+digraph "zgetsqrhrt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zgetsqrhrt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGETSQRHRT"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zlatsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlatsqr_8f.html#a64c1038c174ff7b5a46d72b4edf62a82",tooltip="ZLATSQR"];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgeqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgeqrt_8f.html#a3e62c39db15928f660b34d3a107aee85",tooltip="ZGEQRT"];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zgeqrt2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgeqrt2_8f.html#af3cc243f2912f6bf569c4ec61e071413",tooltip="ZGEQRT2 computes a QR factorization of a general real or complex matrix using the compact WY represen..."];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zlarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlarfg_8f.html#af496f956f05bac0668fed468230355c7",tooltip="ZLARFG generates an elementary reflector (Householder matrix)."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zgeqrt3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgeqrt3_8f.html#afdc1b602bb1d2232ab128f5e15ead515",tooltip="ZGEQRT3 recursively computes a QR factorization of a general real or complex matrix using the compact..."];
+  Node7 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zlarfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlarfb_8f.html#a250a7932f64a90dd1dcb20ab9957ad37",tooltip="ZLARFB applies a block reflector or its conjugate-transpose to a general rectangular matrix."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zlacgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacgv_8f.html#ad2595ab7c6b89e1ff2e9d05542431719",tooltip="ZLACGV conjugates a complex vector."];
+  Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ztpqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ztpqrt_8f.html#a95891205be2bc8b55d7d71f28b8c2b89",tooltip="ZTPQRT"];
+  Node10 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ztpqrt2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ztpqrt2_8f.html#a1b28970f1518610ec8006d192b859a6a",tooltip="ZTPQRT2 computes a QR factorization of a real or complex \"triangular-pentagonal\" matrix,..."];
+  Node11 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ztprfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ztprfb_8f.html#a87bcb9074856c6f0ee4656b802b900ea",tooltip="ZTPRFB applies a complex \"triangular-pentagonal\" block reflector to a complex matrix,..."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zungtsqr_row",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zungtsqr__row_8f.html#a9bd44caf0c2e6c7450aa6f7ea07d2cd2",tooltip="ZUNGTSQR_ROW"];
+  Node13 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="zlarfb_gett",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlarfb__gett_8f.html#a72f8f09779176de1bd5fb0873c58305d",tooltip="ZLARFB_GETT"];
+  Node13 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="zlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaset_8f.html#aa4389d0e0e031c70c351acf7dbad6a85",tooltip="ZLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="zunhr_col",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zunhr__col_8f.html#ab3f595770c1ddcef2b27de0ddc8b4292",tooltip="ZUNHR_COL"];
+  Node16 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="zlaunhr_col_getrfnp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaunhr__col__getrfnp_8f.html#acc275d5b61b96d147313267033884a4e",tooltip="ZLAUNHR_COL_GETRFNP"];
+  Node17 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="zlaunhr_col_getrfnp2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaunhr__col__getrfnp2_8f.html#a201b692a0bbd15607e2a61ce7cacf283",tooltip="ZLAUNHR_COL_GETRFNP2"];
+  Node18 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

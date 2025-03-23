@@ -1,0 +1,12 @@
+digraph "dlamswlq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlamswlq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLAMSWLQ"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgemlq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgemlq_8f.html#ab93602d1aaa176f7f8e5903d8c931968",tooltip="DGEMLQ"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgetsls_8f.html#a24938f890150242a397e2094fc4643db",tooltip="DGETSLS"];
+}

@@ -1,0 +1,14 @@
+digraph "dstevx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dstevx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DSTEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dbdsvdx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dbdsvdx_8f.html#a63829fd8c0a1ae89779a35c9c1093fa6",tooltip="DBDSVDX"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgesvdx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvdx_8f.html#a9e5a37fb31af0193fe7020b0eb0ad9ac",tooltip="DGESVDX computes the singular value decomposition (SVD) for GE matrices"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgesvdx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvdx_8f.html#a6a739f1460b776c50cf0b5f6ac45a518",tooltip="ZGESVDX computes the singular value decomposition (SVD) for GE matrices"];
+}

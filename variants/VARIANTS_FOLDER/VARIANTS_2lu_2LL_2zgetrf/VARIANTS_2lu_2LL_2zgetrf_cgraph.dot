@@ -1,0 +1,19 @@
+digraph "zgetrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zgetrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGETRF VARIANT: left-looking Level 3 BLAS version of the algorithm."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgetf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgetf2_8f.html#af3c2645d2b9b3d3bc26fcd9ad463cd5e",tooltip="ZGETF2 computes the LU factorization of a general m-by-n matrix using partial pivoting with row inter..."];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zrscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zrscl_8f.html#a4e747df261783c475b1e0a92a0a0f7cc",tooltip="ZDRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zdrscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zdrscl_8f.html#ad73ec38e29df0385ee6fda7d832fd205",tooltip="ZDRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zlaswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaswp_8f.html#a49d0e55e934b6e90456a2eb75490c3ef",tooltip="ZLASWP performs a series of row interchanges on a general rectangular matrix."];
+}

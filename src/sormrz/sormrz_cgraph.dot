@@ -1,0 +1,21 @@
+digraph "sormrz"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sormrz",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SORMRZ"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slarzb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarzb_8f.html#a72818b8c5558c4ffefa30b57086d500a",tooltip="SLARZB applies a block reflector or its transpose to a general matrix."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slarzt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarzt_8f.html#afe3169a7ceed98105ae16706ca293f76",tooltip="SLARZT forms the triangular factor T of a block reflector H = I - vtvH."];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sormr3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sormr3_8f.html#afb0cfa4fe1434d02fb42ca4744dcdbdf",tooltip="SORMR3 multiplies a general matrix by the orthogonal matrix from a RZ factorization determined by stz..."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slarz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarz_8f.html#ab957175bfd77abc503697e864b3c571e",tooltip="SLARZ applies an elementary reflector (as returned by stzrzf) to a general matrix."];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

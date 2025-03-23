@@ -1,0 +1,27 @@
+digraph "ssytri2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ssytri2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SSYTRI2"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ssytri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytri_8f.html#aef378ec0761234aac417f487b43b7a8b",tooltip="SSYTRI"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ssytri2x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytri2x_8f.html#a34537bed5f8e070371776e65dd14fd16",tooltip="SSYTRI2X"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ssyconv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyconv_8f.html#ac0f11db6dfb7415b9ca1bc5b2edb643d",tooltip="SSYCONV"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ssyswapr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyswapr_8f.html#ad09b2a02a370c25292456c37fb1b8245",tooltip="SSYSWAPR applies an elementary permutation on the rows and columns of a symmetric matrix."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="strtri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strtri_8f.html#a0e63d634f0c29d919e96a78c58a38bd7",tooltip="STRTRI"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="strti2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strti2_8f.html#a5f27efb9c13f0e39b81f208903039554",tooltip="STRTI2 computes the inverse of a triangular matrix (unblocked algorithm)."];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

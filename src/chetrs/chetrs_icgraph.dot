@@ -1,0 +1,32 @@
+digraph "chetrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="chetrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CHETRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="checon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$checon_8f.html#a67b6bd05659fbb26bbf414a9b850dc29",tooltip="CHECON"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cherfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cherfsx_8f.html#ad731b6b72cf0a8e741748dc4eace0831",tooltip="CHERFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="chesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chesvxx_8f.html#a362015bddbaafb0fe959ee14a9b9785b",tooltip="CHESVXX computes the solution to system of linear equations A * X = B for HE matrices"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="chesvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chesvx_8f.html#ac0259fd948caa122aa7bcad0d78ed300",tooltip="CHESVX computes the solution to system of linear equations A * X = B for HE matrices"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cherfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cherfs_8f.html#a114453d00745d24e869f4839b9909261",tooltip="CHERFS"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="chesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chesv_8f.html#af8cd44fa8c6239031e5a6a1c3694a75b",tooltip="CHESV computes the solution to system of linear equations A * X = B for HE matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cla_hercond_c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__hercond__c_8f.html#afb20032f889fa17495f6d52f8943015f",tooltip="CLA_HERCOND_C computes the infinity norm condition number of op(A)*inv(diag(c)) for Hermitian indefin..."];
+  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cla_hercond_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__hercond__x_8f.html#ac8f382f5d0a3af27d8319c82cae7cbba",tooltip="CLA_HERCOND_X computes the infinity norm condition number of op(A)*diag(x) for Hermitian indefinite m..."];
+  Node9 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="cla_herfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__herfsx__extended_8f.html#acd355008da68592db4c2743fcea983cf",tooltip="CLA_HERFSX_EXTENDED improves the computed solution to a system of linear equations for Hermitian inde..."];
+  Node10 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

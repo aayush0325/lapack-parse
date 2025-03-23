@@ -1,0 +1,15 @@
+digraph "cpttrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cpttrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CPTTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cptrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cptrfs_8f.html#a2d92211a4a19cad8b7c36d9aa1602069",tooltip="CPTRFS"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cptsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cptsvx_8f.html#a32f573f1f8ee1da3094e15474bbcc0fe",tooltip="CPTSVX computes the solution to system of linear equations A * X = B for PT matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cptsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cptsv_8f.html#ab2cf9c94b022c5350b6c5b6bcd2744e8",tooltip="CPTSV computes the solution to system of linear equations A * X = B for PT matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

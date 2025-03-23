@@ -1,0 +1,14 @@
+digraph "zungtsqr_row"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zungtsqr_row",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZUNGTSQR_ROW"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zlarfb_gett",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlarfb__gett_8f.html#a72f8f09779176de1bd5fb0873c58305d",tooltip="ZLARFB_GETT"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaset_8f.html#aa4389d0e0e031c70c351acf7dbad6a85",tooltip="ZLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+}

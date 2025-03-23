@@ -1,0 +1,17 @@
+digraph "checon_rook"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="checon_rook",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CHECON_ROOK estimates the reciprocal of the condition number fort HE matrices using factorization obt..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="chetrs_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chetrs__rook_8f.html#a22d0f5610c016836e1830ed2b8c41034",tooltip="CHETRS_ROOK computes the solution to a system of linear equations A * X = B for HE matrices using fac..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="clacgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacgv_8f.html#a0ff51770edb0cdc7328fdae7ace7954e",tooltip="CLACGV conjugates a complex vector."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="clacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacn2_8f.html#ab908babe3ec3648412de15e0f8ab4479",tooltip="CLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

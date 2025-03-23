@@ -1,0 +1,27 @@
+digraph "dsteqr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dsteqr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DSTEQR"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlae2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlae2_8f.html#a8a36d905c1c66d345f791b91254da0ae",tooltip="DLAE2 computes the eigenvalues of a 2-by-2 symmetric matrix."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlaev2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaev2_8f.html#a404759a75990a78660c741b3448b27e8",tooltip="DLAEV2 computes the eigenvalues and eigenvectors of a 2-by-2 symmetric/Hermitian matrix."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlartg_8f90.html#a86f8f877eaea0386cdc2c3c175d9ea88",tooltip="DLARTG generates a plane rotation with real cosine and real sine."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlascl_8f.html#a7bce4c35ec5a86ee0bfdd15c476d99c8",tooltip="DLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaset_8f.html#a89e332374c7cd87e5db54bfe21550bc3",tooltip="DLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dlasr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasr_8f.html#aa0a984d2062d62286a7a78ed3ba06fda",tooltip="DLASR applies a sequence of plane rotations to a general rectangular matrix."];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dlasrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasrt_8f.html#a88a9fb57b6459176b68f21720d3d2ad2",tooltip="DLASRT sorts numbers in increasing or decreasing order."];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

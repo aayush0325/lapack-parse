@@ -1,0 +1,50 @@
+digraph "zgelst"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zgelst",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGELST solves overdetermined or underdetermined systems for GE matrices using QR or LQ factorization ..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgelqt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgelqt_8f.html#acd2363728d6375717e15caf21e9daecf",tooltip="ZGELQT"];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgelqt3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgelqt3_8f.html#ad8259ed277a5b252cde4b8802ce3be4f",tooltip="ZGELQT3 recursively computes a LQ factorization of a general real or complex matrix using the compact..."];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zlarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlarfg_8f.html#af496f956f05bac0668fed468230355c7",tooltip="ZLARFG generates an elementary reflector (Householder matrix)."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zlarfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlarfb_8f.html#a250a7932f64a90dd1dcb20ab9957ad37",tooltip="ZLARFB applies a block reflector or its conjugate-transpose to a general rectangular matrix."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zlacgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacgv_8f.html#ad2595ab7c6b89e1ff2e9d05542431719",tooltip="ZLACGV conjugates a complex vector."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zgemlqt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgemlqt_8f.html#a3b18b13aeed841f1d7d6c5581573ee4e",tooltip="ZGEMLQT"];
+  Node8 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zgemqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgemqrt_8f.html#a2f7eb86e8b8054f4167972eff1fb1131",tooltip="ZGEMQRT"];
+  Node9 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zgeqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgeqrt_8f.html#a3e62c39db15928f660b34d3a107aee85",tooltip="ZGEQRT"];
+  Node10 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zgeqrt2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgeqrt2_8f.html#af3cc243f2912f6bf569c4ec61e071413",tooltip="ZGEQRT2 computes a QR factorization of a general real or complex matrix using the compact WY represen..."];
+  Node11 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zgeqrt3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgeqrt3_8f.html#afdc1b602bb1d2232ab128f5e15ead515",tooltip="ZGEQRT3 recursively computes a QR factorization of a general real or complex matrix using the compact..."];
+  Node12 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zlascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlascl_8f.html#a3ac3de030a7537d12f56245d2049b895",tooltip="ZLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node13 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="zlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaset_8f.html#aa4389d0e0e031c70c351acf7dbad6a85",tooltip="ZLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ztrtrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ztrtrs_8f.html#a087c8379b0cad1cb4d9aab674a18bf09",tooltip="ZTRTRS"];
+  Node15 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

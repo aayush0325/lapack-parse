@@ -1,0 +1,26 @@
+digraph "claed0"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="claed0",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLAED0 used by CSTEDC. Computes all eigenvalues and corresponding eigenvectors of an unreduced symmet..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cstedc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cstedc_8f.html#ac4a9245e485f9cff743e018d1fa5d8e9",tooltip="CSTEDC"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="chbevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chbevd_8f.html#a90a780f962a7affa9b0ee155985e80ab",tooltip="CHBEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="chbevd_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chbevd__2stage_8f.html#a85944a26d194ea013e9b2a25076fe9da",tooltip="CHBEVD_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER ..."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="chbgvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chbgvd_8f.html#a77b1c171ee971c0ff72107e4aa8b5376",tooltip="CHBGVD"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cheevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cheevd_8f.html#a6084b0819f9642f0db26257e8a3ebd42",tooltip="CHEEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE matrices"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="chegvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chegvd_8f.html#a28ad734cb8f4deb96ba59c568cf3389e",tooltip="CHEGVD"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cheevd_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cheevd__2stage_8f.html#a7d77c89933d557e7131ebb6474e2a3c0",tooltip="CHEEVD_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE mat..."];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="chpevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chpevd_8f.html#ae9a6d7c0d0e9908ee1586104c84760dc",tooltip="CHPEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="chpgvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chpgvd_8f.html#a014aa918f8b897bd887b9ba67242e0d5",tooltip="CHPGVD"];
+}

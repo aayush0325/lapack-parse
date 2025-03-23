@@ -1,0 +1,50 @@
+digraph "sgelst"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgelst",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGELST solves overdetermined or underdetermined systems for GE matrices using QR or LQ factorization ..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgelqt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgelqt_8f.html#a50aa58c97b389375440f74164d508537",tooltip="SGELQT"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgelqt3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgelqt3_8f.html#ac44bd55d81edc0d66d551514bf7aa5ee",tooltip="SGELQT3"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfg_8f.html#a1c10a1adfa35b2d5ea15e801287a6a38",tooltip="SLARFG generates an elementary reflector (Householder matrix)."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sgeqrt2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeqrt2_8f.html#a418228a8d0645cee0ff6a89a3b9a8e19",tooltip="SGEQRT2 computes a QR factorization of a general real or complex matrix using the compact WY represen..."];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sgeqrt3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeqrt3_8f.html#a0ac033e696d80b5aa9e5289e47e3e7f9",tooltip="SGEQRT3 recursively computes a QR factorization of a general real or complex matrix using the compact..."];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="slarfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfb_8f.html#abd00c98d81aee1efa14e838bafa8078a",tooltip="SLARFB applies a block reflector or its transpose to a general rectangular matrix."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="sgemlqt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgemlqt_8f.html#a7c4cd88a2446ad8eef46eb37fc4fbeb5",tooltip="SGEMLQT"];
+  Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="sgemqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgemqrt_8f.html#a867bbfcb127db8f51ef22f7b29089ca7",tooltip="SGEMQRT"];
+  Node10 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="sgeqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeqrt_8f.html#a036c4a8fce2027da4ed92cf9064e8819",tooltip="SGEQRT"];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="slascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slascl_8f.html#a11e6ce67ce97ca5b0a3a7bc5645a09d9",tooltip="SLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node12 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="slaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaset_8f.html#a6174184453f17ad7cc3488044325d5ac",tooltip="SLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="strtrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strtrs_8f.html#a39f1accd4c0ff41b0ae185c173044601",tooltip="STRTRS"];
+  Node14 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

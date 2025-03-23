@@ -1,0 +1,21 @@
+digraph "sorgrq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sorgrq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SORGRQ"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slarfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfb_8f.html#abd00c98d81aee1efa14e838bafa8078a",tooltip="SLARFB applies a block reflector or its transpose to a general rectangular matrix."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slarft",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarft_8f.html#a65328f5195290453fa03cb785888a95d",tooltip="SLARFT forms the triangular factor T of a block reflector H = I - vtvH"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slacpy_8f.html#a7780c991533ce8dd1f2c22ae2d563f08",tooltip="SLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sorgr2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sorgr2_8f.html#a5cf46aa163e4a278e9233a7b30dff8aa",tooltip="SORGR2 generates all or part of the orthogonal matrix Q from an RQ factorization determined by sgerqf..."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slarf1l",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarf1l_8f.html#a2cd524707ffe6a2e5594c43517e1ba41",tooltip="SLARF1L applies an elementary reflector to a general rectangular"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

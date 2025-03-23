@@ -1,0 +1,45 @@
+digraph "dposvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dposvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DPOSVX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacpy_8f.html#a7eb8731ffab2734378157c40964bf788",tooltip="DLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlaqsy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqsy_8f.html#af752e7a2738ba60307c9d41d171099b0",tooltip="DLAQSY scales a symmetric/Hermitian matrix, using scaling factors computed by spoequ."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dpocon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpocon_8f.html#a42c90b8fcfef1a8f7c87a45e8176d643",tooltip="DPOCON"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacn2_8f.html#a9b62da514b4a671acd3e3f63d018f01e",tooltip="DLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dlatrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlatrs_8f.html#aa495c9c519906a3053f0ec56d702ef5f",tooltip="DLATRS solves a triangular system of equations with the scale factor set to prevent overflow."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="drscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$drscl_8f.html#a662e4c4f54a2670dd8408f6b6b306dec",tooltip="DRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dpoequ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpoequ_8f.html#ae83b3e94a9fce827c8a7c547d134d9e6",tooltip="DPOEQU"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dporfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dporfs_8f.html#a12e83769d4dadac84d9c1509f802efa4",tooltip="DPORFS"];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dpotrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpotrs_8f.html#a167aa0166c4ce726385f65e4ab05e7c1",tooltip="DPOTRS"];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dpotrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpotrf_8f.html#a2f55f604a6003d03b5cd4a0adcfb74d6",tooltip="DPOTRF"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dpotrf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpotrf2_8f.html#ad0718d061dc53c8b0fec6dc3710fab33",tooltip="DPOTRF2"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="disnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$disnan_8f.html#a230d4e1886896853b11e44e541b2c6a3",tooltip="DISNAN tests input for NaN."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="dlaisnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaisnan_8f.html#a341ec834c6fc14a17fead550ff486022",tooltip="DLAISNAN tests input for NaN by comparing two arguments for inequality."];
+  Node13 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

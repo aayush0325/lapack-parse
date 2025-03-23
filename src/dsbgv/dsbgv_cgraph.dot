@@ -1,0 +1,58 @@
+digraph "dsbgv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dsbgv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DSBGV"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dpbstf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpbstf_8f.html#a65461621199058b0eddf6686712c1dd4",tooltip="DPBSTF"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dsbgst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsbgst_8f.html#ae32895eca37df3f73da37145f562e707",tooltip="DSBGST"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlar2v",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlar2v_8f.html#ae1b81ff82ec4fad649a7703143c22f63",tooltip="DLAR2V applies a vector of plane rotations with real cosines and real sines from both sides to a sequ..."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dlargv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlargv_8f.html#ae577e9789fe58c91e173f8babd10f2a4",tooltip="DLARGV generates a vector of plane rotations with real cosines and real sines."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dlartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlartg_8f90.html#a86f8f877eaea0386cdc2c3c175d9ea88",tooltip="DLARTG generates a plane rotation with real cosine and real sine."];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dlartv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlartv_8f.html#a3d1a5bbad7b3d2bfaa82bef2bbff5ed1",tooltip="DLARTV applies a vector of plane rotations with real cosines and real sines to the elements of a pair..."];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaset_8f.html#a89e332374c7cd87e5db54bfe21550bc3",tooltip="DLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dsbtrd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsbtrd_8f.html#a3e341dd5ee93d0f84ed76aa592552648",tooltip="DSBTRD"];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dsteqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsteqr_8f.html#a47fe470e7a882c58d4cc49e2c6cb7c70",tooltip="DSTEQR"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dlae2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlae2_8f.html#a8a36d905c1c66d345f791b91254da0ae",tooltip="DLAE2 computes the eigenvalues of a 2-by-2 symmetric matrix."];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dlaev2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaev2_8f.html#a404759a75990a78660c741b3448b27e8",tooltip="DLAEV2 computes the eigenvalues and eigenvectors of a 2-by-2 symmetric/Hermitian matrix."];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="dlascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlascl_8f.html#a7bce4c35ec5a86ee0bfdd15c476d99c8",tooltip="DLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node14 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="dlasr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasr_8f.html#aa0a984d2062d62286a7a78ed3ba06fda",tooltip="DLASR applies a sequence of plane rotations to a general rectangular matrix."];
+  Node15 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="dlasrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasrt_8f.html#a88a9fb57b6459176b68f21720d3d2ad2",tooltip="DLASRT sorts numbers in increasing or decreasing order."];
+  Node16 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="dsterf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsterf_8f.html#af0616552c11358ae8298d0ac18ac023c",tooltip="DSTERF"];
+  Node17 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

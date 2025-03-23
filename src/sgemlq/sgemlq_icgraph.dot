@@ -1,0 +1,10 @@
+digraph "sgemlq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sgemlq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGEMLQ"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgetsls_8f.html#a6208039df0bf345b9befcf55a4ceaef3",tooltip="SGETSLS"];
+}

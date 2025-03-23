@@ -1,0 +1,26 @@
+digraph "dlarre"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlarre",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLARRE given the tridiagonal matrix T, sets small off-diagonal elements to zero and for each unreduce..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dstemr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dstemr_8f.html#a14daa3ac4e7b5d3712244f54ce40cc92",tooltip="DSTEMR"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dstegr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dstegr_8f.html#ac5fa1f1c4eeb2f78df2ea644641392f6",tooltip="DSTEGR"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dstevr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dstevr_8f.html#a323734560b8bd052fbc474dc2f0b5605",tooltip="DSTEVR computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dsyevr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyevr_8f.html#aeed8a131adf56eaa2a9e5b1e0cce5718",tooltip="DSYEVR computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dsyevr_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyevr__2stage_8f.html#ad00fd7c0f376019d33e5a194e6b92262",tooltip="DSYEVR_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY mat..."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zstemr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zstemr_8f.html#a33d197e0d2be9d9528f815c947c5fda1",tooltip="ZSTEMR"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zheevr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheevr_8f.html#a60dd605c63d7183a4c289a4ab3df6df6",tooltip="ZHEEVR computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE matrices"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zheevr_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheevr__2stage_8f.html#adc7c95ab10d3a0d34802aa94939d4ad1",tooltip="ZHEEVR_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE mat..."];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zstegr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zstegr_8f.html#a7827e0002f9668e3f3a0049e66c96ef0",tooltip="ZSTEGR"];
+}

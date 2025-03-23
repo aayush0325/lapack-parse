@@ -1,0 +1,12 @@
+digraph "slaln2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="slaln2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLALN2 solves a 1-by-1 or 2-by-2 linear system of equations of the specified form."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sladiv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sladiv_8f.html#a774ef9659ab6074d1fd66eefc222085e",tooltip="SLADIV performs complex division in real arithmetic, avoiding unnecessary overflow."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sladiv1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sladiv_8f.html#a323fe389f69d094b34281d982bf059c5",tooltip=" "];
+}

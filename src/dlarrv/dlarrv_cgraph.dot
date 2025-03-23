@@ -1,0 +1,16 @@
+digraph "dlarrv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dlarrv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLARRV computes the eigenvectors of the tridiagonal matrix T = L D LT given L, D and the eigenvalues ..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlar1v",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlar1v_8f.html#a4944aae03c7a236a2d36bee520665e5d",tooltip="DLAR1V computes the (scaled) r-th column of the inverse of the submatrix in rows b1 through bn of the..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlarrb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarrb_8f.html#ab3446b2d3189e23e5b95f18ea97b0a22",tooltip="DLARRB provides limited bisection to locate eigenvalues for more accuracy."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlarrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarrf_8f.html#a6fa2f60646088821e40fbe04a41aa7b1",tooltip="DLARRF finds a new relatively robust representation such that at least one of the eigenvalues is rela..."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaset_8f.html#a89e332374c7cd87e5db54bfe21550bc3",tooltip="DLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+}

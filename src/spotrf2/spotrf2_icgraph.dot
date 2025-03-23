@@ -1,0 +1,28 @@
+digraph "spotrf2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="spotrf2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SPOTRF2"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="spotrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spotrf_8f.html#aaf31db7ab15b4f4ba527a3d31a15a58e",tooltip="SPOTRF"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dsposv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsposv_8f.html#a91ea95252aad898ccba02b2ebd7eab22",tooltip="DSPOSV computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="spftrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spftrf_8f.html#a44e01ae9aa1a33f8cd390d0d4ff4217f",tooltip="SPFTRF"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sposv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sposv_8f.html#ad46400c796afc8031a8c3ec5481af8c3",tooltip="SPOSV computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sposvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sposvx_8f.html#a4c54383b53b5b6890439e6b6e874fb06",tooltip="SPOSVX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sposvxx_8f.html#acbfa9b618a123b2a3d997f3533b9e044",tooltip="SPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ssygv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssygv_8f.html#a0523956327948aae43173b964188e5a2",tooltip="SSYGV"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ssygv_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssygv__2stage_8f.html#a6eaf17f1551477fc438915c8ada67abc",tooltip="SSYGV_2STAGE"];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ssygvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssygvd_8f.html#a728a73f9991d8490e62135c31c2017b8",tooltip="SSYGVD"];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ssygvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssygvx_8f.html#a29a3927f20cd9692c94ff14babe54ffa",tooltip="SSYGVX"];
+}

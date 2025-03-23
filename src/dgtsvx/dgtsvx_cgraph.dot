@@ -1,0 +1,33 @@
+digraph "dgtsvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dgtsvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGTSVX computes the solution to system of linear equations A * X = B for GT matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgtcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgtcon_8f.html#a55242c56fbb3243e6c9b897880182a4b",tooltip="DGTCON"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgttrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgttrs_8f.html#a887f9fe1a0c6a4aeac1752da5652014a",tooltip="DGTTRS"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgtts2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgtts2_8f.html#aeb6c61ebd5c7f9942cb364d6cb2ae1fb",tooltip="DGTTS2 solves a system of linear equations with a tridiagonal matrix using the LU factorization compu..."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacn2_8f.html#a9b62da514b4a671acd3e3f63d018f01e",tooltip="DLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dgtrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgtrfs_8f.html#a20d15d564aefd2fcd3b19f7511dfe17a",tooltip="DGTRFS"];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dlagtm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlagtm_8f.html#aef588ae9e76526cc89802086ae5eec11",tooltip="DLAGTM performs a matrix-matrix product of the form C = αAB+βC, where A is a tridiagonal matrix,..."];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dgttrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgttrf_8f.html#a8ca64e542924cec56cbe9837b77d25b7",tooltip="DGTTRF"];
+  Node9 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacpy_8f.html#a7eb8731ffab2734378157c40964bf788",tooltip="DLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

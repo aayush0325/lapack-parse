@@ -1,0 +1,43 @@
+digraph "dgbsvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dgbsvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGBSVX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgbcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbcon_8f.html#ac5177acc7bb06382c90e88f12ed784ff",tooltip="DGBCON"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacn2_8f.html#a9b62da514b4a671acd3e3f63d018f01e",tooltip="DLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlatbs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlatbs_8f.html#a2294dd0eea75a474e13df58a1effe7af",tooltip="DLATBS solves a triangular banded system of equations."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="drscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$drscl_8f.html#a662e4c4f54a2670dd8408f6b6b306dec",tooltip="DRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dgbequ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbequ_8f.html#aa5c4d4757c088ae38c54a8ac0a2fcac2",tooltip="DGBEQU"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dgbrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbrfs_8f.html#aca8c0cab9523d894fb4cdbe4dffa26d8",tooltip="DGBRFS"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dgbtrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbtrs_8f.html#a37ca5bf29c33e026922c06b3bf188513",tooltip="DGBTRS"];
+  Node9 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dgbtrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbtrf_8f.html#a7fc91ba3f250ad3844eba25d59f5d7be",tooltip="DGBTRF"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dgbtf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbtf2_8f.html#ad1efab86e6d869915e059286ecf1bcb1",tooltip="DGBTF2 computes the LU factorization of a general band matrix using the unblocked version of the algo..."];
+  Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dlaswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaswp_8f.html#a3ccc0cf84b0493bd9adcdc02fcff449f",tooltip="DLASWP performs a series of row interchanges on a general rectangular matrix."];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacpy_8f.html#a7eb8731ffab2734378157c40964bf788",tooltip="DLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="dlaqgb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqgb_8f.html#ad33336cd27dd6f289effc58cf9e88673",tooltip="DLAQGB scales a general band matrix, using row and column scaling factors computed by sgbequ."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

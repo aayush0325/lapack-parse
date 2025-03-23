@@ -1,0 +1,46 @@
+digraph "dggqrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dggqrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGGQRF"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgeqrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgeqrf_8f.html#a3766ea903391b5cf9008132f7440ec7b",tooltip="DGEQRF"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgeqr2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgeqr2_8f.html#a86586a8c4f1c31707724ed70e92f6f34",tooltip="DGEQR2 computes the QR factorization of a general rectangular matrix using an unblocked algorithm."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlarf1f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarf1f_8f.html#a553446f22ec537c5ff7f1335b90c4470",tooltip="DLARF1F applies an elementary reflector to a general rectangular"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarfg_8f.html#aabb59655e820b3551af27781bd716143",tooltip="DLARFG generates an elementary reflector (Householder matrix)."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dlarfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarfb_8f.html#a83c81583bd444e0cf021fb006cd9a5e8",tooltip="DLARFB applies a block reflector or its transpose to a general rectangular matrix."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dlarft",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarft_8f.html#a78f6dac52ebcfdeab5b4e5e6d4d0faf0",tooltip="DLARFT forms the triangular factor T of a block reflector H = I - vtvH"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacpy_8f.html#a7eb8731ffab2734378157c40964bf788",tooltip="DLACPY copies all or part of one two-dimensional array to another."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dgerqf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgerqf_8f.html#a7bba0d791b011eb5425ecbf500e9be2c",tooltip="DGERQF"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dgerq2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgerq2_8f.html#a360f5b8b756dc7d366c3decfcdf89000",tooltip="DGERQ2 computes the RQ factorization of a general rectangular matrix using an unblocked algorithm."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dlarf1l",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarf1l_8f.html#a85171d322dda63ef89a1abe0b3fa6b4f",tooltip="DLARF1L applies an elementary reflector to a general rectangular"];
+  Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dormqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dormqr_8f.html#a17b0765a8a0e6547bcf933979b38f0b0",tooltip="DORMQR"];
+  Node13 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="dorm2r",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dorm2r_8f.html#a16f17277972002c33a44e9a7a04bb64f",tooltip="DORM2R multiplies a general matrix by the orthogonal matrix from a QR factorization determined by sge..."];
+  Node14 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

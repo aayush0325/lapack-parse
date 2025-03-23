@@ -1,0 +1,16 @@
+digraph "zgtsv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zgtsv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGTSV computes the solution to system of linear equations A * X = B for GT matrices"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zhetrs_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetrs__aa_8f.html#a8f43b5a78f0c0cf4b414f827ab74d372",tooltip="ZHETRS_AA"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zhesv_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhesv__aa_8f.html#a4291a01be2cd481e26db1ac30e87c0af",tooltip="ZHESV_AA computes the solution to system of linear equations A * X = B for HE matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zsytrs_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrs__aa_8f.html#aa9c763e71bf08cb2147c25f8458327bd",tooltip="ZSYTRS_AA"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zsysv_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysv__aa_8f.html#aa1981f5edb6738375e4193aa5713c61d",tooltip="ZSYSV_AA computes the solution to system of linear equations A * X = B for SY matrices"];
+}

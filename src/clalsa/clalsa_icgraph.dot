@@ -1,0 +1,12 @@
+digraph "clalsa"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="clalsa",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLALSA computes the SVD of the coefficient matrix in compact form. Used by sgelsd."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="clalsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clalsd_8f.html#a26c9ab8dc8642c18e3cbde5769b8138d",tooltip="CLALSD uses the singular value decomposition of A to solve the least squares problem."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgelsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgelsd_8f.html#abe955d518aa1f5fec04eb13fb9ee56c2",tooltip="CGELSD computes the minimum-norm solution to a linear least squares problem for GE matrices"];
+}

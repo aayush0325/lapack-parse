@@ -1,0 +1,32 @@
+digraph "ztrtri"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ztrtri",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZTRTRI"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgetri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgetri_8f.html#ab490cfc4b92edec5345479f19a9a72ca",tooltip="ZGETRI"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zhetri2x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetri2x_8f.html#ad5921ef27eb77dc781cc3d708abd035e",tooltip="ZHETRI2X"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zhetri2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetri2_8f.html#ac32421ed08532b571f00daca6b2ada82",tooltip="ZHETRI2"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zhetri_3x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetri__3x_8f.html#a8b2fdc891a263a00472e56ccc2245a86",tooltip="ZHETRI_3X"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zhetri_3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetri__3_8f.html#a076a85a48ffbedf5a78122070af401e5",tooltip="ZHETRI_3"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zpotri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zpotri_8f.html#af37e3b8bbacd3332e83ffb3f1018bcf1",tooltip="ZPOTRI"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zsytri2x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytri2x_8f.html#a837c4d6af7bad75b55b2b6ab56d78eb2",tooltip="ZSYTRI2X"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zsytri2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytri2_8f.html#a35cbd9921246e2c78c809f96690debeb",tooltip="ZSYTRI2"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zsytri_3x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytri__3x_8f.html#a71b6927c1aa80a28f531aacf6fa6226b",tooltip="ZSYTRI_3X"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zsytri_3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytri__3_8f.html#a76ede2c1e3867b35958eb5b7d0c2db48",tooltip="ZSYTRI_3"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ztftri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ztftri_8f.html#a8d7f9d37aa528e0952d71ed4be0db2ca",tooltip="ZTFTRI"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zpftri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zpftri_8f.html#aaaf8c5cafae7ea33b9524bd4b79e61bf",tooltip="ZPFTRI"];
+}

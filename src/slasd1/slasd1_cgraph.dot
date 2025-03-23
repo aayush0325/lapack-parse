@@ -1,0 +1,34 @@
+digraph "slasd1"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="slasd1",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLASD1 computes the SVD of an upper bidiagonal matrix B of the specified size. Used by sbdsdc."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slamrg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slamrg_8f.html#a08dba55e84b9c57fb48b15b92d2b9049",tooltip="SLAMRG creates a permutation list to merge the entries of two independently sorted sets into a single..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slascl_8f.html#a11e6ce67ce97ca5b0a3a7bc5645a09d9",tooltip="SLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slasd2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasd2_8f.html#a33ea099005fc608ad8a5b79662e02b84",tooltip="SLASD2 merges the two sets of singular values together into a single sorted set. Used by sbdsdc."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slacpy_8f.html#a7780c991533ce8dd1f2c22ae2d563f08",tooltip="SLACPY copies all or part of one two-dimensional array to another."];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="slaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaset_8f.html#a6174184453f17ad7cc3488044325d5ac",tooltip="SLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="slasd3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasd3_8f.html#a4359e33241fa45b40ca5b25e6bee9054",tooltip="SLASD3 finds all square roots of the roots of the secular equation, as defined by the values in D and..."];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="slasd4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasd4_8f.html#a6680aa4ad62702cd9a00d7530c8ab53a",tooltip="SLASD4 computes the square root of the i-th updated eigenvalue of a positive symmetric rank-one modif..."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="slaed6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaed6_8f.html#af5919aeb57bc9c8153d7ae9f0ecc3276",tooltip="SLAED6 used by SSTEDC. Computes one Newton step in solution of the secular equation."];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="slasd5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasd5_8f.html#a19de62ad22e8492c93ac450198557d05",tooltip="SLASD5 computes the square root of the i-th eigenvalue of a positive symmetric rank-one modification ..."];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

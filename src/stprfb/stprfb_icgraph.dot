@@ -1,0 +1,42 @@
+digraph "stprfb"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="stprfb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="STPRFB applies a real \"triangular-pentagonal\" block reflector to a real matrix, which is composed of ..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="stplqt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stplqt_8f.html#aaeebc5a74769f18a1a41a41e377ac6d6",tooltip="STPLQT"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slaswlq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaswlq_8f.html#a4bd97cd60dc6820636a2e775a0a7202e",tooltip="SLASWLQ"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgelq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgelq_8f.html#a6a3c52e71695b484914e7e2a9fc944cb",tooltip="SGELQ"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgetsls_8f.html#a6208039df0bf345b9befcf55a4ceaef3",tooltip="SGETSLS"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="stpmlqt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stpmlqt_8f.html#af1b20fb0591e496ad87dbc867e642303",tooltip="STPMLQT"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="slamswlq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slamswlq_8f.html#a31ca6763f721e788df6de9e4e4fdaf19",tooltip="SLAMSWLQ"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="sgemlq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgemlq_8f.html#a7a01f1e6ca7bce4a0ed87f2b3fde8092",tooltip="SGEMLQ"];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="stpmqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stpmqrt_8f.html#a47352c862183c6b03b47598070678a04",tooltip="STPMQRT"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="slamtsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slamtsqr_8f.html#a5aacfaca08216005b6a3b48950782d07",tooltip="SLAMTSQR"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="sgemqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgemqr_8f.html#a706c4dc68b7e14f4869ceaec7a262ec0",tooltip="SGEMQR"];
+  Node11 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="sorgtsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sorgtsqr_8f.html#ae9dee843653f7f1b5d8a01fd47f7d04e",tooltip="SORGTSQR"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="stpqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stpqrt_8f.html#a8e057c8b5750de52195c08308559ed35",tooltip="STPQRT"];
+  Node13 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="slatsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slatsqr_8f.html#a3ce58fd292be1e70670094359c612b9f",tooltip="SLATSQR"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="sgeqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeqr_8f.html#aca46dded9a8ac2155d64d788f99277a3",tooltip="SGEQR"];
+  Node15 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="sgetsqrhrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgetsqrhrt_8f.html#aa9b1c34bb9a3e6ffb4de0b144539777b",tooltip="SGETSQRHRT"];
+}

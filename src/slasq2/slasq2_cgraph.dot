@@ -1,0 +1,21 @@
+digraph "slasq2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="slasq2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLASQ2 computes all the eigenvalues of the symmetric positive definite tridiagonal matrix associated ..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slasq3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasq3_8f.html#a1a6666b6578bef593095307a83d0e943",tooltip="SLASQ3 checks for deflation, computes a shift and calls dqds. Used by sbdsqr."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slasq4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasq4_8f.html#a41519cdfaf4d34b78d282be8797ad5c0",tooltip="SLASQ4 computes an approximation to the smallest eigenvalue using values of d from the previous trans..."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slasq5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasq5_8f.html#a6e311e45ee4f985837a13ceca43c864b",tooltip="SLASQ5 computes one dqds transform in ping-pong form. Used by sbdsqr and sstegr."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slasq6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasq6_8f.html#a847ecd4284d546b78ff81b4f89603ad6",tooltip="SLASQ6 computes one dqd transform in ping-pong form. Used by sbdsqr and sstegr."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slasrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasrt_8f.html#a66e14f999e0c96b0d974849882160a07",tooltip="SLASRT sorts numbers in increasing or decreasing order."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

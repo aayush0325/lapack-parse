@@ -1,0 +1,43 @@
+digraph "sgbsvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgbsvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGBSVX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgbcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbcon_8f.html#ab69fe5a37c3f7361c009bce69f8baf3d",tooltip="SGBCON"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slacn2_8f.html#a670bf75845ea8d0f2220f41866c6d294",tooltip="SLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slatbs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slatbs_8f.html#a9e5010fed7f9e0ecdea36a645b7d2922",tooltip="SLATBS solves a triangular banded system of equations."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="srscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$srscl_8f.html#ae668a889bec7fb6d91ba4457e2f83722",tooltip="SRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sgbequ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbequ_8f.html#ad6b951dfd2b71d1eb527d5f41da07ed2",tooltip="SGBEQU"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="sgbrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbrfs_8f.html#a7f306ebeac9cac6e32fb0d3092d336aa",tooltip="SGBRFS"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="sgbtrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbtrs_8f.html#a1ca828b2948fbb78c91ed3e2961bcbd2",tooltip="SGBTRS"];
+  Node9 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="sgbtrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbtrf_8f.html#acebccf97a748c611292ce5e6b05d2168",tooltip="SGBTRF"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="sgbtf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbtf2_8f.html#a0bcc0fe084053d5fb44740646a0abcb9",tooltip="SGBTF2 computes the LU factorization of a general band matrix using the unblocked version of the algo..."];
+  Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="slaswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaswp_8f.html#acb14404955e1b301d7877892a3c83f3d",tooltip="SLASWP performs a series of row interchanges on a general rectangular matrix."];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="slacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slacpy_8f.html#a7780c991533ce8dd1f2c22ae2d563f08",tooltip="SLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="slaqgb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqgb_8f.html#a4041f9392fd5e5137bcbb2ed29ae3b14",tooltip="SLAQGB scales a general band matrix, using row and column scaling factors computed by sgbequ."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

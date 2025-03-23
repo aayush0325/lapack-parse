@@ -1,0 +1,22 @@
+digraph "zla_porfsx_extended"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zla_porfsx_extended",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLA_PORFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric or H..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ilauplo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ilauplo_8f.html#a078a6444f93a0d4e589ca8bb80524313",tooltip="ILAUPLO"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zla_heamv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__heamv_8f.html#a20545c266c3a99c6558344f3645eea74",tooltip="ZLA_HEAMV computes a matrix-vector product using a Hermitian indefinite matrix to calculate error bou..."];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zla_lin_berr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__lin__berr_8f.html#a8161170213c0df9bff72f362f230d866",tooltip="ZLA_LIN_BERR computes a component-wise relative backward error."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zla_wwaddw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__wwaddw_8f.html#a605c615b386f083f45285795a7d6686c",tooltip="ZLA_WWADDW adds a vector into a doubled-single vector."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zpotrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zpotrs_8f.html#aa2116ea574b01efda584dff0b74c9fcd",tooltip="ZPOTRS"];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

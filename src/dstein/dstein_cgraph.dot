@@ -1,0 +1,20 @@
+digraph "dstein"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dstein",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DSTEIN"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlagtf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlagtf_8f.html#a5b5dcdca72376bec8f8b522a7a753725",tooltip="DLAGTF computes an LU factorization of a matrix T-λI, where T is a general tridiagonal matrix,..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlagts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlagts_8f.html#a0fbc9a87ffa4a60adadcb4fc511c2556",tooltip="DLAGTS solves the system of equations (T-λI)x = y or (T-λI)^Tx = y, where T is a general tridiagonal ..."];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlarnv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarnv_8f.html#a77e05a87ced667cbdb502aa87c72d056",tooltip="DLARNV returns a vector of random numbers from a uniform or normal distribution."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dlaruv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaruv_8f.html#a55e7c02e398f2c6365c956d272836a89",tooltip="DLARUV returns a vector of n random real numbers from a uniform distribution."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

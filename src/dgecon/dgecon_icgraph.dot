@@ -1,0 +1,46 @@
+digraph "dgecon"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dgecon",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGECON"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgerfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgerfsx_8f.html#ae60113eba7a360d9c92cc2b627e0c5d2",tooltip="DGERFSX"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvxx_8f.html#a3fed1dc691d07f1e81a049016fe0b67b",tooltip="DGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgesvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvx_8f.html#a9d90ccf6e340cacd08b7bbbb502ceb21",tooltip="DGESVX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlatdf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlatdf_8f.html#a2744c0a54e6012d58fb4eefb75f48c65",tooltip="DLATDF uses the LU factorization of the n-by-n matrix computed by sgetc2 and computes a contribution ..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dtgsy2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtgsy2_8f.html#aa6de4c854b216a9afb2f6d00eaaa3b45",tooltip="DTGSY2 solves the generalized Sylvester equation (unblocked algorithm)."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dtgex2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtgex2_8f.html#aa3c93490c68259c80285d72cb61cbd99",tooltip="DTGEX2 swaps adjacent diagonal blocks in an upper (quasi) triangular matrix pair by an orthogonal equ..."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dtgexc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtgexc_8f.html#a2510d68d70194719d570cbcfe24b3e74",tooltip="DTGEXC"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dlaqz3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqz3_8f.html#a9214b3b765a89d0b3fd6a08b6ec56d0f",tooltip="DLAQZ3"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dlaqz0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqz0_8f.html#a64ae394c770b6fbb30c1d6d6727d003c",tooltip="DLAQZ0"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dgges3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgges3_8f.html#a3903b5dcbc186bcc5b2db0604331dbb6",tooltip="DGGES3 computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dggev3_8f.html#a28d81b96083b18aa21c47e2e6ff59e5a",tooltip="DGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dtgsen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtgsen_8f.html#aba8441d4f7374bbcf6c093dbec0b517e",tooltip="DTGSEN"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="dgges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgges_8f.html#a8637d4b822e19d10327ddcb4235dc08e",tooltip="DGGES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node13 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="dggesx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dggesx_8f.html#a923e1df287c0a880641462ce42607936",tooltip="DGGESX computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node8 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="dtgsna",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtgsna_8f.html#a6c1a813b10f49050475ad50fe9fcaea7",tooltip="DTGSNA"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="dggevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dggevx_8f.html#a58099bb0f4ebe6a1f6f6078e05a6fb78",tooltip="DGGEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node6 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="dtgsyl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtgsyl_8f.html#aede855599e61042f57f160f1735d1282",tooltip="DTGSYL"];
+  Node18 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

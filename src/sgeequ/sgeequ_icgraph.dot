@@ -1,0 +1,10 @@
+digraph "sgeequ"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sgeequ",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGEEQU"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgesvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgesvx_8f.html#a1f66bf6cce2f8038b120eb11bd30cdc9",tooltip="SGESVX computes the solution to system of linear equations A * X = B for GE matrices"];
+}

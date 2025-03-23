@@ -1,0 +1,22 @@
+digraph "dlatbs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlatbs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLATBS solves a triangular banded system of equations."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgbcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbcon_8f.html#ac5177acc7bb06382c90e88f12ed784ff",tooltip="DGBCON"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgbrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbrfsx_8f.html#ab44677451338eb1a966f510ca0a38d1c",tooltip="DGBRFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgbsvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbsvxx_8f.html#a75860f1c9556e1b735418bb8f9329317",tooltip="DGBSVXX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dgbsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbsvx_8f.html#a5635d8f59dd5ccf4ff36868ecdc20a11",tooltip="DGBSVX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dpbcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpbcon_8f.html#a0990b256946941b804ddbac8b8d71f72",tooltip="DPBCON"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dpbsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpbsvx_8f.html#af0406a1d8cc6fce00fd4b23e5edde101",tooltip="DPBSVX computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dtbcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtbcon_8f.html#a8a84bd0bf5fcbe341dd62776615a6e40",tooltip="DTBCON"];
+}

@@ -1,0 +1,18 @@
+digraph "dpptrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dpptrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DPPTRF"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dppsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dppsv_8f.html#a59a299a18cb0af017ee2c972ae7defb5",tooltip="DPPSV computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dppsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dppsvx_8f.html#af53874c0cb1724d22aa2e3ede6b64ac1",tooltip="DPPSVX computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dspgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dspgv_8f.html#a4e4203d1260f4deffe7679ac49af4f10",tooltip="DSPGV"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dspgvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dspgvd_8f.html#aef7c2ecb94476cef947dcc461450012f",tooltip="DSPGVD"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dspgvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dspgvx_8f.html#a059beb16ce5345c3a2dfbf9692650401",tooltip="DSPGVX"];
+}

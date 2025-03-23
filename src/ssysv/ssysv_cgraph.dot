@@ -1,0 +1,27 @@
+digraph "ssysv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ssysv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SSYSV computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ssytrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytrf_8f.html#a12d2e56511cf7df066712c61d9acec45",tooltip="SSYTRF"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slasyf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasyf_8f.html#a409610d6bc329d424d5a8a1d2640c445",tooltip="SLASYF computes a partial factorization of a real symmetric matrix using the Bunch-Kaufman diagonal p..."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ssytf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytf2_8f.html#a7a22a184725b704bb892c4cb3cd2f872",tooltip="SSYTF2 computes the factorization of a real symmetric indefinite matrix, using the diagonal pivoting ..."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ssytrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytrs_8f.html#ae20133a1119b69a7319783ff982c8c62",tooltip="SSYTRS"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ssytrs2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytrs2_8f.html#a0e6312aad14fb7d54e0f3ef5111ec60a",tooltip="SSYTRS2"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ssyconv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyconv_8f.html#ac0f11db6dfb7415b9ca1bc5b2edb643d",tooltip="SSYCONV"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

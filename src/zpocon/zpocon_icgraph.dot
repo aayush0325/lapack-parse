@@ -1,0 +1,23 @@
+digraph "zpocon"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zpocon",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZPOCON"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgejsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgejsv_8f.html#a3f8a01747e82e013b3057d4c6c9bbbd4",tooltip="ZGEJSV"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmd_8f90.html#a09cef60be58f076072bb592bd1223dec",tooltip="ZGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmdq_8f90.html#a2ed954e87a52cfdd0bf0d61a1ff43e16",tooltip="ZGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zgesvdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvdq_8f.html#a964d223acba8bbc2118353c864fa2a39",tooltip="ZGESVDQ computes the singular value decomposition (SVD) with a QR-Preconditioned QR SVD Method for GE..."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zporfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zporfsx_8f.html#a42d79a8da87989c60a3dea4ed0b166fc",tooltip="ZPORFSX"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zposvxx_8f.html#a3536bbd664c6152bca5e47cffd0c6676",tooltip="ZPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zposvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zposvx_8f.html#ae86e9b8504b15462b291b17032195e29",tooltip="ZPOSVX computes the solution to system of linear equations A * X = B for PO matrices"];
+}

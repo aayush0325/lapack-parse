@@ -1,0 +1,36 @@
+digraph "ssytrf_aa_2stage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ssytrf_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SSYTRF_AA_2STAGE"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgbtrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbtrf_8f.html#acebccf97a748c611292ce5e6b05d2168",tooltip="SGBTRF"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgbtf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbtf2_8f.html#a0bcc0fe084053d5fb44740646a0abcb9",tooltip="SGBTF2 computes the LU factorization of a general band matrix using the unblocked version of the algo..."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slaswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaswp_8f.html#acb14404955e1b301d7877892a3c83f3d",tooltip="SLASWP performs a series of row interchanges on a general rectangular matrix."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sgetrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgetrf_8f.html#a8d99c11b94db3d5eac75cac46a0f2e17",tooltip="SGETRF"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sgetrf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgetrf2_8f.html#a4f76117b1ac28f73144480945cbc5200",tooltip="SGETRF2"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="slacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slacpy_8f.html#a7780c991533ce8dd1f2c22ae2d563f08",tooltip="SLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="slaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaset_8f.html#a6174184453f17ad7cc3488044325d5ac",tooltip="SLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ssygst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssygst_8f.html#aef1e992af47469e70d21e80c16d67d1b",tooltip="SSYGST"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ssygs2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssygs2_8f.html#a0ea1b814a88acd6907337680dc1fde81",tooltip="SSYGS2 reduces a symmetric definite generalized eigenproblem to standard form, using the factorizatio..."];
+  Node11 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

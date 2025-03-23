@@ -1,0 +1,19 @@
+digraph "sgemqrt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sgemqrt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGEMQRT"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgelst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgelst_8f.html#ac636617800cd2364aa30952dcd6b8c3e",tooltip="SGELST solves overdetermined or underdetermined systems for GE matrices using QR or LQ factorization ..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgemqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgemqr_8f.html#a706c4dc68b7e14f4869ceaec7a262ec0",tooltip="SGEMQR"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgetsls_8f.html#a6208039df0bf345b9befcf55a4ceaef3",tooltip="SGETSLS"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slamtsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slamtsqr_8f.html#a5aacfaca08216005b6a3b48950782d07",tooltip="SLAMTSQR"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sorgtsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sorgtsqr_8f.html#ae9dee843653f7f1b5d8a01fd47f7d04e",tooltip="SORGTSQR"];
+}

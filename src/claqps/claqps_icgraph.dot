@@ -1,0 +1,25 @@
+digraph "claqps"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="claqps",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLAQPS computes a step of QR factorization with column pivoting of a real m-by-n matrix A by using BL..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgeqp3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgeqp3_8f.html#a3947eb2e884bf32f7380f22c501151e9",tooltip="CGEQP3"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgejsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgejsv_8f.html#a180e586691d6b25d7abc45fc79670906",tooltip="CGEJSV"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgedmd_8f90.html#ae20a5be20e93752e6a0f2e85b78d5a96",tooltip="CGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgedmdq_8f90.html#a80108eada0975658d093e7bfd753b623",tooltip="CGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cgelsy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgelsy_8f.html#a9c3fdd95b68447e92700dffb218fc9db",tooltip="CGELSY solves overdetermined or underdetermined systems for GE matrices"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cgesvdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesvdq_8f.html#a8385f1a23cf2bd7014e67bf2bb284de3",tooltip="CGESVDQ computes the singular value decomposition (SVD) with a QR-Preconditioned QR SVD Method for GE..."];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cggsvp3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cggsvp3_8f.html#a92b4f0ed1816bbcba4d325fe96af9fe3",tooltip="CGGSVP3"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cggsvd3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cggsvd3_8f.html#a4a0b3645486e909b7f3d2bebec2efe3c",tooltip="CGGSVD3 computes the singular value decomposition (SVD) for OTHER matrices"];
+}

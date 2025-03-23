@@ -1,0 +1,10 @@
+digraph "dla_gerpvgrw"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dla_gerpvgrw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLA_GERPVGRW"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvxx_8f.html#a3fed1dc691d07f1e81a049016fe0b67b",tooltip="DGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+}

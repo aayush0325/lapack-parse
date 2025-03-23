@@ -1,0 +1,16 @@
+digraph "csytf2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="csytf2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CSYTF2 computes the factorization of a real symmetric indefinite matrix, using the diagonal pivoting ..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="csytrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytrf_8f.html#acd5839d735315079d2ecc8afc9402352",tooltip="CSYTRF"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="csysv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csysv_8f.html#a7bfdf654eb5b41b318d5b8b3be55f575",tooltip="CSYSV computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="csysvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csysvx_8f.html#ab83ef6fbaf99306b967bf9053a3e6082",tooltip="CSYSVX computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="csysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csysvxx_8f.html#a48da16f71d9aa75098b8c6d3c4007979",tooltip="CSYSVXX computes the solution to system of linear equations A * X = B for SY matrices"];
+}

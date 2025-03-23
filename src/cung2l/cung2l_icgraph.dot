@@ -1,0 +1,36 @@
+digraph "cung2l"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cung2l",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CUNG2L generates all or part of the unitary matrix Q from a QL factorization determined by cgeqlf (un..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cungql",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cungql_8f.html#a949d176083f4178d0fb2656e77f7588f",tooltip="CUNGQL"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cungtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cungtr_8f.html#ade809826468303ab92ca55d3d2b5ab02",tooltip="CUNGTR"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cheev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cheev_8f.html#a003ee37091d65ee62fd72da1035f06e2",tooltip="CHEEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE matrices"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="chegv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chegv_8f.html#ab2f86fb41df5ae239798c9c3081a2d49",tooltip="CHEGV"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cheev_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cheev__2stage_8f.html#af52d306acb40ea108aa4b06bb0fbae43",tooltip="CHEEV_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE matr..."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="chegv_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chegv__2stage_8f.html#a7027121a5599a07ebab2a56100f05f32",tooltip="CHEGV_2STAGE"];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cheevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cheevx_8f.html#a9f7c713a0119e777afe726e54feb6ef7",tooltip="CHEEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE matrices"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="chegvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chegvx_8f.html#ad5f5ddf0eee1402d59fc1017de0fc291",tooltip="CHEGVX"];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="cheevx_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cheevx__2stage_8f.html#a1279b26b80d88a050ab7b88b7f578b09",tooltip="CHEEVX_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE mat..."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="cupgtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cupgtr_8f.html#a0e5701e5a7d004e2872f5e49249b5571",tooltip="CUPGTR"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="chpev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chpev_8f.html#a2b95e0e93b0800ce9640b9f3751b5793",tooltip="CHPEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrices"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="chpgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chpgv_8f.html#ac61afdaa5fcdc3c260b9333416b012e6",tooltip="CHPGV"];
+  Node11 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="chpevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chpevx_8f.html#ae8af67b404d7c0f3cfc568c56c4e239b",tooltip="CHPEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="chpgvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chpgvx_8f.html#a81a69366c832454d56786374b6ad1614",tooltip="CHPGVX"];
+}

@@ -1,0 +1,55 @@
+digraph "zsyrfsx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zsyrfsx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZSYRFSX"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ilaprec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ilaprec_8f.html#a6fe244cb80f355ab156ad1df9ffcc478",tooltip="ILAPREC"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zla_syrcond_c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__syrcond__c_8f.html#a87c9fb2e8d08c82bb038a9cb067a907e",tooltip="ZLA_SYRCOND_C computes the infinity norm condition number of op(A)*inv(diag(c)) for symmetric indefin..."];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacn2_8f.html#a0fbe7a858e42dcf07db12aa892a9e513",tooltip="ZLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zsytrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrs_8f.html#ac7f1edb566d3b930acb845919336544f",tooltip="ZSYTRS"];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zla_syrcond_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__syrcond__x_8f.html#a8f1255b5910222ae69288e5e7ae9455d",tooltip="ZLA_SYRCOND_X computes the infinity norm condition number of op(A)*diag(x) for symmetric indefinite m..."];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zla_syrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__syrfsx__extended_8f.html#a39609e2bee43baf388a2e40e8dd99a58",tooltip="ZLA_SYRFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric inde..."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ilauplo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ilauplo_8f.html#a078a6444f93a0d4e589ca8bb80524313",tooltip="ILAUPLO"];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zla_lin_berr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__lin__berr_8f.html#a8161170213c0df9bff72f362f230d866",tooltip="ZLA_LIN_BERR computes a component-wise relative backward error."];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zla_syamv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__syamv_8f.html#afdde4e07a3bfeddbf09a744d6d4c60d8",tooltip="ZLA_SYAMV computes a matrix-vector product using a symmetric indefinite matrix to calculate error bou..."];
+  Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zla_wwaddw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__wwaddw_8f.html#a605c615b386f083f45285795a7d6686c",tooltip="ZLA_WWADDW adds a vector into a doubled-single vector."];
+  Node8 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zsymv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsymv_8f.html#ab9b336644e5cff134d305d70730e60ba",tooltip="ZSYMV computes a matrix-vector product for a complex symmetric matrix."];
+  Node13 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="zlansy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlansy_8f.html#ae1d67e9c7403f3d6e2c5db6073b014d3",tooltip="ZLANSY returns the value of the 1-norm, or the Frobenius norm, or the infinity norm,..."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="disnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$disnan_8f.html#a230d4e1886896853b11e44e541b2c6a3",tooltip="DISNAN tests input for NaN."];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="dlaisnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaisnan_8f.html#a341ec834c6fc14a17fead550ff486022",tooltip="DLAISNAN tests input for NaN by comparing two arguments for inequality."];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="zlassq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlassq_8f90.html#a254e1782d1c2f96e9e3164578481f9ce",tooltip="ZLASSQ updates a sum of squares represented in scaled form."];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="zsycon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsycon_8f.html#a3f603755cb45f43f6e494266149e8adc",tooltip="ZSYCON"];
+  Node18 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

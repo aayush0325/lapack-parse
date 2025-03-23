@@ -1,0 +1,42 @@
+digraph "csysv_aa_2stage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="csysv_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CSYSV_AA_2STAGE computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="csytrf_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytrf__aa__2stage_8f.html#a480a32878b7395e53bd00b74458f425b",tooltip="CSYTRF_AA_2STAGE"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgbtrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgbtrf_8f.html#a58d67a3a5354c78dfd0f94625bfe03b1",tooltip="CGBTRF"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgbtf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgbtf2_8f.html#a6172b0b895daff569f8bd4f6b7e8ca21",tooltip="CGBTF2 computes the LU factorization of a general band matrix using the unblocked version of the algo..."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="claswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$claswp_8f.html#a27858a2e2b195ef0e7121f1edb8bb9a9",tooltip="CLASWP performs a series of row interchanges on a general rectangular matrix."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cgetrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgetrf_8f.html#aed8e85049ecfb314d259bfdb3908a60d",tooltip="CGETRF"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cgetrf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgetrf2_8f.html#a15fa9800095fb84ff74bc087909c6941",tooltip="CGETRF2"];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="clacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacpy_8f.html#afcee53f42831342f7c863bfc55d2d159",tooltip="CLACPY copies all or part of one two-dimensional array to another."];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="claset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$claset_8f.html#a3666a7cae5a324eab6ae01b5155f1f5b",tooltip="CLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="csytrs_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytrs__aa__2stage_8f.html#af114d2ed6bf289689ae829559cb7c1e2",tooltip="CSYTRS_AA_2STAGE"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="cgbtrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgbtrs_8f.html#a72b02720b9ad928960ee5a5e92e6a5d7",tooltip="CGBTRS"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="clacgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacgv_8f.html#a0ff51770edb0cdc7328fdae7ace7954e",tooltip="CLACGV conjugates a complex vector."];
+  Node12 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

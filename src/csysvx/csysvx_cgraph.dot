@@ -1,0 +1,40 @@
+digraph "csysvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="csysvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CSYSVX computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="clacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacpy_8f.html#afcee53f42831342f7c863bfc55d2d159",tooltip="CLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="csycon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csycon_8f.html#a6ec6eb2e72afc7323c5125bce19473dc",tooltip="CSYCON"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="clacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacn2_8f.html#ab908babe3ec3648412de15e0f8ab4479",tooltip="CLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="csytrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytrs_8f.html#abd38670b8caa9c8b2f0be9f0a7c14e38",tooltip="CSYTRS"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="csyrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csyrfs_8f.html#a1d5b0252ad96edd8494a10d06eb97482",tooltip="CSYRFS"];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="csymv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csymv_8f.html#ae013512af4fd2c59629f1708ca4de36a",tooltip="CSYMV computes a matrix-vector product for a complex symmetric matrix."];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="csytrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytrf_8f.html#acd5839d735315079d2ecc8afc9402352",tooltip="CSYTRF"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="clasyf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clasyf_8f.html#a6ae55c9045ed09e937098d79f7ab3b0f",tooltip="CLASYF computes a partial factorization of a complex symmetric matrix using the Bunch-Kaufman diagona..."];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="csytf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytf2_8f.html#a0f12a3d0375451dcb483147e125665a1",tooltip="CSYTF2 computes the factorization of a real symmetric indefinite matrix, using the diagonal pivoting ..."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="csyr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csyr_8f.html#ab7fbaf7c4477110907f682b250b24abe",tooltip="CSYR performs the symmetric rank-1 update of a complex symmetric matrix."];
+  Node12 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

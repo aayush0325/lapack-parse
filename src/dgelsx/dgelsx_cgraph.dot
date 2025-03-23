@@ -1,0 +1,41 @@
+digraph "dgelsx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dgelsx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGELSX solves overdetermined or underdetermined systems for GE matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgeqpf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgeqpf_8f.html#aecad6eac294d2df861c6ae3b614c1ce8",tooltip="DGEQPF"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgeqr2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgeqr2_8f.html#a86586a8c4f1c31707724ed70e92f6f34",tooltip="DGEQR2 computes the QR factorization of a general rectangular matrix using an unblocked algorithm."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlarf1f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarf1f_8f.html#a553446f22ec537c5ff7f1335b90c4470",tooltip="DLARF1F applies an elementary reflector to a general rectangular"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarfg_8f.html#aabb59655e820b3551af27781bd716143",tooltip="DLARFG generates an elementary reflector (Householder matrix)."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dlarf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarf_8f.html#a39a2b39f56ce497b218c5f48339ee712",tooltip="DLARF applies an elementary reflector to a general rectangular matrix."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dorm2r",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dorm2r_8f.html#a16f17277972002c33a44e9a7a04bb64f",tooltip="DORM2R multiplies a general matrix by the orthogonal matrix from a QR factorization determined by sge..."];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dlaic1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaic1_8f.html#a53d62355f41d66eb53f3230e71a869b5",tooltip="DLAIC1 applies one step of incremental condition estimation."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dlascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlascl_8f.html#a7bce4c35ec5a86ee0bfdd15c476d99c8",tooltip="DLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaset_8f.html#a89e332374c7cd87e5db54bfe21550bc3",tooltip="DLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dlatzm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlatzm_8f.html#ad3cd42e76eedd67e801c7f48d5924358",tooltip="DLATZM"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dtzrqf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtzrqf_8f.html#a2d309addf953bcdd497d58608a7f7935",tooltip="DTZRQF"];
+  Node13 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

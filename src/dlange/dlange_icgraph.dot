@@ -1,0 +1,16 @@
+digraph "dlange"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlange",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLANGE returns the value of the 1-norm, Frobenius norm, infinity-norm, or the largest absolute value ..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgedmd_8f90.html#a873ebfba3e94c6200e9f6da79644abb1",tooltip="DGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgedmdq_8f90.html#a6c9d2f77b73a03970b6e05984167644f",tooltip="DGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgerfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgerfsx_8f.html#ae60113eba7a360d9c92cc2b627e0c5d2",tooltip="DGERFSX"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvxx_8f.html#a3fed1dc691d07f1e81a049016fe0b67b",tooltip="DGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+}

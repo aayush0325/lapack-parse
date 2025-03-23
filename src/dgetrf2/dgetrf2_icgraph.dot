@@ -1,0 +1,22 @@
+digraph "dgetrf2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dgetrf2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGETRF2"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgetrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgetrf_8f.html#a0019443faea08275ca60a734d0593e60",tooltip="DGETRF"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gesv.html#ga5ee879032a8365897c3ba91e3dc8d512",tooltip="Download DGESV + dependencies  <a href=\"http://www.netlib.org/cgi-bin/netlibfiles...."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgesvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvx_8f.html#a9d90ccf6e340cacd08b7bbbb502ceb21",tooltip="DGESVX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvxx_8f.html#a3fed1dc691d07f1e81a049016fe0b67b",tooltip="DGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dsgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsgesv_8f.html#a05bea3dc0386868e4720f22c969cb9f5",tooltip="DSGESV computes the solution to system of linear equations A * X = B for GE matrices (mixed precision..."];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dsytrf_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytrf__aa__2stage_8f.html#a4397a3e6f6f2c9d1bd4ae7fd734b4f4e",tooltip="DSYTRF_AA_2STAGE"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dsysv_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsysv__aa__2stage_8f.html#a9f78d49e5b2de9987bbc1b75f9564013",tooltip="DSYSV_AA_2STAGE computes the solution to system of linear equations A * X = B for SY matrices"];
+}

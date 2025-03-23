@@ -1,0 +1,14 @@
+digraph "stplqt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="stplqt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="STPLQT"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slaswlq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaswlq_8f.html#a4bd97cd60dc6820636a2e775a0a7202e",tooltip="SLASWLQ"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgelq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgelq_8f.html#a6a3c52e71695b484914e7e2a9fc944cb",tooltip="SGELQ"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgetsls_8f.html#a6208039df0bf345b9befcf55a4ceaef3",tooltip="SGETSLS"];
+}

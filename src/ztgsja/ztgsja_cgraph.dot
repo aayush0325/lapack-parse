@@ -1,0 +1,28 @@
+digraph "ztgsja"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ztgsja",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZTGSJA"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlartg_8f90.html#a86f8f877eaea0386cdc2c3c175d9ea88",tooltip="DLARTG generates a plane rotation with real cosine and real sine."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zlags2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlags2_8f.html#ac87de62432b4ef78f14a56962ffb726a",tooltip="ZLAGS2"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlasv2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasv2_8f.html#aee8e05a707783a9fba5d213093453543",tooltip="DLASV2 computes the singular value decomposition of a 2-by-2 triangular matrix."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zlartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlartg_8f90.html#a1e266e78a9a8585a1fc67f2d23badc64",tooltip="ZLARTG generates a plane rotation with real cosine and complex sine."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zlapll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlapll_8f.html#a6e8170eccea38a203f2e687fd26fdda5",tooltip="ZLAPLL measures the linear dependence of two vectors."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dlas2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlas2_8f.html#a307400bc17cbe31b5b8827a2802efae4",tooltip="DLAS2 computes singular values of a 2-by-2 triangular matrix."];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zlarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlarfg_8f.html#af496f956f05bac0668fed468230355c7",tooltip="ZLARFG generates an elementary reflector (Householder matrix)."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaset_8f.html#aa4389d0e0e031c70c351acf7dbad6a85",tooltip="ZLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zrot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zrot_8f.html#a423fa89faf02ec43f5b664f91ce29729",tooltip="ZROT applies a plane rotation with real cosine and complex sine to a pair of complex vectors."];
+}

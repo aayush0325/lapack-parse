@@ -1,0 +1,22 @@
+digraph "sla_porfsx_extended"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sla_porfsx_extended",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLA_PORFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric or H..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ilauplo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ilauplo_8f.html#a078a6444f93a0d4e589ca8bb80524313",tooltip="ILAUPLO"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sla_lin_berr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sla__lin__berr_8f.html#af01ca9f6b21ce873bd210ad3e58b38fa",tooltip="SLA_LIN_BERR computes a component-wise relative backward error."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sla_syamv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sla__syamv_8f.html#a1eb39049af684991f53c9be704fbc56d",tooltip="SLA_SYAMV computes a matrix-vector product using a symmetric indefinite matrix to calculate error bou..."];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sla_wwaddw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sla__wwaddw_8f.html#a322e52ebd5568f361fff5e88c75c2c4e",tooltip="SLA_WWADDW adds a vector into a doubled-single vector."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="spotrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spotrs_8f.html#af5cc1531aa5ffe706533fbca343d55dd",tooltip="SPOTRS"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,55 @@
+digraph "sgelq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgelq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGELQ"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgelqt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgelqt_8f.html#a50aa58c97b389375440f74164d508537",tooltip="SGELQT"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgelqt3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgelqt3_8f.html#ac44bd55d81edc0d66d551514bf7aa5ee",tooltip="SGELQT3"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfg_8f.html#a1c10a1adfa35b2d5ea15e801287a6a38",tooltip="SLARFG generates an elementary reflector (Householder matrix)."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sgeqrt2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeqrt2_8f.html#a418228a8d0645cee0ff6a89a3b9a8e19",tooltip="SGEQRT2 computes a QR factorization of a general real or complex matrix using the compact WY represen..."];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sgeqrt3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeqrt3_8f.html#a0ac033e696d80b5aa9e5289e47e3e7f9",tooltip="SGEQRT3 recursively computes a QR factorization of a general real or complex matrix using the compact..."];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="slarfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfb_8f.html#abd00c98d81aee1efa14e838bafa8078a",tooltip="SLARFB applies a block reflector or its transpose to a general rectangular matrix."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="slaswlq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaswlq_8f.html#a4bd97cd60dc6820636a2e775a0a7202e",tooltip="SLASWLQ"];
+  Node9 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="sgeqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeqrt_8f.html#a036c4a8fce2027da4ed92cf9064e8819",tooltip="SGEQRT"];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="stplqt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stplqt_8f.html#aaeebc5a74769f18a1a41a41e377ac6d6",tooltip="STPLQT"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="stplqt2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stplqt2_8f.html#ad2dc7313489b247ee3668554b080d853",tooltip="STPLQT2 computes a LQ factorization of a real or complex \"triangular-pentagonal\" matrix,..."];
+  Node12 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="stprfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stprfb_8f.html#af633e78eeb9a85e068655abd15f04ca5",tooltip="STPRFB applies a real \"triangular-pentagonal\" block reflector to a real matrix, which is composed of ..."];
+  Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="stpqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stpqrt_8f.html#a8e057c8b5750de52195c08308559ed35",tooltip="STPQRT"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="stpqrt2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stpqrt2_8f.html#a807d00a52f399421c840cb4bdbe97768",tooltip="STPQRT2 computes a QR factorization of a real or complex \"triangular-pentagonal\" matrix,..."];
+  Node15 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,35 @@
+digraph "clahqr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="clahqr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLAHQR computes the eigenvalues and Schur factorization of an upper Hessenberg matrix,..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="chseqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chseqr_8f.html#ac942d4e00d833830e58c722d270621c8",tooltip="CHSEQR"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgees",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgees_8f.html#a6116f4ac8725e779da5d28d3f858ad2f",tooltip="CGEES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgeesx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgeesx_8f.html#a788eda36c325ae49831c608588adaa69",tooltip="CGEESX computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cgeev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgeev_8f.html#a175ced0ce627161ef2f052fc7ceabe5e",tooltip="CGEEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgedmd_8f90.html#ae20a5be20e93752e6a0f2e85b78d5a96",tooltip="CGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgedmdq_8f90.html#a80108eada0975658d093e7bfd753b623",tooltip="CGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cgeevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgeevx_8f.html#a397ffbf0007d6b72f4639379df27ae53",tooltip="CGEEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="claqr0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$claqr0_8f.html#a4933184366bee4974ea87a9664bcaf8f",tooltip="CLAQR0 computes the eigenvalues of a Hessenberg matrix, and optionally the matrices from the Schur de..."];
+  Node9 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="claqr2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$claqr2_8f.html#a85a58eb7c62a7f48f0bf2df90969758e",tooltip="CLAQR2 performs the unitary similarity transformation of a Hessenberg matrix to detect and deflate fu..."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="claqr4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$claqr4_8f.html#aa64d58da424edf99ec94401802c0abd0",tooltip="CLAQR4 computes the eigenvalues of a Hessenberg matrix, and optionally the matrices from the Schur de..."];
+  Node11 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="claqr3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$claqr3_8f.html#aa7abd9baec48ad30e2e28fc8cc236a1e",tooltip="CLAQR3 performs the unitary similarity transformation of a Hessenberg matrix to detect and deflate fu..."];
+  Node12 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

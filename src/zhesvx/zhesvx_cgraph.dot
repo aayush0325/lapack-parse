@@ -1,0 +1,37 @@
+digraph "zhesvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zhesvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZHESVX computes the solution to system of linear equations A * X = B for HE matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zhecon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhecon_8f.html#a584b985d2cb3dafedf2fbb0fb99f3910",tooltip="ZHECON"];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zhetrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetrs_8f.html#acf697e3bb72c5fd88cd90972999401dd",tooltip="ZHETRS"];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zlacgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacgv_8f.html#ad2595ab7c6b89e1ff2e9d05542431719",tooltip="ZLACGV conjugates a complex vector."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacn2_8f.html#a0fbe7a858e42dcf07db12aa892a9e513",tooltip="ZLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zherfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zherfs_8f.html#a210ea4e6ec9653bafda9ffa442e2b01f",tooltip="ZHERFS"];
+  Node7 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zhetrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetrf_8f.html#adc84a5c9818ee12ea19944623131bd52",tooltip="ZHETRF"];
+  Node8 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zhetf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetf2_8f.html#a40a7b760050b65451b24ab9176e93192",tooltip="ZHETF2 computes the factorization of a complex Hermitian matrix, using the diagonal pivoting method (..."];
+  Node9 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zlahef",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlahef_8f.html#ad3e70471109e6811c241e34dc5a5a059",tooltip="ZLAHEF computes a partial factorization of a complex Hermitian indefinite matrix using the Bunch-Kauf..."];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacpy_8f.html#a519ff79bf915433651747242f22078fb",tooltip="ZLACPY copies all or part of one two-dimensional array to another."];
+}

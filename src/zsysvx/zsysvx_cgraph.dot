@@ -1,0 +1,40 @@
+digraph "zsysvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zsysvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZSYSVX computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacpy_8f.html#a519ff79bf915433651747242f22078fb",tooltip="ZLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zsycon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsycon_8f.html#a3f603755cb45f43f6e494266149e8adc",tooltip="ZSYCON"];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacn2_8f.html#a0fbe7a858e42dcf07db12aa892a9e513",tooltip="ZLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zsytrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrs_8f.html#ac7f1edb566d3b930acb845919336544f",tooltip="ZSYTRS"];
+  Node6 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zsyrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsyrfs_8f.html#a31e86521c090f1f20502fc91d82ad80e",tooltip="ZSYRFS"];
+  Node7 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zsymv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsymv_8f.html#ab9b336644e5cff134d305d70730e60ba",tooltip="ZSYMV computes a matrix-vector product for a complex symmetric matrix."];
+  Node8 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zsytrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrf_8f.html#abb59c91a81aaf15dc63594bbc96c0ed7",tooltip="ZSYTRF"];
+  Node9 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zlasyf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlasyf_8f.html#a4bc883ee395efa527339d112e2df7ab6",tooltip="ZLASYF computes a partial factorization of a complex symmetric matrix using the Bunch-Kaufman diagona..."];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zsytf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytf2_8f.html#a08a69231abc76ecca401fad02c8e0821",tooltip="ZSYTF2 computes the factorization of a real symmetric indefinite matrix, using the diagonal pivoting ..."];
+  Node11 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zsyr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsyr_8f.html#a08a5c1ca17a783b2f7e7f3bc80b422dd",tooltip="ZSYR performs the symmetric rank-1 update of a complex symmetric matrix."];
+  Node12 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

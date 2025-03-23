@@ -1,0 +1,20 @@
+digraph "dggbak"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dggbak",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGGBAK"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgegs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgegs_8f.html#af64f56e7012093f95cd35f59271b85bf",tooltip="DGEGS computes the eigenvalues, real Schur form, and, optionally, the left and/or right Schur vectors..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgegv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgegv_8f.html#a4a909655349307569c2a11e703a7ac08",tooltip="DGEGV computes the eigenvalues and, optionally, the left and/or right eigenvectors of a real matrix p..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgges_8f.html#a8637d4b822e19d10327ddcb4235dc08e",tooltip="DGGES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dgges3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgges3_8f.html#a3903b5dcbc186bcc5b2db0604331dbb6",tooltip="DGGES3 computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dggev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dggev_8f.html#a4f59e87e670a755b41cbdd7e97f36bea",tooltip="DGGEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dggev3_8f.html#a28d81b96083b18aa21c47e2e6ff59e5a",tooltip="DGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+}

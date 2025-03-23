@@ -1,0 +1,25 @@
+digraph "dorgtsqr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dorgtsqr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DORGTSQR"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlamtsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlamtsqr_8f.html#a8a30542716c672ce7c3feda42c70872e",tooltip="DLAMTSQR"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgemqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgemqrt_8f.html#af55d7b3137b198647461d429a7e9b2c6",tooltip="DGEMQRT"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlarfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarfb_8f.html#a83c81583bd444e0cf021fb006cd9a5e8",tooltip="DLARFB applies a block reflector or its transpose to a general rectangular matrix."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dtpmqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtpmqrt_8f.html#ac998dca531aab64da39faff6b9dd9675",tooltip="DTPMQRT"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dtprfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtprfb_8f.html#aa6587111426ea9176a800939521c2586",tooltip="DTPRFB applies a real \"triangular-pentagonal\" block reflector to a real matrix, which is composed of ..."];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaset_8f.html#a89e332374c7cd87e5db54bfe21550bc3",tooltip="DLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

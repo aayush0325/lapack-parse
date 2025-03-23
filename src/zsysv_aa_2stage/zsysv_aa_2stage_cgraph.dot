@@ -1,0 +1,46 @@
+digraph "zsysv_aa_2stage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zsysv_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZSYSV_AA_2STAGE computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zsytrf_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrf__aa__2stage_8f.html#a62e74ed951e483ae971b180ce21aefe9",tooltip="ZSYTRF_AA_2STAGE"];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgbtrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgbtrf_8f.html#a9b98a0ba02d0dc89be7ac6319a29755d",tooltip="ZGBTRF"];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zgbtf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgbtf2_8f.html#a06753b5d5c8432fbb7009909d321cdd0",tooltip="ZGBTF2 computes the LU factorization of a general band matrix using the unblocked version of the algo..."];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zlaswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaswp_8f.html#a49d0e55e934b6e90456a2eb75490c3ef",tooltip="ZLASWP performs a series of row interchanges on a general rectangular matrix."];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zgetrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$VARIANTS_2lu_2CR_2zgetrf_8f.html#a5b625680e6251feb29e386193914981c",tooltip="ZGETRF VARIANT: Crout Level 3 BLAS version of the algorithm."];
+  Node7 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zgetf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgetf2_8f.html#af3c2645d2b9b3d3bc26fcd9ad463cd5e",tooltip="ZGETF2 computes the LU factorization of a general m-by-n matrix using partial pivoting with row inter..."];
+  Node8 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zrscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zrscl_8f.html#a4e747df261783c475b1e0a92a0a0f7cc",tooltip="ZDRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zdrscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zdrscl_8f.html#ad73ec38e29df0385ee6fda7d832fd205",tooltip="ZDRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacpy_8f.html#a519ff79bf915433651747242f22078fb",tooltip="ZLACPY copies all or part of one two-dimensional array to another."];
+  Node3 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaset_8f.html#aa4389d0e0e031c70c351acf7dbad6a85",tooltip="ZLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zsytrs_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsytrs__aa__2stage_8f.html#ac3d5bd5cb351aace882e160acca7e37e",tooltip="ZSYTRS_AA_2STAGE"];
+  Node13 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="zgbtrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgbtrs_8f.html#af3a96e7f621f139aa2750ae380e83700",tooltip="ZGBTRS"];
+  Node14 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="zlacgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacgv_8f.html#ad2595ab7c6b89e1ff2e9d05542431719",tooltip="ZLACGV conjugates a complex vector."];
+  Node13 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

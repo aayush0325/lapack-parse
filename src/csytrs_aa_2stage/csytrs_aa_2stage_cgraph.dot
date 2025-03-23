@@ -1,0 +1,17 @@
+digraph "csytrs_aa_2stage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="csytrs_aa_2stage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CSYTRS_AA_2STAGE"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgbtrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgbtrs_8f.html#a72b02720b9ad928960ee5a5e92e6a5d7",tooltip="CGBTRS"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="clacgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacgv_8f.html#a0ff51770edb0cdc7328fdae7ace7954e",tooltip="CLACGV conjugates a complex vector."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="claswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$claswp_8f.html#a27858a2e2b195ef0e7121f1edb8bb9a9",tooltip="CLASWP performs a series of row interchanges on a general rectangular matrix."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

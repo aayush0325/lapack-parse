@@ -1,0 +1,27 @@
+digraph "zlar2v"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zlar2v",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLAR2V applies a vector of plane rotations with real cosines and complex sines from both sides to a s..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zhbgst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbgst_8f.html#a4c139408320128b94a42695614ae2646",tooltip="ZHBGST"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zhbgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbgv_8f.html#a76a8cfc758f8dc17ac37f6eed2ef18a4",tooltip="ZHBGV"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zhbgvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbgvd_8f.html#a597ea234c22684386ad82c7515285514",tooltip="ZHBGVD"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zhbgvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbgvx_8f.html#ae902a3301300bbb1a46459cb990192ad",tooltip="ZHBGVX"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zhbtrd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbtrd_8f.html#ae10651c17f5235233e41c53bfc4f9f93",tooltip="ZHBTRD"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zhbev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbev_8f.html#a72184c03c8976891c11e42f3463c2d38",tooltip="ZHBEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrices"];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zhbevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbevd_8f.html#a3854721b34946230321131ed9e3c08e3",tooltip="ZHBEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zhbevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbevx_8f.html#ae5f2fa86e4c29e27fccf6cb9ea1c54a2",tooltip="ZHBEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

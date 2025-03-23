@@ -1,0 +1,41 @@
+digraph "dlasdt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlasdt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLASDT creates a tree of subproblems for bidiagonal divide and conquer. Used by sbdsdc."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlalsa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlalsa_8f.html#a5f0a01d46e43360ec61818501b449a5a",tooltip="DLALSA computes the SVD of the coefficient matrix in compact form. Used by sgelsd."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlalsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlalsd_8f.html#ad9672df73e817eee614a97daea1341b0",tooltip="DLALSD uses the singular value decomposition of A to solve the least squares problem."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgelsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgelsd_8f.html#a94bd4a63a6dacf523e25ff617719f752",tooltip="DGELSD computes the minimum-norm solution to a linear least squares problem for GE matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlasd0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasd0_8f.html#ae17e31eb66deb0c5111275edbd302758",tooltip="DLASD0 computes the singular values of a real upper bidiagonal n-by-m matrix B with diagonal d and of..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dbdsdc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dbdsdc_8f.html#a6465b3e8d562f4a16409308939a46a3f",tooltip="DBDSDC"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dgesdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesdd_8f.html#ad8e0f1c83a78d3d4858eaaa88a1c5ab1",tooltip="DGESDD"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgedmd_8f90.html#a873ebfba3e94c6200e9f6da79644abb1",tooltip="DGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgedmdq_8f90.html#a6c9d2f77b73a03970b6e05984167644f",tooltip="DGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node6 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zgesdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesdd_8f.html#accb06ed106ce18814ad7069dcb43aa27",tooltip="ZGESDD"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmd_8f90.html#a09cef60be58f076072bb592bd1223dec",tooltip="ZGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmdq_8f90.html#a2ed954e87a52cfdd0bf0d61a1ff43e16",tooltip="ZGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dlasda",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasda_8f.html#af8abcba620b2d5a1321889fd86cb3f12",tooltip="DLASDA computes the singular value decomposition (SVD) of a real upper bidiagonal matrix with diagona..."];
+  Node13 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="zlalsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlalsd_8f.html#a469113fb08a70d0fa24940f949a04d6c",tooltip="ZLALSD uses the singular value decomposition of A to solve the least squares problem."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="zgelsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgelsd_8f.html#ae06e94cada1d406119efa6251a4eb308",tooltip="ZGELSD computes the minimum-norm solution to a linear least squares problem for GE matrices"];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="zlalsa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlalsa_8f.html#adfb51762868d0b8a6ba8a5ccbd596544",tooltip="ZLALSA computes the SVD of the coefficient matrix in compact form. Used by sgelsd."];
+  Node16 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

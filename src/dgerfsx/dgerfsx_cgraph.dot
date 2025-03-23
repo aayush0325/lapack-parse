@@ -1,0 +1,54 @@
+digraph "dgerfsx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dgerfsx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGERFSX"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgecon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgecon_8f.html#a188b8d30443d14b1a3f7f8331d87ae60",tooltip="DGECON"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacn2_8f.html#a9b62da514b4a671acd3e3f63d018f01e",tooltip="DLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlatrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlatrs_8f.html#aa495c9c519906a3053f0ec56d702ef5f",tooltip="DLATRS solves a triangular system of equations with the scale factor set to prevent overflow."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="drscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$drscl_8f.html#a662e4c4f54a2670dd8408f6b6b306dec",tooltip="DRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dla_gercond",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__gercond_8f.html#a5539077fbd3a92c4d92b75bf58da5db3",tooltip="DLA_GERCOND estimates the Skeel condition number for a general matrix."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dgetrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgetrs_8f.html#a58e332cb1b8ab770270843221a48296d",tooltip="DGETRS"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dlaswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaswp_8f.html#a3ccc0cf84b0493bd9adcdc02fcff449f",tooltip="DLASWP performs a series of row interchanges on a general rectangular matrix."];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dla_gerfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__gerfsx__extended_8f.html#a19c6e9e133a5ea3f59a24959889429f2",tooltip="DLA_GERFSX_EXTENDED improves the computed solution to a system of linear equations for general matric..."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="chla_transtype",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chla__transtype_8f.html#a9350edcf6f80d188f3c01400ebe85260",tooltip="CHLA_TRANSTYPE"];
+  Node10 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dla_geamv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__geamv_8f.html#ac150eadbadeb706cda2998e2bb0a70dd",tooltip="DLA_GEAMV computes a matrix-vector product using a general matrix to calculate error bounds."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ilatrans",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ilatrans_8f.html#aec3c2c1d0a04f49ff1b18fe344b687c1",tooltip="ILATRANS"];
+  Node12 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="dla_lin_berr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__lin__berr_8f.html#a9ca071e2c37ea415804eceba515a384c",tooltip="DLA_LIN_BERR computes a component-wise relative backward error."];
+  Node10 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="dla_wwaddw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__wwaddw_8f.html#afeba975fdc68428735c26a2189de3670",tooltip="DLA_WWADDW adds a vector into a doubled-single vector."];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="dlange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlange_8f.html#aefa80dbd8cd1732740478618b8b622a1",tooltip="DLANGE returns the value of the 1-norm, Frobenius norm, infinity-norm, or the largest absolute value ..."];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="disnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$disnan_8f.html#a230d4e1886896853b11e44e541b2c6a3",tooltip="DISNAN tests input for NaN."];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="dlaisnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaisnan_8f.html#a341ec834c6fc14a17fead550ff486022",tooltip="DLAISNAN tests input for NaN by comparing two arguments for inequality."];
+  Node16 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="dlassq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlassq_8f90.html#ae8f40b0a34771b4f2d9c863de3af7be5",tooltip="DLASSQ updates a sum of squares represented in scaled form."];
+  Node1 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ilaprec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ilaprec_8f.html#a6fe244cb80f355ab156ad1df9ffcc478",tooltip="ILAPREC"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

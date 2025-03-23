@@ -1,0 +1,20 @@
+digraph "dsbtrd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dsbtrd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DSBTRD"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlar2v",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlar2v_8f.html#ae1b81ff82ec4fad649a7703143c22f63",tooltip="DLAR2V applies a vector of plane rotations with real cosines and real sines from both sides to a sequ..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlargv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlargv_8f.html#ae577e9789fe58c91e173f8babd10f2a4",tooltip="DLARGV generates a vector of plane rotations with real cosines and real sines."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlartg_8f90.html#a86f8f877eaea0386cdc2c3c175d9ea88",tooltip="DLARTG generates a plane rotation with real cosine and real sine."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlartv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlartv_8f.html#a3d1a5bbad7b3d2bfaa82bef2bbff5ed1",tooltip="DLARTV applies a vector of plane rotations with real cosines and real sines to the elements of a pair..."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaset_8f.html#a89e332374c7cd87e5db54bfe21550bc3",tooltip="DLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+}

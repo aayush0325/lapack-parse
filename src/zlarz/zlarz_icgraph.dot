@@ -1,0 +1,19 @@
+digraph "zlarz"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zlarz",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLARZ applies an elementary reflector (as returned by stzrzf) to a general matrix."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zlatrz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlatrz_8f.html#acfb5400ceed8283ceea69631fec95e6b",tooltip="ZLATRZ factors an upper trapezoidal matrix by means of unitary transformations."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ztzrzf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ztzrzf_8f.html#a6f18b970efed010f7068441b68143d2c",tooltip="ZTZRZF"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgelsy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgelsy_8f.html#ab538c5c13af357a23b3b7433a3971354",tooltip="ZGELSY solves overdetermined or underdetermined systems for GE matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zunmr3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zunmr3_8f.html#a485b30b31f2a1d6960798b82b45f1a48",tooltip="ZUNMR3 multiplies a general matrix by the unitary matrix from a RZ factorization determined by ctzrzf..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zunmrz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zunmrz_8f.html#a00f9320df4ba9247ef06acbf4f9d912c",tooltip="ZUNMRZ"];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

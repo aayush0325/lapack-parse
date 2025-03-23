@@ -1,0 +1,20 @@
+digraph "zbbcsd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zbbcsd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZBBCSD"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlartgp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlartgp_8f.html#ac216c77dadbc793b5f0697555af0775b",tooltip="DLARTGP generates a plane rotation so that the diagonal is nonnegative."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlartgs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlartgs_8f.html#a2c05f9059583ca92abb77e2765037dfc",tooltip="DLARTGS generates a plane rotation designed to introduce a bulge in implicit QR iteration for the bid..."];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlas2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlas2_8f.html#a307400bc17cbe31b5b8827a2802efae4",tooltip="DLAS2 computes singular values of a 2-by-2 triangular matrix."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zlasr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlasr_8f.html#aae27686b63781226e5f5c6de245463b3",tooltip="ZLASR applies a sequence of plane rotations to a general rectangular matrix."];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

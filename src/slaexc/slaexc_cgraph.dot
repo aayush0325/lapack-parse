@@ -1,0 +1,22 @@
+digraph "slaexc"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="slaexc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLAEXC swaps adjacent diagonal blocks of a real upper quasi-triangular matrix in Schur canonical form..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slacpy_8f.html#a7780c991533ce8dd1f2c22ae2d563f08",tooltip="SLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slanv2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slanv2_8f.html#a31a29740ba96fbae6b06e92a929e864e",tooltip="SLANV2 computes the Schur factorization of a real 2-by-2 nonsymmetric matrix in standard form."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfg_8f.html#a1c10a1adfa35b2d5ea15e801287a6a38",tooltip="SLARFG generates an elementary reflector (Householder matrix)."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slarfx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfx_8f.html#a0a4884a7b75e6c790eca8488d4ec6754",tooltip="SLARFX applies an elementary reflector to a general rectangular matrix, with loop unrolling when the ..."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slarf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarf_8f.html#a38688653aa8fa8f1e3fadbdcd1377969",tooltip="SLARF applies an elementary reflector to a general rectangular matrix."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="slartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slartg_8f90.html#a8836d25697ed4d8cc0b7d0f45b558c3b",tooltip="SLARTG generates a plane rotation with real cosine and real sine."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="slasy2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasy2_8f.html#a768b34b0d6fc6604ccf54437d5e8e78c",tooltip="SLASY2 solves the Sylvester matrix equation where the matrices are of order 1 or 2."];
+}

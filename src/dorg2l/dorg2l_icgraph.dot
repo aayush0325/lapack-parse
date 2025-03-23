@@ -1,0 +1,36 @@
+digraph "dorg2l"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dorg2l",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DORG2L generates all or part of the orthogonal matrix Q from a QL factorization determined by sgeqlf ..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dopgtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dopgtr_8f.html#a260e1e3badd8f0ec19bac1e72c0256ed",tooltip="DOPGTR"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dspev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dspev_8f.html#aa31d35b52c937fdbacaa2e034d8bb52b",tooltip="DSPEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrices"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dspgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dspgv_8f.html#a4e4203d1260f4deffe7679ac49af4f10",tooltip="DSPGV"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dspevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dspevx_8f.html#a07ee2c397b1b0f73e296f20f8d36990a",tooltip="DSPEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dspgvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dspgvx_8f.html#a059beb16ce5345c3a2dfbf9692650401",tooltip="DSPGVX"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dorgql",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dorgql_8f.html#a97adc24a3547a789a3ab145688e3a3ca",tooltip="DORGQL"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dorgtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dorgtr_8f.html#ab9106f66ee699faf1bd78afc143eda43",tooltip="DORGTR"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dsyev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyev_8f.html#a442c43fca5493590f8f26cf42fed4044",tooltip="DSYEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dsygv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsygv_8f.html#a007d33bcdcc697e17c6d15432f159b73",tooltip="DSYGV"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dsyev_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyev__2stage_8f.html#ae624a176ee6bb6e67613f22114f63106",tooltip="DSYEV_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matr..."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dsygv_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsygv__2stage_8f.html#a3306414cf787c52109d20e2f5ca7581d",tooltip="DSYGV_2STAGE"];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dsyevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyevx_8f.html#a68612cdf4ed1051c08f0b0735b8dfdea",tooltip="DSYEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="dsygvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsygvx_8f.html#a51bef2d9d58cfff3f1bac9143ccc85b8",tooltip="DSYGVX"];
+  Node8 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="dsyevx_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyevx__2stage_8f.html#ae4eebc2e2a39933908d6ffe64611bca1",tooltip="DSYEVX_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY mat..."];
+}

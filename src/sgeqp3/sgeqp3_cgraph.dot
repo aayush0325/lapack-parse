@@ -1,0 +1,42 @@
+digraph "sgeqp3"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgeqp3",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGEQP3"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgeqrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeqrf_8f.html#a7cb54fa1727bf0166523036f4948bc56",tooltip="SGEQRF"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgeqr2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeqr2_8f.html#acd1ae8241f3d12cfa0f1d5ecdbc32eca",tooltip="SGEQR2 computes the QR factorization of a general rectangular matrix using an unblocked algorithm."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slarf1f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarf1f_8f.html#aefd3efd961011e8288e1a09bb2e04b99",tooltip="SLARF1F applies an elementary reflector to a general rectangular"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfg_8f.html#a1c10a1adfa35b2d5ea15e801287a6a38",tooltip="SLARFG generates an elementary reflector (Householder matrix)."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="slarfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfb_8f.html#abd00c98d81aee1efa14e838bafa8078a",tooltip="SLARFB applies a block reflector or its transpose to a general rectangular matrix."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="slarft",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarft_8f.html#a65328f5195290453fa03cb785888a95d",tooltip="SLARFT forms the triangular factor T of a block reflector H = I - vtvH"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="slacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slacpy_8f.html#a7780c991533ce8dd1f2c22ae2d563f08",tooltip="SLACPY copies all or part of one two-dimensional array to another."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="slaqp2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqp2_8f.html#a05abd62cde4aa80e5895b9216c08a5ae",tooltip="SLAQP2 computes a QR factorization with column pivoting of the matrix block."];
+  Node10 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="slaqps",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqps_8f.html#a1497fde0bc5878f763232de98702193c",tooltip="SLAQPS computes a step of QR factorization with column pivoting of a real m-by-n matrix A by using BL..."];
+  Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="sormqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sormqr_8f.html#ab4d0e540fc95dc0151bc2c9995cabd25",tooltip="SORMQR"];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="sorm2r",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sorm2r_8f.html#a45a8a1e608ebbcc3fcafbe60f2995d78",tooltip="SORM2R multiplies a general matrix by the orthogonal matrix from a QR factorization determined by sge..."];
+  Node13 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

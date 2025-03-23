@@ -1,0 +1,12 @@
+digraph "slasd4"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="slasd4",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLASD4 computes the square root of the i-th updated eigenvalue of a positive symmetric rank-one modif..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slaed6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaed6_8f.html#af5919aeb57bc9c8153d7ae9f0ecc3276",tooltip="SLAED6 used by SSTEDC. Computes one Newton step in solution of the secular equation."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slasd5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasd5_8f.html#a19de62ad22e8492c93ac450198557d05",tooltip="SLASD5 computes the square root of the i-th eigenvalue of a positive symmetric rank-one modification ..."];
+}

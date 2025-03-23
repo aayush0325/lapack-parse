@@ -1,0 +1,22 @@
+digraph "dsytrd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dsytrd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DSYTRD"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dsyev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyev_8f.html#a442c43fca5493590f8f26cf42fed4044",tooltip="DSYEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dsygv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsygv_8f.html#a007d33bcdcc697e17c6d15432f159b73",tooltip="DSYGV"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dsyevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyevd_8f.html#a77dfa610458b6c9bd7db52533bfd53a1",tooltip="DSYEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dsygvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsygvd_8f.html#a912ae48bb1650b2c7174807ffa5456ca",tooltip="DSYGVD"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dsyevr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyevr_8f.html#aeed8a131adf56eaa2a9e5b1e0cce5718",tooltip="DSYEVR computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dsyevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyevx_8f.html#a68612cdf4ed1051c08f0b0735b8dfdea",tooltip="DSYEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dsygvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsygvx_8f.html#a51bef2d9d58cfff3f1bac9143ccc85b8",tooltip="DSYGVX"];
+}

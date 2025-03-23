@@ -1,0 +1,16 @@
+digraph "dtpmqrt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dtpmqrt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DTPMQRT"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlamtsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlamtsqr_8f.html#a8a30542716c672ce7c3feda42c70872e",tooltip="DLAMTSQR"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgemqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgemqr_8f.html#aa53b0cfa83bf86cf15ec606012cd1fff",tooltip="DGEMQR"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgetsls_8f.html#a24938f890150242a397e2094fc4643db",tooltip="DGETSLS"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dorgtsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dorgtsqr_8f.html#a5bd524d18374f26541d1667a22027375",tooltip="DORGTSQR"];
+}

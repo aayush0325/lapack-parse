@@ -1,0 +1,24 @@
+digraph "zungql"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zungql",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZUNGQL"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zungtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zungtr_8f.html#a63b788e542eb944b96fb661c5b1ed246",tooltip="ZUNGTR"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zheev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheev_8f.html#af23fb5b3ae38072ef4890ba43d5cfea2",tooltip="ZHEEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE matrices"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zhegv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhegv_8f.html#af7b790b3b89de432a423c9006c1cc1ac",tooltip="ZHEGV"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zheev_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheev__2stage_8f.html#acb5dc319f9656b8f390480115d83795c",tooltip="ZHEEV_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE matr..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zhegv_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhegv__2stage_8f.html#a415db46f3fbb92fd4c7af056e6a040d2",tooltip="ZHEGV_2STAGE"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zheevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheevx_8f.html#aabef68a9c7b10df7aef8f4fec89fddbe",tooltip="ZHEEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE matrices"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zhegvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhegvx_8f.html#a8ea76cbbb14edb5a22069e203fc8e8b2",tooltip="ZHEGVX"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zheevx_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheevx__2stage_8f.html#ac77d6b27ad8afec6f975d71a329c6c98",tooltip="ZHEEVX_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE mat..."];
+}

@@ -1,0 +1,22 @@
+digraph "slatbs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="slatbs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLATBS solves a triangular banded system of equations."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgbcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbcon_8f.html#ab69fe5a37c3f7361c009bce69f8baf3d",tooltip="SGBCON"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgbrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbrfsx_8f.html#a4b997132d5e41418449796f85b12fcc5",tooltip="SGBRFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgbsvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbsvxx_8f.html#ab7b2d018021516f6f0b0f4f6199f32ae",tooltip="SGBSVXX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sgbsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgbsvx_8f.html#ae509be897c5d8dc6885d2b5f13ec2e4a",tooltip="SGBSVX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="spbcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spbcon_8f.html#acd5e30745fa056bf95138fee327ac54b",tooltip="SPBCON"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="spbsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spbsvx_8f.html#a173d044dadcc86da5e6f9e5c3dcee071",tooltip="SPBSVX computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="stbcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stbcon_8f.html#a5d92bdf8f781f15875fdf3af6e9f5998",tooltip="STBCON"];
+}

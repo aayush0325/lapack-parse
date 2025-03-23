@@ -1,0 +1,14 @@
+digraph "zla_syamv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zla_syamv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLA_SYAMV computes a matrix-vector product using a symmetric indefinite matrix to calculate error bou..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zla_syrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__syrfsx__extended_8f.html#a39609e2bee43baf388a2e40e8dd99a58",tooltip="ZLA_SYRFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric inde..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zsyrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsyrfsx_8f.html#a2ade587faeea8fb65809e3326e6e598d",tooltip="ZSYRFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zsysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysvxx_8f.html#a1b7d9097a3e5d0b85c257f2f84c12f0e",tooltip="ZSYSVXX computes the solution to system of linear equations A * X = B for SY matrices"];
+}

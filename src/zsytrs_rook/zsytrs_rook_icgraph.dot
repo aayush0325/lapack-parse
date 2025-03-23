@@ -1,0 +1,12 @@
+digraph "zsytrs_rook"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zsytrs_rook",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZSYTRS_ROOK"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zsycon_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsycon__rook_8f.html#a407f4e846976b280e1ee554dfa6657fe",tooltip="ZSYCON_ROOK"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zsysv_rook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zsysv__rook_8f.html#a5519f6ffc88b185b0e8e7ffc3517e1d6",tooltip="ZSYSV_ROOK computes the solution to system of linear equations A * X = B for SY matrices"];
+}

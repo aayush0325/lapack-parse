@@ -1,0 +1,30 @@
+digraph "slaed1"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="slaed1",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLAED1 used by SSTEDC. Computes the updated eigensystem of a diagonal matrix after modification by a ..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slaed2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaed2_8f.html#a7cdf7cab004a74be5d11448fee2af888",tooltip="SLAED2 used by SSTEDC. Merges eigenvalues and deflates secular equation. Used when the original matri..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slacpy_8f.html#a7780c991533ce8dd1f2c22ae2d563f08",tooltip="SLACPY copies all or part of one two-dimensional array to another."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slamrg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slamrg_8f.html#a08dba55e84b9c57fb48b15b92d2b9049",tooltip="SLAMRG creates a permutation list to merge the entries of two independently sorted sets into a single..."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slaed3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaed3_8f.html#a4ed4ad63585109624285a84ecc010d2f",tooltip="SLAED3 used by SSTEDC. Finds the roots of the secular equation and updates the eigenvectors...."];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="slaed4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaed4_8f.html#aa708703789737758cf8f9ed2da42a985",tooltip="SLAED4 used by SSTEDC. Finds a single root of the secular equation."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="slaed5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaed5_8f.html#af41f654e722c7cab1f0749bb43414097",tooltip="SLAED5 used by SSTEDC. Solves the 2-by-2 secular equation."];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="slaed6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaed6_8f.html#af5919aeb57bc9c8153d7ae9f0ecc3276",tooltip="SLAED6 used by SSTEDC. Computes one Newton step in solution of the secular equation."];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="slaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaset_8f.html#a6174184453f17ad7cc3488044325d5ac",tooltip="SLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

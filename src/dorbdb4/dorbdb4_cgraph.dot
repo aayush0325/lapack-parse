@@ -1,0 +1,25 @@
+digraph "dorbdb4"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dorbdb4",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DORBDB4"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlarf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarf_8f.html#a39a2b39f56ce497b218c5f48339ee712",tooltip="DLARF applies an elementary reflector to a general rectangular matrix."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlarf1f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarf1f_8f.html#a553446f22ec537c5ff7f1335b90c4470",tooltip="DLARF1F applies an elementary reflector to a general rectangular"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlarfgp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarfgp_8f.html#ab8e471e78747e2583fff75bc7d1e209e",tooltip="DLARFGP generates an elementary reflector (Householder matrix) with non-negative beta."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dorbdb5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dorbdb5_8f.html#a2260c74eafdaa0854b18c2b244dc34bb",tooltip="DORBDB5"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dlassq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlassq_8f90.html#ae8f40b0a34771b4f2d9c863de3af7be5",tooltip="DLASSQ updates a sum of squares represented in scaled form."];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dorbdb6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dorbdb6_8f.html#a4edba292f00e3168939e19491697066a",tooltip="DORBDB6"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

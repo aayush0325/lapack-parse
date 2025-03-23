@@ -1,0 +1,47 @@
+digraph "cpbsvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cpbsvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CPBSVX computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="clacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacpy_8f.html#afcee53f42831342f7c863bfc55d2d159",tooltip="CLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="claqhb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$claqhb_8f.html#a3bcc77933aed197c1b8e6da2921f292e",tooltip="CLAQHB scales a Hermitian band matrix, using scaling factors computed by cpbequ."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cpbcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cpbcon_8f.html#a931ffb4a8bfaec4508a9ab73feaf7326",tooltip="CPBCON"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="clacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacn2_8f.html#ab908babe3ec3648412de15e0f8ab4479",tooltip="CLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="clatbs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clatbs_8f.html#a7d8bd104ed06bc225ed900431f530b70",tooltip="CLATBS solves a triangular banded system of equations."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="csrscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csrscl_8f.html#a505a9b690770eee5797b3efdd8ce89a6",tooltip="CSRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cpbequ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cpbequ_8f.html#a1dee65600f445e7aa3dbcf719e72d857",tooltip="CPBEQU"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="cpbrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cpbrfs_8f.html#a7b2a1d470e9a7a4974a9affbe187a4e3",tooltip="CPBRFS"];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="cpbtrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cpbtrs_8f.html#a9e65d9e68d5b350ef229748450059f14",tooltip="CPBTRS"];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="cpbtrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cpbtrf_8f.html#af33933d8a7b2f806d3072cdb1405fd6f",tooltip="CPBTRF"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="cpbtf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cpbtf2_8f.html#abadd8a550c52448cdbc95f37bbf42a05",tooltip="CPBTF2 computes the Cholesky factorization of a symmetric/Hermitian positive definite band matrix (un..."];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="clacgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacgv_8f.html#a0ff51770edb0cdc7328fdae7ace7954e",tooltip="CLACGV conjugates a complex vector."];
+  Node13 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="cpotf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cpotf2_8f.html#a56e13fb822ec7474402943652d7c93c6",tooltip="CPOTF2 computes the Cholesky factorization of a symmetric/Hermitian positive definite matrix (unblock..."];
+  Node15 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

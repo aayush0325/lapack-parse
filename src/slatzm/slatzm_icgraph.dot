@@ -1,0 +1,10 @@
+digraph "slatzm"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="slatzm",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLATZM"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgelsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgelsx_8f.html#afa85959c07f700d3f4240a2f4132e3b1",tooltip="SGELSX solves overdetermined or underdetermined systems for GE matrices"];
+}

@@ -1,0 +1,14 @@
+digraph "zunm22"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zunm22",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZUNM22 multiplies a general matrix by a banded unitary matrix."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgghd3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgghd3_8f.html#aae9ca5fa0311fbc8521fd9815c3fafd9",tooltip="ZGGHD3"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgges3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgges3_8f.html#a20c384504d174350a16063cbc115281e",tooltip="ZGGES3 computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggev3_8f.html#a5c144215dc103ce90a76e324d36e0ec4",tooltip="ZGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+}

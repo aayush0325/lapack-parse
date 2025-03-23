@@ -1,0 +1,47 @@
+digraph "zgesvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zgesvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGESVX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgecon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgecon_8f.html#abe73145daeba3ec10e961054b75a07ce",tooltip="ZGECON"];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zdrscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zdrscl_8f.html#ad73ec38e29df0385ee6fda7d832fd205",tooltip="ZDRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacn2_8f.html#a0fbe7a858e42dcf07db12aa892a9e513",tooltip="ZLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zlatrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlatrs_8f.html#ab1dbea06bfa3c8dc0f7042a76dadd749",tooltip="ZLATRS solves a triangular system of equations with the scale factor set to prevent overflow."];
+  Node6 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zgeequ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgeequ_8f.html#a6f32d90ac16974bf09e92b049b35c0c7",tooltip="ZGEEQU"];
+  Node7 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zgerfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgerfs_8f.html#a42986fd49f5f845a013fb66134ce7847",tooltip="ZGERFS"];
+  Node8 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zgetrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgetrs_8f.html#a3a5b88a7e8bf70591e521e86464e109d",tooltip="ZGETRS"];
+  Node9 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zlaswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaswp_8f.html#a49d0e55e934b6e90456a2eb75490c3ef",tooltip="ZLASWP performs a series of row interchanges on a general rectangular matrix."];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zgetrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$VARIANTS_2lu_2CR_2zgetrf_8f.html#a5b625680e6251feb29e386193914981c",tooltip="ZGETRF VARIANT: Crout Level 3 BLAS version of the algorithm."];
+  Node11 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zgetf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgetf2_8f.html#af3c2645d2b9b3d3bc26fcd9ad463cd5e",tooltip="ZGETF2 computes the LU factorization of a general m-by-n matrix using partial pivoting with row inter..."];
+  Node12 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zrscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zrscl_8f.html#a4e747df261783c475b1e0a92a0a0f7cc",tooltip="ZDRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node13 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="zlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacpy_8f.html#a519ff79bf915433651747242f22078fb",tooltip="ZLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="zlaqge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaqge_8f.html#ad847103d204693cb8b9356ff7adfb9b1",tooltip="ZLAQGE scales a general rectangular matrix, using row and column scaling factors computed by sgeequ."];
+}

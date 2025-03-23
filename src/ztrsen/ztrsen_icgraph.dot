@@ -1,0 +1,12 @@
+digraph "ztrsen"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ztrsen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZTRSEN"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgees",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgees_8f.html#a255e11cea9a4fdadaffd2506c86ce53b",tooltip="ZGEES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgeesx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgeesx_8f.html#a5b71a5031d2efac59c8f97c707407f65",tooltip="ZGEESX computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+}

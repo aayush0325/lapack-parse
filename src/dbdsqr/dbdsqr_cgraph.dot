@@ -1,0 +1,41 @@
+digraph "dbdsqr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dbdsqr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DBDSQR"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlartg_8f90.html#a86f8f877eaea0386cdc2c3c175d9ea88",tooltip="DLARTG generates a plane rotation with real cosine and real sine."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlas2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlas2_8f.html#a307400bc17cbe31b5b8827a2802efae4",tooltip="DLAS2 computes singular values of a 2-by-2 triangular matrix."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlasq1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq1_8f.html#ab333230afcb0c2897f759d74e6f5c8d9",tooltip="DLASQ1 computes the singular values of a real square bidiagonal matrix. Used by sbdsqr."];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlascl_8f.html#a7bce4c35ec5a86ee0bfdd15c476d99c8",tooltip="DLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dlasq2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq2_8f.html#aa23a44b0562a4dfc670e5b7a676a2e2d",tooltip="DLASQ2 computes all the eigenvalues of the symmetric positive definite tridiagonal matrix associated ..."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dlasq3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq3_8f.html#a38579c1852f8094a33d0afeed15b2b65",tooltip="DLASQ3 checks for deflation, computes a shift and calls dqds. Used by sbdsqr."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dlasq4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq4_8f.html#a1c9c24724eb452f615cd1695e6b9ee3b",tooltip="DLASQ4 computes an approximation to the smallest eigenvalue using values of d from the previous trans..."];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dlasq5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq5_8f.html#a77ac31104dbfb9331604678f3ba05156",tooltip="DLASQ5 computes one dqds transform in ping-pong form. Used by sbdsqr and sstegr."];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dlasq6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq6_8f.html#a5b8d724babb26c081b057fa28f05b16e",tooltip="DLASQ6 computes one dqd transform in ping-pong form. Used by sbdsqr and sstegr."];
+  Node7 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dlasrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasrt_8f.html#a88a9fb57b6459176b68f21720d3d2ad2",tooltip="DLASRT sorts numbers in increasing or decreasing order."];
+  Node12 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dlasr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasr_8f.html#aa0a984d2062d62286a7a78ed3ba06fda",tooltip="DLASR applies a sequence of plane rotations to a general rectangular matrix."];
+  Node13 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="dlasv2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasv2_8f.html#aee8e05a707783a9fba5d213093453543",tooltip="DLASV2 computes the singular value decomposition of a 2-by-2 triangular matrix."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

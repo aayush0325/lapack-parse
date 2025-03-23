@@ -1,0 +1,54 @@
+digraph "slanv2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="slanv2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLANV2 computes the Schur factorization of a real 2-by-2 nonsymmetric matrix in standard form."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slaexc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaexc_8f.html#a6994eb77387e08eda63d1757e7b0d2e8",tooltip="SLAEXC swaps adjacent diagonal blocks of a real upper quasi-triangular matrix in Schur canonical form..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="strexc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strexc_8f.html#aac5dcba926093528530f1c801b6a133f",tooltip="STREXC"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slaqr2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqr2_8f.html#ac02e99ae434938e706dee8a37993a995",tooltip="SLAQR2 performs the orthogonal similarity transformation of a Hessenberg matrix to detect and deflate..."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slaqr4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqr4_8f.html#a6373540d7de0dbdea9c85b78913c178c",tooltip="SLAQR4 computes the eigenvalues of a Hessenberg matrix, and optionally the matrices from the Schur de..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slaqr0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqr0_8f.html#a4696e73cbdcf20d6e37d73c691f63c39",tooltip="SLAQR0 computes the eigenvalues of a Hessenberg matrix, and optionally the matrices from the Schur de..."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="shseqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$shseqr_8f.html#aeed60b8cf3b2f9462455d1983553ca2b",tooltip="SHSEQR"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="sgees",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgees_8f.html#a0cd2fba843c9d04967c79a58f8d6e321",tooltip="SGEES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="sgeesx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeesx_8f.html#ac8e46bbcd7e259cdacfccbcfb575a392",tooltip="SGEESX computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="sgeev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeev_8f.html#a104525b749278774f7b7f57195aa6798",tooltip="SGEEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="sgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgedmd_8f90.html#a2620fdd695c7f51cddc90e332eb57971",tooltip="SGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="sgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgedmdq_8f90.html#a1d1fe0497679b62b0084bfbdf54063f2",tooltip="SGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node7 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="sgeevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeevx_8f.html#adf06d28b4793cbab21e898fcb713d5a5",tooltip="SGEEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node5 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="slaqr3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqr3_8f.html#aa307109641dfead545ecac4e924320cb",tooltip="SLAQR3 performs the orthogonal similarity transformation of a Hessenberg matrix to detect and deflate..."];
+  Node14 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="strsen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strsen_8f.html#ae6c2fe7fae83de30b074b968aa459f73",tooltip="STRSEN"];
+  Node15 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="strsna",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strsna_8f.html#ae25a02f27cf6ca3c311bbabe2be61046",tooltip="STRSNA"];
+  Node16 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="slahqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slahqr_8f.html#ae54e59a2d967d6ea7c589e7211ff0dc5",tooltip="SLAHQR computes the eigenvalues and Schur factorization of an upper Hessenberg matrix,..."];
+  Node17 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

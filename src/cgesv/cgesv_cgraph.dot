@@ -1,0 +1,23 @@
+digraph "cgesv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cgesv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Download CGESV + dependencies  <a href=\"http://www.netlib.org/cgi-bin/netlibfiles...."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgetrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgetrf_8f.html#aed8e85049ecfb314d259bfdb3908a60d",tooltip="CGETRF"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgetrf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgetrf2_8f.html#a15fa9800095fb84ff74bc087909c6941",tooltip="CGETRF2"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="claswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$claswp_8f.html#a27858a2e2b195ef0e7121f1edb8bb9a9",tooltip="CLASWP performs a series of row interchanges on a general rectangular matrix."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cgetrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgetrs_8f.html#a3a79ef0038488e420519c422c1a2a8f2",tooltip="CGETRS"];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

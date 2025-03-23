@@ -1,0 +1,18 @@
+digraph "csytrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="csytrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CSYTRF"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="clasyf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clasyf_8f.html#a6ae55c9045ed09e937098d79f7ab3b0f",tooltip="CLASYF computes a partial factorization of a complex symmetric matrix using the Bunch-Kaufman diagona..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="csytf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytf2_8f.html#a0f12a3d0375451dcb483147e125665a1",tooltip="CSYTF2 computes the factorization of a real symmetric indefinite matrix, using the diagonal pivoting ..."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="csyr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csyr_8f.html#ab7fbaf7c4477110907f682b250b24abe",tooltip="CSYR performs the symmetric rank-1 update of a complex symmetric matrix."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

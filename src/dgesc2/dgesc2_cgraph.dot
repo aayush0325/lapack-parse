@@ -1,0 +1,10 @@
+digraph "dgesc2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dgesc2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DGESC2 solves a system of linear equations using the LU factorization with complete pivoting computed..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlaswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaswp_8f.html#a3ccc0cf84b0493bd9adcdc02fcff449f",tooltip="DLASWP performs a series of row interchanges on a general rectangular matrix."];
+}

@@ -1,0 +1,16 @@
+digraph "dtplqt2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dtplqt2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DTPLQT2 computes a LQ factorization of a real or complex \"triangular-pentagonal\" matrix,..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dtplqt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtplqt_8f.html#a300d05a9dc09f8df3d95c37b47189c96",tooltip="DTPLQT"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlaswlq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaswlq_8f.html#a2a5be40fe3e2ca83839eda278886d5d0",tooltip="DLASWLQ"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgelq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgelq_8f.html#ac039f2ae906b9093e0c2f2ac08e66ef8",tooltip="DGELQ"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgetsls_8f.html#a24938f890150242a397e2094fc4643db",tooltip="DGETSLS"];
+}

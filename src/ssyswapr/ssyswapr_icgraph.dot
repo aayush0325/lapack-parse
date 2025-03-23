@@ -1,0 +1,16 @@
+digraph "ssyswapr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ssyswapr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SSYSWAPR applies an elementary permutation on the rows and columns of a symmetric matrix."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ssytri2x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytri2x_8f.html#a34537bed5f8e070371776e65dd14fd16",tooltip="SSYTRI2X"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ssytri2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytri2_8f.html#a7852066f959159f9701c0f63f90c5230",tooltip="SSYTRI2"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ssytri_3x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytri__3x_8f.html#a1326995e3dce81242c18d944fe32e192",tooltip="SSYTRI_3X"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ssytri_3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytri__3_8f.html#aff715ab1f65cdd3ebab1ba9790dbbc43",tooltip="SSYTRI_3"];
+}

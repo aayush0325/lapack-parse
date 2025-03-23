@@ -1,0 +1,44 @@
+digraph "zcposv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zcposv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZCPOSV computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="clag2z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clag2z_8f.html#aad8aad24d3ece881f7a4873d58fd6c68",tooltip="CLAG2Z converts a complex single precision matrix to a complex double precision matrix."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cpotrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cpotrf_8f.html#a4e85f48dbd837ccbbf76aa077f33de19",tooltip="CPOTRF"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cpotrf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cpotrf2_8f.html#a469fc500ac223c4c6baa923afe218627",tooltip="CPOTRF2"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sisnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sisnan_8f.html#aeca6bb0411af000e3c883ee744184991",tooltip="SISNAN tests input for NaN."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slaisnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaisnan_8f.html#a9b6a1036554ed9b7196c641174d6a6da",tooltip="SLAISNAN tests input for NaN by comparing two arguments for inequality."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cpotrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cpotrs_8f.html#ad9052b4b70569dfd6e8943971c9b38b2",tooltip="CPOTRS"];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacpy_8f.html#a519ff79bf915433651747242f22078fb",tooltip="ZLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zlag2c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlag2c_8f.html#a8674f98714d93ed261aa696e534e8e2b",tooltip="ZLAG2C converts a complex double precision matrix to a complex single precision matrix."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zlat2c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlat2c_8f.html#a5a68e3f212587ad4b4afa34853c0585c",tooltip="ZLAT2C converts a double complex triangular matrix to a complex triangular matrix."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zpotrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$VARIANTS_2cholesky_2RL_2zpotrf_8f.html#a93e22b682170873efb50df5a79c5e4eb",tooltip="ZPOTRF VARIANT: right looking block version of the algorithm, calling Level 3 BLAS."];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zpotrf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zpotrf2_8f.html#a96268d78245147b9ca9a0370f9bf5cf0",tooltip="ZPOTRF2"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="disnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$disnan_8f.html#a230d4e1886896853b11e44e541b2c6a3",tooltip="DISNAN tests input for NaN."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="dlaisnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaisnan_8f.html#a341ec834c6fc14a17fead550ff486022",tooltip="DLAISNAN tests input for NaN by comparing two arguments for inequality."];
+  Node13 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="zpotrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zpotrs_8f.html#aa2116ea574b01efda584dff0b74c9fcd",tooltip="ZPOTRS"];
+  Node16 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

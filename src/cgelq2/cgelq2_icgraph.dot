@@ -1,0 +1,50 @@
+digraph "cgelq2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cgelq2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CGELQ2 computes the LQ factorization of a general rectangular matrix using an unblocked algorithm."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgelqf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgelqf_8f.html#ad670e88141738afef1b5580a33e6750f",tooltip="CGELQF"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgejsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgejsv_8f.html#a180e586691d6b25d7abc45fc79670906",tooltip="CGEJSV"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgedmd_8f90.html#ae20a5be20e93752e6a0f2e85b78d5a96",tooltip="CGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgedmdq_8f90.html#a80108eada0975658d093e7bfd753b623",tooltip="CGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cgels",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgels_8f.html#a009f11bc846e7a02af4650924230c38c",tooltip="CGELS solves overdetermined or underdetermined systems for GE matrices"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cgelsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgelsd_8f.html#abe955d518aa1f5fec04eb13fb9ee56c2",tooltip="CGELSD computes the minimum-norm solution to a linear least squares problem for GE matrices"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cgelss",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgelss_8f.html#a104cdf5ce9195df46ace1749820a7d4a",tooltip="CGELSS solves overdetermined or underdetermined systems for GE matrices"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cgesdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesdd_8f.html#a609f3fc4da34716dd2bcd985924d20bd",tooltip="CGESDD"];
+  Node9 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="cgesvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesvd_8f.html#a0ed22d535ec7d84e8bf4f2f885df8c5c",tooltip="CGESVD computes the singular value decomposition (SVD) for GE matrices"];
+  Node10 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="cgesvdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesvdq_8f.html#a8385f1a23cf2bd7014e67bf2bb284de3",tooltip="CGESVDQ computes the singular value decomposition (SVD) with a QR-Preconditioned QR SVD Method for GE..."];
+  Node11 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="cgesvdx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesvdx_8f.html#a97f13f2c54e078344d3f9f20ac24c8be",tooltip="CGESVDX computes the singular value decomposition (SVD) for GE matrices"];
+  Node2 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="chetrd_he2hb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chetrd__he2hb_8f.html#ad8c7862093b3ac5727a6e2a3b1df1b73",tooltip="CHETRD_HE2HB"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="chetrd_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chetrd__2stage_8f.html#af3e33440fb683b215f6c2569869d6965",tooltip="CHETRD_2STAGE"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="chbev_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chbev__2stage_8f.html#a4ef30f4426bc3e5e88d1c833b53aeadc",tooltip="CHBEV_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER m..."];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="cheev_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cheev__2stage_8f.html#af52d306acb40ea108aa4b06bb0fbae43",tooltip="CHEEV_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE matr..."];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="chegv_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chegv__2stage_8f.html#a7027121a5599a07ebab2a56100f05f32",tooltip="CHEGV_2STAGE"];
+  Node14 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="cheevd_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cheevd__2stage_8f.html#a7d77c89933d557e7131ebb6474e2a3c0",tooltip="CHEEVD_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE mat..."];
+  Node14 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="cheevr_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cheevr__2stage_8f.html#a378c442e3a5e9ef21a80e3c26c5b4050",tooltip="CHEEVR_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE mat..."];
+  Node14 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="cheevx_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cheevx__2stage_8f.html#a1279b26b80d88a050ab7b88b7f578b09",tooltip="CHEEVX_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE mat..."];
+}

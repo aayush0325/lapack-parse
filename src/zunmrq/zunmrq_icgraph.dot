@@ -1,0 +1,15 @@
+digraph "zunmrq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zunmrq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZUNMRQ"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zggglm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggglm_8f.html#a7e9ce5ea3c8adfc5d28e92904c34984f",tooltip="ZGGGLM"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgglse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgglse_8f.html#a68024ddaa87dd52db7298afb9ba39492",tooltip="ZGGLSE solves overdetermined or underdetermined systems for OTHER matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zggrqf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggrqf_8f.html#a90c2fd538e147c5748f0bf602511c159",tooltip="ZGGRQF"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

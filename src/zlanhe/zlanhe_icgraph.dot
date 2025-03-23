@@ -1,0 +1,16 @@
+digraph "zlanhe"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zlanhe",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLANHE returns the value of the 1-norm, or the Frobenius norm, or the infinity norm,..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zherfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zherfsx_8f.html#aacc78ed5b9076f1580b0f754091fcc9e",tooltip="ZHERFSX"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zhesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhesvxx_8f.html#ac88f65d92fcfb5322e83248322587782",tooltip="ZHESVXX computes the solution to system of linear equations A * X = B for HE matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zporfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zporfsx_8f.html#a42d79a8da87989c60a3dea4ed0b166fc",tooltip="ZPORFSX"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zposvxx_8f.html#a3536bbd664c6152bca5e47cffd0c6676",tooltip="ZPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+}

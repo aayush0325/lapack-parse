@@ -1,0 +1,16 @@
+digraph "cupgtr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cupgtr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CUPGTR"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="chpev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chpev_8f.html#a2b95e0e93b0800ce9640b9f3751b5793",tooltip="CHPEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrices"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="chpgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chpgv_8f.html#ac61afdaa5fcdc3c260b9333416b012e6",tooltip="CHPGV"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="chpevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chpevx_8f.html#ae8af67b404d7c0f3cfc568c56c4e239b",tooltip="CHPEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="chpgvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chpgvx_8f.html#a81a69366c832454d56786374b6ad1614",tooltip="CHPGVX"];
+}

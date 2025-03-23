@@ -1,0 +1,30 @@
+digraph "cgetrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cgetrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CGETRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgerfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgerfs_8f.html#af0690c8f23f60ff8ecc35033ff5aee86",tooltip="CGERFS"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgesvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesvx_8f.html#a7ee0854ace0491ca1278df6d7a0eb28d",tooltip="CGESVX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gesv.html#gaa9e9aeee4df582bfee679de7defb8e68",tooltip="Download CGESV + dependencies  <a href=\"http://www.netlib.org/cgi-bin/netlibfiles...."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesvxx_8f.html#a54e141455b3d59923af0a5d79ffebcfb",tooltip="CGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cla_gercond_c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__gercond__c_8f.html#a3c43cd4abafdf0471ce472659e5beaa4",tooltip="CLA_GERCOND_C computes the infinity norm condition number of op(A)*inv(diag(c)) for general matrices."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cgerfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgerfsx_8f.html#a1cc6317bb51919b658efa7bc80f286c2",tooltip="CGERFSX"];
+  Node7 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cla_gercond_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__gercond__x_8f.html#adb9d40c4c3383a6fc0987f9b356f9044",tooltip="CLA_GERCOND_X computes the infinity norm condition number of op(A)*diag(x) for general matrices."];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cla_gerfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__gerfsx__extended_8f.html#a929fb2d32408f812f7fd624706ba0af4",tooltip="CLA_GERFSX_EXTENDED"];
+  Node9 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zcgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zcgesv_8f.html#a892cb7992dc737797a8b8043dfc81a48",tooltip="ZCGESV computes the solution to system of linear equations A * X = B for GE matrices (mixed precision..."];
+}

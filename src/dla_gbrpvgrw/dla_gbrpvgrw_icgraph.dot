@@ -1,0 +1,10 @@
+digraph "dla_gbrpvgrw"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dla_gbrpvgrw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLA_GBRPVGRW computes the reciprocal pivot growth factor norm(A)/norm(U) for a general banded matrix."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgbsvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbsvxx_8f.html#a75860f1c9556e1b735418bb8f9329317",tooltip="DGBSVXX computes the solution to system of linear equations A * X = B for GB matrices"];
+}

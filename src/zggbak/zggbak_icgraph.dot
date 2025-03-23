@@ -1,0 +1,22 @@
+digraph "zggbak"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zggbak",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGGBAK"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgegs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgegs_8f.html#ad43ce2e0f0453844b8ff88c5dfe30b13",tooltip="ZGEGS computes the eigenvalues, Schur form, and, optionally, the left and or/right Schur vectors of a..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgegv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgegv_8f.html#a16024be7f650b57a748b1947d64adbe5",tooltip="ZGEGV computes the eigenvalues and, optionally, the left and/or right eigenvectors of a complex matri..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgges_8f.html#a788ffb82ac609cc3e99de43c4cea3e7b",tooltip="ZGGES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zgges3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgges3_8f.html#a20c384504d174350a16063cbc115281e",tooltip="ZGGES3 computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zggev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggev_8f.html#a79fcce20c617429ccf985e6f123a6171",tooltip="ZGGEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggev3_8f.html#a5c144215dc103ce90a76e324d36e0ec4",tooltip="ZGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zggevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggevx_8f.html#aad769423756706f1186027c9dd7615e4",tooltip="ZGGEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+}

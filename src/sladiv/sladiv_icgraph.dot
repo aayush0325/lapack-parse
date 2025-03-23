@@ -1,0 +1,54 @@
+digraph "sladiv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sladiv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLADIV performs complex division in real arithmetic, avoiding unnecessary overflow."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cladiv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cladiv_8f.html#aad8fba0a1b2b39064370d96c6ccc0422",tooltip="CLADIV performs complex division in real arithmetic, avoiding unnecessary overflow."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slaein",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaein_8f.html#a55868b80b17a359be16b558c1e28abfd",tooltip="SLAEIN computes a specified right or left eigenvector of an upper Hessenberg matrix by inverse iterat..."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="shsein",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$shsein_8f.html#afeb8d3b5107a64ac1edb3f9d2925435f",tooltip="SHSEIN"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slaln2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaln2_8f.html#a27aadaab094e78b734d2e655217963a5",tooltip="SLALN2 solves a 1-by-1 or 2-by-2 linear system of equations of the specified form."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slaqtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqtr_8f.html#adb59acb871f566d278cc4e6675e522c9",tooltip="SLAQTR solves a real quasi-triangular system of equations, or a complex quasi-triangular system of sp..."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="strsna",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strsna_8f.html#ae25a02f27cf6ca3c311bbabe2be61046",tooltip="STRSNA"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="sgeevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeevx_8f.html#adf06d28b4793cbab21e898fcb713d5a5",tooltip="SGEEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="stgevc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stgevc_8f.html#a2e9d9ccc8569cb5d6e38371c61c37de1",tooltip="STGEVC"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="sgegv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgegv_8f.html#a80fd7fa3159b96cf467a9584f6464310",tooltip="SGEGV computes the eigenvalues and, optionally, the left and/or right eigenvectors of a real matrix p..."];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="sggev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggev_8f.html#a6176eadcb5a027beb0b000fbf74f9e35",tooltip="SGGEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node9 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="sggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggev3_8f.html#a7c33384acda01bd5c62e87213eb2f2f9",tooltip="SGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+  Node9 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="sggevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggevx_8f.html#a47ddf03d427ec3f9346253132c26cf96",tooltip="SGGEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node5 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="strevc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strevc_8f.html#ab7f50c4cf4774ff6d189faec10e61350",tooltip="STREVC"];
+  Node5 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="strevc3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strevc3_8f.html#aa9200e50fb8175f48e4bcecd89cbf009",tooltip="STREVC3"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="sgeev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeev_8f.html#a104525b749278774f7b7f57195aa6798",tooltip="SGEEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="sgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgedmd_8f90.html#a2620fdd695c7f51cddc90e332eb57971",tooltip="SGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="sgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgedmdq_8f90.html#a1d1fe0497679b62b0084bfbdf54063f2",tooltip="SGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node15 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="strsyl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strsyl_8f.html#a56e2ab6ac5906744561c4c1abb27b83d",tooltip="STRSYL"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="strsen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strsen_8f.html#ae6c2fe7fae83de30b074b968aa459f73",tooltip="STRSEN"];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="sgees",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgees_8f.html#a0cd2fba843c9d04967c79a58f8d6e321",tooltip="SGEES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node20 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="sgeesx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeesx_8f.html#ac8e46bbcd7e259cdacfccbcfb575a392",tooltip="SGEESX computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node19 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="strsyl3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$strsyl3_8f.html#a6455cded5cf94f89b8382430faccaeae",tooltip="STRSYL3"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

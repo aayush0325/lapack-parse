@@ -1,0 +1,25 @@
+digraph "dla_gerfsx_extended"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dla_gerfsx_extended",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLA_GERFSX_EXTENDED improves the computed solution to a system of linear equations for general matric..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="chla_transtype",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chla__transtype_8f.html#a9350edcf6f80d188f3c01400ebe85260",tooltip="CHLA_TRANSTYPE"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgetrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgetrs_8f.html#a58e332cb1b8ab770270843221a48296d",tooltip="DGETRS"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlaswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaswp_8f.html#a3ccc0cf84b0493bd9adcdc02fcff449f",tooltip="DLASWP performs a series of row interchanges on a general rectangular matrix."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dla_geamv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__geamv_8f.html#ac150eadbadeb706cda2998e2bb0a70dd",tooltip="DLA_GEAMV computes a matrix-vector product using a general matrix to calculate error bounds."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ilatrans",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ilatrans_8f.html#aec3c2c1d0a04f49ff1b18fe344b687c1",tooltip="ILATRANS"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dla_lin_berr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__lin__berr_8f.html#a9ca071e2c37ea415804eceba515a384c",tooltip="DLA_LIN_BERR computes a component-wise relative backward error."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dla_wwaddw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__wwaddw_8f.html#afeba975fdc68428735c26a2189de3670",tooltip="DLA_WWADDW adds a vector into a doubled-single vector."];
+}

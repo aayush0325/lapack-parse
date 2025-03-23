@@ -1,0 +1,10 @@
+digraph "dlaqp2rk"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlaqp2rk",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLAQP2RK computes truncated QR factorization with column pivoting of a real matrix block using Level ..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgeqp3rk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgeqp3rk_8f.html#ac0cc37cf9544f6f18889ba688f931fd1",tooltip="DGEQP3RK computes a truncated Householder QR factorization with column pivoting of a real m-by-n matr..."];
+}

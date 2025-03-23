@@ -1,0 +1,27 @@
+digraph "sptsvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sptsvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SPTSVX computes the solution to system of linear equations A * X = B for PT matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slacpy_8f.html#a7780c991533ce8dd1f2c22ae2d563f08",tooltip="SLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sptcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sptcon_8f.html#abc37c4284bea6237d5f0f08d27d3ebdd",tooltip="SPTCON"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sptrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sptrfs_8f.html#abac73ddf5a5f2328168722803d277dd0",tooltip="SPTRFS"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="spttrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spttrs_8f.html#ad3d24a8e0bd3c2341bed389633536d94",tooltip="SPTTRS"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sptts2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sptts2_8f.html#a1dfc12ae89c5cdbc4bd375acbef09abb",tooltip="SPTTS2 solves a tridiagonal system of the form AX=B using the L D LH factorization computed by spttrf..."];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="spttrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spttrf_8f.html#a52756d0c69d71b9ddb110e7072e0bd6e",tooltip="SPTTRF"];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

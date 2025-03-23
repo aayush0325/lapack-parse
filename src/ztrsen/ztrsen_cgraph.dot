@@ -1,0 +1,24 @@
+digraph "ztrsen"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ztrsen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZTRSEN"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacn2_8f.html#a0fbe7a858e42dcf07db12aa892a9e513",tooltip="ZLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacpy_8f.html#a519ff79bf915433651747242f22078fb",tooltip="ZLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ztrexc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ztrexc_8f.html#a470b89b631cac16cac631539465ae014",tooltip="ZTREXC"];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zlartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlartg_8f90.html#a1e266e78a9a8585a1fc67f2d23badc64",tooltip="ZLARTG generates a plane rotation with real cosine and complex sine."];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zrot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zrot_8f.html#a423fa89faf02ec43f5b664f91ce29729",tooltip="ZROT applies a plane rotation with real cosine and complex sine to a pair of complex vectors."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ztrsyl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ztrsyl_8f.html#ace9164ad7a010073cc79b65ec75580cd",tooltip="ZTRSYL"];
+  Node8 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

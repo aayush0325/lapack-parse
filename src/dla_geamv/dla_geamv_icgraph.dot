@@ -1,0 +1,14 @@
+digraph "dla_geamv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dla_geamv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLA_GEAMV computes a matrix-vector product using a general matrix to calculate error bounds."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dla_gerfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__gerfsx__extended_8f.html#a19c6e9e133a5ea3f59a24959889429f2",tooltip="DLA_GERFSX_EXTENDED improves the computed solution to a system of linear equations for general matric..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgerfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgerfsx_8f.html#ae60113eba7a360d9c92cc2b627e0c5d2",tooltip="DGERFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvxx_8f.html#a3fed1dc691d07f1e81a049016fe0b67b",tooltip="DGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+}

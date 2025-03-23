@@ -1,0 +1,54 @@
+digraph "zherfsx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zherfsx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZHERFSX"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ilaprec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ilaprec_8f.html#a6fe244cb80f355ab156ad1df9ffcc478",tooltip="ILAPREC"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zhecon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhecon_8f.html#a584b985d2cb3dafedf2fbb0fb99f3910",tooltip="ZHECON"];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zhetrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetrs_8f.html#acf697e3bb72c5fd88cd90972999401dd",tooltip="ZHETRS"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zlacgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacgv_8f.html#ad2595ab7c6b89e1ff2e9d05542431719",tooltip="ZLACGV conjugates a complex vector."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacn2_8f.html#a0fbe7a858e42dcf07db12aa892a9e513",tooltip="ZLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zla_hercond_c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__hercond__c_8f.html#a30f0a64f0fc9adc9bae0b8521c2aaa8d",tooltip="ZLA_HERCOND_C computes the infinity norm condition number of op(A)*inv(diag(c)) for Hermitian indefin..."];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zla_hercond_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__hercond__x_8f.html#a57cd8e6f24c459a2de30a40e6ab78bd6",tooltip="ZLA_HERCOND_X computes the infinity norm condition number of op(A)*diag(x) for Hermitian indefinite m..."];
+  Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zla_herfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__herfsx__extended_8f.html#ac1eedf70ebb5cc3fcedb4c1c5eb4af18",tooltip="ZLA_HERFSX_EXTENDED improves the computed solution to a system of linear equations for Hermitian inde..."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ilauplo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ilauplo_8f.html#a078a6444f93a0d4e589ca8bb80524313",tooltip="ILAUPLO"];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zla_heamv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__heamv_8f.html#a20545c266c3a99c6558344f3645eea74",tooltip="ZLA_HEAMV computes a matrix-vector product using a Hermitian indefinite matrix to calculate error bou..."];
+  Node12 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zla_lin_berr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__lin__berr_8f.html#a8161170213c0df9bff72f362f230d866",tooltip="ZLA_LIN_BERR computes a component-wise relative backward error."];
+  Node10 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="zla_wwaddw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__wwaddw_8f.html#a605c615b386f083f45285795a7d6686c",tooltip="ZLA_WWADDW adds a vector into a doubled-single vector."];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="zlanhe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlanhe_8f.html#a6feff6b992299f847b477b9b9574ea51",tooltip="ZLANHE returns the value of the 1-norm, or the Frobenius norm, or the infinity norm,..."];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="disnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$disnan_8f.html#a230d4e1886896853b11e44e541b2c6a3",tooltip="DISNAN tests input for NaN."];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="dlaisnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaisnan_8f.html#a341ec834c6fc14a17fead550ff486022",tooltip="DLAISNAN tests input for NaN by comparing two arguments for inequality."];
+  Node15 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="zlassq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlassq_8f90.html#a254e1782d1c2f96e9e3164578481f9ce",tooltip="ZLASSQ updates a sum of squares represented in scaled form."];
+}

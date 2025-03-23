@@ -1,0 +1,20 @@
+digraph "sla_syamv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sla_syamv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLA_SYAMV computes a matrix-vector product using a symmetric indefinite matrix to calculate error bou..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sla_porfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sla__porfsx__extended_8f.html#a618e9312cb5cdbed5d64d6c0b1fa26b1",tooltip="SLA_PORFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric or H..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sporfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sporfsx_8f.html#a1c4ce423c2ec828b01d52cad754c5d80",tooltip="SPORFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sposvxx_8f.html#acbfa9b618a123b2a3d997f3533b9e044",tooltip="SPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sla_syrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sla__syrfsx__extended_8f.html#a99d1d125b5f45e1007185a8addf408ab",tooltip="SLA_SYRFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric inde..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ssyrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyrfsx_8f.html#a40ae1ffd0fcd22c6a196c09fa660a5cd",tooltip="SSYRFSX"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ssysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssysvxx_8f.html#a51a2949a0275d2b847fa087131989fcd",tooltip="SSYSVXX"];
+}

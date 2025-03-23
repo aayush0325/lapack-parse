@@ -1,0 +1,23 @@
+digraph "dla_syrfsx_extended"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dla_syrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLA_SYRFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric inde..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dla_lin_berr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__lin__berr_8f.html#a9ca071e2c37ea415804eceba515a384c",tooltip="DLA_LIN_BERR computes a component-wise relative backward error."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dla_syamv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__syamv_8f.html#ae6960d344f10c9e0a2d1ba83c571a521",tooltip="DLA_SYAMV computes a matrix-vector product using a symmetric indefinite matrix to calculate error bou..."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ilauplo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ilauplo_8f.html#a078a6444f93a0d4e589ca8bb80524313",tooltip="ILAUPLO"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dla_wwaddw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__wwaddw_8f.html#afeba975fdc68428735c26a2189de3670",tooltip="DLA_WWADDW adds a vector into a doubled-single vector."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dsytrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsytrs_8f.html#a6a223e61effac7232e98b422f147f032",tooltip="DSYTRS"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

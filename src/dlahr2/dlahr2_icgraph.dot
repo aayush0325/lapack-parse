@@ -1,0 +1,38 @@
+digraph "dlahr2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlahr2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLAHR2 reduces the specified number of first columns of a general rectangular matrix A so that elemen..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dgehrd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgehrd_8f.html#a2611cc9dfdc84e2a08ec57a5dd6cdd2e",tooltip="DGEHRD"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgees",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgees_8f.html#a2233e8611b7b529422497036b284b438",tooltip="DGEES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgeesx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgeesx_8f.html#a745081b04dc6f1b5a93a5d8b31aec915",tooltip="DGEESX computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dgeev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgeev_8f.html#a66e19253344358f5dee1e60502b9e96f",tooltip="DGEEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgedmd_8f90.html#a873ebfba3e94c6200e9f6da79644abb1",tooltip="DGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgedmdq_8f90.html#a6c9d2f77b73a03970b6e05984167644f",tooltip="DGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dgeevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgeevx_8f.html#a4e35e1d4e9b63ba9eef4ba8aff3debae",tooltip="DGEEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dlaqr2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqr2_8f.html#a4d60649d5f6ca5d4d7f1dce3cfe81450",tooltip="DLAQR2 performs the orthogonal similarity transformation of a Hessenberg matrix to detect and deflate..."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dlaqr4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqr4_8f.html#a12cd3d91cf44b97877272c85c410af6c",tooltip="DLAQR4 computes the eigenvalues of a Hessenberg matrix, and optionally the matrices from the Schur de..."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dlaqr0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqr0_8f.html#aa0f06b236f313b54f85fed1b62c152dc",tooltip="DLAQR0 computes the eigenvalues of a Hessenberg matrix, and optionally the matrices from the Schur de..."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dhseqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dhseqr_8f.html#acb35e85b362ce8ccf9d653cc3f8fb89c",tooltip="DHSEQR"];
+  Node12 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dlaqr3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqr3_8f.html#a4cc655aa88beb6f2f8dfa621cbe6aea7",tooltip="DLAQR3 performs the orthogonal similarity transformation of a Hessenberg matrix to detect and deflate..."];
+  Node13 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

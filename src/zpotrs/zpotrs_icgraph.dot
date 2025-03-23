@@ -1,0 +1,30 @@
+digraph "zpotrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zpotrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZPOTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zcposv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zcposv_8f.html#ae1f1548257a84b4328773c60eefb8934",tooltip="ZCPOSV computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zla_porcond_c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__porcond__c_8f.html#a82c32fc3a1b85760efa07df079d03451",tooltip="ZLA_PORCOND_C computes the infinity norm condition number of op(A)*inv(diag(c)) for Hermitian positiv..."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zporfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zporfsx_8f.html#a42d79a8da87989c60a3dea4ed0b166fc",tooltip="ZPORFSX"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zposvxx_8f.html#a3536bbd664c6152bca5e47cffd0c6676",tooltip="ZPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zla_porcond_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__porcond__x_8f.html#af05af329082dde43c21a1a2cde6d8c54",tooltip="ZLA_PORCOND_X computes the infinity norm condition number of op(A)*diag(x) for Hermitian positive-def..."];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zla_porfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__porfsx__extended_8f.html#ac30d254c060cd62c6e475cd695496535",tooltip="ZLA_PORFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric or H..."];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zporfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zporfs_8f.html#aec0aef3e740643130c8f453104fb97d0",tooltip="ZPORFS"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zposvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zposvx_8f.html#ae86e9b8504b15462b291b17032195e29",tooltip="ZPOSVX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zposv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zposv_8f.html#a58f7fd3a95eb2994b1caec327ec75895",tooltip="ZPOSV computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

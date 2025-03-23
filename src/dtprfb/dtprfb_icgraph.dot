@@ -1,0 +1,41 @@
+digraph "dtprfb"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dtprfb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DTPRFB applies a real \"triangular-pentagonal\" block reflector to a real matrix, which is composed of ..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dtplqt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtplqt_8f.html#a300d05a9dc09f8df3d95c37b47189c96",tooltip="DTPLQT"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlaswlq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaswlq_8f.html#a2a5be40fe3e2ca83839eda278886d5d0",tooltip="DLASWLQ"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgelq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgelq_8f.html#ac039f2ae906b9093e0c2f2ac08e66ef8",tooltip="DGELQ"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dgetsls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgetsls_8f.html#a24938f890150242a397e2094fc4643db",tooltip="DGETSLS"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dtpmlqt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtpmlqt_8f.html#a8adfaed6b2ff14a6cb33691f9d572fde",tooltip="DTPMLQT"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dlamswlq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlamswlq_8f.html#a1fa2f387d69d499a33db38d9e0d9065f",tooltip="DLAMSWLQ"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dgemlq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgemlq_8f.html#ab93602d1aaa176f7f8e5903d8c931968",tooltip="DGEMLQ"];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dtpmqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtpmqrt_8f.html#ac998dca531aab64da39faff6b9dd9675",tooltip="DTPMQRT"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dlamtsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlamtsqr_8f.html#a8a30542716c672ce7c3feda42c70872e",tooltip="DLAMTSQR"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dgemqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgemqr_8f.html#aa53b0cfa83bf86cf15ec606012cd1fff",tooltip="DGEMQR"];
+  Node11 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dorgtsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dorgtsqr_8f.html#a5bd524d18374f26541d1667a22027375",tooltip="DORGTSQR"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dtpqrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dtpqrt_8f.html#aa02cc2297f978edb5ef2a8fd1dcc9321",tooltip="DTPQRT"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="dlatsqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlatsqr_8f.html#a8fc76e9401e93dd95b59be5f4bc4d4d1",tooltip="DLATSQR"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="dgeqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgeqr_8f.html#ab20e537c689b3d58da800847243310d0",tooltip="DGEQR"];
+  Node15 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="dgetsqrhrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgetsqrhrt_8f.html#a3017a4201f64adf2ddd2dd44396f776a",tooltip="DGETSQRHRT"];
+}

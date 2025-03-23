@@ -1,0 +1,20 @@
+digraph "slaqz2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="slaqz2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SLAQZ2"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slaqz3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqz3_8f.html#a8dad4aabc60c0b1cdc76901db8f195e2",tooltip="SLAQZ3"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slaqz0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqz0_8f.html#ad7e1d2d77ede5cb50a673445ea956f49",tooltip="SLAQZ0"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgges3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgges3_8f.html#aa38a73620b45cbe5a9b1803351a28dbb",tooltip="SGGES3 computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggev3_8f.html#a7c33384acda01bd5c62e87213eb2f2f9",tooltip="SGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slaqz4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqz4_8f.html#a6895515e31c40bf17757930335b81fce",tooltip="SLAQZ4"];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

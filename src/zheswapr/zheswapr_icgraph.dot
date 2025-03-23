@@ -1,0 +1,16 @@
+digraph "zheswapr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zheswapr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZHESWAPR applies an elementary permutation on the rows and columns of a Hermitian matrix."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zhetri2x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetri2x_8f.html#ad5921ef27eb77dc781cc3d708abd035e",tooltip="ZHETRI2X"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zhetri2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetri2_8f.html#ac32421ed08532b571f00daca6b2ada82",tooltip="ZHETRI2"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zhetri_3x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetri__3x_8f.html#a8b2fdc891a263a00472e56ccc2245a86",tooltip="ZHETRI_3X"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zhetri_3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhetri__3_8f.html#a076a85a48ffbedf5a78122070af401e5",tooltip="ZHETRI_3"];
+}

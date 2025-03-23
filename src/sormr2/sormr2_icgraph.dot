@@ -1,0 +1,49 @@
+digraph "sormr2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sormr2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SORMR2 multiplies a general matrix by the orthogonal matrix from a RQ factorization determined by sge..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sggsvp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggsvp_8f.html#a0f766273df75b0fcbd25c694a5ae4d7a",tooltip="SGGSVP"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sggsvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggsvd_8f.html#a1f5fc3fcbce9d081fd9b409626b47db5",tooltip="SGGSVD computes the singular value decomposition (SVD) for OTHER matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sggsvp3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggsvp3_8f.html#aa7ac3710a5ae384750928591cc7e5564",tooltip="SGGSVP3"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sggsvd3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggsvd3_8f.html#a8e993bb662dabdfde3dd7c08b9b870e4",tooltip="SGGSVD3 computes the singular value decomposition (SVD) for OTHER matrices"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sormrq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sormrq_8f.html#a2532edfce212e15ee91c0b9b4a44d0e1",tooltip="SORMRQ"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sggglm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggglm_8f.html#a3396020c326155bf403103d9eef2552d",tooltip="SGGGLM"];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="sgglse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgglse_8f.html#a63a2105abbfdbf4038e716059086d738",tooltip="SGGLSE solves overdetermined or underdetermined systems for OTHER matrices"];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="sggrqf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggrqf_8f.html#af2e1dd9191d674f897a060e621541138",tooltip="SGGRQF"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="stgex2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stgex2_8f.html#a291b344e4ed84af6cdba9a6d1efce24b",tooltip="STGEX2 swaps adjacent diagonal blocks in an upper (quasi) triangular matrix pair by an orthogonal equ..."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="stgexc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stgexc_8f.html#a1af98b467b76dca2231f57debae966c5",tooltip="STGEXC"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="slaqz3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqz3_8f.html#a8dad4aabc60c0b1cdc76901db8f195e2",tooltip="SLAQZ3"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="slaqz0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqz0_8f.html#ad7e1d2d77ede5cb50a673445ea956f49",tooltip="SLAQZ0"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="sgges3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgges3_8f.html#aa38a73620b45cbe5a9b1803351a28dbb",tooltip="SGGES3 computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node13 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="sggev3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggev3_8f.html#a7c33384acda01bd5c62e87213eb2f2f9",tooltip="SGGEV3 computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices (..."];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="stgsen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stgsen_8f.html#a4f229aaf6520b747952147327f94a0d3",tooltip="STGSEN"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="sgges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgges_8f.html#a6a36f16104f3f8ae8e499cc7efaa2195",tooltip="SGGES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node16 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="sggesx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggesx_8f.html#ac04eec62b6a153d74e425961e9704fde",tooltip="SGGESX computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node11 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="stgsna",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stgsna_8f.html#a4288220546abeaa11e0fa24d99dae391",tooltip="STGSNA"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="sggevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggevx_8f.html#a47ddf03d427ec3f9346253132c26cf96",tooltip="SGGEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+}

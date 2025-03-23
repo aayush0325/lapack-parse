@@ -1,0 +1,38 @@
+digraph "dppsvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dppsvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DPPSVX computes the solution to system of linear equations A * X = B for OTHER matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacpy_8f.html#a7eb8731ffab2734378157c40964bf788",tooltip="DLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlaqsp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaqsp_8f.html#a5d13d1960b3f7ed1342aa5889196dc2f",tooltip="DLAQSP scales a symmetric/Hermitian matrix in packed storage, using scaling factors computed by sppeq..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dppcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dppcon_8f.html#a8107a68e3c7d948fe246bf0feae0470b",tooltip="DPPCON"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacn2_8f.html#a9b62da514b4a671acd3e3f63d018f01e",tooltip="DLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dlatps",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlatps_8f.html#a87564a9846d7f12fe65190872e63f1a1",tooltip="DLATPS solves a triangular system of equations with the matrix held in packed storage."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="drscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$drscl_8f.html#a662e4c4f54a2670dd8408f6b6b306dec",tooltip="DRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dppequ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dppequ_8f.html#a31d5748ef278ecfd9f4de56ceba65fbb",tooltip="DPPEQU"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dpprfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpprfs_8f.html#a5f2214019cae6aa0c1bf9ddddbaf2a27",tooltip="DPPRFS"];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dpptrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpptrs_8f.html#aa0b8f7830a459c434c84ce5e7a939850",tooltip="DPPTRS"];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dpptrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dpptrf_8f.html#a1fa71e503eabce2514406ba9d872ba63",tooltip="DPPTRF"];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

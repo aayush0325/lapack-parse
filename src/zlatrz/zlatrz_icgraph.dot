@@ -1,0 +1,12 @@
+digraph "zlatrz"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zlatrz",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLATRZ factors an upper trapezoidal matrix by means of unitary transformations."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ztzrzf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ztzrzf_8f.html#a6f18b970efed010f7068441b68143d2c",tooltip="ZTZRZF"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgelsy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgelsy_8f.html#ab538c5c13af357a23b3b7433a3971354",tooltip="ZGELSY solves overdetermined or underdetermined systems for GE matrices"];
+}

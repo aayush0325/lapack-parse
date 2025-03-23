@@ -1,0 +1,14 @@
+digraph "dlagv2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dlagv2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLAGV2 computes the Generalized Schur factorization of a real 2-by-2 matrix pencil (A,..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlag2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlag2_8f.html#a4c15bef45ba06e975cc60b7d30bdd2b4",tooltip="DLAG2 computes the eigenvalues of a 2-by-2 generalized eigenvalue problem, with scaling as necessary ..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlartg_8f90.html#a86f8f877eaea0386cdc2c3c175d9ea88",tooltip="DLARTG generates a plane rotation with real cosine and real sine."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlasv2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasv2_8f.html#aee8e05a707783a9fba5d213093453543",tooltip="DLASV2 computes the singular value decomposition of a 2-by-2 triangular matrix."];
+}

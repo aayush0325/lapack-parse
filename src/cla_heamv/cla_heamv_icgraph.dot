@@ -1,0 +1,20 @@
+digraph "cla_heamv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cla_heamv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLA_HEAMV computes a matrix-vector product using a Hermitian indefinite matrix to calculate error bou..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cla_herfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__herfsx__extended_8f.html#acd355008da68592db4c2743fcea983cf",tooltip="CLA_HERFSX_EXTENDED improves the computed solution to a system of linear equations for Hermitian inde..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cherfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cherfsx_8f.html#ad731b6b72cf0a8e741748dc4eace0831",tooltip="CHERFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="chesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chesvxx_8f.html#a362015bddbaafb0fe959ee14a9b9785b",tooltip="CHESVXX computes the solution to system of linear equations A * X = B for HE matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cla_porfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__porfsx__extended_8f.html#ae3d6f3635d5674e86148d50639cf2675",tooltip="CLA_PORFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric or H..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cporfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cporfsx_8f.html#ad3d34aea85ff135afe5692ec73649249",tooltip="CPORFSX"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cposvxx_8f.html#a9d8d6eb1ee0b2e2769fa5995714f09b3",tooltip="CPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+}

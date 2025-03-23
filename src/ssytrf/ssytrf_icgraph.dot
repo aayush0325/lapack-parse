@@ -1,0 +1,14 @@
+digraph "ssytrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ssytrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SSYTRF"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ssysv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssysv_8f.html#aebb5b9226b808303f3f80ca96cfe9388",tooltip="SSYSV computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ssysvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssysvx_8f.html#ad1f335d4ff31c241b17dd714fac2ab60",tooltip="SSYSVX computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ssysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssysvxx_8f.html#a51a2949a0275d2b847fa087131989fcd",tooltip="SSYSVXX"];
+}

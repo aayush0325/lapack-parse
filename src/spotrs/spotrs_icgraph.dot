@@ -1,0 +1,27 @@
+digraph "spotrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="spotrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SPOTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dsposv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsposv_8f.html#a91ea95252aad898ccba02b2ebd7eab22",tooltip="DSPOSV computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sla_porcond",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sla__porcond_8f.html#a8480336dc884c4ec105e02d94875c80c",tooltip="SLA_PORCOND estimates the Skeel condition number for a symmetric positive-definite matrix."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sporfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sporfsx_8f.html#a1c4ce423c2ec828b01d52cad754c5d80",tooltip="SPORFSX"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sposvxx_8f.html#acbfa9b618a123b2a3d997f3533b9e044",tooltip="SPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sla_porfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sla__porfsx__extended_8f.html#a618e9312cb5cdbed5d64d6c0b1fa26b1",tooltip="SLA_PORFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric or H..."];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sporfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sporfs_8f.html#ae4835582211ebddde1f5882c67561d97",tooltip="SPORFS"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="sposvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sposvx_8f.html#a4c54383b53b5b6890439e6b6e874fb06",tooltip="SPOSVX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="sposv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sposv_8f.html#ad46400c796afc8031a8c3ec5481af8c3",tooltip="SPOSV computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

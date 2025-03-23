@@ -1,0 +1,32 @@
+digraph "zungl2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zungl2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZUNGL2 generates all or part of the unitary matrix Q from an LQ factorization determined by cgelqf (u..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zunglq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zunglq_8f.html#a3417e56cd4a56e0053d6e54427d8eac1",tooltip="ZUNGLQ"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgesdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesdd_8f.html#accb06ed106ce18814ad7069dcb43aa27",tooltip="ZGESDD"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmd_8f90.html#a09cef60be58f076072bb592bd1223dec",tooltip="ZGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmdq_8f90.html#a2ed954e87a52cfdd0bf0d61a1ff43e16",tooltip="ZGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zgesvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvd_8f.html#ad6f0c85f3cca2968e1ef901d2b6014ee",tooltip="ZGESVD computes the singular value decomposition (SVD) for GE matrices"];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zgesvdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvdq_8f.html#a964d223acba8bbc2118353c864fa2a39",tooltip="ZGESVDQ computes the singular value decomposition (SVD) with a QR-Preconditioned QR SVD Method for GE..."];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zuncsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zuncsd_8f.html#a774109f03e11c18f564494b2fe96ac41",tooltip="ZUNCSD"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zuncsd2by1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zuncsd2by1_8f.html#aebeed5aaf3ff49eaf0a3d1fd76701632",tooltip="ZUNCSD2BY1"];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zungbr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zungbr_8f.html#a5cb4b9d353cfd24bd8862e8f2a845edb",tooltip="ZUNGBR"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zgelss",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgelss_8f.html#a61e68db68886c3f80753fac87ca35a6e",tooltip="ZGELSS solves overdetermined or underdetermined systems for GE matrices"];
+  Node10 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

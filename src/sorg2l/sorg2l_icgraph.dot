@@ -1,0 +1,36 @@
+digraph "sorg2l"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sorg2l",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SORG2L generates all or part of the orthogonal matrix Q from a QL factorization determined by sgeqlf ..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sopgtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sopgtr_8f.html#a579c892c7b1d3ae35f9c0c6329349964",tooltip="SOPGTR"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sspev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sspev_8f.html#aee30ff1f2a1f001a8c75a1d233985bb5",tooltip="SSPEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrices"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sspgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sspgv_8f.html#af356f346cac338069786ba63042527a6",tooltip="SSPGV"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sspevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sspevx_8f.html#aaa149618cc74cd907218f33d30825109",tooltip="SSPEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sspgvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sspgvx_8f.html#a6d78c13e0472349e920ec49cc79337fb",tooltip="SSPGVX"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sorgql",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sorgql_8f.html#a79a9dc68fb789b7ee05ad5e25b5ba363",tooltip="SORGQL"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="sorgtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sorgtr_8f.html#ac6f8631f843add08acb109e7651c35cf",tooltip="SORGTR"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ssyev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyev_8f.html#a63d8d12aef8f2711d711d9e6bd833e46",tooltip="SSYEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ssygv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssygv_8f.html#a0523956327948aae43173b964188e5a2",tooltip="SSYGV"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ssyev_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyev__2stage_8f.html#a2d0b53eb79e43d7059fc80365ec517e9",tooltip="SSYEV_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matr..."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ssygv_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssygv__2stage_8f.html#a6eaf17f1551477fc438915c8ada67abc",tooltip="SSYGV_2STAGE"];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ssyevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyevx_8f.html#a7f8f413f03a84dbe4ac7a973024d0a48",tooltip="SSYEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY matrices"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ssygvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssygvx_8f.html#a29a3927f20cd9692c94ff14babe54ffa",tooltip="SSYGVX"];
+  Node8 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ssyevx_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssyevx__2stage_8f.html#ade5afd3e65add6bc3ba047203a98602f",tooltip="SSYEVX_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for SY mat..."];
+}

@@ -1,0 +1,45 @@
+digraph "sposvx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sposvx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SPOSVX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slacpy_8f.html#a7780c991533ce8dd1f2c22ae2d563f08",tooltip="SLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slaqsy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaqsy_8f.html#ae8aee61b66e5c43af072432c98e8024a",tooltip="SLAQSY scales a symmetric/Hermitian matrix, using scaling factors computed by spoequ."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="spocon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spocon_8f.html#aca094dd6ef3db9ecb580ea731ecb5365",tooltip="SPOCON"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slacn2_8f.html#a670bf75845ea8d0f2220f41866c6d294",tooltip="SLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slatrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slatrs_8f.html#a42b0ddf6be8e085ee0e0d72f24f0b39d",tooltip="SLATRS solves a triangular system of equations with the scale factor set to prevent overflow."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="srscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$srscl_8f.html#ae668a889bec7fb6d91ba4457e2f83722",tooltip="SRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="spoequ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spoequ_8f.html#aea93f7525cdea32854b20ed0bddfc885",tooltip="SPOEQU"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="sporfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sporfs_8f.html#ae4835582211ebddde1f5882c67561d97",tooltip="SPORFS"];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="spotrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spotrs_8f.html#af5cc1531aa5ffe706533fbca343d55dd",tooltip="SPOTRS"];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="spotrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spotrf_8f.html#aaf31db7ab15b4f4ba527a3d31a15a58e",tooltip="SPOTRF"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="spotrf2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spotrf2_8f.html#a3c5c3e920ce930471a2ff63c637b00be",tooltip="SPOTRF2"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="sisnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sisnan_8f.html#aeca6bb0411af000e3c883ee744184991",tooltip="SISNAN tests input for NaN."];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="slaisnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaisnan_8f.html#a9b6a1036554ed9b7196c641174d6a6da",tooltip="SLAISNAN tests input for NaN by comparing two arguments for inequality."];
+  Node13 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

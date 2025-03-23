@@ -1,0 +1,28 @@
+digraph "clabrd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="clabrd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLABRD reduces the first nb rows and columns of a general matrix to a bidiagonal form."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgebrd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgebrd_8f.html#a9f4ec4d67a5ab8355936f6252defa8f5",tooltip="CGEBRD"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgelsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgelsd_8f.html#abe955d518aa1f5fec04eb13fb9ee56c2",tooltip="CGELSD computes the minimum-norm solution to a linear least squares problem for GE matrices"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgelss",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgelss_8f.html#a104cdf5ce9195df46ace1749820a7d4a",tooltip="CGELSS solves overdetermined or underdetermined systems for GE matrices"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cgesdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesdd_8f.html#a609f3fc4da34716dd2bcd985924d20bd",tooltip="CGESDD"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgedmd_8f90.html#ae20a5be20e93752e6a0f2e85b78d5a96",tooltip="CGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgedmdq_8f90.html#a80108eada0975658d093e7bfd753b623",tooltip="CGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cgesvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesvd_8f.html#a0ed22d535ec7d84e8bf4f2f885df8c5c",tooltip="CGESVD computes the singular value decomposition (SVD) for GE matrices"];
+  Node8 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cgesvdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesvdq_8f.html#a8385f1a23cf2bd7014e67bf2bb284de3",tooltip="CGESVDQ computes the singular value decomposition (SVD) with a QR-Preconditioned QR SVD Method for GE..."];
+  Node9 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="cgesvdx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesvdx_8f.html#a97f13f2c54e078344d3f9f20ac24c8be",tooltip="CGESVDX computes the singular value decomposition (SVD) for GE matrices"];
+}

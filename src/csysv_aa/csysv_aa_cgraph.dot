@@ -1,0 +1,26 @@
+digraph "csysv_aa"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="csysv_aa",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CSYSV_AA computes the solution to system of linear equations A * X = B for SY matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="csytrf_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytrf__aa_8f.html#a652dad3ec5efe416466f2b634a0b7398",tooltip="CSYTRF_AA"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="clasyf_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clasyf__aa_8f.html#aab727615e3d598e9e28a14978d5ca759",tooltip="CLASYF_AA"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="claset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$claset_8f.html#a3666a7cae5a324eab6ae01b5155f1f5b",tooltip="CLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="csytrs_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytrs__aa_8f.html#a12f53031b5c662c050106452af5f2d93",tooltip="CSYTRS_AA"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cgtsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgtsv_8f.html#a6df7eac5a9b0c335f43c3979612f84fc",tooltip="CGTSV computes the solution to system of linear equations A * X = B for GT matrices"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="clacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacpy_8f.html#afcee53f42831342f7c863bfc55d2d159",tooltip="CLACPY copies all or part of one two-dimensional array to another."];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

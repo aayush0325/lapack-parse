@@ -1,0 +1,16 @@
+digraph "dlansy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dlansy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLANSY returns the value of the 1-norm, or the Frobenius norm, or the infinity norm,..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dporfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dporfsx_8f.html#a4285835f23c2c12a427d63d29251251d",tooltip="DPORFSX"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dposvxx_8f.html#a423141487077727ec3bc52edd1fccd44",tooltip="DPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dsyrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyrfsx_8f.html#a84668c103a35ee6233d8270a17b1ee52",tooltip="DSYRFSX"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dsysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsysvxx_8f.html#a1891fac0c928034e0c0396aa3d30f8f3",tooltip="DSYSVXX"];
+}

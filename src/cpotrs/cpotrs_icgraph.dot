@@ -1,0 +1,30 @@
+digraph "cpotrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cpotrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CPOTRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cla_porcond_c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__porcond__c_8f.html#aa3a60feb87c68a34e9ef409d288af65c",tooltip="CLA_PORCOND_C computes the infinity norm condition number of op(A)*inv(diag(c)) for Hermitian positiv..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cporfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cporfsx_8f.html#ad3d34aea85ff135afe5692ec73649249",tooltip="CPORFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cposvxx_8f.html#a9d8d6eb1ee0b2e2769fa5995714f09b3",tooltip="CPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cla_porcond_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__porcond__x_8f.html#aae09867c151f12f346831c649a0c8e14",tooltip="CLA_PORCOND_X computes the infinity norm condition number of op(A)*diag(x) for Hermitian positive-def..."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cla_porfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__porfsx__extended_8f.html#ae3d6f3635d5674e86148d50639cf2675",tooltip="CLA_PORFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric or H..."];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cporfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cporfs_8f.html#a29f47972e18ce3bc44ca5d8ee0cf7f28",tooltip="CPORFS"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cposvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cposvx_8f.html#a9743510437973e846efd4fe6a0a4b704",tooltip="CPOSVX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cposv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cposv_8f.html#ad6fa5e367df37b944f5224b5dcc6ab50",tooltip="CPOSV computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zcposv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zcposv_8f.html#ae1f1548257a84b4328773c60eefb8934",tooltip="ZCPOSV computes the solution to system of linear equations A * X = B for PO matrices"];
+}

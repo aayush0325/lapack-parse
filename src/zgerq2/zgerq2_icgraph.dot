@@ -1,0 +1,26 @@
+digraph "zgerq2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zgerq2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGERQ2 computes the RQ factorization of a general rectangular matrix using an unblocked algorithm."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgerqf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgerqf_8f.html#a4be039758e15ce6dfd29e36d63a01ad7",tooltip="ZGERQF"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zggqrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggqrf_8f.html#a79e99ded5bc12a54b8b581b84e2a093b",tooltip="ZGGQRF"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zggglm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggglm_8f.html#a7e9ce5ea3c8adfc5d28e92904c34984f",tooltip="ZGGGLM"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zggrqf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggrqf_8f.html#a90c2fd538e147c5748f0bf602511c159",tooltip="ZGGRQF"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zgglse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgglse_8f.html#a68024ddaa87dd52db7298afb9ba39492",tooltip="ZGGLSE solves overdetermined or underdetermined systems for OTHER matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zggsvp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggsvp_8f.html#ae323e6f14bf3340535db86d521737174",tooltip="ZGGSVP"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zggsvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggsvd_8f.html#afa4ba38256f4d15e886bb4681fa6e688",tooltip="ZGGSVD computes the singular value decomposition (SVD) for OTHER matrices"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zggsvp3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggsvp3_8f.html#a25077757e97dda6e76642656189d806e",tooltip="ZGGSVP3"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zggsvd3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggsvd3_8f.html#a475afe0b3e08089cac32364ef01895da",tooltip="ZGGSVD3 computes the singular value decomposition (SVD) for OTHER matrices"];
+}

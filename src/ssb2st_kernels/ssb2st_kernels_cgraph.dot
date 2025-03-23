@@ -1,0 +1,16 @@
+digraph "ssb2st_kernels"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ssb2st_kernels",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SSB2ST_KERNELS"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfg_8f.html#a1c10a1adfa35b2d5ea15e801287a6a38",tooltip="SLARFG generates an elementary reflector (Householder matrix)."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="slarfx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfx_8f.html#a0a4884a7b75e6c790eca8488d4ec6754",tooltip="SLARFX applies an elementary reflector to a general rectangular matrix, with loop unrolling when the ..."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="slarf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarf_8f.html#a38688653aa8fa8f1e3fadbdcd1377969",tooltip="SLARF applies an elementary reflector to a general rectangular matrix."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slarfy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slarfy_8f.html#a3cbcfa1d9632a6c7fbf5611dc86826ab",tooltip="SLARFY"];
+}

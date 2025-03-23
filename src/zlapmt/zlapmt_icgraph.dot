@@ -1,0 +1,26 @@
+digraph "zlapmt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zlapmt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLAPMT performs a forward or backward permutation of the columns of a matrix."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgesvdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvdq_8f.html#a964d223acba8bbc2118353c864fa2a39",tooltip="ZGESVDQ computes the singular value decomposition (SVD) with a QR-Preconditioned QR SVD Method for GE..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmd_8f90.html#a09cef60be58f076072bb592bd1223dec",tooltip="ZGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmdq_8f90.html#a2ed954e87a52cfdd0bf0d61a1ff43e16",tooltip="ZGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zggsvp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggsvp_8f.html#ae323e6f14bf3340535db86d521737174",tooltip="ZGGSVP"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zggsvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggsvd_8f.html#afa4ba38256f4d15e886bb4681fa6e688",tooltip="ZGGSVD computes the singular value decomposition (SVD) for OTHER matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zggsvp3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggsvp3_8f.html#a25077757e97dda6e76642656189d806e",tooltip="ZGGSVP3"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zggsvd3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zggsvd3_8f.html#a475afe0b3e08089cac32364ef01895da",tooltip="ZGGSVD3 computes the singular value decomposition (SVD) for OTHER matrices"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zuncsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zuncsd_8f.html#a774109f03e11c18f564494b2fe96ac41",tooltip="ZUNCSD"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zuncsd2by1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zuncsd2by1_8f.html#aebeed5aaf3ff49eaf0a3d1fd76701632",tooltip="ZUNCSD2BY1"];
+}

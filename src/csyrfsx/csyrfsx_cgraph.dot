@@ -1,0 +1,55 @@
+digraph "csyrfsx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="csyrfsx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CSYRFSX"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cla_syrcond_c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__syrcond__c_8f.html#a26da8d6aacbabc9792e7d456f1317238",tooltip="CLA_SYRCOND_C computes the infinity norm condition number of op(A)*inv(diag(c)) for symmetric indefin..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="clacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacn2_8f.html#ab908babe3ec3648412de15e0f8ab4479",tooltip="CLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="csytrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csytrs_8f.html#abd38670b8caa9c8b2f0be9f0a7c14e38",tooltip="CSYTRS"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cla_syrcond_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__syrcond__x_8f.html#a93458339ea93230f0ad25a86910af28a",tooltip="CLA_SYRCOND_X computes the infinity norm condition number of op(A)*diag(x) for symmetric indefinite m..."];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cla_syrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__syrfsx__extended_8f.html#a113d1d314f674eb00b05547429716515",tooltip="CLA_SYRFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric inde..."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cla_lin_berr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__lin__berr_8f.html#ae66bd620bd9ddfb3e057ece86b2f5d83",tooltip="CLA_LIN_BERR computes a component-wise relative backward error."];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cla_syamv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__syamv_8f.html#a2effd037ac49e21caf28a78b063f41a3",tooltip="CLA_SYAMV computes a matrix-vector product using a symmetric indefinite matrix to calculate error bou..."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ilauplo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ilauplo_8f.html#a078a6444f93a0d4e589ca8bb80524313",tooltip="ILAUPLO"];
+  Node9 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="cla_wwaddw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__wwaddw_8f.html#a1e2c8df0d5d5d597e0363e438d891b56",tooltip="CLA_WWADDW adds a vector into a doubled-single vector."];
+  Node7 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="csymv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csymv_8f.html#ae013512af4fd2c59629f1708ca4de36a",tooltip="CSYMV computes a matrix-vector product for a complex symmetric matrix."];
+  Node12 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="clansy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clansy_8f.html#ad2c86a28190eb12c91cda1c4faef5df7",tooltip="CLANSY returns the value of the 1-norm, or the Frobenius norm, or the infinity norm,..."];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="classq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classq_8f90.html#ab70baa330cb7a13111b72aef0734e26d",tooltip="CLASSQ updates a sum of squares represented in scaled form."];
+  Node13 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="sisnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sisnan_8f.html#aeca6bb0411af000e3c883ee744184991",tooltip="SISNAN tests input for NaN."];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="slaisnan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaisnan_8f.html#a9b6a1036554ed9b7196c641174d6a6da",tooltip="SLAISNAN tests input for NaN by comparing two arguments for inequality."];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="csycon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csycon_8f.html#a6ec6eb2e72afc7323c5125bce19473dc",tooltip="CSYCON"];
+  Node17 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ilaprec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ilaprec_8f.html#a6fe244cb80f355ab156ad1df9ffcc478",tooltip="ILAPREC"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

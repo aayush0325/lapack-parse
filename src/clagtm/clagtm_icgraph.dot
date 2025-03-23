@@ -1,0 +1,12 @@
+digraph "clagtm"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="clagtm",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLAGTM performs a matrix-matrix product of the form C = αAB+βC, where A is a tridiagonal matrix,..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgtrfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgtrfs_8f.html#a92eec53c6ac6c6285a10e7d05d9c00d5",tooltip="CGTRFS"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgtsvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgtsvx_8f.html#a52aedc3d07eae490ca91df3dec897e8c",tooltip="CGTSVX computes the solution to system of linear equations A * X = B for GT matrices"];
+}

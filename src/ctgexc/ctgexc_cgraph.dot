@@ -1,0 +1,20 @@
+digraph "ctgexc"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ctgexc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CTGEXC"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ctgex2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ctgex2_8f.html#ad1dd22026fefb08f31ddac6b92d8f2b6",tooltip="CTGEX2 swaps adjacent diagonal blocks in an upper (quasi) triangular matrix pair by an unitary equiva..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="clacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacpy_8f.html#afcee53f42831342f7c863bfc55d2d159",tooltip="CLACPY copies all or part of one two-dimensional array to another."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="clartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clartg_8f90.html#a45afd4405cf6da478ce4de9576303369",tooltip="CLARTG generates a plane rotation with real cosine and complex sine."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="classq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classq_8f90.html#ab70baa330cb7a13111b72aef0734e26d",tooltip="CLASSQ updates a sum of squares represented in scaled form."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="crot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$crot_8f.html#a4afb8af3ae70d2f82fffafe91e933c12",tooltip="CROT applies a plane rotation with real cosine and complex sine to a pair of complex vectors."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+}

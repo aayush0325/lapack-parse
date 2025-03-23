@@ -1,0 +1,38 @@
+digraph "zlacrm"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zlacrm",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZLACRM multiplies a complex matrix by a square real matrix."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgesdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesdd_8f.html#accb06ed106ce18814ad7069dcb43aa27",tooltip="ZGESDD"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmd_8f90.html#a09cef60be58f076072bb592bd1223dec",tooltip="ZGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmdq_8f90.html#a2ed954e87a52cfdd0bf0d61a1ff43e16",tooltip="ZGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zlaed0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaed0_8f.html#a82c250dbb17c6cc124a5eee7ae99f08d",tooltip="ZLAED0 used by ZSTEDC. Computes all eigenvalues and corresponding eigenvectors of an unreduced symmet..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zstedc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zstedc_8f.html#ad2afe42caaae114c617858e87082caf8",tooltip="ZSTEDC"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zhbevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbevd_8f.html#a3854721b34946230321131ed9e3c08e3",tooltip="ZHBEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zhbevd_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbevd__2stage_8f.html#a253ab29dd3917b1cbc9e35c022d14383",tooltip="ZHBEVD_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER ..."];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zhbgvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhbgvd_8f.html#a597ea234c22684386ad82c7515285514",tooltip="ZHBGVD"];
+  Node6 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zheevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheevd_8f.html#a9b3e110476166e66f2f62fa1fba6344a",tooltip="ZHEEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE matrices"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zhegvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhegvd_8f.html#a74fdf9b5a16c90d8b7a589dec5ca058a",tooltip="ZHEGVD"];
+  Node6 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zheevd_2stage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zheevd__2stage_8f.html#a59996f9a96d264d7eba3edef73e32c43",tooltip="ZHEEVD_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for HE mat..."];
+  Node6 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zhpevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhpevd_8f.html#a2e244a94bea7118e2aedcd3342276a80",tooltip="ZHPEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="zhpgvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhpgvd_8f.html#af6720700dfc0d1692416a4e9bab0e6a7",tooltip="ZHPGVD"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="zlaed7",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaed7_8f.html#af2b7638f38390f8b86593a166593fc9d",tooltip="ZLAED7 used by ZSTEDC. Computes the updated eigensystem of a diagonal matrix after modification by a ..."];
+  Node15 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

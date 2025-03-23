@@ -1,0 +1,30 @@
+digraph "zgetrs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zgetrs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGETRS"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zcgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zcgesv_8f.html#a892cb7992dc737797a8b8043dfc81a48",tooltip="ZCGESV computes the solution to system of linear equations A * X = B for GE matrices (mixed precision..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgerfs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgerfs_8f.html#a42986fd49f5f845a013fb66134ce7847",tooltip="ZGERFS"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgesvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvx_8f.html#abe3ae17895d46aeb7c9e5a076eaeeb69",tooltip="ZGESVX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zgesv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gesv.html#ga531713dfc62bc5df387b7bb486a9deeb",tooltip="Download ZGESV + dependencies  <a href=\"http://www.netlib.org/cgi-bin/netlibfiles...."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvxx_8f.html#aff43ace945f982f6612eeace3c1b4f3b",tooltip="ZGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zla_gercond_c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__gercond__c_8f.html#ab08ab71400afba05aff8565ab8d3d4e0",tooltip="ZLA_GERCOND_C computes the infinity norm condition number of op(A)*inv(diag(c)) for general matrices."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zgerfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgerfsx_8f.html#a27a6dc0c11a5de56db8aac64619b7873",tooltip="ZGERFSX"];
+  Node8 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zla_gercond_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__gercond__x_8f.html#ae625c625f36963209b3b3ddd640b6305",tooltip="ZLA_GERCOND_X computes the infinity norm condition number of op(A)*diag(x) for general matrices."];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zla_gerfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zla__gerfsx__extended_8f.html#af04f5fc86ce0bcd42d8eed61cf927692",tooltip="ZLA_GERFSX_EXTENDED"];
+  Node10 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

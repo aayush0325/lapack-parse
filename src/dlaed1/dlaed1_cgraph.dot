@@ -1,0 +1,30 @@
+digraph "dlaed1"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dlaed1",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLAED1 used by DSTEDC. Computes the updated eigensystem of a diagonal matrix after modification by a ..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlaed2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed2_8f.html#ad1c4d41e8a1452c5ca54ff47ebd5e221",tooltip="DLAED2 used by DSTEDC. Merges eigenvalues and deflates secular equation. Used when the original matri..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlacpy_8f.html#a7eb8731ffab2734378157c40964bf788",tooltip="DLACPY copies all or part of one two-dimensional array to another."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlamrg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlamrg_8f.html#a0344736c01a4b5e4c2e4d37f6729ce9e",tooltip="DLAMRG creates a permutation list to merge the entries of two independently sorted sets into a single..."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dlaed3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed3_8f.html#a0188d458557c1c63b33d78667f107df6",tooltip="DLAED3 used by DSTEDC. Finds the roots of the secular equation and updates the eigenvectors...."];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dlaed4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed4_8f.html#a3c4a943599132aea3ac964c08392853a",tooltip="DLAED4 used by DSTEDC. Finds a single root of the secular equation."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dlaed5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed5_8f.html#ae5927d0d0d438b3bc90a0679eaafe747",tooltip="DLAED5 used by DSTEDC. Solves the 2-by-2 secular equation."];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dlaed6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaed6_8f.html#a8016fde4c8a60d5e95e6e6c636ec4dc9",tooltip="DLAED6 used by DSTEDC. Computes one Newton step in solution of the secular equation."];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaset_8f.html#a89e332374c7cd87e5db54bfe21550bc3",tooltip="DLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

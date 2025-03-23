@@ -1,0 +1,50 @@
+digraph "sbdsqr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sbdsqr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SBDSQR"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgelss",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgelss_8f.html#a206e3084597d088b31dc054a69aec93f",tooltip="SGELSS solves overdetermined or underdetermined systems for GE matrices"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgesvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgesvd_8f.html#af03d06284b1bfabd3d6c0f6955960533",tooltip="SGESVD computes the singular value decomposition (SVD) for GE matrices"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgedmd_8f90.html#a2620fdd695c7f51cddc90e332eb57971",tooltip="SGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgedmdq_8f90.html#a1d1fe0497679b62b0084bfbdf54063f2",tooltip="SGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sgesvdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgesvdq_8f.html#a8e9cbc85a2116d7ae24a854e24fbdc14",tooltip="SGESVDQ computes the singular value decomposition (SVD) with a QR-Preconditioned QR SVD Method for GE..."];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="slasdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasdq_8f.html#abb4a455a53f317631c56b07d4828eb28",tooltip="SLASDQ computes the SVD of a real bidiagonal matrix with diagonal d and off-diagonal e...."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="clalsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clalsd_8f.html#a26c9ab8dc8642c18e3cbde5769b8138d",tooltip="CLALSD uses the singular value decomposition of A to solve the least squares problem."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cgelsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgelsd_8f.html#abe955d518aa1f5fec04eb13fb9ee56c2",tooltip="CGELSD computes the minimum-norm solution to a linear least squares problem for GE matrices"];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="sbdsdc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sbdsdc_8f.html#a9e033a8d4ec3aba1385f4eed11d9c332",tooltip="SBDSDC"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="cgesdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesdd_8f.html#a609f3fc4da34716dd2bcd985924d20bd",tooltip="CGESDD"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="cgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgedmd_8f90.html#ae20a5be20e93752e6a0f2e85b78d5a96",tooltip="CGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="cgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgedmdq_8f90.html#a80108eada0975658d093e7bfd753b623",tooltip="CGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node10 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="sgesdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgesdd_8f.html#ac2cd4f1079370ac908186d77efcd5ea8",tooltip="SGESDD"];
+  Node14 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="slalsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slalsd_8f.html#a153577749d4bb1c01aaf8b50636d2604",tooltip="SLALSD uses the singular value decomposition of A to solve the least squares problem."];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="sgelsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgelsd_8f.html#abc655f9cb0f6cfff81b3cafc03c41dcb",tooltip="SGELSD computes the minimum-norm solution to a linear least squares problem for GE matrices"];
+  Node7 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="slasd0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasd0_8f.html#a7a8da896f51f0ce43896b61efa3d0381",tooltip="SLASD0 computes the singular values of a real upper bidiagonal n-by-m matrix B with diagonal d and of..."];
+  Node17 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="slasda",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasda_8f.html#afe52aa918bfa2a863f122f39ae9e6404",tooltip="SLASDA computes the singular value decomposition (SVD) of a real upper bidiagonal matrix with diagona..."];
+  Node18 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="spteqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spteqr_8f.html#a72b5ecbbf9359796ae9368a141d2540c",tooltip="SPTEQR"];
+}

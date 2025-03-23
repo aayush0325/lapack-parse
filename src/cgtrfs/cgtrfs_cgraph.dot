@@ -1,0 +1,19 @@
+digraph "cgtrfs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cgtrfs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CGTRFS"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgttrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgttrs_8f.html#afe8bdadc6f4da5aa5df3fe22dbe6b05b",tooltip="CGTTRS"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgtts2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgtts2_8f.html#ab3cb48a1dae8355cc937e9c97ac5ded0",tooltip="CGTTS2 solves a system of linear equations with a tridiagonal matrix using the LU factorization compu..."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="clacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacn2_8f.html#ab908babe3ec3648412de15e0f8ab4479",tooltip="CLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="clagtm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clagtm_8f.html#a3008440c0f918c3e32ccbcbd04ea5eb3",tooltip="CLAGTM performs a matrix-matrix product of the form C = αAB+βC, where A is a tridiagonal matrix,..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

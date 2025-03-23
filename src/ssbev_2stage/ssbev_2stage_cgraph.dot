@@ -1,0 +1,37 @@
+digraph "ssbev_2stage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ssbev_2stage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SSBEV_2STAGE computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER m..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="slascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slascl_8f.html#a11e6ce67ce97ca5b0a3a7bc5645a09d9",tooltip="SLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ssteqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssteqr_8f.html#a2463dc5fa5baab57763971a548aad789",tooltip="SSTEQR"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="slae2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slae2_8f.html#aec32dea47a14590934b8970b078b58fd",tooltip="SLAE2 computes the eigenvalues of a 2-by-2 symmetric matrix."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="slaev2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaev2_8f.html#af79f0bb1a07a9d96b827eba946ec79fa",tooltip="SLAEV2 computes the eigenvalues and eigenvectors of a 2-by-2 symmetric/Hermitian matrix."];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="slartg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slartg_8f90.html#a8836d25697ed4d8cc0b7d0f45b558c3b",tooltip="SLARTG generates a plane rotation with real cosine and real sine."];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="slaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slaset_8f.html#a6174184453f17ad7cc3488044325d5ac",tooltip="SLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="slasr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasr_8f.html#a60f6d566e3a36c43835b0ff3055879dc",tooltip="SLASR applies a sequence of plane rotations to a general rectangular matrix."];
+  Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="slasrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$slasrt_8f.html#a66e14f999e0c96b0d974849882160a07",tooltip="SLASRT sorts numbers in increasing or decreasing order."];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ssterf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssterf_8f.html#a6f005e62dd179b39d847eadbb62dbead",tooltip="SSTERF"];
+  Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,20 @@
+digraph "stgsyl"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="stgsyl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="STGSYL"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="stgsen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stgsen_8f.html#a4f229aaf6520b747952147327f94a0d3",tooltip="STGSEN"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgges_8f.html#a6a36f16104f3f8ae8e499cc7efaa2195",tooltip="SGGES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgges3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgges3_8f.html#aa38a73620b45cbe5a9b1803351a28dbb",tooltip="SGGES3 computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sggesx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggesx_8f.html#ac04eec62b6a153d74e425961e9704fde",tooltip="SGGESX computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="stgsna",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stgsna_8f.html#a4288220546abeaa11e0fa24d99dae391",tooltip="STGSNA"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sggevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sggevx_8f.html#a47ddf03d427ec3f9346253132c26cf96",tooltip="SGGEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+}

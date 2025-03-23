@@ -1,0 +1,39 @@
+digraph "ztgsyl"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ztgsyl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZTGSYL"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zlacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacpy_8f.html#a519ff79bf915433651747242f22078fb",tooltip="ZLACPY copies all or part of one two-dimensional array to another."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaset_8f.html#aa4389d0e0e031c70c351acf7dbad6a85",tooltip="ZLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ztgsy2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ztgsy2_8f.html#ab24c8af7cc49b5eef89718d4d6a889e3",tooltip="ZTGSY2 solves the generalized Sylvester equation (unblocked algorithm)."];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zgesc2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesc2_8f.html#a9adcef3bc45139ea3693275252880c29",tooltip="ZGESC2 solves a system of linear equations using the LU factorization with complete pivoting computed..."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zlaswp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaswp_8f.html#a49d0e55e934b6e90456a2eb75490c3ef",tooltip="ZLASWP performs a series of row interchanges on a general rectangular matrix."];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zgetc2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgetc2_8f.html#ae5d1dc8c626b248e836d865f428aa399",tooltip="ZGETC2 computes the LU factorization with complete pivoting of the general n-by-n matrix."];
+  Node5 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zlatdf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlatdf_8f.html#ac08252350693cb3e0f04470612aa638e",tooltip="ZLATDF uses the LU factorization of the n-by-n matrix computed by sgetc2 and computes a contribution ..."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zgecon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgecon_8f.html#abe73145daeba3ec10e961054b75a07ce",tooltip="ZGECON"];
+  Node10 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zdrscl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zdrscl_8f.html#ad73ec38e29df0385ee6fda7d832fd205",tooltip="ZDRSCL multiplies a vector by the reciprocal of a real scalar."];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zlacn2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacn2_8f.html#a0fbe7a858e42dcf07db12aa892a9e513",tooltip="ZLACN2 estimates the 1-norm of a square matrix, using reverse communication for evaluating matrix-vec..."];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zlatrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlatrs_8f.html#ab1dbea06bfa3c8dc0f7042a76dadd749",tooltip="ZLATRS solves a triangular system of equations with the scale factor set to prevent overflow."];
+  Node13 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="zlassq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlassq_8f90.html#a254e1782d1c2f96e9e3164578481f9ce",tooltip="ZLASSQ updates a sum of squares represented in scaled form."];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

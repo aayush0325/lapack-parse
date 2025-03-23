@@ -1,0 +1,39 @@
+digraph "zunmlq"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zunmlq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZUNMLQ"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zgejsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgejsv_8f.html#a3f8a01747e82e013b3057d4c6c9bbbd4",tooltip="ZGEJSV"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmd_8f90.html#a09cef60be58f076072bb592bd1223dec",tooltip="ZGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgedmdq_8f90.html#a2ed954e87a52cfdd0bf0d61a1ff43e16",tooltip="ZGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zgelqs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgelqs_8f.html#a292b6c44a1408df4fe85df1923008cf6",tooltip="ZGELQS"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zgels",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgels_8f.html#a1d8089ba1e1538eb3d1ab0ebe97596c7",tooltip="ZGELS solves overdetermined or underdetermined systems for GE matrices"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zgelsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgelsd_8f.html#ae06e94cada1d406119efa6251a4eb308",tooltip="ZGELSD computes the minimum-norm solution to a linear least squares problem for GE matrices"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zgelss",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgelss_8f.html#a61e68db68886c3f80753fac87ca35a6e",tooltip="ZGELSS solves overdetermined or underdetermined systems for GE matrices"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zgesvdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvdq_8f.html#a964d223acba8bbc2118353c864fa2a39",tooltip="ZGESVDQ computes the singular value decomposition (SVD) with a QR-Preconditioned QR SVD Method for GE..."];
+  Node9 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zgesvdx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvdx_8f.html#a6a739f1460b776c50cf0b5f6ac45a518",tooltip="ZGESVDX computes the singular value decomposition (SVD) for GE matrices"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zunmbr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zunmbr_8f.html#af222f80e8228a6ef483a38e60fd82fe0",tooltip="ZUNMBR"];
+  Node11 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zgesdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesdd_8f.html#accb06ed106ce18814ad7069dcb43aa27",tooltip="ZGESDD"];
+  Node12 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zgesvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgesvd_8f.html#ad6f0c85f3cca2968e1ef901d2b6014ee",tooltip="ZGESVD computes the singular value decomposition (SVD) for GE matrices"];
+  Node13 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,32 @@
+digraph "dla_wwaddw"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dla_wwaddw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLA_WWADDW adds a vector into a doubled-single vector."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dla_gbrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__gbrfsx__extended_8f.html#a1520b1b9984236f0315d6fc077e4eb04",tooltip="DLA_GBRFSX_EXTENDED improves the computed solution to a system of linear equations for general banded..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgbrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbrfsx_8f.html#ab44677451338eb1a966f510ca0a38d1c",tooltip="DGBRFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgbsvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgbsvxx_8f.html#a75860f1c9556e1b735418bb8f9329317",tooltip="DGBSVXX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dla_gerfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__gerfsx__extended_8f.html#a19c6e9e133a5ea3f59a24959889429f2",tooltip="DLA_GERFSX_EXTENDED improves the computed solution to a system of linear equations for general matric..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dgerfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgerfsx_8f.html#ae60113eba7a360d9c92cc2b627e0c5d2",tooltip="DGERFSX"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvxx_8f.html#a3fed1dc691d07f1e81a049016fe0b67b",tooltip="DGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dla_porfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__porfsx__extended_8f.html#a1f04f8900d0a841afb32c0b60535ff7b",tooltip="DLA_PORFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric or H..."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dporfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dporfsx_8f.html#a4285835f23c2c12a427d63d29251251d",tooltip="DPORFSX"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dposvxx_8f.html#a423141487077727ec3bc52edd1fccd44",tooltip="DPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dla_syrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dla__syrfsx__extended_8f.html#a1e55bc8b68a504435bc9a70cb0dcdb02",tooltip="DLA_SYRFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric inde..."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dsyrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsyrfsx_8f.html#a84668c103a35ee6233d8270a17b1ee52",tooltip="DSYRFSX"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dsysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsysvxx_8f.html#a1891fac0c928034e0c0396aa3d30f8f3",tooltip="DSYSVXX"];
+}

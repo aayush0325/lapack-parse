@@ -1,0 +1,18 @@
+digraph "cptsv"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cptsv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CPTSV computes the solution to system of linear equations A * X = B for PT matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cpttrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cpttrf_8f.html#ab4ab4f156ac9e5e7e67f4c45b6033ba6",tooltip="CPTTRF"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cpttrs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cpttrs_8f.html#a63605a86c7011a213f3e3f95c98cda5c",tooltip="CPTTRS"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cptts2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cptts2_8f.html#adecb0ce69b03e2b960effe0754e322d4",tooltip="CPTTS2 solves a tridiagonal system of the form AX=B using the L D LH factorization computed by spttrf..."];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

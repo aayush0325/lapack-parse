@@ -1,0 +1,41 @@
+digraph "dorml2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="dorml2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DORML2 multiplies a general matrix by the orthogonal matrix from a LQ factorization determined by sge..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dormlq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dormlq_8f.html#a99147464f79c5447c08eead5a06a90ce",tooltip="DORMLQ"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dgejsv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgejsv_8f.html#a8767bfcf983f8dc6ef2842029ab25599",tooltip="DGEJSV"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgedmd_8f90.html#a873ebfba3e94c6200e9f6da79644abb1",tooltip="DGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgedmdq_8f90.html#a6c9d2f77b73a03970b6e05984167644f",tooltip="DGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dgelqs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgelqs_8f.html#af0285d60d2ab48e4f2c676c7d93318bb",tooltip="DGELQS"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dgels",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgels_8f.html#a225c8efde208eaf246882df48e590eac",tooltip="DGELS solves overdetermined or underdetermined systems for GE matrices"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dgelsd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgelsd_8f.html#a94bd4a63a6dacf523e25ff617719f752",tooltip="DGELSD computes the minimum-norm solution to a linear least squares problem for GE matrices"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dgelss",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgelss_8f.html#aa6ed601d0622edcecb90de08d7a218ec",tooltip="DGELSS solves overdetermined or underdetermined systems for GE matrices"];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dgesvdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvdq_8f.html#a6e6e097bd6ae8191bddcb0bc4ad9b43d",tooltip="DGESVDQ computes the singular value decomposition (SVD) with a QR-Preconditioned QR SVD Method for GE..."];
+  Node10 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dgesvdx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvdx_8f.html#a9e5a37fb31af0193fe7020b0eb0ad9ac",tooltip="DGESVDX computes the singular value decomposition (SVD) for GE matrices"];
+  Node2 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dormbr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dormbr_8f.html#afb800694b33110d2469d0ab18ada8f74",tooltip="DORMBR"];
+  Node12 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dgesdd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesdd_8f.html#ad8e0f1c83a78d3d4858eaaa88a1c5ab1",tooltip="DGESDD"];
+  Node13 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="dgesvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dgesvd_8f.html#a84fdf22a62b12ff364621e4713ce02f2",tooltip="DGESVD computes the singular value decomposition (SVD) for GE matrices"];
+  Node14 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

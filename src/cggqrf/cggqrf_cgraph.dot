@@ -1,0 +1,49 @@
+digraph "cggqrf"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cggqrf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CGGQRF"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgeqrf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgeqrf_8f.html#a333680795e2818318a1c6f6d1a503722",tooltip="CGEQRF"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgeqr2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgeqr2_8f.html#a134d9e0dc9857945b85acc090ca19ade",tooltip="CGEQR2 computes the QR factorization of a general rectangular matrix using an unblocked algorithm."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="clarf1f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clarf1f_8f.html#a3e28406862b5295433c9210497d2c392",tooltip="CLARF1F applies an elementary reflector to a general rectangular"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="clarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clarfg_8f.html#ab546cf8718b98ecdc6aae99a34ffb1bf",tooltip="CLARFG generates an elementary reflector (Householder matrix)."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="clarfb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clarfb_8f.html#a625578c63463d61350ee393cd3f9aeb6",tooltip="CLARFB applies a block reflector or its conjugate-transpose to a general rectangular matrix."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="clacgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacgv_8f.html#a0ff51770edb0cdc7328fdae7ace7954e",tooltip="CLACGV conjugates a complex vector."];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="clarft",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clarft_8f.html#ace2252c98183bbc6395b1e355342b8e5",tooltip="CLARFT forms the triangular factor T of a block reflector H = I - vtvH"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="clacpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clacpy_8f.html#afcee53f42831342f7c863bfc55d2d159",tooltip="CLACPY copies all or part of one two-dimensional array to another."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="cgerqf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgerqf_8f.html#a41b858b70f94d64cf34df25b287f1af8",tooltip="CGERQF"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="cgerq2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgerq2_8f.html#a6e2b93235b0ed01d7ddb3fa293e9c45d",tooltip="CGERQ2 computes the RQ factorization of a general rectangular matrix using an unblocked algorithm."];
+  Node12 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="clarf1l",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clarf1l_8f.html#a8f1e0bfb7f1c120e98f16b95fea350af",tooltip="CLARF1L applies an elementary reflector to a general rectangular"];
+  Node12 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="cunmqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cunmqr_8f.html#ab9eeeabc3611b824f98b8ff5934a8f3e",tooltip="CUNMQR"];
+  Node14 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="cunm2r",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cunm2r_8f.html#add6fc18563da99ba29abf78e676c8794",tooltip="CUNM2R multiplies a general matrix by the unitary matrix from a QR factorization determined by cgeqrf..."];
+  Node15 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

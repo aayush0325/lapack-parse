@@ -1,0 +1,20 @@
+digraph "sgebal"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sgebal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SGEBAL"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgees",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgees_8f.html#a0cd2fba843c9d04967c79a58f8d6e321",tooltip="SGEES computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE m..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgeesx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeesx_8f.html#ac8e46bbcd7e259cdacfccbcfb575a392",tooltip="SGEESX computes the eigenvalues, the Schur form, and, optionally, the matrix of Schur vectors for GE ..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgeev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeev_8f.html#a104525b749278774f7b7f57195aa6798",tooltip="SGEEV computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sgedmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgedmd_8f90.html#a2620fdd695c7f51cddc90e332eb57971",tooltip="SGEDMD computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sgedmdq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgedmdq_8f90.html#a1d1fe0497679b62b0084bfbdf54063f2",tooltip="SGEDMDQ computes the Dynamic Mode Decomposition (DMD) for a pair of data snapshot matrices."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sgeevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgeevx_8f.html#adf06d28b4793cbab21e898fcb713d5a5",tooltip="SGEEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+}

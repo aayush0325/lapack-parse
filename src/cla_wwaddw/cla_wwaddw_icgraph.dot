@@ -1,0 +1,38 @@
+digraph "cla_wwaddw"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="cla_wwaddw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CLA_WWADDW adds a vector into a doubled-single vector."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cla_gbrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__gbrfsx__extended_8f.html#a1314a81da92808c2c3f568f64a99697d",tooltip="CLA_GBRFSX_EXTENDED improves the computed solution to a system of linear equations for general banded..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cgbrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgbrfsx_8f.html#af9b3139572990172c3ff37bd77d1486c",tooltip="CGBRFSX"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cgbsvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgbsvxx_8f.html#a366c297439ac18cfefeb91629d44f2cb",tooltip="CGBSVXX computes the solution to system of linear equations A * X = B for GB matrices"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cla_gerfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__gerfsx__extended_8f.html#a929fb2d32408f812f7fd624706ba0af4",tooltip="CLA_GERFSX_EXTENDED"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cgerfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgerfsx_8f.html#a1cc6317bb51919b658efa7bc80f286c2",tooltip="CGERFSX"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cgesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgesvxx_8f.html#a54e141455b3d59923af0a5d79ffebcfb",tooltip="CGESVXX computes the solution to system of linear equations A * X = B for GE matrices"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="cla_herfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__herfsx__extended_8f.html#acd355008da68592db4c2743fcea983cf",tooltip="CLA_HERFSX_EXTENDED improves the computed solution to a system of linear equations for Hermitian inde..."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cherfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cherfsx_8f.html#ad731b6b72cf0a8e741748dc4eace0831",tooltip="CHERFSX"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="chesvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chesvxx_8f.html#a362015bddbaafb0fe959ee14a9b9785b",tooltip="CHESVXX computes the solution to system of linear equations A * X = B for HE matrices"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="cla_porfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__porfsx__extended_8f.html#ae3d6f3635d5674e86148d50639cf2675",tooltip="CLA_PORFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric or H..."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="cporfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cporfsx_8f.html#ad3d34aea85ff135afe5692ec73649249",tooltip="CPORFSX"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="cposvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cposvxx_8f.html#a9d8d6eb1ee0b2e2769fa5995714f09b3",tooltip="CPOSVXX computes the solution to system of linear equations A * X = B for PO matrices"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="cla_syrfsx_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cla__syrfsx__extended_8f.html#a113d1d314f674eb00b05547429716515",tooltip="CLA_SYRFSX_EXTENDED improves the computed solution to a system of linear equations for symmetric inde..."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="csyrfsx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csyrfsx_8f.html#a0f93ca9ab2fc02b8de5f578316353b87",tooltip="CSYRFSX"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="csysvxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$csysvxx_8f.html#a48da16f71d9aa75098b8c6d3c4007979",tooltip="CSYSVXX computes the solution to system of linear equations A * X = B for SY matrices"];
+}

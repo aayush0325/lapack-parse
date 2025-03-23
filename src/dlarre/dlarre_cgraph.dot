@@ -1,0 +1,39 @@
+digraph "dlarre"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dlarre",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="DLARRE given the tridiagonal matrix T, sets small off-diagonal elements to zero and for each unreduce..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dlarnv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarnv_8f.html#a77e05a87ced667cbdb502aa87c72d056",tooltip="DLARNV returns a vector of random numbers from a uniform or normal distribution."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dlaruv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaruv_8f.html#a55e7c02e398f2c6365c956d272836a89",tooltip="DLARUV returns a vector of n random real numbers from a uniform distribution."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dlarra",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarra_8f.html#a0b5719c25a81a95270cd36178e283166",tooltip="DLARRA computes the splitting points with the specified threshold."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dlarrb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarrb_8f.html#ab3446b2d3189e23e5b95f18ea97b0a22",tooltip="DLARRB provides limited bisection to locate eigenvalues for more accuracy."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dlarrc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarrc_8f.html#ac6a65096bc8be9a4dc881a96147075ea",tooltip="DLARRC computes the number of eigenvalues of the symmetric tridiagonal matrix."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dlarrd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarrd_8f.html#aa9fa3671522ed0e21695769fd85982c7",tooltip="DLARRD computes the eigenvalues of a symmetric tridiagonal matrix to suitable accuracy."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dlaebz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlaebz_8f.html#a79da86f5a84d0038788717338eef245d",tooltip="DLAEBZ computes the number of eigenvalues of a real symmetric tridiagonal matrix which are less than ..."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dlarrk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlarrk_8f.html#ad321b234af8d1ac9fbb18ca95a1c13f2",tooltip="DLARRK computes one eigenvalue of a symmetric tridiagonal matrix T to suitable accuracy."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dlasq2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq2_8f.html#aa23a44b0562a4dfc670e5b7a676a2e2d",tooltip="DLASQ2 computes all the eigenvalues of the symmetric positive definite tridiagonal matrix associated ..."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="dlasq3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq3_8f.html#a38579c1852f8094a33d0afeed15b2b65",tooltip="DLASQ3 checks for deflation, computes a shift and calls dqds. Used by sbdsqr."];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="dlasq4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq4_8f.html#a1c9c24724eb452f615cd1695e6b9ee3b",tooltip="DLASQ4 computes an approximation to the smallest eigenvalue using values of d from the previous trans..."];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="dlasq5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq5_8f.html#a77ac31104dbfb9331604678f3ba05156",tooltip="DLASQ5 computes one dqds transform in ping-pong form. Used by sbdsqr and sstegr."];
+  Node11 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="dlasq6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasq6_8f.html#a5b8d724babb26c081b057fa28f05b16e",tooltip="DLASQ6 computes one dqd transform in ping-pong form. Used by sbdsqr and sstegr."];
+  Node10 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="dlasrt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dlasrt_8f.html#a88a9fb57b6459176b68f21720d3d2ad2",tooltip="DLASRT sorts numbers in increasing or decreasing order."];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node10 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

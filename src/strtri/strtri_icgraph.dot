@@ -1,0 +1,24 @@
+digraph "strtri"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="strtri",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="STRTRI"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgetri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sgetri_8f.html#a1af62182327d0be67b1717db399d7d83",tooltip="SGETRI"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="spotri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spotri_8f.html#a4c381894bb34b1583fcc0dceafc5bea1",tooltip="SPOTRI"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ssytri2x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytri2x_8f.html#a34537bed5f8e070371776e65dd14fd16",tooltip="SSYTRI2X"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ssytri2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytri2_8f.html#a7852066f959159f9701c0f63f90c5230",tooltip="SSYTRI2"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ssytri_3x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytri__3x_8f.html#a1326995e3dce81242c18d944fe32e192",tooltip="SSYTRI_3X"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ssytri_3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ssytri__3_8f.html#aff715ab1f65cdd3ebab1ba9790dbbc43",tooltip="SSYTRI_3"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="stftri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stftri_8f.html#afd13b5d9daf9c811fd8891691de7118c",tooltip="STFTRI"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="spftri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spftri_8f.html#a92e24af75cffad6eeac49636b124571f",tooltip="SPFTRI"];
+}

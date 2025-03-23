@@ -1,0 +1,16 @@
+digraph "zupmtr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="zupmtr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZUPMTR"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zhpevd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhpevd_8f.html#a2e244a94bea7118e2aedcd3342276a80",tooltip="ZHPEVD computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zhpgvd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhpgvd_8f.html#af6720700dfc0d1692416a4e9bab0e6a7",tooltip="ZHPGVD"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zhpevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhpevx_8f.html#a5d02ab79a002e32a7fd26a9e8a8f5638",tooltip="ZHPEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for OTHER matrice..."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zhpgvx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zhpgvx_8f.html#aa447b35fe8cbabe3cf262579e49a96b1",tooltip="ZHPGVX"];
+}

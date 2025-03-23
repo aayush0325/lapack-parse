@@ -1,0 +1,44 @@
+digraph "zgelsx"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zgelsx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="ZGELSX solves overdetermined or underdetermined systems for GE matrices"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xerbla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07",tooltip="XERBLA"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zgeqpf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgeqpf_8f.html#a081af8445fcaa6804c99c11b280a60c3",tooltip="ZGEQPF"];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zgeqr2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zgeqr2_8f.html#a5b3713deac5bd2bda6844fa1d896f162",tooltip="ZGEQR2 computes the QR factorization of a general rectangular matrix using an unblocked algorithm."];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zlarf1f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlarf1f_8f.html#a48cd67b51ff589c1f2e0a9bf2b2c84ad",tooltip="ZLARF1F applies an elementary reflector to a general rectangular"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zlarfg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlarfg_8f.html#af496f956f05bac0668fed468230355c7",tooltip="ZLARFG generates an elementary reflector (Householder matrix)."];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zlarf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlarf_8f.html#ad515307e77cc9c7eda1ef684952be0d6",tooltip="ZLARF applies an elementary reflector to a general rectangular matrix."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zunm2r",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zunm2r_8f.html#ae19d9a8a2405fb07b731389bda6f5f02",tooltip="ZUNM2R multiplies a general matrix by the unitary matrix from a QR factorization determined by cgeqrf..."];
+  Node8 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zlaic1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaic1_8f.html#a94f2d69e6dff680ac9c2865a9eede066",tooltip="ZLAIC1 applies one step of incremental condition estimation."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zlascl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlascl_8f.html#a3ac3de030a7537d12f56245d2049b895",tooltip="ZLASCL multiplies a general rectangular matrix by a real scalar defined as cto/cfrom."];
+  Node10 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zlaset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlaset_8f.html#aa4389d0e0e031c70c351acf7dbad6a85",tooltip="ZLASET initializes the off-diagonal elements and the diagonal elements of a matrix to given values."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zlatzm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlatzm_8f.html#ab33283d6a72b4c709274f227d8531a4b",tooltip="ZLATZM"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zlacgv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlacgv_8f.html#ad2595ab7c6b89e1ff2e9d05542431719",tooltip="ZLACGV conjugates a complex vector."];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ztzrqf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ztzrqf_8f.html#a9a0c128e44bc2eec759b3ea31dbb4b9d",tooltip="ZTZRQF"];
+  Node14 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

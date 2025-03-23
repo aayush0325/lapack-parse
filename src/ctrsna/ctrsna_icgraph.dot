@@ -1,0 +1,10 @@
+digraph "ctrsna"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ctrsna",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CTRSNA"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cgeevx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cgeevx_8f.html#a397ffbf0007d6b72f4639379df27ae53",tooltip="CGEEVX computes the eigenvalues and, optionally, the left and/or right eigenvectors for GE matrices"];
+}
