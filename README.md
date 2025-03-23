@@ -9,16 +9,16 @@
 
 LAPACK is a massive library with over 1700 routines for solving systems of simultaneous linear equations, least-squares solutions of linear systems of equations, eigenvalue problems, and singular value problems for real and complex matrices in both single and double precision. A lot of these routines are dependent on each other which generates a large call graph. For the scope of this project we'll be implementing these routines from the ground up for the following reasons.
 
-- stdlib follows a decomposable architecture where every package can be installed individually with little to no excess code which favours the web environment by reducing bunde sizes.
+- stdlib follows a decomposable architecture where every package can be installed individually with little to no excess code which favours the web environment by reducing bundle sizes.
 - We want to support `row-major` (C-style) and `column-major` (fortran-style) arrays for two dimensional matrices.
 - We want to extend the functionality of these routines to support positive strides, negative strides and offsets.
-- LAPACK takes a different routine to testing their routines than what we do. LAPACK takes a top down approach to test their routines. ie. they'll test a higher level routine to ensure that the related lower level deps are working as expected. for eg `dchkaa`. We at stdlib prefer to test each individual routine and support our algorithms with benchmarks, examples and documentation.
+- LAPACK takes a different routine to testing their routines than what we do. LAPACK takes a top down approach to test their routines. i.e. they'll test a higher level routine to ensure that the related lower level deps are working as expected, For example `dchkaa`. We at stdlib prefer to test each individual routine and support our algorithms with benchmarks, examples and documentation.
 
 In such a massive library, finding a starting point is quite puzzling. This is the problem that I've tried to solve here!
 
 ## The Solution
 
-In the massive call graph of LAPACK routines, we ideally want to start with the routines that don't have any dependencies ie the leaves of the call graph! These lower-level routines will serve as stepping stones towards more general-purpose, higher-level routines. For the scope of my application, I'll be focusing on a few selected lower-level routines to lay the groundwork for other contributors and my own efforts in this area to continue smoothly past the coding period of Google Summer of Code. For this, I parsed the LAPACK source code and generated a call graph which was stored as an adjacency matrix in JSON format. Once I had the graph, I ran a topological sort to identify the routines which had no dependency and in what order to implement them so that we don't get blocked because of a dependency not being implemented when trying to write a particular routine.
+In the massive call graph of LAPACK routines, we ideally want to start with the routines that don't have any dependencies i.e. the leaves of the call graph! These lower-level routines will serve as stepping stones towards more general-purpose, higher-level routines. For the scope of my application, I'll be focusing on a few selected lower-level routines to lay the groundwork for other contributors and my own efforts in this area to continue smoothly past the coding period of Google Summer of Code. For this, I parsed the LAPACK source code and generated a call graph which was stored as an adjacency matrix in JSON format. Once I had the graph, I ran a topological sort to identify the routines which had no dependency and in what order to implement them so that we don't get blocked because of a dependency not being implemented when trying to write a particular routine.
 
 While doing the topological sort I encountered another problem, for the topological sorting to work the call graph should be directed and acyclic in nature. This wasn't the case in LAPACK's source code, there are some routines which are dependent on each other and my initial attempt at the topological sort failed for this reason. Keep reading to find out how I tackled this problem!!
 
@@ -165,7 +165,7 @@ The output written in `output/direct_deps.json` is:
 ],
 ```
 
-**10_routine_2_number_mapping.py** and **11_number_2_routine_mapping.py** simply sorts the routine names alphabetically and maps a unique numner to each of them so that we can represnt our graph in numeric form and run the topological sort on them.
+**10_routine_2_number_mapping.py** and **11_number_2_routine_mapping.py** simply sorts the routine names alphabetically and maps a unique numner to each of them so that we can represent our graph in numeric form and run the topological sort on them.
 
 **12_direct_deps_numeric**: This script regenerates `output/direct_deps.json` in numeric format using the routine-to-number mapping we just created. Some routines did not have a `_cgraph.dot` and `_icgraph.dot` file for them so I've also logged them in `logs/missing.json` so that while implementing these routines we can refer to that for filling in any gaps. We have a directed call graph ready for all the LAPACK routines. We just have to merge the nodes to make the graph acyclic for the topological sorting to work!
 
