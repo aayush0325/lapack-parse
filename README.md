@@ -5,6 +5,17 @@
     <br>
 </div>
 
+## Overview
+
+This repository serves as a resource to plan and implement LAPACK routines in stdlib
+
+- **images/**: This directory contains the images used in writing the README of this project.
+- **logs/**: This directory contains the logs and results from the scripts which I ran.
+- **output/**: This directory contains all the meaningful results which I was able to obtain after going through he steps mentioned below.
+- **scripts/**: This is a collection of Bash scripts, Python and JavaScript code which I used to extract meaningful results out of the call graph of LAPACK source code.
+- **src/**: This directory contains the .dot files for caller graphs and call graphs for each LAPACK routine. It also contains pictorial representation of these graphs for better readablity and understanding.
+- **variants/**: This directory contains the .dot file for variants of LAPACK routines.
+
 ## The Problem
 
 LAPACK is a massive library with over 1700 routines for solving systems of simultaneous linear equations, least-squares solutions of linear systems of equations, eigenvalue problems, and singular value problems for real and complex matrices in both single and double precision. A lot of these routines are dependent on each other which generates a large call graph. For the scope of this project we'll be implementing these routines from the ground up for the following reasons.
